@@ -1,0 +1,28 @@
+[build]
+command = "npx vite build"
+publish = "dist"
+
+[build.environment]
+NODE_VERSION = "18"
+VITE_SUPABASE_URL = "https://hxgfakegwewcfkxvltgl.supabase.co"
+VITE_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imh4Z2Zha2Vnd2V3Y2ZreHZsdGdsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTk3NTIyOTQsImV4cCI6MjA3NTMyODI5NH0.ikzj4r0C564KNnkHrS9LflxEp7ZDJVE6QoU4cJpVoQs"
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
+
+[[headers]]
+for = "/*"
+
+[headers.values]
+X-Frame-Options = "DENY"
+X-Content-Type-Options = "nosniff"
+X-XSS-Protection = "1; mode=block"
+Referrer-Policy = "strict-origin-when-cross-origin"
+
+[[headers]]
+for = "/assets/*"
+
+[headers.values]
+Cache-Control = "public, max-age=31536000, immutable"
