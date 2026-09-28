@@ -7,8 +7,8 @@
   --color-secondary: #dc2626;
   --color-accent: #f87171;
   --color-neutral: #78716c;
-  --font-heading: 'Playfair Display';
-  --font-body: 'Inter';
+  --font-heading: 'Playfair Display Variable', 'Playfair Display';
+  --font-body: 'Inter Variable', 'Inter';
 }
 
 * {
@@ -37,9 +37,9 @@ body {
 }
 
 .font-custom-heading {
-  font-family: var(--font-heading), serif;
+  font-family: var(--font-heading), 'Playfair Display Variable', serif;
 }
 
 .font-custom-body {
-  font-family: var(--font-body), sans-serif;
+  font-family: var(--font-body), 'Inter Variable', sans-serif;
 }

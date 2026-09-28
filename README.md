@@ -17,8 +17,16 @@ Supabase, **pré-rendu au build** sur le socle [`adsim-core`](https://github.com
 ## Chaîne de build
 
 ```
-test → sync → build:ssr → build:client → prerender (+ sitemap)
+test → sync → images → build:ssr → build:client → prerender (+ sitemap) → entetes → verify
 ```
+
+- `images` (`scripts/images.mjs`) : chaque image Supabase du contenu publié est
+  téléchargée, redimensionnée (480 à 1 600 px) et convertie en AVIF et WebP sous
+  `/media/`, avec un manifeste `data/images.json` (généré, non versionné). Sur
+  Netlify (`IMAGES_STRICT=1`), un échec arrête le build ; hors ligne, l'image
+  garde son URL d'origine.
+- Le client hydrate le HTML pré-rendu (`hydrateRoot`) ; les polices sont servies
+  par le site (`@fontsource-variable`), plus aucun appel à Google Fonts.
 
 ## Développement local
 
