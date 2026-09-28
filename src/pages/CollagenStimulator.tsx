@@ -144,7 +144,7 @@ const CollagenStimulator: React.FC = () => {
                 processus de vieillissement naturel.
               </p>
               <Link
-                to="/contact"
+                to="/prendre-rendez-vous"
                 className="bg-gradient-primary text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-inter font-semibold hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 inline-block"
               >
                 Consultation personnalisée
@@ -474,7 +474,7 @@ const CollagenStimulator: React.FC = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              to="/contact"
+              to="/prendre-rendez-vous"
               className="bg-gradient-primary text-white px-6 sm:px-8 py-3 sm:py-4 rounded-full font-inter font-semibold hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300"
             >
               Prendre rendez-vous

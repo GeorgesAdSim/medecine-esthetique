@@ -65,8 +65,8 @@ export const BUSINESS_INFO = {
     }
   },
   website: {
-    url: 'https://www.fassotte.be',
-    domain: 'fassotte.be'
+    url: 'https://www.medecine-esthetique-liege.be',
+    domain: 'medecine-esthetique-liege.be'
   },
   description: {
     short: 'Cabinet de médecine esthétique à Liège spécialisé en traitements non chirurgicaux pour un rajeunissement naturel et harmonieux.',

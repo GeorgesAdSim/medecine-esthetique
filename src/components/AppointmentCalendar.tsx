@@ -4,6 +4,7 @@ import { format, addDays, isWeekend, isBefore, startOfDay } from 'date-fns';
 import { fr } from 'date-fns/locale';
 import { Clock, User, Mail, Phone, MessageSquare, Send, Calendar as CalendarIcon, CheckCircle, AlertCircle } from 'lucide-react';
 import 'react-calendar/dist/Calendar.css';
+import { supabase } from '../lib/supabase';
 
 interface AppointmentData {
   type: 'consultation' | 'treatment';
@@ -97,100 +98,20 @@ const AppointmentCalendar: React.FC = () => {
     try {
       const formattedDate = format(appointmentData.date, 'EEEE dd MMMM yyyy', { locale: fr });
 
-      const emailHtml = `
-        <!DOCTYPE html>
-        <html>
-        <head>
-          <meta charset="utf-8">
-          <style>
-            body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
-            .container { max-width: 600px; margin: 0 auto; padding: 20px; }
-            .header { background: linear-gradient(135deg, #d4a574 0%, #c49563 100%); color: white; padding: 30px; text-align: center; border-radius: 10px 10px 0 0; }
-            .content { background: #f9f9f9; padding: 30px; border-radius: 0 0 10px 10px; }
-            .section { margin: 20px 0; padding: 15px; background: white; border-radius: 8px; border-left: 4px solid #d4a574; }
-            .label { font-weight: bold; color: #c49563; margin-bottom: 5px; }
-            .value { color: #333; }
-          </style>
-        </head>
-        <body>
-          <div class="container">
-            <div class="header">
-              <h1>Nouvelle Demande de Rendez-vous</h1>
-            </div>
-            <div class="content">
-              <div class="section">
-                <div class="label">Type de rendez-vous</div>
-                <div class="value">${appointmentData.type === 'consultation' ? 'Consultation' : 'Traitement'}</div>
-              </div>
-
-              <div class="section">
-                <div class="label">Date souhaitée</div>
-                <div class="value">${formattedDate}</div>
-              </div>
-
-              <div class="section">
-                <div class="label">Heure souhaitée</div>
-                <div class="value">${appointmentData.time}</div>
-              </div>
-
-              ${appointmentData.services.length > 0 ? `
-              <div class="section">
-                <div class="label">Services demandés</div>
-                <div class="value">${appointmentData.services.join(', ')}</div>
-              </div>
-              ` : ''}
-
-              <div class="section">
-                <div class="label">Informations du patient</div>
-                <div class="value">
-                  <strong>Nom:</strong> ${appointmentData.personalInfo.firstName} ${appointmentData.personalInfo.lastName}<br>
-                  <strong>Email:</strong> ${appointmentData.personalInfo.email}<br>
-                  <strong>Téléphone:</strong> ${appointmentData.personalInfo.phone}
-                </div>
-              </div>
-
-              ${appointmentData.personalInfo.message ? `
-              <div class="section">
-                <div class="label">Message</div>
-                <div class="value">${appointmentData.personalInfo.message}</div>
-              </div>
-              ` : ''}
-            </div>
-          </div>
-        </body>
-        </html>
-      `;
-
-      const response = await fetch('https://api.brevo.com/v3/smtp/email', {
-        method: 'POST',
-        headers: {
-          'Accept': 'application/json',
-          'Content-Type': 'application/json',
-          'api-key': import.meta.env.VITE_BREVO_API_KEY || ''
+      // L'envoi passe par la fonction Supabase send-appointment-email : la clé
+      // Brevo reste côté serveur (table brevo_config), jamais dans le navigateur.
+      const { data, error } = await supabase.functions.invoke('send-appointment-email', {
+        body: {
+          type: appointmentData.type,
+          date: formattedDate,
+          time: appointmentData.time,
+          services: appointmentData.services,
+          personalInfo: appointmentData.personalInfo,
         },
-        body: JSON.stringify({
-          sender: {
-            name: 'Site Web Cabinet Fassotte',
-            email: 'jocelynefassotte5@gmail.com'
-          },
-          to: [
-            {
-              email: 'doc.jofassotte@proximus.be',
-              name: 'Dre Jocelyne Fassotte'
-            },
-            {
-              email: 'valeriematrige@gmail.com',
-              name: 'Valérie Matrige'
-            }
-          ],
-          subject: `Nouvelle demande de rendez-vous - ${appointmentData.personalInfo.firstName} ${appointmentData.personalInfo.lastName}`,
-          htmlContent: emailHtml
-        })
       });
 
-      if (!response.ok) {
-        const errorData = await response.json();
-        throw new Error('Erreur lors de l\'envoi de l\'email');
+      if (error || !data?.success) {
+        throw new Error(error?.message || data?.error || "Erreur lors de l'envoi");
       }
 
       setStep('confirmation');

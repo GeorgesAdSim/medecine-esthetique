@@ -17,6 +17,7 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import SetupPasswords from './pages/SetupPasswords';
 import EditTreatmentPage from './pages/admin/EditTreatmentPage';
 import CookieBanner from './components/CookieBanner';
+import CanonicalTags from './components/CanonicalTags';
 
 const ScrollToTop: React.FC = () => {
   const { pathname } = useLocation();
@@ -87,8 +88,8 @@ const AppRoutes: React.FC = () => {
       {/* Redirections pour compatibilité */}
       <Route path="/biographie" element={<Navigate to="/docteur-jocelyne-fassotte" replace />} />
       <Route path="/a-propos" element={<Navigate to="/docteur-jocelyne-fassotte" replace />} />
-      <Route path="/services" element={<Navigate to="/traitements" replace />} />
-      <Route path="/soins" element={<Navigate to="/traitements" replace />} />
+      <Route path="/services" element={<Navigate to="/medecine-esthetique-liege" replace />} />
+      <Route path="/soins" element={<Navigate to="/medecine-esthetique-liege" replace />} />
 
           {/* Catch-all route for custom pages from Supabase */}
           <Route path="/:slug" element={<DynamicPage />} />
@@ -135,6 +136,7 @@ function App() {
           <SiteSettingsProvider>
             <Router>
               <ScrollToTop />
+              <CanonicalTags />
               <div className="min-h-screen bg-white">
                 <AppRoutes />
                 <AdminComponent />

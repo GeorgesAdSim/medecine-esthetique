@@ -85,7 +85,7 @@ const RelatedTreatments: React.FC<RelatedTreatmentsProps> = ({
 
         <div className="text-center mt-10">
           <Link
-            to="/traitements"
+            to="/medecine-esthetique-liege"
             className="inline-flex items-center px-6 py-3 border-2 border-primary-600 text-primary-600 font-semibold rounded-full hover:bg-primary-600 hover:text-white transition-all duration-300"
             rel="index"
           >

@@ -21,6 +21,38 @@ interface AppointmentRequest {
   };
 }
 
+
+const escapeHtml = (value: unknown): string =>
+  String(value ?? '').replace(/[&<>"']/g, (c) => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
+  }[c]!));
+
+const EMAIL_RE = /^[^\s@<>"]+@[^\s@<>"]+\.[^\s@<>"]+$/;
+
+// Valide et échappe tout ce qui vient du formulaire avant de l'insérer dans un
+// email HTML : sans cela, n'importe qui pouvait envoyer depuis l'adresse du
+// cabinet un email au contenu arbitraire à n'importe quelle adresse.
+function sanitize(input: AppointmentRequest): AppointmentRequest {
+  const p = input?.personalInfo ?? ({} as AppointmentRequest['personalInfo']);
+  const email = String(p.email ?? '').trim();
+  if (!EMAIL_RE.test(email) || email.length > 254) throw new Error('Adresse email invalide');
+  if (!p.firstName || !p.lastName || !p.phone) throw new Error('Champs obligatoires manquants');
+  const cut = (v: unknown, n: number) => escapeHtml(String(v ?? '').slice(0, n));
+  return {
+    type: input.type === 'treatment' ? 'treatment' : 'consultation',
+    date: cut(input.date, 80),
+    time: cut(input.time, 20),
+    services: Array.isArray(input.services) ? input.services.slice(0, 12).map((x) => cut(x, 120)) : [],
+    personalInfo: {
+      firstName: cut(p.firstName, 80),
+      lastName: cut(p.lastName, 80),
+      email,
+      phone: cut(p.phone, 40),
+      message: p.message ? cut(p.message, 2000).replace(/\n/g, '<br>') : '',
+    },
+  };
+}
+
 Deno.serve(async (req: Request) => {
   if (req.method === "OPTIONS") {
     return new Response(null, {
@@ -48,7 +80,7 @@ Deno.serve(async (req: Request) => {
     const BREVO_SENDER_EMAIL = config.sender_email;
     const DOCTOR_EMAIL = 'doc.jofassotte@proximus.be';
 
-    const appointmentData: AppointmentRequest = await req.json();
+    const appointmentData = sanitize(await req.json());
 
     const appointmentType = appointmentData.type === 'consultation' 
       ? 'Première consultation (30 min)' 
@@ -69,7 +101,6 @@ Deno.serve(async (req: Request) => {
       updateEnabled: true
     };
 
-    console.log('Attempting to create/update contact in Brevo:', contactData);
 
     const createContactResponse = await fetch('https://api.brevo.com/v3/contacts', {
       method: 'POST',
@@ -83,12 +114,10 @@ Deno.serve(async (req: Request) => {
 
     const contactResponseText = await createContactResponse.text();
     console.log('Brevo contact response status:', createContactResponse.status);
-    console.log('Brevo contact response:', contactResponseText);
 
     if (!createContactResponse.ok && createContactResponse.status !== 400) {
-      console.error('Failed to create/update contact in Brevo CRM:', contactResponseText);
+      console.error('Failed to create/update contact in Brevo CRM, status', createContactResponse.status);
     } else {
-      console.log('Contact operation completed for:', appointmentData.personalInfo.email);
     }
 
     const emailHtml = `
@@ -155,6 +184,10 @@ Deno.serve(async (req: Request) => {
         {
           email: DOCTOR_EMAIL,
           name: 'Dre Jocelyne Fassotte'
+        },
+        {
+          email: 'valeriematrige@gmail.com',
+          name: 'Valérie Matrige'
         }
       ],
       subject: `Nouvelle demande de rendez-vous - ${appointmentData.personalInfo.firstName} ${appointmentData.personalInfo.lastName}`,
@@ -232,8 +265,6 @@ Deno.serve(async (req: Request) => {
     };
 
     console.log('=== SENDING EMAIL TO DOCTOR ===');
-    console.log('Doctor email address:', DOCTOR_EMAIL);
-    console.log('Email payload:', JSON.stringify(emailToDoctor, null, 2));
 
     const brevoResponse1 = await fetch('https://api.brevo.com/v3/smtp/email', {
       method: 'POST',
@@ -247,17 +278,14 @@ Deno.serve(async (req: Request) => {
 
     const doctorResponseText = await brevoResponse1.text();
     console.log('Doctor email response status:', brevoResponse1.status);
-    console.log('Doctor email response:', doctorResponseText);
 
     if (!brevoResponse1.ok) {
-      console.error('Failed to send doctor email:', doctorResponseText);
-      throw new Error(`Brevo API error (doctor email): ${doctorResponseText}`);
+      console.error('Failed to send doctor email, status', brevoResponse1.status);
+      throw new Error('Brevo API error (doctor email)');
     }
     console.log('✅ Doctor email sent successfully');
 
     console.log('=== SENDING CONFIRMATION EMAIL TO PATIENT ===');
-    console.log('Patient email address:', appointmentData.personalInfo.email);
-    console.log('Email payload:', JSON.stringify(confirmationEmail, null, 2));
 
     const brevoResponse2 = await fetch('https://api.brevo.com/v3/smtp/email', {
       method: 'POST',
@@ -271,23 +299,17 @@ Deno.serve(async (req: Request) => {
 
     const patientResponseText = await brevoResponse2.text();
     console.log('Patient email response status:', brevoResponse2.status);
-    console.log('Patient email response:', patientResponseText);
 
     if (!brevoResponse2.ok) {
-      console.error('Failed to send confirmation email:', patientResponseText);
+      console.error('Failed to send confirmation email, status', brevoResponse2.status);
     } else {
       console.log('✅ Confirmation email sent successfully');
     }
 
-    const result1 = JSON.parse(doctorResponseText);
-    const result2 = brevoResponse2.ok ? JSON.parse(patientResponseText) : null;
-
     return new Response(
       JSON.stringify({ 
         success: true, 
-        message: 'Emails sent successfully and contact added to CRM',
-        doctorEmail: result1,
-        confirmationEmail: result2
+        message: 'Emails sent successfully'
       }),
       {
         status: 200,
@@ -303,7 +325,7 @@ Deno.serve(async (req: Request) => {
     return new Response(
       JSON.stringify({ 
         success: false, 
-        error: error.message 
+        error: error instanceof Error && /invalide|manquants/.test(error.message) ? error.message : 'Envoi impossible'
       }),
       {
         status: 500,

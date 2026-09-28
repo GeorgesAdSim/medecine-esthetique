@@ -179,7 +179,7 @@ const DynamicTreatmentPage: React.FC = () => {
             )}
           </Helmet>
           <Breadcrumbs customItems={[
-            { label: 'Traitements', path: '/traitements' },
+            { label: 'Traitements', path: '/medecine-esthetique-liege' },
             { label: customPage.title, path: customPage.slug }
           ]} />
           <BlockRenderer blocks={transformedBlocks} />
@@ -199,7 +199,7 @@ const DynamicTreatmentPage: React.FC = () => {
             )}
           </Helmet>
           <Breadcrumbs customItems={[
-            { label: 'Traitements', path: '/traitements' },
+            { label: 'Traitements', path: '/medecine-esthetique-liege' },
             { label: customPage.title, path: customPage.slug }
           ]} />
           <div className="animate-fade-in">
