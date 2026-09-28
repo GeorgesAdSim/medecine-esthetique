@@ -16,9 +16,15 @@ REF="$(tr -d '[:space:]' < ADSIM_CORE_REF)"
 SOCLE="../adsim-core"
 
 if [ ! -d "$SOCLE/.git" ]; then
-  : "${ADSIM_CORE_TOKEN:?ADSIM_CORE_TOKEN manquant (variable d'environnement Netlify)}"
+  if [ -z "${ADSIM_CORE_TOKEN:-}" ]; then
+    echo "ADSIM_CORE_TOKEN manquant (variable Netlify)" >&2
+    exit 1
+  fi
   git init -q "$SOCLE"
-  git -C "$SOCLE" fetch -q --depth 1 "https://x-access-token:${ADSIM_CORE_TOKEN}@github.com/GeorgesAdSim/adsim-core.git" "$REF"
+  # Jeton passé en en-tête HTTP, jamais dans l'URL (qui peut apparaître dans un message d'erreur).
+  AUTH="$(printf 'x-access-token:%s' "$ADSIM_CORE_TOKEN" | base64 | tr -d '\n')"
+  git -C "$SOCLE" -c http.extraHeader="Authorization: Basic ${AUTH}" \
+    fetch -q --depth 1 https://github.com/GeorgesAdSim/adsim-core.git "$REF"
   git -C "$SOCLE" checkout -q FETCH_HEAD
 fi
 echo "  socle : adsim-core @ $(git -C "$SOCLE" rev-parse --short HEAD)"
