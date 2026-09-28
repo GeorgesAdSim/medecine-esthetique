@@ -18,7 +18,7 @@ import PrivacyPolicy from './pages/PrivacyPolicy';
 import SetupPasswords from './pages/SetupPasswords';
 import EditTreatmentPage from './pages/admin/EditTreatmentPage';
 import CookieBanner from './components/CookieBanner';
-import CanonicalTags from './components/CanonicalTags';
+import TeteDePage from './seo/TeteDePage';
 
 const ScrollToTop: React.FC = () => {
   const { pathname } = useLocation();
@@ -107,15 +107,10 @@ const AdminComponent: React.FC = () => {
   return <AdminDashboard />;
 };
 
-/** Titre et description par défaut, remplacés par ceux de chaque page. */
+/** Langue du document ; le reste du <head> vient de TeteDePage. */
 const TeteParDefaut: React.FC = () => (
   <Helmet>
     <html lang="fr" />
-    <title>Docteure Jocelyne Fassotte - Médecine Esthétique Liège | Spécialiste Anti-Âge</title>
-    <meta
-      name="description"
-      content="Docteure Jocelyne Fassotte - Spécialiste médecine esthétique Liège. Acide hyaluronique, Botox, peelings, fils tenseurs. Cabinet Vaux-sous-Chèvremont."
-    />
   </Helmet>
 );
 
@@ -131,7 +126,7 @@ function App() {
         <SiteSettingsProvider>
           <TeteParDefaut />
           <ScrollToTop />
-          <CanonicalTags />
+          <TeteDePage />
           <div className="min-h-screen bg-white">
             <AppRoutes />
             <AdminComponent />

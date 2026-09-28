@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
 import { supabase } from '../lib/supabase';
 import BlockRenderer from '../components/BlockRenderer';
 import Breadcrumbs from '../components/Breadcrumbs';
@@ -59,12 +58,6 @@ const DynamicPage: React.FC = () => {
 
     return (
       <>
-        <Helmet>
-          <title>{customPage.title} - Docteure Jocelyne Fassotte</title>
-          {customPage.meta_description && (
-            <meta name="description" content={customPage.meta_description} />
-          )}
-        </Helmet>
         <BlockRenderer blocks={blocks} />
       </>
     );

@@ -1,10 +1,30 @@
 import React from 'react';
-import { useLocation } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
+import { Link, useLocation } from 'react-router-dom';
 import BlockRenderer from '../components/BlockRenderer';
 import Breadcrumbs from '../components/Breadcrumbs';
 import NotFound from './NotFound';
+import RelatedTreatments from '../components/RelatedTreatments';
+import { getTreatmentRelations } from '../utils/treatmentLinks';
 import { normaliser, traitementDe } from '../contenu/routes';
+
+/**
+ * Traitements complémentaires (relations écrites dans utils/treatmentLinks.ts) :
+ * chaque page de traitement lie trois autres, et la page des traitements.
+ */
+const Complementaires: React.FC<{ chemin: string }> = ({ chemin }) => {
+  const relations = getTreatmentRelations(chemin.replace(/^\//, ''));
+  if (!relations.length) return null;
+  return (
+    <>
+      <RelatedTreatments currentTreatment="" treatments={relations} />
+      <p className="text-center font-inter text-neutral-600 pb-16 bg-neutral-50">
+        <Link to="/medecine-esthetique-liege" className="text-primary-600 underline">
+          Voir tous les traitements de médecine esthétique
+        </Link>
+      </p>
+    </>
+  );
+};
 
 const DynamicTreatmentPage: React.FC = () => {
   const location = useLocation();
@@ -85,17 +105,12 @@ const DynamicTreatmentPage: React.FC = () => {
 
       return (
         <>
-          <Helmet>
-            <title>{customPage.meta_title || customPage.title} - Docteure Jocelyne Fassotte</title>
-            {customPage.meta_description && (
-              <meta name="description" content={customPage.meta_description} />
-            )}
-          </Helmet>
           <Breadcrumbs customItems={[
             { label: 'Traitements', path: '/medecine-esthetique-liege' },
             { label: customPage.title, path: customPage.slug }
           ]} />
           <BlockRenderer blocks={transformedBlocks} />
+          <Complementaires chemin={chemin} />
         </>
       );
     }
@@ -105,12 +120,6 @@ const DynamicTreatmentPage: React.FC = () => {
     if (customPage.subtitle || customPage.description) {
       return (
         <>
-          <Helmet>
-            <title>{customPage.meta_title || customPage.title} - Docteure Jocelyne Fassotte</title>
-            {customPage.meta_description && (
-              <meta name="description" content={customPage.meta_description} />
-            )}
-          </Helmet>
           <Breadcrumbs customItems={[
             { label: 'Traitements', path: '/medecine-esthetique-liege' },
             { label: customPage.title, path: customPage.slug }

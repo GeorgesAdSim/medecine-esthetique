@@ -15,6 +15,7 @@ import { HelmetProvider, type HelmetServerState } from 'react-helmet-async';
 import App from './App';
 
 export { routesPubliques, modifieLe, ALIAS } from './contenu/routes';
+export { texteLlms } from './seo/llms';
 
 export const PAGES_VERROUILLEES: readonly string[] = [];
 

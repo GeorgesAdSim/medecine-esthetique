@@ -10,17 +10,5 @@ VITE_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhY
 # Pas de repli « /* » ici : les redirections vivent dans public/_redirects, et
 # une URL inconnue doit recevoir dist/404.html avec un vrai statut 404.
 
-[[headers]]
-for = "/*"
-
-[headers.values]
-X-Frame-Options = "DENY"
-X-Content-Type-Options = "nosniff"
-X-XSS-Protection = "1; mode=block"
-Referrer-Policy = "strict-origin-when-cross-origin"
-
-[[headers]]
-for = "/assets/*"
-
-[headers.values]
-Cache-Control = "public, max-age=31536000, immutable"
+# En-têtes de sécurité et de cache : dist/_headers, généré au build
+# (scripts/generer-entetes.mjs) — la CSP y est calculée avec ses hachages.
