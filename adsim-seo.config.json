@@ -1,9 +1,19 @@
 {
-  "_commentaire": [
-    "Configuration du socle adsim-core. En Lot 1, seul site.baseUrl est lu (sitemap).",
-    "Le reste (audit bloquant) est armé au Lot 2."
-  ],
+  "_commentaire": "Configuration de l'audit (@adsim/seo-audit), bloquant au build. Mêmes seuils de longueur que src/seo/site.ts (LIMITES).",
   "site": { "baseUrl": "https://www.medecine-esthetique-liege.be" },
   "build": { "dossier": "dist", "page404": "404.html", "coquilleSpa": "app.html", "pagesHorsAudit": ["app.html", "404.html"] },
-  "schema": { "typesLocalBusiness": ["LocalBusiness", "MedicalClinic", "Physician"] }
+  "contenu": { "titreLongueurMax": 65, "descriptionLongueurMin": 100, "descriptionLongueurMax": 170, "exceptions": {} },
+  "schema": { "typesLocalBusiness": ["LocalBusiness", "MedicalClinic", "MedicalBusiness", "Physician"] },
+  "robots": { "agentsAutorises": ["*"], "cheminsInterdits": ["/admin", "/setup-admin"] },
+  "spa": { "route": "/admin", "coquille": "app.html" },
+  "maillage": { "minLiensCorps": 2, "pagesExemptes": ["/politique-confidentialite"] },
+  "entetes": {
+    "requis": ["Content-Security-Policy", "Strict-Transport-Security", "X-Content-Type-Options", "Referrer-Policy"],
+    "cspDirectivesAppliquees": ["default-src 'self'", "object-src 'none'", "base-uri 'self'", "form-action 'self'", "frame-ancestors 'none'"],
+    "cspReportOnlyInterdites": ["upgrade-insecure-requests", "frame-ancestors", "sandbox"],
+    "gabarit": "index.html"
+  },
+  "netlify": { "toml": "netlify.toml" },
+  "sondeUrlInconnue": "/page-qui-nexiste-pas-xxxxxxxx",
+  "rules": {}
 }

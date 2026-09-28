@@ -64,7 +64,22 @@ interface Contenu {
   galerie: ImageGalerie[];
 }
 
-export const CONTENU = contenu as unknown as Contenu;
+import { ALIAS_LIENS } from './alias';
+
+/**
+ * Les liens internes saisis dans l'admin vers une ancienne URL (ex. « /contact »)
+ * sont réécrits vers l'URL retenue : sans cela, chaque clic passe par une 301.
+ * Seules les chaînes ÉGALES à un alias sont touchées, jamais un champ `slug`
+ * (les slugs de custom_treatments ressemblent à des chemins).
+ */
+function reecrireLiens<T>(v: T): T {
+  if (typeof v === 'string') return ((ALIAS_LIENS as Record<string, string>)[v] ?? v) as T;
+  if (Array.isArray(v)) return v.map(reecrireLiens) as T;
+  if (v && typeof v === 'object') return Object.fromEntries(Object.entries(v).map(([k, x]) => [k, k === 'slug' ? x : reecrireLiens(x)])) as T;
+  return v;
+}
+
+export const CONTENU = reecrireLiens(contenu as unknown as Contenu);
 
 export const pageParSlug = (slug: string): PageContenu | undefined =>
   CONTENU.pages.find((p) => p.slug === slug && p.is_published);

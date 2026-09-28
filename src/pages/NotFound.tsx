@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Helmet } from 'react-helmet-async';
 
 /**
  * Page d'erreur. Pré-rendue en dist/404.html, que Netlify sert avec un vrai
@@ -8,10 +7,6 @@ import { Helmet } from 'react-helmet-async';
  */
 const NotFound: React.FC = () => (
   <>
-    <Helmet>
-      <title>Page introuvable - Docteure Jocelyne Fassotte</title>
-      <meta name="robots" content="noindex" />
-    </Helmet>
     <div className="min-h-screen flex items-center justify-center pt-32 pb-16">
       <div className="text-center px-4">
         <h1 className="font-playfair text-4xl font-bold text-neutral-800 mb-4">Page introuvable</h1>

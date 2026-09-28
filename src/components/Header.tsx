@@ -42,9 +42,9 @@ const Header: React.FC = () => {
               />
             </div>
             <div className="hidden sm:block">
-              <h1 className="font-playfair font-bold text-xl text-neutral-800 group-hover:text-primary-600 transition-colors">
+              <span className="block font-playfair font-bold text-xl text-neutral-800 group-hover:text-primary-600 transition-colors">
                 Docteure Jocelyne Fassotte
-              </h1>
+              </span>
               <p className="font-inter text-sm text-neutral-600">
                 Médecine esthétique
               </p>

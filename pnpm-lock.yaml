@@ -11,6 +11,12 @@ importers:
       '@adsim/primitives':
         specifier: link:../adsim-core/packages/primitives
         version: link:../adsim-core/packages/primitives
+      '@adsim/seo-audit':
+        specifier: link:../adsim-core/packages/seo-audit
+        version: link:../adsim-core/packages/seo-audit
+      '@adsim/seo-core':
+        specifier: link:../adsim-core/packages/seo-core
+        version: link:../adsim-core/packages/seo-core
       '@adsim/sitemap':
         specifier: link:../adsim-core/packages/sitemap
         version: link:../adsim-core/packages/sitemap

@@ -4,8 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "_commentaire": "L'ORDRE DES ÉTAPES EST UN INVARIANT (adsim-core, GUIDE § 6.4). Pas encore de collect/verify/entetes : audit et CSP arrivent au Lot 2. Le typecheck n'est pas dans la chaîne tant que les erreurs héritées ne sont pas corrigées.",
-    "build": "npm run test && npm run sync && npm run build:ssr && npm run build:client && npm run prerender",
+    "_commentaire": "L'ORDRE DES ÉTAPES EST UN INVARIANT (adsim-core, GUIDE § 6.4). verify est bloquant : si l'audit échoue, rien n'est mis en ligne. Le typecheck n'est pas dans la chaîne tant que les erreurs héritées ne sont pas corrigées.",
+    "build": "npm run test && npm run sync && npm run build:ssr && npm run build:client && npm run prerender && npm run entetes && npm run verify",
     "sync": "node scripts/sync.mjs",
     "build:ssr": "vite build --ssr src/entry-server.tsx --outDir dist-server",
     "build:client": "vite build",
@@ -14,10 +14,14 @@
     "typecheck": "tsc --noEmit -p tsconfig.app.json",
     "dev": "vite",
     "lint": "eslint .",
-    "preview": "node scripts/servir.mjs"
+    "preview": "node scripts/servir.mjs",
+    "entetes": "node scripts/generer-entetes.mjs",
+    "verify": "node audit.mjs --racine . --json rapports/seo.json"
   },
   "dependencies": {
     "@adsim/primitives": "link:../adsim-core/packages/primitives",
+    "@adsim/seo-audit": "link:../adsim-core/packages/seo-audit",
+    "@adsim/seo-core": "link:../adsim-core/packages/seo-core",
     "@adsim/sitemap": "link:../adsim-core/packages/sitemap",
     "@supabase/supabase-js": "^2.57.4",
     "@types/react-calendar": "^3.9.0",

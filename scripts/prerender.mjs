@@ -69,6 +69,9 @@ async function main() {
     return;
   }
 
+  // llms.txt : même source que les pages (routes + descripteurs).
+  await writeFile(path.join(distDir, 'llms.txt'), bundle.texteLlms(), 'utf-8');
+
   // Sitemap APRÈS le pré-rendu, et à partir de lui : aucune URL déclarée sans
   // page réellement écrite.
   if (!(await ecrireSitemap({ racine, distDir, bundle, routes }))) process.exitCode = 1;
