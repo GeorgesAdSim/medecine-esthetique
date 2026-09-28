@@ -16,6 +16,8 @@ export const BUSINESS_INFO = {
   address: {
     street: 'Rue Edouard Sarlet 31',
     city: 'Vaux-sous-Chèvremont',
+    // Commune (entité fusionnée) dont Vaux-sous-Chèvremont fait partie.
+    municipality: 'Chaudfontaine',
     postalCode: '4051',
     region: 'Liège',
     country: 'Belgique',

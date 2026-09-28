@@ -29,6 +29,15 @@ if [ ! -d "$SOCLE/.git" ]; then
 fi
 echo "  socle : adsim-core @ $(git -C "$SOCLE" rev-parse --short HEAD)"
 
+# Aperçus de PR (deploy-preview, branch-deploy) : on construit l'instantané
+# data/contenu.json de la branche, pas la base — c'est ce qui permet de relire
+# un changement de contenu proposé en PR avant de l'écrire en base. La
+# production (et le bouton « Publier ») lit toujours la base.
+if [ "${CONTEXT:-production}" != "production" ]; then
+  export SYNC_INSTANTANE=1
+  echo "  contenu : instantané de la branche (contexte ${CONTEXT})"
+fi
+
 corepack enable
 (cd "$SOCLE" && pnpm install --frozen-lockfile --prod=false)
 pnpm install --frozen-lockfile
