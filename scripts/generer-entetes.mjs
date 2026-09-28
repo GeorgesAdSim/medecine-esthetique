@@ -49,8 +49,9 @@ const ORIGINES = {
   image: ['https://hxgfakegwewcfkxvltgl.supabase.co', 'https://images.pexels.com', 'https://via.placeholder.com'],
   // API Supabase : session admin, aperçu, écriture depuis l'admin, fonction d'envoi des RDV.
   connexion: ['https://hxgfakegwewcfkxvltgl.supabase.co'],
-  // Plan Google Maps, prise de rendez-vous myconsultation.be, vidéo YouTube (blocs de contenu).
-  cadre: ['https://www.google.com', 'https://www.myconsultation.be', 'https://www.youtube.com'],
+  // Prise de rendez-vous myconsultation.be, vidéo YouTube (blocs de contenu).
+  // Pas de carte Google Maps intégrée (décision du 28/09/2026).
+  cadre: ['https://www.myconsultation.be', 'https://www.youtube.com'],
 };
 
 async function main() {

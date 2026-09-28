@@ -27,17 +27,16 @@ export const BUSINESS_INFO = {
     longitude: 5.5967,
     mapUrl: 'https://www.google.com/maps/search/?api=1&query=Rue+Edouard+Sarlet+31,+4051+Vaux-sous-Chèvremont,+Liège,+Belgique'
   },
+  // Horaires confirmés le 28/09/2026 (Georges, agenda du cabinet) — consultations
+  // sur rendez-vous. Lundi et mardi : fermé. Week-end : non documenté.
   hours: {
-    monday: 'Sur rendez-vous',
-    tuesday: 'Sur rendez-vous',
-    wednesday: 'Sur rendez-vous',
-    thursday: 'Sur rendez-vous',
-    friday: 'Sur rendez-vous',
-    saturday: 'Fermé',
-    sunday: 'Fermé',
-    structured: [
-      'Mo-Fr 09:00-18:00'
-    ]
+    plages: [
+      { jours: ['Wednesday', 'Friday'], ouverture: '09:30', fermeture: '12:00' },
+      { jours: ['Wednesday', 'Friday'], ouverture: '13:30', fermeture: '19:00' },
+      { jours: ['Thursday'], ouverture: '09:30', fermeture: '12:00' },
+      { jours: ['Thursday'], ouverture: '14:00', fermeture: '18:00' },
+    ],
+    fermes: ['Monday', 'Tuesday'],
   },
   social: {
     facebook: '',

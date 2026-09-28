@@ -3,22 +3,23 @@
 Faits non confirmés : tant qu'ils ne le sont pas, ils restent HORS du JSON-LD
 (règle d'audit `mel-jsonld-faits-confirmes`).
 
-1. **Téléphone** : le site affiche deux numéros — +32 495 28 09 76 (en-tête,
-   pied de page, JSON-LD) et 04/365.45.39 (page rendez-vous, et un lien cassé
-   `/04/365.45.39` dans un bouton de l'accueil). Lequel est le numéro du
-   cabinet ? Les deux ?
-2. **Horaires** : « sur rendez-vous » est affiché, mais le code contenait
-   « Mo-Fr 09:00-18:00 ». Quels sont les horaires réels ?
-3. **Carte** : l'URL du plan Google Maps de la page rendez-vous contient des
-   identifiants fictifs (`0x47c0f7a5a5a5a5a5…`) — à remplacer par l'intégration
-   officielle de l'adresse.
-4. **Coordonnées GPS, date de fondation (2010 ?), fourchette de prix** : à
+## Ouvertes
+
+1. **Coordonnées GPS, date de fondation (2010 ?), fourchette de prix** : à
    confirmer avant toute publication en données structurées.
-5. **Page « à propos »** : `/docteur-jocelyne-fassotte` affiche la page
-   `a-propos` de la base, alors qu'une page `docteur-jocelyne-fassotte` existe
-   aussi (titre plus complet). Laquelle garder ?
-6. **Maillage** : `/docteur-jocelyne-fassotte` et `/galerie` ne sont liées que
+2. **Maillage** : `/docteur-jocelyne-fassotte` et `/galerie` ne sont liées que
    par le menu et le pied de page (avertissement d'audit). Ajouter des liens
    dans le texte de l'accueil ?
-7. **Publicité des actes esthétiques** (loi du 23 mai 2013) : les textes des
-   pages (« résultats naturels », galerie avant/après) sont à faire relire.
+3. **Week-end** : non mentionné sur l'agenda ; le site n'en dit rien.
+
+## Tranchées (28/09/2026, Georges)
+
+- **Téléphone** : le GSM +32 495 28 09 76, partout. Page rendez-vous et bouton
+  de l'accueil corrigés en base (`supabase/contenu/2026-09-28-…sql`).
+- **Horaires** : mercredi et vendredi 9h30-12h00 et 13h30-19h00, jeudi
+  9h30-12h00 et 14h00-18h00, sur rendez-vous ; lundi et mardi fermé. Affichés
+  sur la page rendez-vous et publiés en JSON-LD.
+- **Carte** : pas de carte Google Maps sur la page rendez-vous (bloc retiré ;
+  plus d'iframe Google autorisée par la CSP).
+- **Page « à propos »** : `/docteur-jocelyne-fassotte`, telle qu'en ligne.
+- **Textes et publicité des actes esthétiques** : validés.
