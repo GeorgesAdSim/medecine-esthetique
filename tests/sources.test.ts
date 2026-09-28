@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { SOURCES, appuisParAncre, dateLisible } from '../src/contenu/sources';
-import { traitementDe } from '../src/contenu/routes';
+import { CHEMINS_TRAITEMENTS, traitementDe } from '../src/contenu/routes';
 import { jsonLdDe } from '../src/seo/jsonld';
 
 /** Toutes les ancres de section d'une page publiée. */
@@ -45,7 +45,18 @@ describe('sources externes des pages de traitement', () => {
     expect(dateLisible('2026-09-28')).toBe('28 septembre 2026');
   });
 
-  it('une page sans sources n’a pas de MedicalWebPage', () => {
-    expect(jsonLdDe('/peeling-liege', 'Peeling | x').some((n: any) => n['@type'] === 'MedicalWebPage')).toBe(false);
+  it('MedicalWebPage si et seulement si la page cite des sources', () => {
+    for (const c of CHEMINS_TRAITEMENTS) {
+      const a = jsonLdDe(c, 'X | y').some((n: any) => n['@type'] === 'MedicalWebPage');
+      expect(a, c).toBe(Boolean(SOURCES[c]));
+    }
+  });
+
+  it('les huit pages de traitement citent leurs sources', () => {
+    for (const c of CHEMINS_TRAITEMENTS) expect(SOURCES[c], c).toBeDefined();
+  });
+
+  it('pages de traitement servies depuis l’éditeur de pages (custom_pages)', () => {
+    for (const c of CHEMINS_TRAITEMENTS) expect(traitementDe(c)?.source, c).toBe('page');
   });
 });

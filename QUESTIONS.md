@@ -39,6 +39,17 @@ Faits non confirmés : tant qu'ils ne le sont pas, ils restent HORS du JSON-LD
    stimulateurs (Sculptra ? Radiesse ?), type de fils (PDO ou PLLA/PLGA), mélanges
    de mésothérapie, gamme de cosmétiques — idéalement avec leur notice CE.
 
+6. **Corrections de sécurité des 7 pages (lot 7)** — brouillon
+   `supabase/contenu/2026-09-28-corrections-securite.sql` (NON APPLIQUÉ), à relire
+   par la docteure. Trois choix à valider en priorité :
+   - **Mésolift** : un encadré dit que la HAS et l'Inserm jugent l'efficacité non
+     démontrée. C'est exact et sourcé ; à garder, reformuler ou retirer la page.
+   - **Fils tenseurs** : le texte ne dit plus « en PDO » (les fils à cônes
+     bidirectionnels étudiés sont en PLLA/PLGA) et parle d'un effet lifting qui
+     s'atténue en quelques semaines à quelques mois. Quelle marque de fils ?
+   - **Stimulateurs** : le « Brazilian Butt Lift non chirurgical » est retiré
+     (mise en garde de la FDA contre les injections dans les fesses).
+
 ## Tranchées (28/09/2026, Georges)
 
 - **Téléphone** : le GSM +32 495 28 09 76, partout. Page rendez-vous et bouton
