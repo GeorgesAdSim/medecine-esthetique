@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
-        with: { node-version: 22 }
+        with: { node-version: 22, package-manager-cache: false }
       - run: node scripts/sync.mjs
       - name: Commit si le contenu a changé
         run: |
