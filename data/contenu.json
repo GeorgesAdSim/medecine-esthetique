@@ -355,7 +355,8 @@
                   "Plis d'amaigrissement"
                 ],
                 "duration": "Jusqu'à 1 an environ",
-                "description": "Comblement des rides marquées"
+                "description": "Comblement des rides marquées",
+                "href": "/acide-hyaluronique-liege/sillons-nasogeniens"
               },
               {
                 "title": "Volumes faciaux",
@@ -487,7 +488,7 @@
       "meta_description": "ACIDE HYALURONIQUE\n\nL’acide hyaluronique est un constituant naturel du liquide extracellulaire du derme, de\nl’épiderme, du cartilage , de notre corps.\nAvec le vieillissement, le renouvellement de l’acide hyaluronique se ralenti ce qui diminue\nl’hydratation et la fermeté de notre peau.\nLa molécule d’acide hyaluronique pure est reconstituée par les laboratoires de Médecine\nEsthétique.\nElle se présente sous différentes concentrations (réticulation) et peut être injectée en\nMédecine Esthétique pour remplacer notre acide hyaluronique perdu soit superficiellement\nau niveau du derme (acide hyaluronique peu réticulé) soit de façon plus concentrée\n(réticulation importante) pour remplacer les masses graisseuses du visage perdue avec l’âge\net reconstruire ainsi les volumes et le contour du visage.\nL’acide hyaluronique est une molécule essentielle en médecine esthétique.\nElle procure hydratation, réduction des rides et restructuration des volumes du visage.",
       "is_published": true,
       "created_at": "2025-10-28T16:45:50.160707+00:00",
-      "updated_at": "2026-09-28T20:30:00+00:00"
+      "updated_at": "2026-09-28T21:00:00+00:00"
     },
     {
       "id": "e5e1e35a-e6be-476d-bceb-21e263c4a79b",
@@ -556,7 +557,8 @@
                 "details": [
                   "Rides horizontales du front",
                   "Effet lifting naturel des sourcils"
-                ]
+                ],
+                "href": "/botox-liege/rides-du-front"
               },
               {
                 "title": "Pattes d'oie",
@@ -565,7 +567,8 @@
                   "Rides de la patte d'oie",
                   "Rides sous les yeux (selon évaluation)",
                   "Regard plus ouvert et détendu"
-                ]
+                ],
+                "href": "/botox-liege/pattes-d-oie"
               },
               {
                 "title": "Autres indications",
@@ -806,7 +809,7 @@
       "meta_description": "Botox à Liège par la Dre Jocelyne Fassotte, médecin esthétique : rides du lion, front et pattes d'oie, déroulement, contre-indications et questions fréquentes.",
       "is_published": true,
       "created_at": "2025-10-28T16:45:50.160707+00:00",
-      "updated_at": "2026-09-28T20:30:00+00:00"
+      "updated_at": "2026-09-28T21:00:00+00:00"
     },
     {
       "id": "0967edf6-6ec6-4602-ad12-7906f3ab2e3b",
@@ -2433,6 +2436,161 @@
       "updated_at": "2026-09-28T19:00:00+00:00"
     },
     {
+      "id": "brouillon-pattes-d-oie",
+      "slug": "pattes-d-oie",
+      "title": "Pattes d'oie",
+      "content": [
+        {
+          "id": "block-hero-0",
+          "type": "hero",
+          "order": 0,
+          "content": {
+            "title": "Pattes d'oie à Liège : traitement par toxine botulique",
+            "subtitle": "Détendre le regard sans l'empêcher de sourire, par la Dre Jocelyne Fassotte, médecin esthétique",
+            "description": "Les pattes d'oie sont les rides en éventail qui se forment au coin des yeux quand on sourit. La toxine botulique détend le muscle qui les creuse : le regard paraît plus reposé, et le sourire reste le vôtre. L'amélioration apparaît en général dans la semaine et dure jusqu'à environ 4 mois.",
+            "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771937938348-o7yq2d.jpeg",
+            "imageAlt": "Zones d'injection Botox - Rides du front, glabelle, rides périoculaires, plis d'amertume",
+            "ctaText": "Prendre rendez-vous",
+            "ctaLink": "/prendre-rendez-vous"
+          }
+        },
+        {
+          "id": "block-text-1",
+          "type": "text",
+          "order": 1,
+          "content": {
+            "ancre": "pourquoi",
+            "title": "Pourquoi les pattes d'oie se marquent",
+            "paragraphs": [
+              "Autour de l'œil, un muscle circulaire se contracte à chaque sourire et plisse la peau au coin des yeux. La peau y est fine : avec le temps et le soleil, ces rides d'expression restent visibles plus longtemps, puis même au repos.",
+              "La [[toxine botulique (Botox)|/botox-liege]] agit sur ce muscle. Les rides de la patte d'oie sont l'une des trois indications officielles de la toxine botulique en esthétique, avec les [[rides du lion|/botox-liege/rides-du-lion]] et les rides du front."
+            ]
+          }
+        },
+        {
+          "id": "block-cards-2",
+          "type": "cards",
+          "order": 2,
+          "content": {
+            "ancre": "deroulement",
+            "title": "Le déroulement du traitement",
+            "subtitle": "Une séance courte, au cabinet, après une consultation.",
+            "cards": [
+              {
+                "title": "1. Consultation",
+                "description": "Analyse de vos rides au sourire et au repos, de vos antécédents et traitements en cours.",
+                "details": [
+                  "Vérification des contre-indications"
+                ]
+              },
+              {
+                "title": "2. Injection",
+                "description": "Quelques points au coin de chaque œil ; la notice officielle en prévoit trois de chaque côté.",
+                "details": [
+                  "Aiguilles très fines",
+                  "Séance de quelques minutes"
+                ]
+              },
+              {
+                "title": "3. Les résultats",
+                "description": "L'amélioration apparaît en général dans la semaine ; l'effet dure jusqu'à environ 4 mois.",
+                "details": [
+                  "Renouvellement possible, pas avant trois mois"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-cards-3",
+          "type": "cards",
+          "order": 3,
+          "content": {
+            "ancre": "contre-indications",
+            "title": "Contre-indications et effets possibles",
+            "subtitle": "Ce que dit la notice officielle du produit.",
+            "cards": [
+              {
+                "title": "Contre-indications",
+                "description": "Le traitement n'est pas réalisé dans ces situations.",
+                "details": [
+                  "Allergie à la toxine botulique ou à un composant",
+                  "Myasthénie, syndrome de Lambert-Eaton",
+                  "Infection au point d'injection",
+                  "Grossesse et allaitement : non recommandé"
+                ]
+              },
+              {
+                "title": "Effets possibles",
+                "description": "En général passagers.",
+                "details": [
+                  "Bleu (hématome) au point d'injection",
+                  "Maux de tête",
+                  "Chute temporaire de la paupière"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-faq-4",
+          "type": "faq",
+          "order": 4,
+          "content": {
+            "ancre": "faq",
+            "title": "Questions fréquentes sur les pattes d'oie",
+            "questions": [
+              {
+                "question": "Combien de temps dure le Botox pour les pattes d'oie ?",
+                "answer": "L'amélioration apparaît en général dans la semaine et l'effet dure jusqu'à environ 4 mois, selon la notice officielle du produit. Le traitement peut ensuite être renouvelé, avec un intervalle d'au moins trois mois."
+              },
+              {
+                "question": "Pourrai-je encore sourire normalement ?",
+                "answer": "Oui : la dose est adaptée pour adoucir les rides sans supprimer l'expression. Le sourire reste naturel."
+              },
+              {
+                "question": "Est-ce douloureux ?",
+                "answer": "L'injection se fait avec des aiguilles très fines, en quelques points : l'inconfort est bref."
+              },
+              {
+                "question": "Quels sont les effets indésirables ?",
+                "answer": "Le plus fréquent est un petit bleu au point d'injection ; des maux de tête ou une chute temporaire de la paupière sont possibles. Ils sont en général passagers."
+              },
+              {
+                "question": "Peut-on traiter les pattes d'oie et les rides du lion en même temps ?",
+                "answer": "Oui, la notice prévoit ce traitement combiné ; le plan de traitement est défini en consultation."
+              },
+              {
+                "question": "Et les rides sous les yeux ?",
+                "answer": "La toxine botulique agit sur les rides d'expression du coin de l'œil. Un creux sous l'œil relève d'une autre approche, évaluée au cas par cas en consultation."
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-cta-5",
+          "type": "cta",
+          "order": 5,
+          "content": {
+            "title": "Envie d'un regard plus reposé ?",
+            "description": "Prenez rendez-vous pour une consultation avec la Dre Fassotte : analyse de vos pattes d'oie, explication du traitement et réponse à toutes vos questions.",
+            "primaryButton": {
+              "link": "/prendre-rendez-vous",
+              "text": "Prendre rendez-vous"
+            },
+            "secondaryButton": {
+              "link": "tel:+32495280976",
+              "text": "+32 495 28 09 76"
+            }
+          }
+        }
+      ],
+      "meta_description": "Pattes d’oie à Liège : toxine botulique par la Dre Fassotte. Pourquoi elles se marquent, déroulement, délai d’effet, durée, contre-indications et FAQ.",
+      "is_published": true,
+      "created_at": "2026-09-28T21:00:00+00:00",
+      "updated_at": "2026-09-28T21:00:00+00:00"
+    },
+    {
       "id": "09b7f665-2d91-4c55-b276-872d5045cfef",
       "slug": "peeling",
       "title": "Peeling",
@@ -2692,6 +2850,159 @@
       "updated_at": "2026-02-24T16:04:03.097+00:00"
     },
     {
+      "id": "brouillon-rides-du-front",
+      "slug": "rides-du-front",
+      "title": "Rides du front",
+      "content": [
+        {
+          "id": "block-hero-0",
+          "type": "hero",
+          "order": 0,
+          "content": {
+            "title": "Rides du front à Liège : traitement par toxine botulique",
+            "subtitle": "Lisser le front en gardant un visage expressif, par la Dre Jocelyne Fassotte, médecin esthétique",
+            "description": "Les rides du front sont les lignes horizontales qui se creusent quand on lève les sourcils. La toxine botulique détend le muscle du front : les rides s'adoucissent, sans figer le visage. L'amélioration apparaît en général dans la semaine et dure jusqu'à environ 4 mois.",
+            "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771937938348-o7yq2d.jpeg",
+            "imageAlt": "Zones d'injection Botox - Rides du front, glabelle, rides périoculaires, plis d'amertume",
+            "ctaText": "Prendre rendez-vous",
+            "ctaLink": "/prendre-rendez-vous"
+          }
+        },
+        {
+          "id": "block-text-1",
+          "type": "text",
+          "order": 1,
+          "content": {
+            "ancre": "pourquoi",
+            "title": "Pourquoi les rides du front apparaissent",
+            "paragraphs": [
+              "Le muscle du front soulève les sourcils : quand on s'étonne, qu'on parle avec expression ou qu'on compense des paupières lourdes. À force, la peau garde la trace de ces mouvements et des lignes horizontales se marquent.",
+              "La [[toxine botulique (Botox)|/botox-liege]] détend ce muscle. Le front est souvent traité avec les [[rides du lion|/botox-liege/rides-du-lion]], entre les sourcils, pour un résultat équilibré ; la notice officielle prévoit ce traitement combiné."
+            ]
+          }
+        },
+        {
+          "id": "block-cards-2",
+          "type": "cards",
+          "order": 2,
+          "content": {
+            "ancre": "deroulement",
+            "title": "Le déroulement du traitement",
+            "subtitle": "Une séance courte, au cabinet, après une consultation.",
+            "cards": [
+              {
+                "title": "1. Consultation",
+                "description": "Analyse de vos rides, de la position de vos sourcils, de vos antécédents et traitements en cours.",
+                "details": [
+                  "Vérification des contre-indications"
+                ]
+              },
+              {
+                "title": "2. Injection",
+                "description": "Quelques points répartis sur le front ; la notice officielle en prévoit cinq.",
+                "details": [
+                  "Aiguilles très fines",
+                  "Séance de quelques minutes"
+                ]
+              },
+              {
+                "title": "3. Les résultats",
+                "description": "L'amélioration apparaît en général dans la semaine ; l'effet dure jusqu'à environ 4 mois.",
+                "details": [
+                  "Renouvellement possible, pas avant trois mois"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-cards-3",
+          "type": "cards",
+          "order": 3,
+          "content": {
+            "ancre": "contre-indications",
+            "title": "Contre-indications et effets possibles",
+            "subtitle": "Ce que dit la notice officielle du produit.",
+            "cards": [
+              {
+                "title": "Contre-indications",
+                "description": "Le traitement n'est pas réalisé dans ces situations.",
+                "details": [
+                  "Allergie à la toxine botulique ou à un composant",
+                  "Myasthénie, syndrome de Lambert-Eaton",
+                  "Infection au point d'injection",
+                  "Grossesse et allaitement : non recommandé"
+                ]
+              },
+              {
+                "title": "Effets possibles",
+                "description": "Fréquents mais en général passagers.",
+                "details": [
+                  "Maux de tête",
+                  "Chute temporaire de la paupière",
+                  "Sensation de tension de la peau",
+                  "Élévation de la queue du sourcil (« effet Méphisto »)",
+                  "Bleu au point d'injection"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-faq-4",
+          "type": "faq",
+          "order": 4,
+          "content": {
+            "ancre": "faq",
+            "title": "Questions fréquentes sur les rides du front",
+            "questions": [
+              {
+                "question": "Combien de temps dure le Botox pour le front ?",
+                "answer": "L'amélioration apparaît en général dans la semaine et l'effet dure jusqu'à environ 4 mois, selon la notice officielle du produit. Le traitement peut ensuite être renouvelé, avec un intervalle d'au moins trois mois."
+              },
+              {
+                "question": "Vais-je avoir le front figé ?",
+                "answer": "Non : la dose est adaptée à la force du muscle et à la position de vos sourcils, pour adoucir les rides en gardant de l'expression."
+              },
+              {
+                "question": "Pourquoi traiter aussi les rides du lion ?",
+                "answer": "Les muscles du front et ceux entre les sourcils travaillent ensemble ; les traiter ensemble donne un résultat plus équilibré. La notice officielle prévoit ce traitement combiné."
+              },
+              {
+                "question": "Quels sont les effets indésirables ?",
+                "answer": "Les plus fréquents sont des maux de tête, une chute temporaire de la paupière, une sensation de tension de la peau ou une élévation de la queue du sourcil. Ils sont en général passagers et expliqués en consultation."
+              },
+              {
+                "question": "Est-ce douloureux ?",
+                "answer": "L'injection se fait avec des aiguilles très fines, en quelques points : l'inconfort est bref."
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-cta-5",
+          "type": "cta",
+          "order": 5,
+          "content": {
+            "title": "Envie d'un front plus lisse ?",
+            "description": "Prenez rendez-vous pour une consultation avec la Dre Fassotte : analyse de vos rides du front, explication du traitement et réponse à toutes vos questions.",
+            "primaryButton": {
+              "link": "/prendre-rendez-vous",
+              "text": "Prendre rendez-vous"
+            },
+            "secondaryButton": {
+              "link": "tel:+32495280976",
+              "text": "+32 495 28 09 76"
+            }
+          }
+        }
+      ],
+      "meta_description": "Rides du front à Liège : toxine botulique par la Dre Fassotte. Pourquoi elles apparaissent, déroulement, délai d’effet, durée, effets possibles et FAQ.",
+      "is_published": true,
+      "created_at": "2026-09-28T21:00:00+00:00",
+      "updated_at": "2026-09-28T21:00:00+00:00"
+    },
+    {
       "id": "brouillon-rides-du-lion",
       "slug": "rides-du-lion",
       "title": "Rides du lion",
@@ -2845,6 +3156,161 @@
       "is_published": true,
       "created_at": "2026-09-28T20:00:00+00:00",
       "updated_at": "2026-09-28T20:00:00+00:00"
+    },
+    {
+      "id": "brouillon-sillons-nasogeniens",
+      "slug": "sillons-nasogeniens",
+      "title": "Sillons nasogéniens",
+      "content": [
+        {
+          "id": "block-hero-0",
+          "type": "hero",
+          "order": 0,
+          "content": {
+            "title": "Sillons nasogéniens : injection d'acide hyaluronique à Liège",
+            "subtitle": "Adoucir les plis entre le nez et la bouche, par la Dre Jocelyne Fassotte, médecin esthétique",
+            "description": "Les sillons nasogéniens sont les plis qui descendent des ailes du nez vers les coins de la bouche. Quand ils se creusent, une injection d'acide hyaluronique peut les combler et adoucir l'expression. L'amélioration a été observée jusqu'à un an dans les études, et le produit se résorbe progressivement.",
+            "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771937027109-qefsfr.jpeg",
+            "imageAlt": "Zones d'injection acide hyaluronique sur le visage",
+            "ctaText": "Prendre rendez-vous",
+            "ctaLink": "/prendre-rendez-vous"
+          }
+        },
+        {
+          "id": "block-text-1",
+          "type": "text",
+          "order": 1,
+          "content": {
+            "ancre": "pourquoi",
+            "title": "Pourquoi les sillons nasogéniens se creusent",
+            "paragraphs": [
+              "Le sillon nasogénien existe chez tout le monde : c'est le pli que dessine le sourire. Avec les années, la peau perd de sa fermeté, les volumes des joues diminuent et le pli se marque, même au repos, donnant un air fatigué ou triste.",
+              "L'acide hyaluronique, injecté dans le derme, comble le sillon. Quand le pli vient surtout d'un relâchement de la joue, d'autres zones peuvent être évaluées en consultation, comme les pommettes dans une approche plus globale de type [[Liquid Lift|/liquid-lift-liege]].",
+              "Le traitement des sillons fait partie des [[injections d'acide hyaluronique|/acide-hyaluronique-liege]] pratiquées au cabinet."
+            ]
+          }
+        },
+        {
+          "id": "block-cards-2",
+          "type": "cards",
+          "order": 2,
+          "content": {
+            "ancre": "deroulement",
+            "title": "Le déroulement d'une injection des sillons",
+            "subtitle": "Une séance courte, au cabinet, après une consultation.",
+            "cards": [
+              {
+                "title": "1. Consultation",
+                "description": "Analyse du sillon au repos et au sourire, de vos attentes, de vos antécédents et traitements en cours.",
+                "details": [
+                  "Choix du produit et de la quantité"
+                ]
+              },
+              {
+                "title": "2. Injection",
+                "description": "Injection précise d'un acide hyaluronique adapté, contenant de la lidocaïne.",
+                "details": [
+                  "Effet visible dès la séance"
+                ]
+              },
+              {
+                "title": "3. Les jours qui suivent",
+                "description": "Rougeur, gonflement, sensibilité ou bleus sont fréquents au début.",
+                "details": [
+                  "Le plus souvent résolus en une semaine",
+                  "Éviter sport intensif, soleil et chaleur pendant 24 heures"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-cards-3",
+          "type": "cards",
+          "order": 3,
+          "content": {
+            "ancre": "precautions",
+            "title": "Effets possibles et précautions",
+            "subtitle": "Ce que disent les notices et les autorités de santé.",
+            "cards": [
+              {
+                "title": "Effets fréquents",
+                "description": "Au point d'injection, dans les jours qui suivent.",
+                "details": [
+                  "Rougeur, gonflement, fermeté",
+                  "Petites boules, bleus, sensibilité",
+                  "En général résolus en une semaine"
+                ]
+              },
+              {
+                "title": "Complications rares",
+                "description": "À connaître avant tout traitement.",
+                "details": [
+                  "Injection dans un vaisseau : nécrose de la peau, exceptionnellement troubles visuels",
+                  "Allergie, parfois retardée",
+                  "Dissolution possible par la hyaluronidase"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-faq-4",
+          "type": "faq",
+          "order": 4,
+          "content": {
+            "ancre": "faq",
+            "title": "Questions fréquentes sur les sillons nasogéniens",
+            "questions": [
+              {
+                "question": "Combien de temps dure l'injection des sillons nasogéniens ?",
+                "answer": "Dans l'étude du produit, l'amélioration était encore présente à un an chez la majorité des personnes suivies. La durée varie selon le produit, la profondeur du sillon et la personne."
+              },
+              {
+                "question": "Est-ce douloureux ?",
+                "answer": "L'injection est bien supportée : les produits utilisés contiennent de la lidocaïne, un anesthésiant. Une sensibilité peut persister quelques jours."
+              },
+              {
+                "question": "Le résultat paraît-il naturel ?",
+                "answer": "L'objectif est d'adoucir le sillon, pas de l'effacer : un léger pli au sourire est naturel. La quantité injectée est adaptée à votre visage."
+              },
+              {
+                "question": "Quels sont les effets indésirables ?",
+                "answer": "Les plus fréquents sont une rougeur, un gonflement, une sensibilité ou des bleus, qui disparaissent en général en une semaine. Des complications rares mais graves existent si le produit pénètre dans un vaisseau sanguin ; c'est pourquoi l'injection est réalisée par un médecin."
+              },
+              {
+                "question": "Peut-on revenir en arrière ?",
+                "answer": "Oui : l'acide hyaluronique peut être dissous par une enzyme, la hyaluronidase, si nécessaire."
+              },
+              {
+                "question": "Et les plis d'amertume ?",
+                "answer": "Les plis qui descendent des coins de la bouche se traitent aussi par acide hyaluronique ; la correction relève le coin de la bouche. Ils peuvent être traités dans la même séance, selon l'évaluation en consultation."
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-cta-5",
+          "type": "cta",
+          "order": 5,
+          "content": {
+            "title": "Des sillons qui vous donnent un air fatigué ?",
+            "description": "Prenez rendez-vous pour une consultation avec la Dre Fassotte : analyse de vos sillons, explication du traitement et réponse à toutes vos questions.",
+            "primaryButton": {
+              "link": "/prendre-rendez-vous",
+              "text": "Prendre rendez-vous"
+            },
+            "secondaryButton": {
+              "link": "tel:+32495280976",
+              "text": "+32 495 28 09 76"
+            }
+          }
+        }
+      ],
+      "meta_description": "Sillons nasogéniens marqués : injection d’acide hyaluronique à Liège par la Dre Fassotte. Pourquoi ils se creusent, déroulement, durée, effets possibles.",
+      "is_published": true,
+      "created_at": "2026-09-28T21:00:00+00:00",
+      "updated_at": "2026-09-28T21:00:00+00:00"
     },
     {
       "id": "69a044e7-473d-47e3-ba5a-77b7183a9533",

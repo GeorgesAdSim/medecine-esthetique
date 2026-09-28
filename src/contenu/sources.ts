@@ -68,6 +68,43 @@ const AAD_ANTIAGE = src('aad-anti-age', 'How to select anti-aging skin care prod
 const FDA_COSMECEUTIQUE = src('fda-cosmeceutique', 'Cosmeceutical', 'FDA (États-Unis)', 'https://www.fda.gov/cosmetics/cosmetics-labeling-claims/cosmeceutical');
 
 export const SOURCES: Readonly<Record<string, SourcesDePage>> = {
+  '/acide-hyaluronique-liege/sillons-nasogeniens': {
+    sources: [JUVEDERM_ULTRA, FDA_FILLERS, HYALURONIDASE],
+    appuis: [
+      { ancre: 'pourquoi', source: 'juvederm-ultra-dfu', confirme: 'Indication reconnue : correction des rides et plis du visage modérés à sévères, comme les sillons nasogéniens, par injection dans le derme.',
+        extrait: 'Indicated for injection into the mid to deep dermis for correction of moderate to severe facial wrinkles and folds (such as nasolabial folds).' },
+      { ancre: 'deroulement', source: 'juvederm-ultra-dfu', confirme: 'Rougeur, gonflement, fermeté, petites boules, bleus et sensibilité sont fréquents ; ce sont surtout des réactions de courte durée, de 7 jours ou moins.',
+        extrait: 'Injection site reactions consist mainly of short-term inflammatory symptoms starting early after treatment and lasting ≤ 7 days in wrinkles.' },
+      { ancre: 'precautions', source: 'fda-fillers', confirme: 'Un produit injecté dans un vaisseau sanguin peut provoquer une nécrose de la peau, un AVC ou une cécité.',
+        extrait: 'Filler that enters a blood vessel can cause skin necrosis (death of tissue), stroke, or blindness.' },
+      { ancre: 'faq', source: 'juvederm-ultra-dfu', confirme: 'Sillons nasogéniens : amélioration chez 87 % des personnes suivies à 24 semaines et 78 % à 48 semaines (1 an).',
+        extrait: '87% (20/23) at 24 weeks and 78% (7/9) at 48 weeks (1 year).' },
+      { ancre: 'faq', source: 'revue-hyaluronidase', confirme: 'La hyaluronidase est l’enzyme qui dégrade l’acide hyaluronique, utilisée pour corriger un dépôt indésirable.',
+        extrait: 'Hyaluronidase is a crucial enzyme involved in the degradation of HA, playing a significant role in the management of unwanted HA deposits.' },
+    ],
+  },
+  '/botox-liege/pattes-d-oie': {
+    sources: [RCP_VISTABEL],
+    appuis: [
+      { ancre: 'pourquoi', source: 'rcp-vistabel', confirme: 'Indications reconnues : rides de la patte d’oie (rides canthales latérales), rides du lion et rides du front, chez l’adulte.',
+        extrait: 'des rides canthales latérales (pattes d’oie) modérées à sévères observées au maximum du sourire […]' },
+      { ancre: 'deroulement', source: 'rcp-vistabel', confirme: 'Pattes d’oie : 3 points d’injection de chaque côté ; traitement combiné possible avec les rides du lion ; pas plus d’un traitement tous les trois mois.',
+        extrait: '0,1 ml (4 Unités) est injecté dans le muscle orbiculaire dans chacun des 3 sites de chaque côté (pour un total de 6 sites d’injection) […] L’intervalle entre deux traitements ne doit pas être inférieur à trois mois.' },
+      { ancre: 'contre-indications', source: 'rcp-vistabel', confirme: 'Contre-indications : hypersensibilité, myasthénie grave, syndrome de Lambert-Eaton, infection aux points d’injection. Effet fréquent pour les pattes d’oie : hématome au point d’injection.',
+        extrait: 'VISTABEL est contre-indiqué : chez les individus présentant une hypersensibilité connue à la toxine botulinique de type A […] ; en cas de myasthénie grave ou de syndrome de Eaton-Lambert ; en cas d’infection aux sites d’injection proposés.' },
+    ],
+  },
+  '/botox-liege/rides-du-front': {
+    sources: [RCP_VISTABEL],
+    appuis: [
+      { ancre: 'pourquoi', source: 'rcp-vistabel', confirme: 'Indication reconnue : rides du front modérées à sévères, observées lors de l’élévation des sourcils ; traitement simultané avec les rides du lion prévu par la notice.',
+        extrait: 'des rides du front modérées à sévères observées lors de l’élévation maximale des sourcils […] La dose totale pour le traitement simultané des rides du front (20 Unités) et des rides glabellaires (20 Unités) est de 40 Unités/1,0 ml.' },
+      { ancre: 'deroulement', source: 'rcp-vistabel', confirme: 'Rides du front : 5 points d’injection dans le muscle frontal ; pas plus d’un traitement tous les trois mois.',
+        extrait: '0,1 ml (4 Unités) dans chacun des 5 sites d’injection dans le muscle frontal, soit une dose totale de 20 Unités […] L’intervalle entre deux traitements ne doit pas être inférieur à trois mois.' },
+      { ancre: 'contre-indications', source: 'rcp-vistabel', confirme: 'Effets fréquents pour le front : céphalées, ptosis de la paupière, sensation de tension cutanée, effet Méphisto (élévation latérale des sourcils), hématome au point d’injection.',
+        extrait: 'Effet Méphisto (élévation latérale des sourcils) […] Sensation de tension cutanée […] Fréquent' },
+    ],
+  },
   '/acide-hyaluronique-liege/levres': {
     sources: [VOLBELLA_DFU, ANSM_COMBLEMENT, FDA_FILLERS, HYALURONIDASE],
     appuis: [
