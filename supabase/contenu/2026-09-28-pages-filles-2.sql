@@ -128,6 +128,26 @@ SELECT 'sillons-nasogeniens', 'Sillons nasogéniens', '[
         {
           "question": "Et les plis d''amertume ?",
           "answer": "Les plis qui descendent des coins de la bouche se traitent aussi par acide hyaluronique ; la correction relève le coin de la bouche. Ils peuvent être traités dans la même séance, selon l''évaluation en consultation."
+        },
+        {
+          "question": "Que faut-il éviter après l''injection ?",
+          "answer": "Pendant les 24 heures qui suivent : le sport intensif, l''exposition au soleil et à la chaleur. Les autres activités reprennent immédiatement."
+        },
+        {
+          "question": "Faut-il une consultation avant l''injection ?",
+          "answer": "Oui : une consultation précède toujours le traitement. Elle permet d''examiner la zone, de vérifier les contre-indications et de définir ensemble le produit et la quantité."
+        },
+        {
+          "question": "Qui réalise l''injection ?",
+          "answer": "La Dre Jocelyne Fassotte, médecin esthétique diplômée du Collège International de Médecine Esthétique (CIME), au cabinet de Vaux-sous-Chèvremont. L''injection d''acide hyaluronique est un acte médical."
+        },
+        {
+          "question": "Combien coûte le traitement ?",
+          "answer": "Le tarif dépend de la quantité de produit utilisée. Il vous est communiqué lors de la consultation, avant toute injection."
+        },
+        {
+          "question": "Comment se passent les jours qui suivent ?",
+          "answer": "Rougeur, gonflement, sensibilité, petites boules ou bleus sont fréquents au début ; dans l''étude du produit, ils duraient en général une semaine ou moins."
         }
       ]
     }
@@ -277,6 +297,22 @@ SELECT 'pattes-d-oie', 'Pattes d''oie', '[
         {
           "question": "Et les rides sous les yeux ?",
           "answer": "La toxine botulique agit sur les rides d''expression du coin de l''œil. Un creux sous l''œil relève d''une autre approche, évaluée au cas par cas en consultation."
+        },
+        {
+          "question": "Que faut-il éviter après l''injection ?",
+          "answer": "Pendant 4 heures, évitez le sport intense et la position couchée, et ne massez pas les zones traitées le jour même. Les autres activités reprennent immédiatement."
+        },
+        {
+          "question": "Quand refaire le traitement ?",
+          "answer": "Quand l''effet s''estompe, en général après quelques mois ; la notice officielle prévoit un intervalle d''au moins trois mois entre deux traitements."
+        },
+        {
+          "question": "Qui réalise l''injection ?",
+          "answer": "La Dre Jocelyne Fassotte, médecin esthétique diplômée du Collège International de Médecine Esthétique (CIME). La notice officielle précise que la toxine botulique doit être administrée par des médecins qualifiés et expérimentés."
+        },
+        {
+          "question": "Combien coûte le traitement ?",
+          "answer": "Le tarif dépend du nombre de zones traitées. Il vous est communiqué lors de la consultation, avant toute injection."
         }
       ]
     }
@@ -424,6 +460,22 @@ SELECT 'rides-du-front', 'Rides du front', '[
         {
           "question": "Est-ce douloureux ?",
           "answer": "L''injection se fait avec des aiguilles très fines, en quelques points : l''inconfort est bref."
+        },
+        {
+          "question": "Que faut-il éviter après l''injection ?",
+          "answer": "Pendant 4 heures, évitez le sport intense et la position couchée, et ne massez pas les zones traitées le jour même. Les autres activités reprennent immédiatement."
+        },
+        {
+          "question": "Quand refaire le traitement ?",
+          "answer": "Quand l''effet s''estompe, en général après quelques mois ; la notice officielle prévoit un intervalle d''au moins trois mois entre deux traitements."
+        },
+        {
+          "question": "Qui réalise l''injection ?",
+          "answer": "La Dre Jocelyne Fassotte, médecin esthétique diplômée du Collège International de Médecine Esthétique (CIME). La notice officielle précise que la toxine botulique doit être administrée par des médecins qualifiés et expérimentés."
+        },
+        {
+          "question": "Combien coûte le traitement ?",
+          "answer": "Le tarif dépend du nombre de zones traitées. Il vous est communiqué lors de la consultation, avant toute injection."
         }
       ]
     }
@@ -448,7 +500,7 @@ SELECT 'rides-du-front', 'Rides du front', '[
 ]'::jsonb, 'Rides du front à Liège : toxine botulique par la Dre Fassotte. Pourquoi elles apparaissent, déroulement, délai d’effet, durée, effets possibles et FAQ.', true
 WHERE NOT EXISTS (SELECT 1 FROM custom_pages WHERE slug = 'rides-du-front');
 
--- Cartes des piliers liées aux nouvelles pages filles (le contenu reprend les liens du lot 8).
+-- Cartes des piliers liées aux nouvelles pages filles (reprend aussi les liens du lot 8 et les H1 du lot 10).
 UPDATE custom_pages SET content = '[
   {
     "id": "block-hero-0",
@@ -456,7 +508,7 @@ UPDATE custom_pages SET content = '[
     "order": 0,
     "content": {
       "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771937027109-qefsfr.jpeg",
-      "title": "Injection Acide Hyaluronique Liège",
+      "title": "Injections d''acide hyaluronique à Liège",
       "ctaLink": "/contact",
       "ctaText": "Prendre rendez-vous",
       "imageAlt": "Zones d''injection acide hyaluronique sur le visage",

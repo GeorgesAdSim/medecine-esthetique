@@ -278,7 +278,7 @@
           "order": 0,
           "content": {
             "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771937027109-qefsfr.jpeg",
-            "title": "Injection Acide Hyaluronique Liège",
+            "title": "Injections d'acide hyaluronique à Liège",
             "ctaLink": "/contact",
             "ctaText": "Prendre rendez-vous",
             "imageAlt": "Zones d'injection acide hyaluronique sur le visage",
@@ -488,7 +488,7 @@
       "meta_description": "ACIDE HYALURONIQUE\n\nL’acide hyaluronique est un constituant naturel du liquide extracellulaire du derme, de\nl’épiderme, du cartilage , de notre corps.\nAvec le vieillissement, le renouvellement de l’acide hyaluronique se ralenti ce qui diminue\nl’hydratation et la fermeté de notre peau.\nLa molécule d’acide hyaluronique pure est reconstituée par les laboratoires de Médecine\nEsthétique.\nElle se présente sous différentes concentrations (réticulation) et peut être injectée en\nMédecine Esthétique pour remplacer notre acide hyaluronique perdu soit superficiellement\nau niveau du derme (acide hyaluronique peu réticulé) soit de façon plus concentrée\n(réticulation importante) pour remplacer les masses graisseuses du visage perdue avec l’âge\net reconstruire ainsi les volumes et le contour du visage.\nL’acide hyaluronique est une molécule essentielle en médecine esthétique.\nElle procure hydratation, réduction des rides et restructuration des volumes du visage.",
       "is_published": true,
       "created_at": "2025-10-28T16:45:50.160707+00:00",
-      "updated_at": "2026-09-28T21:00:00+00:00"
+      "updated_at": "2026-09-28T21:45:00+00:00"
     },
     {
       "id": "e5e1e35a-e6be-476d-bceb-21e263c4a79b",
@@ -918,7 +918,7 @@
           "order": 0,
           "content": {
             "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771947129554-8n7lyf.jpeg",
-            "title": "Cosmétologie Médicale",
+            "title": "Cosmétologie médicale à Liège",
             "ctaLink": "/contact",
             "ctaText": "Consultation personnalisée",
             "imageAlt": "Cosmétologie médicale",
@@ -1051,7 +1051,7 @@
       "meta_description": "Soins cosmétologiques personnalisés pour votre peau",
       "is_published": true,
       "created_at": "2025-10-28T16:45:50.160707+00:00",
-      "updated_at": "2026-09-28T19:00:00+00:00"
+      "updated_at": "2026-09-28T21:45:00+00:00"
     },
     {
       "id": "2db1a340-92e0-4868-bb55-8aeb84809242",
@@ -1207,7 +1207,7 @@
           "order": 0,
           "content": {
             "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771937869075-5o7i96.jpeg",
-            "title": "Fils Tenseurs à Cônes Bidirectionnels",
+            "title": "Fils tenseurs à Liège : lifting sans chirurgie",
             "ctaLink": "/contact",
             "ctaText": "Consultation personnalisée",
             "imageAlt": "Fils tenseurs à cônes - Lifting non chirurgical avec vecteurs de traction",
@@ -1381,7 +1381,7 @@
       "meta_description": "Lifting par fils tenseurs pour raffermir et redessiner l'ovale du visage",
       "is_published": true,
       "created_at": "2025-10-28T16:45:50.160707+00:00",
-      "updated_at": "2026-09-28T19:00:00+00:00"
+      "updated_at": "2026-09-28T21:45:00+00:00"
     },
     {
       "id": "3091a870-febd-421f-b688-a0f38d2cabe1",
@@ -1687,6 +1687,26 @@
               {
                 "question": "Peut-on revenir en arrière ?",
                 "answer": "Oui : l'acide hyaluronique peut être dissous par une enzyme, la hyaluronidase, si nécessaire."
+              },
+              {
+                "question": "Que faut-il éviter après l'injection ?",
+                "answer": "Pendant les 24 heures qui suivent : le sport intensif, l'exposition au soleil et à la chaleur. Les autres activités reprennent immédiatement."
+              },
+              {
+                "question": "Faut-il une consultation avant l'injection ?",
+                "answer": "Oui : une consultation précède toujours le traitement. Elle permet d'examiner la zone, de vérifier les contre-indications et de définir ensemble le produit et la quantité."
+              },
+              {
+                "question": "Qui réalise l'injection ?",
+                "answer": "La Dre Jocelyne Fassotte, médecin esthétique diplômée du Collège International de Médecine Esthétique (CIME), au cabinet de Vaux-sous-Chèvremont. L'injection d'acide hyaluronique est un acte médical."
+              },
+              {
+                "question": "Combien coûte le traitement ?",
+                "answer": "Le tarif dépend de la quantité de produit utilisée. Il vous est communiqué lors de la consultation, avant toute injection."
+              },
+              {
+                "question": "Comment se passent les jours qui suivent ?",
+                "answer": "Sensibilité au toucher, gonflement ou bleus sont fréquents les premiers jours et disparaissent le plus souvent en une à deux semaines."
               }
             ]
           }
@@ -1712,7 +1732,7 @@
       "meta_description": "Cernes creusés : injection d’acide hyaluronique à Liège par la Dre Fassotte. Pour qui, déroulement, durée des résultats, effets possibles et précautions.",
       "is_published": true,
       "created_at": "2026-09-28T20:00:00+00:00",
-      "updated_at": "2026-09-28T20:00:00+00:00"
+      "updated_at": "2026-09-28T21:45:00+00:00"
     },
     {
       "id": "brouillon-injection-levres",
@@ -1886,6 +1906,34 @@
               {
                 "question": "Quelles sont les contre-indications ?",
                 "answer": "Une allergie connue au produit ou à la lidocaïne, une infection ou un bouton de fièvre en cours sur la zone, la grossesse et l'allaitement : ces situations sont vérifiées en consultation avant toute injection."
+              },
+              {
+                "question": "Que faut-il éviter après l'injection ?",
+                "answer": "Pendant les 24 heures qui suivent : le sport intensif, l'exposition au soleil et à la chaleur. Les autres activités reprennent immédiatement."
+              },
+              {
+                "question": "Faut-il une consultation avant l'injection ?",
+                "answer": "Oui : une consultation précède toujours le traitement. Elle permet d'examiner la zone, de vérifier les contre-indications et de définir ensemble le produit et la quantité."
+              },
+              {
+                "question": "Qui réalise l'injection ?",
+                "answer": "La Dre Jocelyne Fassotte, médecin esthétique diplômée du Collège International de Médecine Esthétique (CIME), au cabinet de Vaux-sous-Chèvremont. L'injection d'acide hyaluronique est un acte médical."
+              },
+              {
+                "question": "Combien coûte le traitement ?",
+                "answer": "Le tarif dépend de la quantité de produit utilisée. Il vous est communiqué lors de la consultation, avant toute injection."
+              },
+              {
+                "question": "Comment se passent les jours qui suivent ?",
+                "answer": "Le jour même, les lèvres sont gonflées et sensibles, et des bleus peuvent apparaître. Le gonflement diminue ensuite progressivement : dans l'étude du produit, il durait de 15 à 30 jours chez environ quatre personnes sur dix."
+              },
+              {
+                "question": "Quand peut-on juger le résultat ?",
+                "answer": "Une fois le gonflement résorbé : le volume des premiers jours ne reflète pas le résultat final."
+              },
+              {
+                "question": "J'ai souvent des boutons de fièvre : est-ce un problème ?",
+                "answer": "Un bouton de fièvre en cours fait reporter l'injection. Si vous en faites souvent, signalez-le en consultation."
               }
             ]
           }
@@ -1911,7 +1959,7 @@
       "meta_description": "Injection des lèvres à l’acide hyaluronique à Liège par la Dre Fassotte : volume, contour, ridules, déroulement, durée, effets possibles et questions fréquentes.",
       "is_published": true,
       "created_at": "2026-09-28T20:00:00+00:00",
-      "updated_at": "2026-09-28T20:00:00+00:00"
+      "updated_at": "2026-09-28T21:45:00+00:00"
     },
     {
       "id": "6f22210b-8f91-4662-9cbe-ce785ab81ddb",
@@ -1924,7 +1972,7 @@
           "order": 0,
           "content": {
             "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771948366443-fxls6x.jpeg",
-            "title": "Liquid Lift",
+            "title": "Liquid Lift à Liège : rajeunissement global par injections",
             "ctaLink": "/contact",
             "ctaText": "Consultation personnalisée",
             "imageAlt": "Liquid Lift",
@@ -2092,7 +2140,7 @@
       "meta_description": "Lifting non chirurgical par injections pour un rajeunissement global",
       "is_published": true,
       "created_at": "2025-10-28T16:45:50.160707+00:00",
-      "updated_at": "2026-09-28T19:00:00+00:00"
+      "updated_at": "2026-09-28T21:45:00+00:00"
     },
     {
       "id": "8f1e5207-a73e-4bcf-9e39-3924deddb227",
@@ -2279,7 +2327,7 @@
           "order": 0,
           "content": {
             "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771938077781-yio16q.jpg",
-            "title": "Mésolift",
+            "title": "Mésolift à Liège : mésothérapie du visage",
             "ctaLink": "/contact",
             "ctaText": "Consultation personnalisée",
             "imageAlt": "Mésolift - Traitement revitalisant pour peau déshydratée et fatiguée",
@@ -2433,7 +2481,7 @@
       "meta_description": "Mésothérapie esthétique pour revitaliser et illuminer la peau",
       "is_published": true,
       "created_at": "2025-10-28T16:45:50.160707+00:00",
-      "updated_at": "2026-09-28T19:00:00+00:00"
+      "updated_at": "2026-09-28T21:45:00+00:00"
     },
     {
       "id": "brouillon-pattes-d-oie",
@@ -2563,6 +2611,22 @@
               {
                 "question": "Et les rides sous les yeux ?",
                 "answer": "La toxine botulique agit sur les rides d'expression du coin de l'œil. Un creux sous l'œil relève d'une autre approche, évaluée au cas par cas en consultation."
+              },
+              {
+                "question": "Que faut-il éviter après l'injection ?",
+                "answer": "Pendant 4 heures, évitez le sport intense et la position couchée, et ne massez pas les zones traitées le jour même. Les autres activités reprennent immédiatement."
+              },
+              {
+                "question": "Quand refaire le traitement ?",
+                "answer": "Quand l'effet s'estompe, en général après quelques mois ; la notice officielle prévoit un intervalle d'au moins trois mois entre deux traitements."
+              },
+              {
+                "question": "Qui réalise l'injection ?",
+                "answer": "La Dre Jocelyne Fassotte, médecin esthétique diplômée du Collège International de Médecine Esthétique (CIME). La notice officielle précise que la toxine botulique doit être administrée par des médecins qualifiés et expérimentés."
+              },
+              {
+                "question": "Combien coûte le traitement ?",
+                "answer": "Le tarif dépend du nombre de zones traitées. Il vous est communiqué lors de la consultation, avant toute injection."
               }
             ]
           }
@@ -2588,7 +2652,7 @@
       "meta_description": "Pattes d’oie à Liège : toxine botulique par la Dre Fassotte. Pourquoi elles se marquent, déroulement, délai d’effet, durée, contre-indications et FAQ.",
       "is_published": true,
       "created_at": "2026-09-28T21:00:00+00:00",
-      "updated_at": "2026-09-28T21:00:00+00:00"
+      "updated_at": "2026-09-28T21:45:00+00:00"
     },
     {
       "id": "09b7f665-2d91-4c55-b276-872d5045cfef",
@@ -2601,7 +2665,7 @@
           "order": 0,
           "content": {
             "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771938013395-wu24k.jpg",
-            "title": "Peelings Chimiques",
+            "title": "Peeling du visage à Liège : peelings médicaux",
             "ctaLink": "/contact",
             "ctaText": "Consultation personnalisée",
             "imageAlt": "Traitement peeling chimique professionnel",
@@ -2741,7 +2805,7 @@
       "meta_description": "Peelings médicaux pour améliorer la texture et l'éclat de la peau",
       "is_published": true,
       "created_at": "2025-10-28T16:45:50.160707+00:00",
-      "updated_at": "2026-09-28T19:00:00+00:00"
+      "updated_at": "2026-09-28T21:45:00+00:00"
     },
     {
       "id": "0e8e305d-914c-4bc9-b428-2c0b08c6ec75",
@@ -2975,6 +3039,22 @@
               {
                 "question": "Est-ce douloureux ?",
                 "answer": "L'injection se fait avec des aiguilles très fines, en quelques points : l'inconfort est bref."
+              },
+              {
+                "question": "Que faut-il éviter après l'injection ?",
+                "answer": "Pendant 4 heures, évitez le sport intense et la position couchée, et ne massez pas les zones traitées le jour même. Les autres activités reprennent immédiatement."
+              },
+              {
+                "question": "Quand refaire le traitement ?",
+                "answer": "Quand l'effet s'estompe, en général après quelques mois ; la notice officielle prévoit un intervalle d'au moins trois mois entre deux traitements."
+              },
+              {
+                "question": "Qui réalise l'injection ?",
+                "answer": "La Dre Jocelyne Fassotte, médecin esthétique diplômée du Collège International de Médecine Esthétique (CIME). La notice officielle précise que la toxine botulique doit être administrée par des médecins qualifiés et expérimentés."
+              },
+              {
+                "question": "Combien coûte le traitement ?",
+                "answer": "Le tarif dépend du nombre de zones traitées. Il vous est communiqué lors de la consultation, avant toute injection."
               }
             ]
           }
@@ -3000,7 +3080,7 @@
       "meta_description": "Rides du front à Liège : toxine botulique par la Dre Fassotte. Pourquoi elles apparaissent, déroulement, délai d’effet, durée, effets possibles et FAQ.",
       "is_published": true,
       "created_at": "2026-09-28T21:00:00+00:00",
-      "updated_at": "2026-09-28T21:00:00+00:00"
+      "updated_at": "2026-09-28T21:45:00+00:00"
     },
     {
       "id": "brouillon-rides-du-lion",
@@ -3130,6 +3210,22 @@
               {
                 "question": "Peut-on traiter en même temps le front et les pattes d'oie ?",
                 "answer": "Oui, ce sont les deux autres indications de la toxine botulique en esthétique ; le plan de traitement est défini en consultation."
+              },
+              {
+                "question": "Que faut-il éviter après l'injection ?",
+                "answer": "Pendant 4 heures, évitez le sport intense et la position couchée, et ne massez pas les zones traitées le jour même. Les autres activités reprennent immédiatement."
+              },
+              {
+                "question": "Quand refaire le traitement ?",
+                "answer": "Quand l'effet s'estompe, en général après quelques mois ; la notice officielle prévoit un intervalle d'au moins trois mois entre deux traitements."
+              },
+              {
+                "question": "Qui réalise l'injection ?",
+                "answer": "La Dre Jocelyne Fassotte, médecin esthétique diplômée du Collège International de Médecine Esthétique (CIME). La notice officielle précise que la toxine botulique doit être administrée par des médecins qualifiés et expérimentés."
+              },
+              {
+                "question": "Combien coûte le traitement ?",
+                "answer": "Le tarif dépend du nombre de zones traitées. Il vous est communiqué lors de la consultation, avant toute injection."
               }
             ]
           }
@@ -3155,7 +3251,7 @@
       "meta_description": "Rides du lion à Liège : toxine botulique par la Dre Fassotte. Pourquoi elles se creusent, déroulement, délai d’effet, durée, contre-indications et FAQ.",
       "is_published": true,
       "created_at": "2026-09-28T20:00:00+00:00",
-      "updated_at": "2026-09-28T20:00:00+00:00"
+      "updated_at": "2026-09-28T21:45:00+00:00"
     },
     {
       "id": "brouillon-sillons-nasogeniens",
@@ -3285,6 +3381,26 @@
               {
                 "question": "Et les plis d'amertume ?",
                 "answer": "Les plis qui descendent des coins de la bouche se traitent aussi par acide hyaluronique ; la correction relève le coin de la bouche. Ils peuvent être traités dans la même séance, selon l'évaluation en consultation."
+              },
+              {
+                "question": "Que faut-il éviter après l'injection ?",
+                "answer": "Pendant les 24 heures qui suivent : le sport intensif, l'exposition au soleil et à la chaleur. Les autres activités reprennent immédiatement."
+              },
+              {
+                "question": "Faut-il une consultation avant l'injection ?",
+                "answer": "Oui : une consultation précède toujours le traitement. Elle permet d'examiner la zone, de vérifier les contre-indications et de définir ensemble le produit et la quantité."
+              },
+              {
+                "question": "Qui réalise l'injection ?",
+                "answer": "La Dre Jocelyne Fassotte, médecin esthétique diplômée du Collège International de Médecine Esthétique (CIME), au cabinet de Vaux-sous-Chèvremont. L'injection d'acide hyaluronique est un acte médical."
+              },
+              {
+                "question": "Combien coûte le traitement ?",
+                "answer": "Le tarif dépend de la quantité de produit utilisée. Il vous est communiqué lors de la consultation, avant toute injection."
+              },
+              {
+                "question": "Comment se passent les jours qui suivent ?",
+                "answer": "Rougeur, gonflement, sensibilité, petites boules ou bleus sont fréquents au début ; dans l'étude du produit, ils duraient en général une semaine ou moins."
               }
             ]
           }
@@ -3310,7 +3426,7 @@
       "meta_description": "Sillons nasogéniens marqués : injection d’acide hyaluronique à Liège par la Dre Fassotte. Pourquoi ils se creusent, déroulement, durée, effets possibles.",
       "is_published": true,
       "created_at": "2026-09-28T21:00:00+00:00",
-      "updated_at": "2026-09-28T21:00:00+00:00"
+      "updated_at": "2026-09-28T21:45:00+00:00"
     },
     {
       "id": "69a044e7-473d-47e3-ba5a-77b7183a9533",
@@ -3323,7 +3439,7 @@
           "order": 0,
           "content": {
             "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771941142697-1y37rq.jpeg",
-            "title": "Stimulateurs de Collagène",
+            "title": "Stimulateurs de collagène à Liège",
             "ctaLink": "/contact",
             "ctaText": "Consultation personnalisée",
             "imageAlt": "Stimulation du collagène",
@@ -3524,7 +3640,7 @@
       "meta_description": "Stimulation naturelle du collagène pour une peau plus ferme",
       "is_published": true,
       "created_at": "2025-10-28T16:45:50.160707+00:00",
-      "updated_at": "2026-09-28T19:00:00+00:00"
+      "updated_at": "2026-09-28T21:45:00+00:00"
     },
     {
       "id": "e72e1557-e327-4e91-8542-dd82f3f7c7fb",
