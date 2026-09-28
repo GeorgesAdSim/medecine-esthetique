@@ -65,7 +65,7 @@ const renderBlock = (block: ContentBlock) => {
                   )}
                   {block.content.ctaText && (
                     <Link
-                      to={block.content.ctaLink || '/contact'}
+                      to={block.content.ctaLink || '/prendre-rendez-vous'}
                       className="inline-flex items-center px-6 sm:px-8 py-3 sm:py-4 bg-primary-600 text-white font-medium rounded-full hover:bg-primary-700 transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 text-sm sm:text-base"
                     >
                       {block.content.ctaText}
@@ -335,7 +335,7 @@ const renderBlock = (block: ContentBlock) => {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 {block.content.primaryButton && (
                   <Link
-                    to={block.content.primaryButton.link || '/contact'}
+                    to={block.content.primaryButton.link || '/prendre-rendez-vous'}
                     className="bg-gradient-primary text-white px-8 py-4 rounded-full font-inter font-semibold hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300"
                   >
                     {block.content.primaryButton.text}
@@ -343,7 +343,7 @@ const renderBlock = (block: ContentBlock) => {
                 )}
                 {block.content.secondaryButton && (
                   <Link
-                    to={block.content.secondaryButton.link || '/contact'}
+                    to={block.content.secondaryButton.link || '/prendre-rendez-vous'}
                     className="border-2 border-primary-400 text-primary-600 px-8 py-4 rounded-full font-inter font-semibold hover:bg-primary-50 transition-all duration-300"
                   >
                     {block.content.secondaryButton.text}

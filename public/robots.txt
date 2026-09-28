@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /setup-admin
+
+Sitemap: https://www.medecine-esthetique-liege.be/sitemap.xml

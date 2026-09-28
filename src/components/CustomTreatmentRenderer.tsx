@@ -239,7 +239,7 @@ const CustomTreatmentRenderer: React.FC<CustomTreatmentRendererProps> = ({ treat
                 </p>
               )}
               <Link
-                to="/contact"
+                to="/prendre-rendez-vous"
                 className="bg-gradient-primary text-white px-8 py-4 rounded-full font-inter font-semibold hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 inline-block"
               >
                 Prendre rendez-vous
@@ -270,7 +270,7 @@ const CustomTreatmentRenderer: React.FC<CustomTreatmentRendererProps> = ({ treat
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              to="/contact"
+              to="/prendre-rendez-vous"
               className="bg-gradient-primary text-white px-8 py-4 rounded-full font-inter font-semibold hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300"
             >
               Prendre rendez-vous

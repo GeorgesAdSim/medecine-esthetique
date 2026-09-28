@@ -125,13 +125,13 @@ const Footer: React.FC = () => {
             <Link to="/docteur-jocelyne-fassotte" className="text-neutral-400 hover:text-primary-400 transition-colors">
               À propos
             </Link>
-            <Link to="/traitements" className="text-neutral-400 hover:text-primary-400 transition-colors">
+            <Link to="/medecine-esthetique-liege" className="text-neutral-400 hover:text-primary-400 transition-colors">
               Services
             </Link>
             <Link to="/galerie" className="text-neutral-400 hover:text-primary-400 transition-colors">
               Galerie
             </Link>
-            <Link to="/contact" className="text-neutral-400 hover:text-primary-400 transition-colors">
+            <Link to="/prendre-rendez-vous" className="text-neutral-400 hover:text-primary-400 transition-colors">
               Contact
             </Link>
             <a href="tel:+32495280976" className="text-neutral-400 hover:text-primary-400 transition-colors">
