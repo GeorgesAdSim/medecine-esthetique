@@ -43,3 +43,11 @@ describe('descripteurs SEO', () => {
     expect(ld[1].provider['@id']).toBe(ld[0]['@id']);
   });
 });
+
+describe('horaires confirmés', () => {
+  it('accueil : mercredi à vendredi seulement, jamais lundi ni mardi', () => {
+    const clinique = (descripteurDe('/').jsonLd as any[])[0];
+    const jours = clinique.openingHoursSpecification.flatMap((p: any) => [p.dayOfWeek].flat());
+    expect(new Set(jours)).toEqual(new Set(['Wednesday', 'Thursday', 'Friday']));
+  });
+});
