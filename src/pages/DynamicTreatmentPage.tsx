@@ -5,6 +5,7 @@ import Breadcrumbs from '../components/Breadcrumbs';
 import NotFound from './NotFound';
 import RelatedTreatments from '../components/RelatedTreatments';
 import AccesCabinet from '../components/AccesCabinet';
+import EnBref from '../components/EnBref';
 import { ListeSources } from '../components/Sources';
 import { appuisParAncre, sourcesDe } from '../contenu/sources';
 import { getAllTreatments, getTreatmentRelations } from '../utils/treatmentLinks';
@@ -128,7 +129,10 @@ const DynamicTreatmentPage: React.FC = () => {
             ...(fille ? [{ label: nomPilier, path: fille.parent }] : []),
             { label: fille ? fille.nom : customPage.title, path: chemin }
           ]} />
-          <BlockRenderer blocks={transformedBlocks} appuis={appuisParAncre(chemin)} />
+          {/* Haut de page, puis l'encadré « En bref », puis le reste du contenu. */}
+          <BlockRenderer blocks={transformedBlocks.slice(0, 1)} />
+          <EnBref chemin={chemin} />
+          <BlockRenderer blocks={transformedBlocks.slice(1)} appuis={appuisParAncre(chemin)} />
           <ZonesDuPilier pilier={chemin} traitement={NOMS_PILIERS[chemin] ?? customPage.title} />
           {sourcesDe(chemin) && <ListeSources sources={sourcesDe(chemin)!.sources} />}
           <AccesCabinet traitement={fille ? fille.ancreLien.replace(/ à Liège$/, '') : nomCourt(chemin, customPage.title)} />

@@ -89,7 +89,7 @@ export const DEFAUTS: Readonly<Record<string, Defaut>> = {
       'Stimulateurs de collagène à Liège, par la Dre Jocelyne Fassotte : principe du traitement, déroulement des séances, délais et réponses aux questions fréquentes.',
   },
   '/peeling-liege': {
-    titre: 'Peeling médical à Liège | Dre Jocelyne Fassotte',
+    titre: 'Peeling du visage à Liège | Dre Jocelyne Fassotte',
     description:
       'Peelings chimiques médicaux à Liège par la Dre Jocelyne Fassotte : types de peelings, indications, déroulement, suites et questions fréquentes avant le soin.',
   },
