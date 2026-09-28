@@ -1,5 +1,6 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
 import { supabase } from '../lib/supabase';
+import { reglages } from '../contenu';
 
 interface SiteSettingsMap {
   [key: string]: string;
@@ -17,11 +18,10 @@ interface SiteSettingsContextType {
 const SiteSettingsContext = createContext<SiteSettingsContextType | undefined>(undefined);
 
 export const SiteSettingsProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
-  const [settings, setSettings] = useState<SiteSettingsMap>({});
-  const [loading, setLoading] = useState(true);
+  const [settings, setSettings] = useState<SiteSettingsMap>(reglages());
+  const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    loadSettings();
     applySettingsToDOM(settings);
   }, []);
 

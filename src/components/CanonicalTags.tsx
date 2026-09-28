@@ -2,6 +2,7 @@ import React from 'react';
 import { useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { BUSINESS_INFO } from '../constants/businessInfo';
+import { normaliser, routesPubliques } from '../contenu/routes';
 
 /**
  * Canonical auto-référent sur chaque page publique.
@@ -18,8 +19,10 @@ const canonicalFor = (pathname: string): string => {
 
 const CanonicalTags: React.FC = () => {
   const { pathname } = useLocation();
-  if (pathname.startsWith('/admin') || pathname === '/setup-admin') return null;
-  const href = canonicalFor(pathname);
+  // Pas de canonical sur la 404, l'admin ou une URL inconnue.
+  const chemin = normaliser(pathname);
+  if (!routesPubliques().includes(chemin)) return null;
+  const href = canonicalFor(chemin);
 
   return (
     <Helmet>

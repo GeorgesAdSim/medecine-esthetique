@@ -1,16 +1,14 @@
 [build]
-command = "npx vite build"
+command = "bash scripts/netlify-build.sh"
 publish = "dist"
 
 [build.environment]
-NODE_VERSION = "18"
+NODE_VERSION = "22"
 VITE_SUPABASE_URL = "https://hxgfakegwewcfkxvltgl.supabase.co"
 VITE_SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imh4Z2Zha2Vnd2V3Y2ZreHZsdGdsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTk3NTIyOTQsImV4cCI6MjA3NTMyODI5NH0.ikzj4r0C564KNnkHrS9LflxEp7ZDJVE6QoU4cJpVoQs"
 
-[[redirects]]
-from = "/*"
-to = "/index.html"
-status = 200
+# Pas de repli « /* » ici : les redirections vivent dans public/_redirects, et
+# une URL inconnue doit recevoir dist/404.html avec un vrai statut 404.
 
 [[headers]]
 for = "/*"

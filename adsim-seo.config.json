@@ -1,0 +1,9 @@
+{
+  "_commentaire": [
+    "Configuration du socle adsim-core. En Lot 1, seul site.baseUrl est lu (sitemap).",
+    "Le reste (audit bloquant) est armé au Lot 2."
+  ],
+  "site": { "baseUrl": "https://www.medecine-esthetique-liege.be" },
+  "build": { "dossier": "dist", "page404": "404.html", "coquilleSpa": "app.html", "pagesHorsAudit": ["app.html", "404.html"] },
+  "schema": { "typesLocalBusiness": ["LocalBusiness", "MedicalClinic", "Physician"] }
+}

@@ -1,0 +1,4122 @@
+{
+  "pages": [
+    {
+      "id": "ac07f3f2-3b1b-442c-99f5-c72f30febd1f",
+      "slug": "a-propos",
+      "title": "À Propos",
+      "content": [
+        {
+          "id": "block-hero-0",
+          "type": "hero",
+          "order": 0,
+          "content": {
+            "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771934550822-ploa.jpg",
+            "title": "Dre Jocelyne Fassotte - Médecin Esthétique Diplômée CIME",
+            "ctaLink": "",
+            "ctaText": "",
+            "imageAlt": "Docteure Jocelyne Fassotte",
+            "subtitle": "Spécialiste en Médecine Esthétique Non Chirurgicale à Liège",
+            "description": "Spécialiste en médecine esthétique non chirurgicale, alliant expertise médicale et sens artistique pour des résultats naturels et harmonieux."
+          }
+        },
+        {
+          "id": "block-text-1",
+          "type": "text",
+          "order": 1,
+          "content": {
+            "title": "Biographie",
+            "paragraphs": [
+              "La Dre Jocelyne Fassotte est spécialiste en médecine esthétique non chirurgicale, diplômée du Collège International de Médecine Esthétique de Paris V (C.I.M.E.), seule formation reconnue en Belgique pour la qualification de spécialiste dans ce domaine. Son travail de fin d'études portait sur les fils tenseurs résorbables à cônes bidirectionnels, témoignant de son expertise dans les techniques de rajeunissement innovantes.",
+              "Elle continue de se perfectionner en participant régulièrement à des congrès internationaux (SBME, AFME, SFME, Instituto Javier de Benito à Barcelone) et est titulaire de plusieurs diplômes complémentaires, notamment en mésothérapie.",
+              "Diplômée en médecine, chirurgie et accouchement (ULg), la Dre Fassotte allie rigueur scientifique et sens artistique, enrichis par sa formation en dessin et sculpture aux Beaux-Arts et à l'Institut Saint-Luc de Liège. Cette double compétence lui permet de proposer des résultats naturels et harmonieux à ses patients.",
+              "Membre de la Société Belge de Médecine Esthétique et de l'Association Française de Médecine Esthétique, elle s'engage à offrir des traitements sécurisés, personnalisés et conformes aux dernières avancées médicales."
+            ]
+          }
+        },
+        {
+          "id": "block-cards-2",
+          "type": "cards",
+          "order": 2,
+          "content": {
+            "cards": [
+              {
+                "title": "Diplôme de spécialiste",
+                "details": [
+                  "Seule formation reconnue en Belgique pour la qualification de spécialiste"
+                ],
+                "description": "Collège International de Médecine Esthétique de Paris V (C.I.M.E.)"
+              },
+              {
+                "title": "Travail de fin d'études",
+                "details": [
+                  "Expertise dans les techniques de rajeunissement innovantes"
+                ],
+                "description": "Fils tenseurs résorbables à cônes bidirectionnels"
+              },
+              {
+                "title": "Formation médicale",
+                "details": [
+                  "Base solide en sciences médicales"
+                ],
+                "description": "Médecine, chirurgie et accouchement (ULg)"
+              },
+              {
+                "title": "Formation artistique",
+                "details": [
+                  "Sens artistique pour des résultats harmonieux"
+                ],
+                "description": "Dessin et sculpture aux Beaux-Arts et Institut Saint-Luc"
+              }
+            ],
+            "title": "Formation et expertise",
+            "subtitle": "Une formation complète alliant excellence médicale et sensibilité artistique"
+          }
+        },
+        {
+          "id": "block-features-3",
+          "type": "features",
+          "order": 3,
+          "content": {
+            "title": "Affiliations professionnelles",
+            "features": [
+              {
+                "title": "SBME",
+                "description": "Société Belge de Médecine Esthétique"
+              },
+              {
+                "title": "AFME",
+                "description": "Association Française de Médecine Esthétique"
+              },
+              {
+                "title": "SFME",
+                "description": "Société Française de Médecine Esthétique"
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-features-4",
+          "type": "features",
+          "order": 4,
+          "content": {
+            "title": "Formation continue",
+            "features": [
+              {
+                "title": "Congrès SBME",
+                "description": "Congrès internationaux SBME"
+              },
+              {
+                "title": "Congrès AFME et SFME",
+                "description": "Congrès AFME et SFME"
+              },
+              {
+                "title": "Instituto Javier de Benito",
+                "description": "Instituto Javier de Benito à Barcelone"
+              },
+              {
+                "title": "Mésothérapie",
+                "description": "Diplôme de l’école liégeoise de Mésothérapie"
+              },
+              {
+                "icon": "",
+                "title": "S.I.M.E",
+                "description": "Congres de la société italienne de médecine esthétique\n\n "
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-cta-5",
+          "type": "cta",
+          "order": 5,
+          "content": {
+            "title": "Philosophie de soins",
+            "description": "La double formation médicale et artistique de la Dre Fassotte lui permet d'aborder chaque patient avec une vision globale, alliant sécurité médicale et recherche de l'harmonie esthétique. Son objectif est de révéler la beauté naturelle de chacun dans le respect de son identité.",
+            "primaryButton": {
+              "link": "/contact",
+              "text": "Prendre rendez-vous"
+            },
+            "secondaryButton": {
+              "link": "/traitements",
+              "text": "Découvrir nos traitements"
+            }
+          }
+        }
+      ],
+      "meta_description": "Découvrez le parcours et la philosophie de Docteure Jocelyne Fassotte médecin esthétique à Liège",
+      "is_published": true,
+      "created_at": "2025-10-28T16:45:50.160707+00:00",
+      "updated_at": "2026-02-24T16:00:18.922+00:00"
+    },
+    {
+      "id": "9156460c-24e2-4289-a675-1eba23b25840",
+      "slug": "accueil",
+      "title": "Médecine Esthétique à Liège - Dre Jocelyne Fassotte",
+      "content": [
+        {
+          "id": "block-hero-0",
+          "type": "hero",
+          "order": 0,
+          "content": {
+            "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771939143814-mzl4iq.jpeg",
+            "title": "Clinique Médecine Esthétique à Liège - Dre Jocelyne Fassotte",
+            "imageAlt": "Docteure Jocelyne Fassotte au congrès SIME à Rome",
+            "subtitle": "Spécialiste en Médecine Esthétique Non Chirurgicale",
+            "description": "Diplômée du Collège International de Médecine Esthétique de Paris V (C.I.M.E.), le cursus diplômant du CIME est le seul à être reconnu en Belgique pour la formation de spécialiste qualifié en Médecine esthétique non chirurgicale."
+          }
+        },
+        {
+          "id": "block-treatments-1",
+          "type": "treatments",
+          "order": 1,
+          "content": {
+            "title": "Les Traitements de Dre Fassotte",
+            "subtitle": "Des solutions personnalisées pour révéler votre beauté avec des techniques douces et des résultats naturels. ",
+            "treatments": [
+              {
+                "href": "/acide-hyaluronique-liege",
+                "title": "Acide hyaluronique",
+                "duration": "6-18 mois",
+                "description": "Restaurez les volumes naturels et comblez les rides pour un visage harmonieux et rajeuni."
+              },
+              {
+                "href": "/botox-liege",
+                "title": "Toxine botulique",
+                "duration": "4-6 mois",
+                "description": "Détendez les muscles faciaux pour atténuer les rides d'expression avec subtilité."
+              },
+              {
+                "href": "/peeling-liege",
+                "title": "Peelings",
+                "duration": "Variable",
+                "description": "Révélez l'éclat de votre peau avec des peelings adaptés à vos besoins."
+              },
+              {
+                "href": "/mesolift-liege",
+                "title": "Mésolift",
+                "duration": "3-6 mois",
+                "description": "Revitalisez votre peau en profondeur avec des cocktails d'actifs personnalisés."
+              },
+              {
+                "href": "/fils-tenseurs-liege",
+                "title": "Fils tenseurs",
+                "duration": "12-18 mois",
+                "description": "Lifting naturel sans chirurgie pour retendre et repositionner les tissus."
+              },
+              {
+                "href": "/cosmetologie-liege",
+                "title": "Cosmétologie",
+                "duration": "Permanent",
+                "description": "Conseils personnalisés et soins cosmétiques adaptés à votre type de peau."
+              },
+              {
+                "href": "/stimulateurs-collagene-liege",
+                "title": "Stimulateurs de collagène",
+                "duration": "Jusqu'à 24 mois",
+                "description": "Ces traitements agissent en profondeur pour relancer la production naturelle de collagène de votre peau."
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-steps-2",
+          "type": "steps",
+          "order": 2,
+          "content": {
+            "steps": [
+              {
+                "title": "Écoute attentive",
+                "description": "Chaque consultation commence par une écoute approfondie des attentes et préoccupations esthétiques de ses patients."
+              },
+              {
+                "title": "Analyse personnalisée",
+                "description": "Dre Fassotte réalise une analyse détaillée du visage pour proposer les traitements les plus adaptés à chaque morphologie."
+              },
+              {
+                "title": "Techniques douces",
+                "description": "Utilisation des techniques les plus avancées pour minimiser l'inconfort et optimiser les résultats."
+              },
+              {
+                "title": "Suivi personnalisé",
+                "description": "Dre Fassotte assure un accompagnement continu pour garantir la satisfaction de ses patients et ajuster les traitements si nécessaire."
+              }
+            ],
+            "title": "Une approche personnalisée"
+          }
+        },
+        {
+          "id": "block-cta-3",
+          "type": "cta",
+          "order": 3,
+          "content": {
+            "title": "Besoin d'un rendez-vous avec la Clinique esthétique Dre Jocelyne Fassotte",
+            "description": "Retrouvez une peau rajeunie grâce aux traitements de la Clinique esthétique Dre Jocelyne Fassotte à Liège : botox, acide hyaluronique, fils tenseurs et plus.",
+            "primaryButton": {
+              "link": "/contact",
+              "text": "Prendre rendez-vous"
+            },
+            "secondaryButton": {
+              "link": "04/365.45.39",
+              "text": "04/365.45.39"
+            }
+          }
+        }
+      ],
+      "meta_description": "Clinique esthétique Dre Jocelyne Fassotte à Liège. Spécialiste en médecine esthétique : acide hyaluronique, botox, fils tenseurs, peeling et stimulateurs de collagène.",
+      "is_published": true,
+      "created_at": "2025-10-28T16:45:50.160707+00:00",
+      "updated_at": "2026-02-24T16:09:44.936+00:00"
+    },
+    {
+      "id": "beb512a0-bfaa-490e-a6d4-f98cdf5a1a0f",
+      "slug": "acide-hyaluronique",
+      "title": "Acide Hyaluronique",
+      "content": [
+        {
+          "id": "block-hero-0",
+          "type": "hero",
+          "order": 0,
+          "content": {
+            "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771937027109-qefsfr.jpeg",
+            "title": "Injection Acide Hyaluronique Liège",
+            "ctaLink": "/contact",
+            "ctaText": "Prendre rendez-vous",
+            "imageAlt": "Zones d'injection acide hyaluronique sur le visage",
+            "subtitle": "Traitement anti-âge naturel à Liège",
+            "description": "La Dre Fassotte propose des injections d'acide hyaluronique à Liège pour restaurer les volumes, combler les rides et redonner éclat et hydratation au visage de façon naturelle. Spécialiste qualifiée en médecine esthétique non chirurgicale."
+          }
+        },
+        {
+          "id": "block-heading-1",
+          "type": "heading",
+          "order": 1,
+          "content": {
+            "text": "Qu'est-ce que l'acide hyaluronique ?",
+            "level": "h2"
+          }
+        },
+        {
+          "id": "block-features-2",
+          "type": "features",
+          "order": 2,
+          "content": {
+            "features": [
+              {
+                "icon": "droplets",
+                "title": "Substance naturelle",
+                "description": "Présent naturellement dans notre peau, l'acide hyaluronique maintient l'hydratation et le volume des tissus."
+              },
+              {
+                "icon": "shield",
+                "title": "100% biocompatible",
+                "description": "Parfaitement toléré par l'organisme, il ne présente aucun risque allergique et se résorbe naturellement."
+              },
+              {
+                "icon": "heart",
+                "title": "Résultats naturels",
+                "description": "Permet d'obtenir des résultats harmonieux qui respectent la morphologie naturelle de votre visage."
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-heading-3",
+          "type": "heading",
+          "order": 3,
+          "content": {
+            "text": "Zones traitables",
+            "level": "h2",
+            "subtitle": "L'acide hyaluronique peut être utilisé sur différentes zones du visage pour des résultats personnalisés et naturels."
+          }
+        },
+        {
+          "id": "block-cards-4",
+          "type": "cards",
+          "order": 4,
+          "content": {
+            "cards": [
+              {
+                "title": "Lèvres",
+                "details": [
+                  "Augmentation subtile du volume",
+                  "Redéfinition du contour",
+                  "Hydratation intense"
+                ],
+                "duration": "6-12 mois",
+                "description": "Volume naturel et hydratation"
+              },
+              {
+                "title": "Rides et sillons",
+                "details": [
+                  "Rides nasogéniennes",
+                  "Sillons d'amertume",
+                  "Plis d'amaigrissement"
+                ],
+                "duration": "12-18 mois",
+                "description": "Comblement des rides marquées"
+              },
+              {
+                "title": "Volumes faciaux",
+                "details": [
+                  "Pommettes",
+                  "Tempes",
+                  "Menton",
+                  "Mâchoires"
+                ],
+                "duration": "12-18 mois",
+                "description": "Restauration des volumes perdus"
+              },
+              {
+                "title": "Cernes",
+                "details": [
+                  "Technique délicate",
+                  "Résultats naturels",
+                  "Regard rajeuni"
+                ],
+                "duration": "12-15 mois",
+                "description": "Correction des cernes creusés"
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-image-text-5",
+          "type": "image-text",
+          "order": 5,
+          "content": {
+            "image": "/image copy copy copy copy copy copy copy.png",
+            "title": "La technique \"Soft Filling\"",
+            "points": [
+              {
+                "title": "Injections micro-dosées",
+                "description": "Technique de petites quantités pour un résultat naturel et progressive."
+              },
+              {
+                "title": "Respect de l'anatomie",
+                "description": "Placement précis selon la structure unique de votre visage."
+              },
+              {
+                "title": "Confort optimal",
+                "description": "Utilisation de produits avec lidocaïne et techniques douces."
+              }
+            ],
+            "imageAlt": "Zones d'injection acide hyaluronique - Technique Soft Filling",
+            "description": "Ma technique privilégiée consiste en des injections douces et progressives qui respectent l'anatomie naturelle du visage pour des résultats harmonieux et une intégration parfaite.",
+            "imagePosition": "right"
+          }
+        },
+        {
+          "id": "block-faq-6",
+          "type": "faq",
+          "order": 6,
+          "content": {
+            "title": "Questions fréquentes",
+            "subtitle": "Tout ce que vous devez savoir sur les injections d'acide hyaluronique",
+            "questions": [
+              {
+                "answer": "L'inconfort est minimal grâce à l'utilisation d'une crème anesthésiante et à la technique douce. La plupart des patients décrivent une sensation de légère pression.",
+                "question": "Le traitement est-il douloureux ?"
+              },
+              {
+                "answer": "Léger œdème et rougeur transitoires (24-48h). Possibles petits hématomes qui s'estompent en quelques jours. Tous les effets sont temporaires.",
+                "question": "Quels sont les effets secondaires possibles ?"
+              },
+              {
+                "answer": "Les résultats sont visibles immédiatement et s'améliore dans les 2 semaines suivant l'injection, le temps que l'acide hyaluronique s'intègre naturellement.",
+                "question": "Quand voit-on les résultats ?"
+              },
+              {
+                "answer": "Oui, la reprise des activités est possible immédiatement. Il est recommandé d'éviter le sport intensif et les massages pendant 24h.",
+                "question": "Peut-on reprendre ses activités normalement ?"
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-cta-7",
+          "type": "cta",
+          "order": 7,
+          "content": {
+            "title": "Prêt(e) pour une consultation ?",
+            "description": "Découvrez comment l'acide hyaluronique peut révéler votre beauté naturelle. Prenez rendez-vous pour une consultation personnalisée.",
+            "primaryButton": {
+              "link": "/contact",
+              "text": "Prendre rendez-vous"
+            },
+            "secondaryButton": {
+              "link": "tel:+32495280976",
+              "text": "+32 495 28 09 76"
+            }
+          }
+        }
+      ],
+      "meta_description": "ACIDE HYALURONIQUE\n\nL’acide hyaluronique est un constituant naturel du liquide extracellulaire du derme, de\nl’épiderme, du cartilage , de notre corps.\nAvec le vieillissement, le renouvellement de l’acide hyaluronique se ralenti ce qui diminue\nl’hydratation et la fermeté de notre peau.\nLa molécule d’acide hyaluronique pure est reconstituée par les laboratoires de Médecine\nEsthétique.\nElle se présente sous différentes concentrations (réticulation) et peut être injectée en\nMédecine Esthétique pour remplacer notre acide hyaluronique perdu soit superficiellement\nau niveau du derme (acide hyaluronique peu réticulé) soit de façon plus concentrée\n(réticulation importante) pour remplacer les masses graisseuses du visage perdue avec l’âge\net reconstruire ainsi les volumes et le contour du visage.\nL’acide hyaluronique est une molécule essentielle en médecine esthétique.\nElle procure hydratation, réduction des rides et restructuration des volumes du visage.",
+      "is_published": true,
+      "created_at": "2025-10-28T16:45:50.160707+00:00",
+      "updated_at": "2026-02-24T12:45:06.961+00:00"
+    },
+    {
+      "id": "e5e1e35a-e6be-476d-bceb-21e263c4a79b",
+      "slug": "botox",
+      "title": "Botox",
+      "content": [
+        {
+          "id": "block-hero-0",
+          "type": "hero",
+          "order": 0,
+          "content": {
+            "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771937938348-o7yq2d.jpeg",
+            "title": "Botox Liège - Toxine Botulique",
+            "ctaLink": "/contact",
+            "ctaText": "Prendre rendez-vous",
+            "imageAlt": "Zones d'injection Botox - Rides du front, glabelle, rides périoculaires, plis d'amertume",
+            "subtitle": "Injection de Toxine Botulique (Botox)",
+            "description": "La toxine botulique, plus communément appelée Botox, est une neurotoxine purifiée utilisée en médecine esthétique depuis plus de 20 ans. Elle agit en détendant temporairement les muscles responsables des rides d'expression, offrant un effet lissant naturel sans figer les expressions."
+          }
+        },
+        {
+          "id": "block-features-1",
+          "type": "features",
+          "order": 1,
+          "content": {
+            "title": "Comment ça fonctionne ?",
+            "features": [
+              {
+                "title": "Détente musculaire",
+                "description": "Détente musculaire des zones hyperactives pour un lissage progressif des rides d'expression."
+              },
+              {
+                "title": "Effet préventif",
+                "description": "Prévention de l'approfondissement des rides avec un effet naturel sans paralysie complète."
+              },
+              {
+                "title": "Durabilité",
+                "description": "Durabilité de 4 à 6 mois avec possibilité de renouvellement selon les besoins."
+              }
+            ],
+            "subtitle": "La toxine botulique bloque temporairement la transmission nerveuse au niveau des muscles traités"
+          }
+        },
+        {
+          "id": "block-cards-2",
+          "type": "cards",
+          "order": 2,
+          "content": {
+            "cards": [
+              {
+                "title": "Front",
+                "details": [
+                  "Rides horizontales du front",
+                  "Rides de contrariété entre les sourcils",
+                  "Effet lifting naturel des sourcils"
+                ],
+                "description": "Rides horizontales du front"
+              },
+              {
+                "title": "Contour des yeux",
+                "details": [
+                  "Rides de la patte d'oie",
+                  "Rides sous les yeux (selon évaluation)",
+                  "Regard plus ouvert et détendu"
+                ],
+                "description": "Rides de la patte d'oie"
+              },
+              {
+                "title": "Zones avancées",
+                "details": [
+                  "Rides du lion (inter-sourcilières)",
+                  "Correction du sourire gingival",
+                  "Rides du cou (bandes platysmales)",
+                  "Hyperhidrose (transpiration excessive)"
+                ],
+                "description": "Rides du lion (inter-sourcilières)"
+              }
+            ],
+            "title": "Zones de traitement",
+            "subtitle": "La toxine botulique peut être utilisée sur différentes zones pour traiter rides d'expression et autres indications médicales."
+          }
+        },
+        {
+          "id": "block-features-3",
+          "type": "features",
+          "order": 3,
+          "content": {
+            "title": "Avantages du Botox",
+            "features": [
+              {
+                "title": "Résultats naturels",
+                "description": "Vous restez vous-même, en mieux"
+              },
+              {
+                "title": "Traitement préventif",
+                "description": "Empêche l'aggravation des rides"
+              },
+              {
+                "title": "Intervention rapide",
+                "description": "15-30 minutes seulement"
+              },
+              {
+                "title": "Aucune éviction sociale",
+                "description": "Reprise d'activité immédiate"
+              },
+              {
+                "title": "Effet progressif",
+                "description": "Résultats visibles en 3-7 jours"
+              },
+              {
+                "title": "Réversible",
+                "description": "Retour à l'état initial après 4-6 mois"
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-cards-4",
+          "type": "cards",
+          "order": 4,
+          "content": {
+            "cards": [
+              {
+                "title": "Préparation",
+                "description": "Désinfection et marquage des points d'injection"
+              },
+              {
+                "title": "Injections",
+                "description": "Injections précises dans les muscles ciblés"
+              },
+              {
+                "title": "Contrôle immédiat",
+                "description": "Vérification et conseils post-traitement"
+              }
+            ],
+            "title": "Déroulement d'une séance",
+            "subtitle": "Durée totale : 15-30 minutes"
+          }
+        },
+        {
+          "id": "block-cards-5",
+          "type": "cards",
+          "order": 5,
+          "content": {
+            "cards": [
+              {
+                "title": "Consultation personnalisée",
+                "details": [
+                  "Analyse morphologique de votre visage au repos et en mouvement",
+                  "Évaluation des besoins selon vos expressions habituelles",
+                  "Plan de traitement adapté à vos objectifs",
+                  "Information complète sur le protocole et les résultats attendus"
+                ],
+                "description": "Analyse morphologique de votre visage au repos et en mouvement"
+              },
+              {
+                "title": "Technique d'injection",
+                "details": [
+                  "Produits certifiés Botox® ou Vistabel® exclusivement",
+                  "Injections précises avec aiguilles ultra-fines",
+                  "Dosage personnalisé selon l'intensité des rides",
+                  "Technique douce pour minimiser l'inconfort"
+                ],
+                "description": "Produits certifiés et technique experte"
+              }
+            ],
+            "title": "Le traitement par Docteure Fassotte"
+          }
+        },
+        {
+          "id": "block-faq-6",
+          "type": "faq",
+          "order": 6,
+          "content": {
+            "title": "Questions fréquentes",
+            "subtitle": "Tout ce que vous devez savoir sur la toxine botulique",
+            "questions": [
+              {
+                "answer": "L'inconfort est très léger, comparable à une piqûre de moustique. Aucune anesthésie n'est nécessaire.",
+                "question": "L'injection est-elle douloureuse ?"
+              },
+              {
+                "answer": "L'effet commence à 3-7 jours, avec un résultat optimal à 2 semaines.",
+                "question": "Quand voit-on les premiers résultats ?"
+              },
+              {
+                "answer": "Non, avec un dosage approprié et une technique experte, vous conservez vos expressions naturelles.",
+                "question": "Vais-je avoir l'air figé ?"
+              },
+              {
+                "answer": "Oui immédiatement, en évitant simplement sport intense et position couchée pendant 4h.",
+                "question": "Puis-je reprendre mes activités normalement ?"
+              },
+              {
+                "answer": "Les complications sont exceptionnelles avec un médecin expérimenté. Effets secondaires rares et temporaires.",
+                "question": "Y a-t-il des risques ?"
+              },
+              {
+                "answer": "Dès l'apparition des rides dynamiques, généralement vers 25-30 ans en prévention.",
+                "question": "À quel âge commencer ?"
+              },
+              {
+                "answer": "Parfaitement. Se combine idéalement avec acide hyaluronique et peelings.",
+                "question": "Compatible avec d'autres traitements ?"
+              },
+              {
+                "answer": "Retour progressif à l'état initial. Aucun effet de rebond ou aggravation des rides.",
+                "question": "Que se passe-t-il si j'arrête ?"
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-cta-7",
+          "type": "cta",
+          "order": 7,
+          "content": {
+            "title": "Consultation avec Docteure Fassotte",
+            "description": "Pour découvrir comment la toxine botulique peut détendre votre regard et prévenir le vieillissement. Consultation personnalisée : Analyse de vos besoins et proposition de traitement sur mesure.",
+            "primaryButton": {
+              "link": "/contact",
+              "text": "Prendre rendez-vous"
+            }
+          }
+        }
+      ],
+      "meta_description": "Traitement Botox pour réduire les rides et rajeunir le visage",
+      "is_published": true,
+      "created_at": "2025-10-28T16:45:50.160707+00:00",
+      "updated_at": "2026-02-24T13:40:05.782+00:00"
+    },
+    {
+      "id": "0967edf6-6ec6-4602-ad12-7906f3ab2e3b",
+      "slug": "contact",
+      "title": "Contact",
+      "content": [
+        {
+          "id": "block-hero-0",
+          "type": "hero",
+          "order": 0,
+          "content": {
+            "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771934550822-ploa.jpg",
+            "title": "Prendre Rendez-vous - Médecine Esthétique Liège",
+            "ctaLink": "",
+            "ctaText": "",
+            "imageAlt": "",
+            "subtitle": "",
+            "buttonLink": "",
+            "description": "Contactez la Dre Jocelyne Fassotte pour une consultation personnalisée en médecine esthétique à Liège."
+          }
+        },
+        {
+          "id": "block-contact-info-1",
+          "type": "contact-info",
+          "order": 1,
+          "content": {
+            "email": "doc.jofassotte@proximus.be",
+            "phone": "+32 4.365.45.39",
+            "title": "Informations de contact",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Rue+Edouard+Sarlet+31,+4051+Vaux-sous-Chèvremont,+Liège,+Belgique",
+            "address": {
+              "city": "4051 Vaux-sous-Chèvremont",
+              "region": "Liège, Belgique",
+              "street": "Rue Edouard Sarlet 31"
+            }
+          }
+        },
+        {
+          "id": "block-map-2",
+          "type": "map",
+          "order": 2,
+          "content": {
+            "title": "Nous trouver",
+            "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.8!2d5.6!3d50.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0f7a5a5a5a5a5%3A0x5a5a5a5a5a5a5a5a!2sRue%20Edouard%20Sarlet%2031%2C%204051%20Vaux-sous-Ch%C3%A8vremont%2C%20Belgium!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus",
+            "subtitle": "Cabinet situé à Vaux-sous-Chèvremont, proche de Liège"
+          }
+        },
+        {
+          "id": "block-cards-3",
+          "type": "cards",
+          "order": 3,
+          "content": {
+            "cards": [
+              {
+                "title": "Horaires d'ouverture",
+                "details": [
+                  "Lundi - Vendredi : 9h00 - 17h00",
+                  "Samedi : Sur rendez-vous",
+                  "Dimanche : Fermé"
+                ]
+              },
+              {
+                "title": "Informations pratiques",
+                "details": [
+                  "Consultation sur rendez-vous uniquement",
+                  "Première consultation : 30 minutes",
+                  "Traitements : durée variable",
+                  "Possibilité de consultation le samedi"
+                ]
+              }
+            ],
+            "title": "Horaires de consultation"
+          }
+        },
+        {
+          "id": "block-cta-4",
+          "type": "cta",
+          "order": 4,
+          "content": {
+            "title": "Contact d'urgence",
+            "description": "En cas de problème suite à un traitement, n'hésitez pas à nous contacter.",
+            "primaryButton": {
+              "link": "tel: 04/365.45.39",
+              "text": "Appeler maintenant"
+            },
+            "secondaryButton": {
+              "link": "mailto:doc.jofassotte@proximus.be",
+              "text": "Envoyer un email"
+            }
+          }
+        }
+      ],
+      "meta_description": "Contactez le cabinet et prenez rendez-vous",
+      "is_published": true,
+      "created_at": "2025-10-28T16:45:50.160707+00:00",
+      "updated_at": "2026-02-24T16:02:45.196+00:00"
+    },
+    {
+      "id": "ac682b73-f3cb-455d-bda1-4702dc76d670",
+      "slug": "cosmetologie",
+      "title": "Cosmétologie",
+      "content": [
+        {
+          "id": "block-hero-0",
+          "type": "hero",
+          "order": 0,
+          "content": {
+            "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771947129554-8n7lyf.jpeg",
+            "title": "Cosmétologie Médicale",
+            "ctaLink": "/contact",
+            "ctaText": "Consultation personnalisée",
+            "imageAlt": "Cosmétologie médicale",
+            "subtitle": "Optimisez Votre Routine de Soins",
+            "description": "La cosmétologie médicale représente l'alliance entre expertise dermatologique et soins esthétiques avancés. Cette approche scientifique de la beauté permet d'analyser précisément les besoins de votre peau et de vous proposer des protocoles de soins personnalisés avec des produits de qualité pharmaceutique."
+          }
+        },
+        {
+          "id": "block-features-1",
+          "type": "features",
+          "order": 1,
+          "content": {
+            "title": "Domaines d'expertise",
+            "features": [
+              {
+                "title": "Anti-âge et prévention",
+                "description": "Protocoles préventifs, soins anti-rides, stimulation du collagène"
+              },
+              {
+                "title": "Correction des imperfections",
+                "description": "Traitement de l'acné, atténuation des taches, réduction des pores"
+              },
+              {
+                "title": "Hydratation et nutrition",
+                "description": "Restauration de la barrière cutanée, hydratation profonde"
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-cards-2",
+          "type": "cards",
+          "order": 2,
+          "content": {
+            "cards": [
+              {
+                "title": "20-30 ans : Prévention",
+                "details": [
+                  "Protection solaire quotidienne",
+                  "Hydratation adaptée",
+                  "Prévention du photovieillissement",
+                  "Traitement de l'acné si nécessaire"
+                ]
+              },
+              {
+                "title": "30-45 ans : Correction précoce",
+                "details": [
+                  "Correction des premiers signes",
+                  "Stimulation du collagène",
+                  "Amélioration de la texture",
+                  "Prévention accentuée"
+                ]
+              },
+              {
+                "title": "45+ ans : Réparation intensive",
+                "details": [
+                  "Correction des signes installés",
+                  "Nutrition intensive",
+                  "Fermeté et élasticité",
+                  "Éclat du teint"
+                ]
+              }
+            ],
+            "title": "Protocoles selon l'âge"
+          }
+        },
+        {
+          "id": "block-features-3",
+          "type": "features",
+          "order": 3,
+          "content": {
+            "title": "Avantages de la cosmétologie médicale",
+            "features": [
+              {
+                "title": "Approche scientifique",
+                "description": "Analyse précise des besoins"
+              },
+              {
+                "title": "Produits pharmaceutiques",
+                "description": "Efficacité et sécurité prouvées"
+              },
+              {
+                "title": "Personnalisation complète",
+                "description": "Protocole unique à chaque patient"
+              },
+              {
+                "title": "Suivi médical",
+                "description": "Ajustements selon l'évolution"
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-faq-4",
+          "type": "faq",
+          "order": 4,
+          "content": {
+            "title": "Questions fréquentes",
+            "questions": [
+              {
+                "answer": "Les cosméceutiques contiennent des actifs concentrés à des dosages efficaces, avec études cliniques prouvant leur efficacité.",
+                "question": "Quelle différence avec les cosmétiques classiques ?"
+              },
+              {
+                "answer": "4-6 semaines minimum pour les premiers effets, 3-6 mois pour des résultats optimaux selon la problématique.",
+                "question": "Combien de temps pour voir des résultats ?"
+              },
+              {
+                "answer": "Absolument, avec des protocoles spécifiques selon l'âge, le type de peau et les besoins individuels.",
+                "question": "Les soins sont-ils adaptés à tous les âges ?"
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-cta-5",
+          "type": "cta",
+          "order": 5,
+          "content": {
+            "title": "Consultation cosmétologique",
+            "description": "Pour découvrir les soins dermocosmétiques adaptés à votre peau et optimiser votre routine beauté. Analyse personnalisée : Diagnostic complet de votre peau et création d'un protocole de soins sur mesure avec les meilleurs cosméceutiques du marché.",
+            "primaryButton": {
+              "link": "/contact",
+              "text": "Prendre rendez-vous"
+            }
+          }
+        }
+      ],
+      "meta_description": "Soins cosmétologiques personnalisés pour votre peau",
+      "is_published": true,
+      "created_at": "2025-10-28T16:45:50.160707+00:00",
+      "updated_at": "2026-02-24T15:36:45.68+00:00"
+    },
+    {
+      "id": "2db1a340-92e0-4868-bb55-8aeb84809242",
+      "slug": "docteur-jocelyne-fassotte",
+      "title": "Docteure Jocelyne Fassotte - Médecin Esthétique à Liège",
+      "content": [
+        {
+          "id": "block-hero-0",
+          "type": "hero",
+          "order": 0,
+          "content": {
+            "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771934550822-ploa.jpg",
+            "title": "Dre Jocelyne Fassotte - Médecin Esthétique Diplômée CIME",
+            "ctaLink": "",
+            "ctaText": "",
+            "imageAlt": "Docteure Jocelyne Fassotte",
+            "subtitle": "Spécialiste en Médecine Esthétique Non Chirurgicale à Liège",
+            "description": "Spécialiste en médecine esthétique non chirurgicale, alliant expertise médicale et sens artistique pour des résultats naturels et harmonieux."
+          }
+        },
+        {
+          "id": "block-text-1",
+          "type": "text",
+          "order": 1,
+          "content": {
+            "title": "Biographie",
+            "paragraphs": [
+              "La Dre Jocelyne Fassotte est spécialiste en médecine esthétique non chirurgicale, diplômée du Collège International de Médecine Esthétique de Paris V (C.I.M.E.), seule formation reconnue en Belgique pour la qualification de spécialiste dans ce domaine. Son travail de fin d'études portait sur les fils tenseurs résorbables à cônes bidirectionnels, témoignant de son expertise dans les techniques de rajeunissement innovantes.",
+              "Elle continue de se perfectionner en participant régulièrement à des congrès internationaux (SBME, AFME, SFME, Instituto Javier de Benito à Barcelone) et est titulaire de plusieurs diplômes complémentaires, notamment en mésothérapie.",
+              "Diplômée en médecine, chirurgie et accouchement (ULg), la Dre Fassotte allie rigueur scientifique et sens artistique, enrichis par sa formation en dessin et sculpture aux Beaux-Arts et à l'Institut Saint-Luc de Liège. Cette double compétence lui permet de proposer des résultats naturels et harmonieux à ses patients.",
+              "Membre de la Société Belge de Médecine Esthétique et de l'Association Française de Médecine Esthétique, elle s'engage à offrir des traitements sécurisés, personnalisés et conformes aux dernières avancées médicales."
+            ]
+          }
+        },
+        {
+          "id": "block-cards-2",
+          "type": "cards",
+          "order": 2,
+          "content": {
+            "cards": [
+              {
+                "title": "Diplôme de spécialiste",
+                "details": [
+                  "Seule formation reconnue en Belgique pour la qualification de spécialiste"
+                ],
+                "description": "Collège International de Médecine Esthétique de Paris V (C.I.M.E.)"
+              },
+              {
+                "title": "Travail de fin d'études",
+                "details": [
+                  "Expertise dans les techniques de rajeunissement innovantes"
+                ],
+                "description": "Fils tenseurs résorbables à cônes bidirectionnels"
+              },
+              {
+                "title": "Formation médicale",
+                "details": [
+                  "Base solide en sciences médicales"
+                ],
+                "description": "Médecine, chirurgie et accouchement (ULg)"
+              },
+              {
+                "title": "Formation artistique",
+                "details": [
+                  "Sens artistique pour des résultats harmonieux"
+                ],
+                "description": "Dessin et sculpture aux Beaux-Arts et Institut Saint-Luc"
+              }
+            ],
+            "title": "Formation et expertise",
+            "subtitle": "Une formation complète alliant excellence médicale et sensibilité artistique"
+          }
+        },
+        {
+          "id": "block-features-3",
+          "type": "features",
+          "order": 3,
+          "content": {
+            "title": "Affiliations professionnelles",
+            "features": [
+              {
+                "title": "SBME",
+                "description": "Société Belge de Médecine Esthétique"
+              },
+              {
+                "title": "AFME",
+                "description": "Association Française de Médecine Esthétique"
+              },
+              {
+                "title": "SFME",
+                "description": "Société Française de Médecine Esthétique"
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-features-4",
+          "type": "features",
+          "order": 4,
+          "content": {
+            "title": "Formation continue",
+            "features": [
+              {
+                "title": "Congrès SBME",
+                "description": "Congrès internationaux SBME"
+              },
+              {
+                "title": "Congrès AFME et SFME",
+                "description": "Congrès AFME et SFME"
+              },
+              {
+                "title": "Instituto Javier de Benito",
+                "description": "Instituto Javier de Benito à Barcelone"
+              },
+              {
+                "title": "Mésothérapie",
+                "description": "Diplômes complémentaires en mésothérapie"
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-cta-5",
+          "type": "cta",
+          "order": 5,
+          "content": {
+            "title": "Philosophie de soins",
+            "description": "La double formation médicale et artistique de la Dre Fassotte lui permet d'aborder chaque patient avec une vision globale, alliant sécurité médicale et recherche de l'harmonie esthétique. Son objectif est de révéler la beauté naturelle de chacun dans le respect de son identité.",
+            "primaryButton": {
+              "link": "/contact",
+              "text": "Prendre rendez-vous"
+            },
+            "secondaryButton": {
+              "link": "/traitements",
+              "text": "Découvrir nos traitements"
+            }
+          }
+        }
+      ],
+      "meta_description": "Découvrez le parcours de la Dre Jocelyne Fassotte, spécialiste en médecine esthétique diplômée CIME à Liège. Formation, expertise et philosophie de soins.",
+      "is_published": true,
+      "created_at": "2025-11-06T20:00:39.777835+00:00",
+      "updated_at": "2026-02-24T13:16:40.47+00:00"
+    },
+    {
+      "id": "4c35064c-da28-4745-9de1-896ff726f522",
+      "slug": "fils-tenseurs",
+      "title": "Fils Tenseurs",
+      "content": [
+        {
+          "id": "block-hero-0",
+          "type": "hero",
+          "order": 0,
+          "content": {
+            "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771937869075-5o7i96.jpeg",
+            "title": "Fils Tenseurs à Cônes Bidirectionnels",
+            "ctaLink": "/contact",
+            "ctaText": "Consultation personnalisée",
+            "imageAlt": "Fils tenseurs à cônes - Lifting non chirurgical avec vecteurs de traction",
+            "subtitle": "Lifting Non Chirurgical Innovant",
+            "description": "Les fils tenseurs à cônes bidirectionnels représentent l'évolution la plus avancée du lifting non chirurgical. Ces fils résorbables en PDO sont équipés de cônes multidirectionnels qui permettent un ancrage optimal et une traction vectorisée précise dans les deux sens."
+          }
+        },
+        {
+          "id": "block-features-1",
+          "type": "features",
+          "order": 1,
+          "content": {
+            "title": "Technologie des cônes bidirectionnels",
+            "features": [
+              {
+                "title": "Ancrage multidirectionnel",
+                "description": "Cônes bidirectionnels intégrés pour un ancrage optimal dans les tissus"
+              },
+              {
+                "title": "Traction optimisée",
+                "description": "Traction selon deux vecteurs opposés pour un effet lifting maximal"
+              },
+              {
+                "title": "Stimulation renforcée",
+                "description": "Stimulation collagénique renforcée autour des cônes"
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-cards-2",
+          "type": "cards",
+          "order": 2,
+          "content": {
+            "cards": [
+              {
+                "title": "Tiers supérieur du visage",
+                "details": [
+                  "Lifting des sourcils et ouverture du regard",
+                  "Correction des tempes creusées",
+                  "Redéfinition de l'arcade sourcilière"
+                ]
+              },
+              {
+                "title": "Tiers moyen du visage",
+                "details": [
+                  "Remontée des pommettes (lifting malaire)",
+                  "Correction des sillons naso-géniens",
+                  "Restauration du volume jugal",
+                  "Amélioration de l'ovale"
+                ]
+              },
+              {
+                "title": "Tiers inférieur du visage",
+                "details": [
+                  "Redéfinition de la mâchoire (jawline)",
+                  "Lifting cervical (cou)",
+                  "Correction des bajoues",
+                  "Amélioration du double menton"
+                ]
+              }
+            ],
+            "title": "Zones de traitement"
+          }
+        },
+        {
+          "id": "block-features-3",
+          "type": "features",
+          "order": 3,
+          "content": {
+            "title": "Avantages des fils à cônes bidirectionnels",
+            "features": [
+              {
+                "title": "Efficacité maximale",
+                "description": "Ancrage optimal des cônes"
+              },
+              {
+                "title": "Résultats immédiats",
+                "description": "Effet lifting visible dès la sortie"
+              },
+              {
+                "title": "Durabilité supérieure",
+                "description": "12-18 mois vs 6-12 mois fils lisses"
+              },
+              {
+                "title": "Sécurité prouvée",
+                "description": "Matériau PDO résorbable"
+              },
+              {
+                "icon": "Star",
+                "title": "Nouvelle caractéristique",
+                "description": "Description"
+              },
+              {
+                "icon": "Star",
+                "title": "Nouvelle caractéristique",
+                "description": "Description"
+              },
+              {
+                "icon": "Star",
+                "title": "Nouvelle caractéristique",
+                "description": "Description"
+              },
+              {
+                "icon": "Star",
+                "title": "Nouvelle caractéristique",
+                "description": "Description"
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-faq-4",
+          "type": "faq",
+          "order": 4,
+          "content": {
+            "title": "Questions fréquentes",
+            "questions": [
+              {
+                "answer": "Inconfort modéré pendant l'insertion, bien contrôlé par l'anesthésie locale. Sensibilité résiduelle 1-2 semaines, facilement gérée.",
+                "question": "Le traitement est-il douloureux ?"
+              },
+              {
+                "answer": "Effet lifting immédiat, résultat optimal à 2-3 mois quand la stimulation collagénique est maximale.",
+                "question": "Quand voit-on les résultats définitifs ?"
+              },
+              {
+                "answer": "Non, les fils à cônes bidirectionnels sont placés en profondeur. Palpation possible les premiers jours, puis intégration complète.",
+                "question": "Les fils sont-ils visibles ou palpables ?"
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-cta-5",
+          "type": "cta",
+          "order": 5,
+          "content": {
+            "title": "Consultation avec Docteure Fassotte",
+            "description": "Pour découvrir si les fils tenseurs à cônes bidirectionnels peuvent répondre à vos objectifs de rajeunissement. Évaluation personnalisée et simulation des résultats possibles.",
+            "primaryButton": {
+              "link": "/contact",
+              "text": "Prendre rendez-vous"
+            }
+          }
+        },
+        {
+          "id": "block-gallery-6",
+          "type": "gallery",
+          "order": 6,
+          "content": {
+            "title": "Galerie Photos",
+            "images": [
+              {
+                "alt": "",
+                "src": "",
+                "caption": ""
+              }
+            ]
+          }
+        }
+      ],
+      "meta_description": "Lifting par fils tenseurs pour raffermir et redessiner l'ovale du visage",
+      "is_published": true,
+      "created_at": "2025-10-28T16:45:50.160707+00:00",
+      "updated_at": "2026-02-24T12:57:57.853+00:00"
+    },
+    {
+      "id": "3091a870-febd-421f-b688-a0f38d2cabe1",
+      "slug": "galerie",
+      "title": "Galerie",
+      "content": [
+        {
+          "id": "block-hero-0",
+          "type": "hero",
+          "order": 0,
+          "content": {
+            "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771935955226-kbr3eh.jpg",
+            "title": "Galerie Photos",
+            "ctaLink": "",
+            "ctaText": "",
+            "imageAlt": "",
+            "subtitle": "",
+            "description": "Découvrez nos réalisations et les résultats de nos traitements esthétiques. Une galerie qui témoigne de notre expertise et de la satisfaction de nos patients."
+          }
+        },
+        {
+          "id": "block-gallery-1",
+          "type": "gallery",
+          "order": 1,
+          "content": {
+            "title": "Nos réalisations",
+            "images": [
+              {
+                "id": "243127c9-c076-40fe-991e-589aab10146c",
+                "alt": "Injection de Botox à Liège",
+                "src": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/gallery/5qy87j4adzq-1771936296521.jpeg",
+                "category": "botox",
+                "treatment": "Toxine Botulique ",
+                "description": "Injection de Botox par Dre Fassotte Médecin esthétique "
+              },
+              {
+                "id": "3dd36f41-4bcf-4275-a599-d8134fda4a75",
+                "alt": "Cabinet de médecine esthétique Liège ",
+                "src": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/gallery/ryvfml33z8-1771936921055.jpeg",
+                "category": "cabinet",
+                "treatment": "Cabinet de Dre Fassotte Médecin esthétique Liège ",
+                "description": ""
+              },
+              {
+                "id": "c260672b-40db-4bb3-ad70-917c067cd230",
+                "alt": "Consultation à la Clinique esthétique Dre Fassotte à Liège",
+                "src": "/cabinet%20medical/image.png",
+                "category": "cabinet",
+                "treatment": "Clinique esthétique Dre Fassotte",
+                "description": "La Dre Fassotte accueille une patiente pour une consultation personnalisée en médecine esthétique."
+              },
+              {
+                "id": "62fc6aa8-a969-487e-95a3-64d938c05ab3",
+                "alt": "Collagène stimulateur ",
+                "src": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/gallery/yy6hlvatwpk-1771936817032.jpg",
+                "category": "collagen",
+                "treatment": "Stimulateur de collagène",
+                "description": ""
+              },
+              {
+                "id": "a54778f8-4efa-499a-8a19-11555e134c05",
+                "alt": "Acide Hyaluronique pour les cernes",
+                "src": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/gallery/72tc6naks2a-1771936402863.jpeg",
+                "category": "hyaluronic",
+                "treatment": "Injection d'acide Hyaluronique",
+                "description": ""
+              },
+              {
+                "id": "615afa69-20cc-4c7f-a4ff-554dc074dd5e",
+                "alt": "Consultation esthétique avec la Dre Fassotte à Liège",
+                "src": "/HyaluronicAcid/image copy 4.png",
+                "category": "hyaluronic",
+                "treatment": "Clinique esthétique Dre Fassotte",
+                "description": "La Dre Fassotte échange avec une patiente lors d’une consultation personnalisée en médecine esthétique."
+              },
+              {
+                "id": "9283d7ae-b30e-49fc-b0a7-6179dbc3d07e",
+                "alt": "Mésolift pour le visage",
+                "src": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/gallery/yq74zseb22-1771936543265.jpg",
+                "category": "mesolift",
+                "treatment": "Mésolift ",
+                "description": ""
+              },
+              {
+                "id": "e252536c-b5e5-4b65-8778-c7052221a5c7",
+                "alt": "Peeling ",
+                "src": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/gallery/dnld8dz55zo-1771936474192.jpg",
+                "category": "peeling",
+                "treatment": "Peeling",
+                "description": ""
+              },
+              {
+                "id": "8f83b68b-c4d8-46d9-8f28-019aeddbccf8",
+                "alt": "Fils tenseurs",
+                "src": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/gallery/gu1glj3nym5-1771943584256.jpeg",
+                "category": "threads",
+                "treatment": "Fils ",
+                "description": ""
+              },
+              {
+                "id": "bdfd57ca-ecfa-48ad-a909-3d7924787784",
+                "alt": "Lifting médical fils tenseurs",
+                "src": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/gallery/i9rmggv22nr-1771943619988.jpeg",
+                "category": "threads",
+                "treatment": "Fils tenseurs ",
+                "description": ""
+              },
+              {
+                "id": "9d6a1670-3733-4a15-aec5-153b36ea4f7e",
+                "alt": "Fils tenseurs ",
+                "src": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/gallery/geptn4vbvck-1771936725436.jpg",
+                "category": "threads",
+                "treatment": "Fils tenseurs",
+                "description": ""
+              }
+            ],
+            "categories": [
+              {
+                "id": "all",
+                "name": "Tous les soins"
+              },
+              {
+                "id": "botox",
+                "name": "Toxine botulique"
+              },
+              {
+                "id": "hyaluronic",
+                "name": "Acide hyaluronique"
+              },
+              {
+                "id": "peeling",
+                "name": "Peelings"
+              },
+              {
+                "id": "mesolift",
+                "name": "Mésolift"
+              },
+              {
+                "id": "threads",
+                "name": "Fils tenseurs"
+              },
+              {
+                "id": "collagen",
+                "name": "Stimulateurs de collagène"
+              },
+              {
+                "id": "cabinet",
+                "name": "Cabinet médical"
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-cta-2",
+          "type": "cta",
+          "order": 2,
+          "content": {
+            "title": "Vous souhaitez des résultats similaires ?",
+            "description": "Prenez rendez-vous pour une consultation personnalisée et découvrez comment nous pouvons vous aider à atteindre vos objectifs esthétiques.",
+            "primaryButton": {
+              "link": "/contact",
+              "text": "Prendre rendez-vous"
+            },
+            "secondaryButton": {
+              "link": "tel:+32495280976",
+              "text": "+32 495 28 09 76"
+            }
+          }
+        }
+      ],
+      "meta_description": "Photos avant/après de nos traitements esthétiques",
+      "is_published": true,
+      "created_at": "2025-10-28T16:45:50.160707+00:00",
+      "updated_at": "2026-09-23T14:31:15.897677+00:00"
+    },
+    {
+      "id": "6f22210b-8f91-4662-9cbe-ce785ab81ddb",
+      "slug": "liquid-lift",
+      "title": "Liquid Lift",
+      "content": [
+        {
+          "id": "block-hero-0",
+          "type": "hero",
+          "order": 0,
+          "content": {
+            "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771948366443-fxls6x.jpeg",
+            "title": "Liquid Lift",
+            "ctaLink": "/contact",
+            "ctaText": "Consultation personnalisée",
+            "imageAlt": "Liquid Lift",
+            "subtitle": "Rajeunissement Global par Injections Stratégiques",
+            "description": "Le Liquid Lift représente l'évolution la plus sophistiquée des techniques d'injection en médecine esthétique. Cette approche globale et vectorisée utilise des injections stratégiques d'acide hyaluronique pour créer un véritable effet lifting sans chirurgie."
+          }
+        },
+        {
+          "id": "block-features-1",
+          "type": "features",
+          "order": 1,
+          "content": {
+            "title": "Qu'est-ce que le Liquid Lift ?",
+            "features": [
+              {
+                "title": "Approche vectorielle",
+                "description": "Analyse 3D de la structure faciale et identification des vecteurs de lifting naturels"
+              },
+              {
+                "title": "Technique innovante",
+                "description": "Injections profondes aux points d'ancrage anatomiques pour repositionner les tissus"
+              },
+              {
+                "title": "Résultats immédiats",
+                "description": "Effet lifting immédiat et durable avec création de points de soutien naturels"
+              }
+            ],
+            "subtitle": "Technique innovante de rajeunissement facial"
+          }
+        },
+        {
+          "id": "block-cards-2",
+          "type": "cards",
+          "order": 2,
+          "content": {
+            "cards": [
+              {
+                "title": "Architecture du visage",
+                "details": [
+                  "Tempes : Restauration des volumes perdus",
+                  "Pommettes : Remontée et redéfinition malaire",
+                  "Menton : Projection et harmonisation du profil",
+                  "Mâchoire : Redéfinition de la jawline",
+                  "Angle mandibulaire : Restructuration de l'ovale"
+                ]
+              },
+              {
+                "title": "Points de tension stratégiques",
+                "details": [
+                  "Lifting des joues par traction vectorisée",
+                  "Remontée des commissures labiales",
+                  "Ouverture du regard par lifting temporal",
+                  "Correction des bajoues par repositionnement"
+                ]
+              }
+            ],
+            "title": "Zones de traitement"
+          }
+        },
+        {
+          "id": "block-cards-3",
+          "type": "cards",
+          "order": 3,
+          "content": {
+            "cards": [
+              {
+                "title": "Rajeunissement global",
+                "details": [
+                  "Visage affaissé par la gravité et l'âge",
+                  "Perte des volumes jeunes du visage",
+                  "Relâchement des tissus modéré"
+                ]
+              },
+              {
+                "title": "Restructuration faciale",
+                "details": [
+                  "Restauration de l'ovale du visage",
+                  "Redéfinition des contours perdus",
+                  "Amélioration du profil en vue de côté"
+                ]
+              },
+              {
+                "title": "Harmonisation esthétique",
+                "details": [
+                  "Équilibrage des volumes faciaux",
+                  "Amélioration des proportions selon le nombre d'or",
+                  "Sublimation des traits existants"
+                ]
+              }
+            ],
+            "title": "Indications principales"
+          }
+        },
+        {
+          "id": "block-features-4",
+          "type": "features",
+          "order": 4,
+          "content": {
+            "title": "Avantages du Liquid Lift",
+            "features": [
+              {
+                "title": "Effet lifting immédiat",
+                "description": "Sans chirurgie"
+              },
+              {
+                "title": "Approche globale",
+                "description": "Vision d'ensemble du visage"
+              },
+              {
+                "title": "Résultats naturels",
+                "description": "Respect de votre identité"
+              },
+              {
+                "title": "Durabilité optimale",
+                "description": "12-18 mois de bénéfices"
+              },
+              {
+                "title": "Récupération immédiate",
+                "description": "Pas d'éviction sociale"
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-faq-5",
+          "type": "faq",
+          "order": 5,
+          "content": {
+            "title": "Questions fréquentes",
+            "questions": [
+              {
+                "answer": "Inconfort modéré durant l'injection, bien contrôlé par l'anesthésie locale. Sensibilité résiduelle 2-7 jours, facilement supportable.",
+                "question": "Le Liquid Lift fait-il mal ?"
+              },
+              {
+                "answer": "Variables selon les besoins : 2-6 seringues généralement. Évaluation précise lors de la consultation selon votre morphologie.",
+                "question": "Combien de seringues sont nécessaires ?"
+              },
+              {
+                "answer": "Parfaitement naturel avec la technique maîtrisée. L'objectif est de restaurer votre architecture faciale jeune, pas de vous transformer.",
+                "question": "Le résultat paraît-il naturel ?"
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-cta-6",
+          "type": "cta",
+          "order": 6,
+          "content": {
+            "title": "Consultation avec Docteure Fassotte",
+            "description": "Pour découvrir si le Liquid Lift peut répondre à vos objectifs de rajeunissement global. Évaluation personnalisée : Analyse morphologique complète et simulation des résultats possibles avec la technique du Liquid Lift.",
+            "primaryButton": {
+              "link": "/contact",
+              "text": "Prendre rendez-vous"
+            }
+          }
+        }
+      ],
+      "meta_description": "Lifting non chirurgical par injections pour un rajeunissement global",
+      "is_published": true,
+      "created_at": "2025-10-28T16:45:50.160707+00:00",
+      "updated_at": "2026-02-24T15:53:13.497+00:00"
+    },
+    {
+      "id": "8f1e5207-a73e-4bcf-9e39-3924deddb227",
+      "slug": "medecine-esthetique-liege",
+      "title": "Médecine Esthétique Liège - Traitements Anti-Âge",
+      "content": [
+        {
+          "id": "block-hero-0",
+          "type": "hero",
+          "order": 0,
+          "content": {
+            "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771939143814-mzl4iq.jpeg",
+            "title": "Traitements de Médecine Esthétique à Liège",
+            "ctaLink": "",
+            "ctaText": "",
+            "imageAlt": "",
+            "subtitle": "Clinique esthétique Dre Jocelyne Fassotte",
+            "description": "La Dre Fassotte propose une gamme complète de traitements esthétiques non invasifs, conçus pour révéler la beauté naturelle de ses patients avec des résultats harmonieux et durables."
+          }
+        },
+        {
+          "id": "block-cards-1",
+          "type": "cards",
+          "order": 1,
+          "content": {
+            "cards": [
+              {
+                "link": "/acide-hyaluronique-liege",
+                "title": "Acide hyaluronique",
+                "details": [
+                  "Durée : 6-18 mois"
+                ],
+                "description": "Restauration des volumes, comblement des rides, hydratation profonde"
+              },
+              {
+                "link": "/toxine-botulique-liege",
+                "title": "Toxine botulique (Botox)",
+                "details": [
+                  "Durée : 4-6 mois"
+                ],
+                "description": "Relaxation musculaire pour atténuer les rides d'expression"
+              },
+              {
+                "link": "/peelings-chimiques-liege",
+                "title": "Peelings médicaux",
+                "details": [
+                  "Durée : Variable"
+                ],
+                "description": "Exfoliation contrôlée pour renouveler la peau"
+              },
+              {
+                "link": "/mesotherapie-liege",
+                "title": "Mésolift",
+                "details": [
+                  "Durée : 3-6 mois"
+                ],
+                "description": "Cocktail de vitamines et acides aminés injectés"
+              },
+              {
+                "link": "/lifting-fils-tenseurs-liege",
+                "title": "Fils tenseurs",
+                "details": [
+                  "Durée : 12-18 mois"
+                ],
+                "description": "Lifting naturel sans chirurgie pour retendre et repositionner les tissus"
+              },
+              {
+                "link": "/cosmetologie-medicale-liege",
+                "title": "Cosmétologie médicale",
+                "details": [
+                  "Durée : Permanent"
+                ],
+                "description": "Conseils personnalisés et soins cosmétiques adaptés à votre type de peau"
+              },
+              {
+                "link": "/stimulateurs-collagene-liege",
+                "title": "Stimulateurs de collagène",
+                "details": [
+                  "Durée : 18-24 mois"
+                ],
+                "description": "Stimulation naturelle de la production de collagène"
+              },
+              {
+                "link": "/rajeunissement-global-liege",
+                "title": "Liquid Lift",
+                "details": [
+                  "Durée : 12-18 mois"
+                ],
+                "description": "Rajeunissement global par injections stratégiques"
+              }
+            ],
+            "title": "Nos spécialités",
+            "subtitle": "Des solutions personnalisées pour révéler votre beauté avec des techniques douces et des résultats naturels."
+          }
+        },
+        {
+          "id": "block-cards-2",
+          "type": "cards",
+          "order": 2,
+          "content": {
+            "cards": [
+              {
+                "title": "Consultation initiale",
+                "description": "Analyse de votre visage, écoute de vos attentes et conseil personnalisé pour définir le plan de traitement optimal."
+              },
+              {
+                "title": "Traitement",
+                "description": "Réalisation du soin dans des conditions optimales de sécurité et de confort, avec techniques douces et précises."
+              },
+              {
+                "title": "Suivi post-traitement",
+                "description": "Conseils personnalisés et suivi pour optimiser les résultats et s'assurer de votre entière satisfaction."
+              },
+              {
+                "title": "Entretien",
+                "description": "Planification des séances d'entretien pour maintenir les résultats dans le temps selon vos besoins."
+              }
+            ],
+            "title": "Déroulement d'une consultation",
+            "subtitle": "Un processus structuré pour des résultats optimaux"
+          }
+        },
+        {
+          "id": "block-features-3",
+          "type": "features",
+          "order": 3,
+          "content": {
+            "title": "Pourquoi choisir Docteure Fassotte ?",
+            "features": [
+              {
+                "title": "Diplômée du C.I.M.E. Paris V",
+                "description": "Formation spécialisée reconnue"
+              },
+              {
+                "title": "Formation continue internationale",
+                "description": "Techniques les plus avancées"
+              },
+              {
+                "title": "Écoute attentive de vos besoins",
+                "description": "Approche personnalisée"
+              },
+              {
+                "title": "Résultats naturels et harmonieux",
+                "description": "Respect de votre identité"
+              },
+              {
+                "title": "Suivi post-traitement attentif",
+                "description": "Accompagnement complet"
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-cta-4",
+          "type": "cta",
+          "order": 4,
+          "content": {
+            "title": "Prêt(e) pour une consultation ?",
+            "description": "Découvrez comment nos traitements peuvent révéler votre beauté naturelle. Prenez rendez-vous pour une consultation personnalisée.",
+            "primaryButton": {
+              "link": "/prendre-rendez-vous",
+              "text": "Prendre rendez-vous"
+            },
+            "secondaryButton": {
+              "link": "tel:+32495280976",
+              "text": "+32 495 28 09 76"
+            }
+          }
+        }
+      ],
+      "meta_description": "Découvrez nos traitements de médecine esthétique à Liège : acide hyaluronique, botox, fils tenseurs et plus. Clinique esthétique Dre Jocelyne Fassotte.",
+      "is_published": true,
+      "created_at": "2025-11-06T20:00:59.369395+00:00",
+      "updated_at": "2026-02-24T15:45:15.529+00:00"
+    },
+    {
+      "id": "fdd9dcfa-8e15-4401-991a-3d3f92c0f45c",
+      "slug": "mesolift",
+      "title": "Mésolift",
+      "content": [
+        {
+          "id": "block-hero-0",
+          "type": "hero",
+          "order": 0,
+          "content": {
+            "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771938077781-yio16q.jpg",
+            "title": "Mésolift",
+            "ctaLink": "/contact",
+            "ctaText": "Consultation personnalisée",
+            "imageAlt": "Mésolift - Traitement revitalisant pour peau déshydratée et fatiguée",
+            "subtitle": "Revitalisez Votre Peau en Profondeur",
+            "description": "Le Mésolift est une technique de mésothérapie esthétique qui consiste à injecter des micro-doses de substances revitalisantes directement dans le derme superficiel. Cette méthode permet d'apporter à votre peau les nutriments essentiels dont elle a besoin pour retrouver éclat, fermeté et hydratation."
+          }
+        },
+        {
+          "id": "block-features-1",
+          "type": "features",
+          "order": 1,
+          "content": {
+            "title": "Comment ça fonctionne ?",
+            "features": [
+              {
+                "title": "Injection superficielle",
+                "description": "Dans le derme à 1-4mm de profondeur avec aiguilles très fines"
+              },
+              {
+                "title": "Apport nutritionnel",
+                "description": "Apport direct de nutriments aux cellules cutanées"
+              },
+              {
+                "title": "Stimulation cellulaire",
+                "description": "Activation des fibroblastes pour la production de collagène"
+              }
+            ],
+            "subtitle": "Mécanisme d'action du Mésolift"
+          }
+        },
+        {
+          "id": "block-cards-2",
+          "type": "cards",
+          "order": 2,
+          "content": {
+            "cards": [
+              {
+                "title": "Visage",
+                "details": [
+                  "Visage complet : Revitalisation globale",
+                  "Contour des yeux : Hydratation du regard",
+                  "Joues et pommettes : Restauration de l'éclat",
+                  "Front : Amélioration de la texture",
+                  "Cou et décolleté : Extension du soin anti-âge"
+                ]
+              },
+              {
+                "title": "Indications spécifiques",
+                "details": [
+                  "Peau déshydratée et terne",
+                  "Premiers signes de l'âge (25-45 ans)",
+                  "Peau fatiguée et stressée",
+                  "Teint irrégulier",
+                  "Texture rugueuse",
+                  "Pores dilatés"
+                ]
+              }
+            ],
+            "title": "Zones de traitement"
+          }
+        },
+        {
+          "id": "block-features-3",
+          "type": "features",
+          "order": 3,
+          "content": {
+            "title": "Avantages du Mésolift",
+            "features": [
+              {
+                "title": "Hydratation intense",
+                "description": "Durable de la peau"
+              },
+              {
+                "title": "Amélioration immédiate",
+                "description": "Éclat du teint"
+              },
+              {
+                "title": "Stimulation naturelle",
+                "description": "Processus de régénération"
+              },
+              {
+                "title": "Traitement préventif",
+                "description": "Vieillissement cutané"
+              },
+              {
+                "title": "Adapté",
+                "description": "Tous types de peau"
+              },
+              {
+                "title": "Aucune éviction sociale",
+                "description": "Reprise immédiate"
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-faq-4",
+          "type": "faq",
+          "order": 4,
+          "content": {
+            "title": "Questions fréquentes",
+            "questions": [
+              {
+                "answer": "Inconfort minimal grâce aux aiguilles très fines et à l'anesthésie locale. Sensation de légers picotements bien tolérée.",
+                "question": "Le Mésolift est-il douloureux ?"
+              },
+              {
+                "answer": "Dès la première séance pour l'éclat et l'hydratation. Effets cumulatifs après 2-3 séances.",
+                "question": "Quand voit-on les premiers résultats ?"
+              },
+              {
+                "answer": "3-4 séances pour une cure complète, puis entretien tous les 2-3 mois selon les besoins.",
+                "question": "Combien de séances sont nécessaires ?"
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-cta-5",
+          "type": "cta",
+          "order": 5,
+          "content": {
+            "title": "Consultation avec Docteure Fassotte",
+            "description": "Pour découvrir comment le Mésolift peut revitaliser votre peau et lui redonner tout son éclat. Analyse personnalisée et composition d'un cocktail sur mesure pour des résultats optimaux.",
+            "primaryButton": {
+              "link": "/contact",
+              "text": "Prendre rendez-vous"
+            }
+          }
+        }
+      ],
+      "meta_description": "Mésothérapie esthétique pour revitaliser et illuminer la peau",
+      "is_published": true,
+      "created_at": "2025-10-28T16:45:50.160707+00:00",
+      "updated_at": "2026-02-24T13:01:26.856+00:00"
+    },
+    {
+      "id": "09b7f665-2d91-4c55-b276-872d5045cfef",
+      "slug": "peeling",
+      "title": "Peeling",
+      "content": [
+        {
+          "id": "block-hero-0",
+          "type": "hero",
+          "order": 0,
+          "content": {
+            "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771938013395-wu24k.jpg",
+            "title": "Peelings Chimiques",
+            "ctaLink": "/contact",
+            "ctaText": "Consultation personnalisée",
+            "imageAlt": "Traitement peeling chimique professionnel",
+            "subtitle": "Révélez l'Éclat de Votre Peau",
+            "description": "Le peeling chimique est un traitement de médecine esthétique qui consiste à appliquer une solution acide contrôlée sur la peau pour éliminer les couches superficielles endommagées. Cette exfoliation stimule le renouvellement cellulaire et révèle une peau plus lisse, lumineuse et uniforme."
+          }
+        },
+        {
+          "id": "block-features-1",
+          "type": "features",
+          "order": 1,
+          "content": {
+            "title": "Comment ça fonctionne ?",
+            "features": [
+              {
+                "title": "Exfoliation contrôlée",
+                "description": "Élimination des couches superficielles endommagées"
+              },
+              {
+                "title": "Renouvellement cellulaire",
+                "description": "Stimulation du renouvellement cellulaire en profondeur"
+              },
+              {
+                "title": "Stimulation collagène",
+                "description": "Activation de la production de collagène et d'élastine"
+              }
+            ],
+            "subtitle": "Mécanisme d'action du peeling chimique"
+          }
+        },
+        {
+          "id": "block-cards-2",
+          "type": "cards",
+          "order": 2,
+          "content": {
+            "cards": [
+              {
+                "title": "Problèmes de pigmentation",
+                "details": [
+                  "Taches brunes (lentigos solaires)",
+                  "Mélasma (masque de grossesse)",
+                  "Hyperpigmentation post-inflammatoire",
+                  "Teint irrégulier et terne"
+                ]
+              },
+              {
+                "title": "Signes de l'âge",
+                "details": [
+                  "Rides superficielles à modérées",
+                  "Texture rugueuse",
+                  "Perte d'éclat et de luminosité",
+                  "Relâchement cutané léger"
+                ]
+              },
+              {
+                "title": "Problèmes d'acné et séquelles",
+                "details": [
+                  "Cicatrices d'acné superficielles",
+                  "Pores dilatés",
+                  "Points noirs (comédons)",
+                  "Séquelles pigmentaires d'acné"
+                ]
+              }
+            ],
+            "title": "Indications principales"
+          }
+        },
+        {
+          "id": "block-faq-3",
+          "type": "faq",
+          "order": 3,
+          "content": {
+            "title": "Questions fréquentes",
+            "subtitle": "Tout ce que vous devez savoir sur les peelings",
+            "questions": [
+              {
+                "answer": "Sensation de picotements et chaleur pendant l'application, bien tolérée. Inconfort léger les premiers jours avec tiraillements normaux.",
+                "question": "Le peeling est-il douloureux ?"
+              },
+              {
+                "answer": "1 à 6 séances selon l'objectif : 1 séance pour l'éclat immédiat, 3-6 pour traiter taches ou rides marquées.",
+                "question": "Combien de séances sont nécessaires ?"
+              },
+              {
+                "answer": "Préférable octobre à mars. Protection solaire stricte indispensable. Éviter absolument l'été pour peelings moyens.",
+                "question": "Peut-on faire un peeling toute l'année ?"
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-cta-4",
+          "type": "cta",
+          "order": 4,
+          "content": {
+            "title": "Consultation avec Docteure Fassotte",
+            "description": "Pour déterminer le peeling le plus adapté à votre type de peau et vos objectifs esthétiques. Analyse personnalisée et proposition de protocole sur mesure pour des résultats optimaux en toute sécurité.",
+            "primaryButton": {
+              "link": "/contact",
+              "text": "Prendre rendez-vous"
+            }
+          }
+        }
+      ],
+      "meta_description": "Peelings médicaux pour améliorer la texture et l'éclat de la peau",
+      "is_published": true,
+      "created_at": "2025-10-28T16:45:50.160707+00:00",
+      "updated_at": "2026-02-24T13:00:22.688+00:00"
+    },
+    {
+      "id": "0e8e305d-914c-4bc9-b428-2c0b08c6ec75",
+      "slug": "prendre-rendez-vous",
+      "title": "Prendre Rendez-vous - Cabinet Médecine Esthétique Liège",
+      "content": [
+        {
+          "id": "block-hero-0",
+          "type": "hero",
+          "order": 0,
+          "content": {
+            "image": "",
+            "title": "Prendre Rendez-vous - Médecine Esthétique Liège",
+            "ctaLink": "",
+            "ctaText": "",
+            "imageAlt": "",
+            "subtitle": "",
+            "description": "Contactez la Dre Jocelyne Fassotte pour une consultation personnalisée en médecine esthétique à Liège."
+          }
+        },
+        {
+          "id": "block-iframe-1",
+          "type": "iframe",
+          "order": 1,
+          "content": {
+            "src": "https://www.myconsultation.be/fr/liste/iframe/edd334104df35/",
+            "title": "Intégration",
+            "height": "280",
+            "allowFullscreen": true
+          }
+        },
+        {
+          "id": "block-contact-info-2",
+          "type": "contact-info",
+          "order": 2,
+          "content": {
+            "email": "doc.jofassotte@proximus.be",
+            "phone": "+32 4.365.45.39",
+            "title": "Informations de contact",
+            "mapUrl": "https://www.google.com/maps/search/?api=1&query=Rue+Edouard+Sarlet+31,+4051+Vaux-sous-Chèvremont,+Liège,+Belgique",
+            "address": {
+              "city": "4051 Vaux-sous-Chèvremont",
+              "region": "Liège, Belgique",
+              "street": "Rue Edouard Sarlet 31"
+            }
+          }
+        },
+        {
+          "id": "block-map-3",
+          "type": "map",
+          "order": 3,
+          "content": {
+            "title": "Nous trouver",
+            "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2530.8!2d5.6!3d50.6!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c0f7a5a5a5a5a5%3A0x5a5a5a5a5a5a5a5a!2sRue%20Edouard%20Sarlet%2031%2C%204051%20Vaux-sous-Ch%C3%A8vremont%2C%20Belgium!5e0!3m2!1sen!2sus!4v1234567890123!5m2!1sen!2sus",
+            "subtitle": "Cabinet situé à Vaux-sous-Chèvremont, proche de Liège"
+          }
+        },
+        {
+          "id": "block-cards-4",
+          "type": "cards",
+          "order": 4,
+          "content": {
+            "cards": [
+              {
+                "title": "Horaires d'ouverture",
+                "details": [
+                  "Lundi - Vendredi : 9h00 - 17h00",
+                  "Samedi : Sur rendez-vous",
+                  "Dimanche : Fermé"
+                ]
+              },
+              {
+                "title": "Informations pratiques",
+                "details": [
+                  "Consultation sur rendez-vous uniquement",
+                  "Première consultation : 30 minutes",
+                  "Traitements : durée variable",
+                  "Possibilité de consultation le samedi"
+                ]
+              }
+            ],
+            "title": "Horaires de consultation"
+          }
+        },
+        {
+          "id": "block-cta-5",
+          "type": "cta",
+          "order": 5,
+          "content": {
+            "title": "Contact d'urgence",
+            "description": "En cas de problème suite à un traitement, n'hésitez pas à nous contacter.",
+            "primaryButton": {
+              "link": "tel:+32 4.365.45.39",
+              "text": "Appeler maintenant"
+            },
+            "secondaryButton": {
+              "link": "mailto:doc.jofassotte@proximus.be",
+              "text": "Envoyer un email"
+            }
+          }
+        }
+      ],
+      "meta_description": "Prenez rendez-vous avec la Dre Jocelyne Fassotte pour une consultation en médecine esthétique à Liège. Disponibilité et contact.  \n",
+      "is_published": true,
+      "created_at": "2025-11-06T20:00:59.369395+00:00",
+      "updated_at": "2026-02-24T16:04:03.097+00:00"
+    },
+    {
+      "id": "69a044e7-473d-47e3-ba5a-77b7183a9533",
+      "slug": "stimulateur-collagene",
+      "title": "Stimulateur de Collagène",
+      "content": [
+        {
+          "id": "block-hero-0",
+          "type": "hero",
+          "order": 0,
+          "content": {
+            "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771941142697-1y37rq.jpeg",
+            "title": "Stimulateurs de Collagène",
+            "ctaLink": "/contact",
+            "ctaText": "Consultation personnalisée",
+            "imageAlt": "Stimulation du collagène",
+            "subtitle": "Rajeunissement Naturel et Progressif",
+            "description": "Ces traitements agissent en profondeur pour relancer la production naturelle de collagène de votre peau. Une approche révolutionnaire qui inverse le processus de vieillissement naturel."
+          }
+        },
+        {
+          "id": "block-features-1",
+          "type": "features",
+          "order": 1,
+          "content": {
+            "title": "Qu'est-ce qu'un stimulateur de collagène ?",
+            "features": [
+              {
+                "title": "Injection",
+                "description": "Micro-particules biocompatibles dans les couches profondes"
+              },
+              {
+                "title": "Stimulation",
+                "description": "Activation des fibroblastes productrices de collagène"
+              },
+              {
+                "title": "Reconstruction",
+                "description": "Reconstruction progressive de la matrice dermique"
+              },
+              {
+                "title": "Amélioration",
+                "description": "Fermeté et élasticité durables"
+              }
+            ],
+            "subtitle": "Mécanisme d'action des stimulateurs"
+          }
+        },
+        {
+          "id": "block-cards-2",
+          "type": "cards",
+          "order": 2,
+          "content": {
+            "cards": [
+              {
+                "title": "Sculptra (Acide Poly-L-Lactique)",
+                "details": [
+                  "100% résorbable et biocompatible",
+                  "Stimulation progressive sur 2 ans",
+                  "Résultats naturels et harmonieux"
+                ],
+                "description": "Stimulation progressive sur 2 ans"
+              },
+              {
+                "title": "Radiesse (Hydroxylapatite de Calcium)",
+                "details": [
+                  "Double action : effet immédiat + stimulation",
+                  "Durabilité de 12-18 mois",
+                  "Excellent pour la restructuration"
+                ],
+                "description": "Double action : effet immédiat + stimulation"
+              }
+            ],
+            "title": "Produits utilisés par Docteure Fassotte",
+            "subtitle": "Seuls les produits certifiés CE et de qualité pharmaceutique sont utilisés"
+          }
+        },
+        {
+          "id": "block-cards-3",
+          "type": "cards",
+          "order": 3,
+          "content": {
+            "cards": [
+              {
+                "title": "Visage",
+                "details": [
+                  "Joues et pommettes (restauration des volumes)",
+                  "Tempes creusées",
+                  "Redéfinition de l'ovale du visage",
+                  "Rides nasolabiales et plis d'amertume"
+                ],
+                "description": "Restauration des volumes"
+              },
+              {
+                "title": "Corps",
+                "details": [
+                  "Décolleté (amélioration texture)",
+                  "Dos des mains (rajeunissement)",
+                  "Brazilian Butt Lift non-chirurgical"
+                ],
+                "description": "Amélioration de la texture"
+              }
+            ],
+            "title": "Zones de traitement"
+          }
+        },
+        {
+          "id": "block-features-4",
+          "type": "features",
+          "order": 4,
+          "content": {
+            "title": "Avantages uniques",
+            "features": [
+              {
+                "title": "Résultats naturels et progressifs",
+                "description": "Pas d'effet artificiel"
+              },
+              {
+                "title": "Durabilité exceptionnelle",
+                "description": "18-24 mois"
+              },
+              {
+                "title": "Amélioration globale",
+                "description": "Qualité de peau"
+              },
+              {
+                "title": "Biocompatibilité parfaite",
+                "description": "Aucun risque d'allergie"
+              },
+              {
+                "title": "Stimulation",
+                "description": "Régénération cellulaire"
+              },
+              {
+                "title": "Alternative",
+                "description": "Au lifting chirurgical"
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-faq-5",
+          "type": "faq",
+          "order": 5,
+          "content": {
+            "title": "Questions fréquentes",
+            "questions": [
+              {
+                "answer": "Non, l'effet est progressif. Premiers résultats à 6-8 semaines, optimal à 6 mois.",
+                "question": "Les résultats sont-ils immédiats ?"
+              },
+              {
+                "answer": "Inconfort minimal grâce à l'anesthésie locale. Bien toléré par la plupart des patients.",
+                "question": "Est-ce douloureux ?"
+              },
+              {
+                "answer": "18-24 mois en moyenne, parfois plus selon les zones et les patients.",
+                "question": "Combien de temps ça dure ?"
+              },
+              {
+                "answer": "Parfaitement. Se combine idéalement avec Botox, acide hyaluronique, peelings.",
+                "question": "Compatible avec autres traitements ?"
+              },
+              {
+                "answer": "Très rares avec un praticien expérimenté. Effets secondaires mineurs et temporaires.",
+                "question": "Y a-t-il des risques ?"
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-cta-6",
+          "type": "cta",
+          "order": 6,
+          "content": {
+            "title": "Consultation personnalisée",
+            "description": "Découvrez si les stimulateurs de collagène conviennent à vos objectifs esthétiques lors d'une consultation avec Docteure Fassotte.",
+            "primaryButton": {
+              "link": "/contact",
+              "text": "Prendre rendez-vous"
+            }
+          }
+        }
+      ],
+      "meta_description": "Stimulation naturelle du collagène pour une peau plus ferme",
+      "is_published": true,
+      "created_at": "2025-10-28T16:45:50.160707+00:00",
+      "updated_at": "2026-02-24T13:52:30.233+00:00"
+    },
+    {
+      "id": "e72e1557-e327-4e91-8542-dd82f3f7c7fb",
+      "slug": "traitements",
+      "title": "Traitements",
+      "content": [
+        {
+          "id": "block-hero-0",
+          "type": "hero",
+          "order": 0,
+          "content": {
+            "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771945397543-hzxxa.jpeg",
+            "title": "Traitements de Médecine Esthétique à Liège",
+            "ctaLink": "",
+            "ctaText": "",
+            "imageAlt": "",
+            "subtitle": "",
+            "description": "La Dre Fassotte propose une gamme complète de traitements esthétiques non invasifs, conçus pour révéler la beauté naturelle de ses patients avec des résultats harmonieux et durables."
+          }
+        },
+        {
+          "id": "block-cards-1",
+          "type": "cards",
+          "order": 1,
+          "content": {
+            "cards": [
+              {
+                "link": "/acide-hyaluronique-liege",
+                "title": "Acide hyaluronique",
+                "details": [
+                  "Durée : 6-18 mois"
+                ],
+                "description": "Restauration des volumes, comblement des rides, hydratation profonde"
+              },
+              {
+                "link": "/toxine-botulique-liege",
+                "title": "Toxine botulique (Botox)",
+                "details": [
+                  "Durée : 4-6 mois"
+                ],
+                "description": "Relaxation musculaire pour atténuer les rides d'expression"
+              },
+              {
+                "link": "/peelings-chimiques-liege",
+                "title": "Peelings médicaux",
+                "details": [
+                  "Durée : Variable"
+                ],
+                "description": "Exfoliation contrôlée pour renouveler la peau"
+              },
+              {
+                "link": "/mesotherapie-liege",
+                "title": "Mésolift",
+                "details": [
+                  "Durée : 3-6 mois"
+                ],
+                "description": "Cocktail de vitamines et acides aminés injectés"
+              },
+              {
+                "link": "/lifting-fils-tenseurs-liege",
+                "title": "Fils tenseurs",
+                "details": [
+                  "Durée : 12-18 mois"
+                ],
+                "description": "Lifting naturel sans chirurgie pour retendre et repositionner les tissus"
+              },
+              {
+                "link": "/cosmetologie-medicale-liege",
+                "title": "Cosmétologie médicale",
+                "details": [
+                  "Durée : Permanent"
+                ],
+                "description": "Conseils personnalisés et soins cosmétiques adaptés à votre type de peau"
+              },
+              {
+                "link": "/stimulateurs-collagene-liege",
+                "title": "Stimulateurs de collagène",
+                "details": [
+                  "Durée : 18-24 mois"
+                ],
+                "description": "Stimulation naturelle de la production de collagène"
+              },
+              {
+                "link": "/rajeunissement-global-liege",
+                "title": "Liquid Lift",
+                "details": [
+                  "Durée : 12-18 mois"
+                ],
+                "description": "Rajeunissement global par injections stratégiques"
+              }
+            ],
+            "title": "Nos spécialités",
+            "subtitle": "Des solutions personnalisées pour révéler votre beauté avec des techniques douces et des résultats naturels."
+          }
+        },
+        {
+          "id": "block-cards-2",
+          "type": "cards",
+          "order": 2,
+          "content": {
+            "cards": [
+              {
+                "title": "Consultation initiale",
+                "description": "Analyse de votre visage, écoute de vos attentes et conseil personnalisé pour définir le plan de traitement optimal."
+              },
+              {
+                "title": "Traitement",
+                "description": "Réalisation du soin dans des conditions optimales de sécurité et de confort, avec techniques douces et précises."
+              },
+              {
+                "title": "Suivi post-traitement",
+                "description": "Conseils personnalisés et suivi pour optimiser les résultats et s'assurer de votre entière satisfaction."
+              },
+              {
+                "title": "Entretien",
+                "description": "Planification des séances d'entretien pour maintenir les résultats dans le temps selon vos besoins."
+              }
+            ],
+            "title": "Déroulement d'une consultation",
+            "subtitle": "Un processus structuré pour des résultats optimaux"
+          }
+        },
+        {
+          "id": "block-features-3",
+          "type": "features",
+          "order": 3,
+          "content": {
+            "title": "Pourquoi choisir Docteure Fassotte ?",
+            "features": [
+              {
+                "title": "Diplômée du C.I.M.E. Paris V",
+                "description": "Formation spécialisée reconnue"
+              },
+              {
+                "title": "Formation continue internationale",
+                "description": "Techniques les plus avancées"
+              },
+              {
+                "title": "Écoute attentive de vos besoins",
+                "description": "Approche personnalisée"
+              },
+              {
+                "title": "Résultats naturels et harmonieux",
+                "description": "Respect de votre identité"
+              },
+              {
+                "title": "Suivi post-traitement attentif",
+                "description": "Accompagnement complet"
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-cta-4",
+          "type": "cta",
+          "order": 4,
+          "content": {
+            "title": "Prêt(e) pour une consultation ?",
+            "description": "Découvrez comment nos traitements peuvent révéler votre beauté naturelle. Prenez rendez-vous pour une consultation personnalisée.",
+            "primaryButton": {
+              "link": "/prendre-rendez-vous",
+              "text": "Prendre rendez-vous"
+            },
+            "secondaryButton": {
+              "link": "tel:+32495280976",
+              "text": "+32 495 28 09 76"
+            }
+          }
+        }
+      ],
+      "meta_description": "Tous nos traitements de médecine esthétique",
+      "is_published": true,
+      "created_at": "2025-10-28T16:45:50.160707+00:00",
+      "updated_at": "2026-02-24T15:03:24.158+00:00"
+    }
+  ],
+  "traitements": [
+    {
+      "id": "d1b43165-290f-45b4-9263-7b4461d38f25",
+      "slug": "/acide-hyaluronique-liege",
+      "title": "Acide hyaluronique",
+      "subtitle": "Restauration des volumes et hydratation profonde",
+      "description": "L'acide hyaluronique est une molécule naturellement présente dans notre peau qui permet de restaurer les volumes, combler les rides et hydrater la peau en profondeur.",
+      "content": [
+        {
+          "data": {
+            "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771937027109-qefsfr.jpeg",
+            "title": "Injection Acide Hyaluronique Liège",
+            "duration": "Durée : 6-18 mois",
+            "subtitle": "Traitement anti-âge naturel à Liège",
+            "description": "La Dre Fassotte propose des injections d'acide hyaluronique à Liège pour restaurer les volumes, combler les rides et redonner éclat et hydratation au visage de façon naturelle. Spécialiste qualifiée en médecine esthétique non chirurgicale."
+          },
+          "type": "hero"
+        },
+        {
+          "data": {
+            "title": "Qu'est-ce que l'acide hyaluronique ?",
+            "features": [
+              {
+                "icon": "Droplets",
+                "title": "Substance naturelle",
+                "description": "Présent naturellement dans notre peau, l'acide hyaluronique maintient l'hydratation et le volume des tissus."
+              },
+              {
+                "icon": "Shield",
+                "title": "100% biocompatible",
+                "description": "Parfaitement toléré par l'organisme, il ne présente aucun risque allergique et se résorbe naturellement."
+              },
+              {
+                "icon": "Heart",
+                "title": "Résultats naturels",
+                "description": "Permet d'obtenir des résultats harmonieux qui respectent la morphologie naturelle de votre visage."
+              }
+            ]
+          },
+          "type": "text"
+        },
+        {
+          "data": {
+            "items": [
+              {
+                "details": [
+                  "Augmentation subtile du volume",
+                  "Redéfinition du contour",
+                  "Hydratation intense"
+                ],
+                "category": "Lèvres",
+                "duration": "6-12 mois",
+                "description": "Volume naturel et hydratation"
+              },
+              {
+                "details": [
+                  "Rides nasogéniennes",
+                  "Sillons d'amertume",
+                  "Plis d'amaigrissement"
+                ],
+                "category": "Rides et sillons",
+                "duration": "12-18 mois",
+                "description": "Comblement des rides marquées"
+              },
+              {
+                "details": [
+                  "Pommettes",
+                  "Tempes",
+                  "Menton",
+                  "Mâchoires"
+                ],
+                "category": "Volumes faciaux",
+                "duration": "12-18 mois",
+                "description": "Restauration des volumes perdus"
+              },
+              {
+                "details": [
+                  "Technique délicate",
+                  "Résultats naturels",
+                  "Regard rajeuni"
+                ],
+                "category": "Cernes",
+                "duration": "12-15 mois",
+                "description": "Correction des cernes creusés"
+              }
+            ],
+            "title": "Zones traitables",
+            "description": "L'acide hyaluronique peut être utilisé sur différentes zones du visage pour des résultats personnalisés et naturels."
+          },
+          "type": "list"
+        },
+        {
+          "data": {
+            "title": "La technique \"Soft Filling\"",
+            "content": "Ma technique privilégiée consiste en des injections douces et progressives qui respectent l'anatomie naturelle du visage pour des résultats harmonieux et une intégration parfaite.",
+            "features": [
+              {
+                "title": "Injections micro-dosées",
+                "description": "Technique de petites quantités pour un résultat naturel et progressive."
+              },
+              {
+                "title": "Respect de l'anatomie",
+                "description": "Placement précis selon la structure unique de votre visage."
+              },
+              {
+                "title": "Confort optimal",
+                "description": "Utilisation de produits avec lidocaïne et techniques douces."
+              }
+            ]
+          },
+          "type": "text"
+        },
+        {
+          "data": {
+            "items": [
+              {
+                "answer": "L'inconfort est minimal grâce à l'utilisation d'une crème anesthésiante et à la technique douce. La plupart des patients décrivent une sensation de légère pression.",
+                "question": "Le traitement est-il douloureux ?"
+              },
+              {
+                "answer": "Léger œdème et rougeur transitoires (24-48h). Possibles petits hématomes qui s'estompent en quelques jours. Tous les effets sont temporaires.",
+                "question": "Quels sont les effets secondaires possibles ?"
+              },
+              {
+                "answer": "Les résultats sont visibles immédiatement et s'améliore dans les 2 semaines suivant l'injection, le temps que l'acide hyaluronique s'intègre naturellement.",
+                "question": "Quand voit-on les résultats ?"
+              },
+              {
+                "answer": "Oui, la reprise des activités est possible immédiatement. Il est recommandé d'éviter le sport intensif et les massages pendant 24h.",
+                "question": "Peut-on reprendre ses activités normalement ?"
+              }
+            ],
+            "title": "Questions fréquentes",
+            "subtitle": "Tout ce que vous devez savoir sur les injections d'acide hyaluronique"
+          },
+          "type": "faq"
+        },
+        {
+          "data": {
+            "title": "Prêt(e) pour une consultation ?",
+            "description": "Découvrez comment l'acide hyaluronique peut révéler votre beauté naturelle. Prenez rendez-vous pour une consultation personnalisée.",
+            "primaryButton": {
+              "link": "/contact",
+              "text": "Prendre rendez-vous"
+            },
+            "secondaryButton": {
+              "link": "tel:+32495280976",
+              "text": "+32 495 28 09 76"
+            }
+          },
+          "type": "cta"
+        }
+      ],
+      "duration": "6-18 mois",
+      "meta_title": "Injections Acide Hyaluronique à Liège | Dr Fassotte",
+      "meta_description": "Traitement par acide hyaluronique à Liège. Restauration des volumes, comblement des rides, hydratation profonde. Résultats naturels et harmonieux.",
+      "featured_image": null,
+      "gallery_images": [],
+      "related_treatments": [],
+      "is_active": true,
+      "display_order": 1,
+      "created_at": "2025-10-29T15:42:01.765398+00:00",
+      "updated_at": "2026-02-24T12:49:26.117+00:00"
+    },
+    {
+      "id": "97d84aab-9fb3-4163-8d16-8b64406c19c1",
+      "slug": "/cosmetologie-medicale-liege",
+      "title": "Cosmétologie médicale",
+      "subtitle": "Conseils personnalisés et soins adaptés",
+      "description": "La cosmétologie médicale associe des soins cosmétiques de haute qualité à une expertise médicale pour des conseils personnalisés adaptés à votre type de peau.",
+      "content": [
+        {
+          "data": {
+            "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771947129554-8n7lyf.jpeg",
+            "title": "Cosmétologie Médicale",
+            "duration": "Consultation personnalisée de 30 min",
+            "subtitle": "Optimisez Votre Routine de Soins",
+            "description": "La cosmétologie médicale représente l'alliance entre expertise dermatologique et soins esthétiques avancés. Cette approche scientifique de la beauté permet d'analyser précisément les besoins de votre peau et de vous proposer des protocoles de soins personnalisés avec des produits de qualité pharmaceutique."
+          },
+          "type": "hero"
+        },
+        {
+          "data": {
+            "title": "Qu'est-ce que la cosmétologie médicale ?",
+            "content": "Docteure Fassotte intègre la cosmétologie médicale dans sa pratique pour optimiser et prolonger les résultats de vos traitements esthétiques, tout en préservant la santé et la beauté de votre peau au quotidien.",
+            "features": [
+              {
+                "icon": "Microscope",
+                "title": "Analyse dermatologique approfondie",
+                "description": "Examen clinique de la peau au microscope, évaluation du phototype et du type de peau"
+              },
+              {
+                "icon": "Target",
+                "title": "Diagnostic personnalisé",
+                "description": "État actuel de votre peau, facteurs aggravants, besoins prioritaires à traiter"
+              }
+            ]
+          },
+          "type": "text"
+        },
+        {
+          "data": {
+            "items": [
+              {
+                "details": [
+                  "Protocoles préventifs dès 25 ans",
+                  "Soins anti-rides ciblés selon les zones",
+                  "Stimulation du collagène par cosmétiques actifs",
+                  "Protection solaire adaptée au quotidien",
+                  "Antioxydants pour lutter contre le stress oxydatif"
+                ],
+                "category": "Anti-âge et prévention"
+              },
+              {
+                "details": [
+                  "Traitement de l'acné adulte et juvénile",
+                  "Atténuation des taches pigmentaires",
+                  "Réduction des pores dilatés",
+                  "Amélioration de la texture cutanée",
+                  "Unification du teint"
+                ],
+                "category": "Correction des imperfections"
+              },
+              {
+                "details": [
+                  "Restauration de la barrière cutanée",
+                  "Hydratation profonde selon le type de peau",
+                  "Nutrition cellulaire avec actifs concentrés",
+                  "Réparation des peaux sensibles et réactives",
+                  "Soins spécifiques contour des yeux"
+                ],
+                "category": "Hydratation et nutrition"
+              }
+            ],
+            "title": "Domaines d'expertise"
+          },
+          "type": "list"
+        },
+        {
+          "data": {
+            "items": [
+              {
+                "answer": "Les cosméceutiques contiennent des actifs concentrés à des dosages efficaces, avec études cliniques prouvant leur efficacité.",
+                "question": "Quelle différence avec les cosmétiques classiques ?"
+              },
+              {
+                "answer": "4-6 semaines minimum pour les premiers effets, 3-6 mois pour des résultats optimaux selon la problématique.",
+                "question": "Combien de temps pour voir des résultats ?"
+              },
+              {
+                "answer": "Oui, mais selon un protocole précis pour éviter interactions et intolérances. D'où l'importance du conseil médical.",
+                "question": "Peut-on utiliser plusieurs actifs ensemble ?"
+              },
+              {
+                "answer": "Absolument, avec des protocoles spécifiques selon l'âge, le type de peau et les besoins individuels.",
+                "question": "Les soins sont-ils adaptés à tous les âges ?"
+              }
+            ],
+            "title": "Questions fréquentes"
+          },
+          "type": "faq"
+        },
+        {
+          "data": {
+            "title": "Consultation cosmétologique",
+            "description": "Pour découvrir les soins dermocosmétiques adaptés à votre peau et optimiser votre routine beauté. Analyse personnalisée : Diagnostic complet de votre peau et création d'un protocole de soins sur mesure avec les meilleurs cosméceutiques du marché.",
+            "primaryButton": {
+              "link": "/contact",
+              "text": "Prendre rendez-vous"
+            },
+            "secondaryButton": {
+              "link": "tel:+32495280976",
+              "text": "+32 495 28 09 76"
+            }
+          },
+          "type": "cta"
+        }
+      ],
+      "duration": "Permanent",
+      "meta_title": "Cosmétologie Médicale à Liège | Dr Fassotte",
+      "meta_description": "Cosmétologie médicale à Liège. Conseils personnalisés, soins adaptés à votre peau, produits de qualité médicale. Dr Fassotte.",
+      "featured_image": null,
+      "gallery_images": [],
+      "related_treatments": [],
+      "is_active": true,
+      "display_order": 6,
+      "created_at": "2025-10-29T15:42:01.765398+00:00",
+      "updated_at": "2026-02-24T15:35:19.616+00:00"
+    },
+    {
+      "id": "61757eb9-a752-4d84-ab3b-838a7e06f0ab",
+      "slug": "/lifting-fils-tenseurs-liege",
+      "title": "Fils tenseurs",
+      "subtitle": "Lifting naturel sans chirurgie",
+      "description": "Les fils tenseurs permettent de retendre et repositionner les tissus du visage de manière naturelle, sans chirurgie, pour un effet lifting immédiat.",
+      "content": [
+        {
+          "data": {
+            "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771937869075-5o7i96.jpeg",
+            "title": "Fils Tenseurs à Cônes Bidirectionnels",
+            "duration": "Durée : 12-18 mois",
+            "subtitle": "Lifting Non Chirurgical Innovant",
+            "description": "Les fils tenseurs à cônes bidirectionnels représentent l'évolution la plus avancée du lifting non chirurgical. Ces fils résorbables en PDO sont équipés de cônes multidirectionnels qui permettent un ancrage optimal et une traction vectorisée précise dans les deux sens."
+          },
+          "type": "hero"
+        },
+        {
+          "data": {
+            "title": "Technologie des cônes bidirectionnels",
+            "features": [
+              {
+                "icon": "Target",
+                "title": "Ancrage multidirectionnel",
+                "description": "Cônes bidirectionnels intégrés pour un ancrage optimal dans les tissus"
+              },
+              {
+                "icon": "Zap",
+                "title": "Traction optimisée",
+                "description": "Traction selon deux vecteurs opposés pour un effet lifting maximal"
+              },
+              {
+                "icon": "Activity",
+                "title": "Stimulation renforcée",
+                "description": "Stimulation collagénique renforcée autour des cônes"
+              }
+            ]
+          },
+          "type": "text"
+        },
+        {
+          "data": {
+            "items": [
+              {
+                "zones": [
+                  "Lifting des sourcils et ouverture du regard",
+                  "Correction des tempes creusées",
+                  "Redéfinition de l'arcade sourcilière"
+                ],
+                "category": "Tiers supérieur du visage"
+              },
+              {
+                "zones": [
+                  "Remontée des pommettes (lifting malaire)",
+                  "Correction des sillons naso-géniens",
+                  "Restauration du volume jugal",
+                  "Amélioration de l'ovale"
+                ],
+                "category": "Tiers moyen du visage"
+              },
+              {
+                "zones": [
+                  "Redéfinition de la mâchoire (jawline)",
+                  "Lifting cervical (cou)",
+                  "Correction des bajoues",
+                  "Amélioration du double menton"
+                ],
+                "category": "Tiers inférieur du visage"
+              }
+            ],
+            "title": "Zones de traitement"
+          },
+          "type": "list"
+        },
+        {
+          "data": {
+            "items": [
+              "Efficacité maximale - Ancrage optimal des cônes",
+              "Résultats immédiats - Effet lifting visible dès la sortie",
+              "Durabilité supérieure - 12-18 mois vs 6-12 mois fils lisses",
+              "Stimulation renforcée - Néocollagénèse optimisée",
+              "Sécurité prouvée - Matériau PDO résorbable",
+              "Technique précise - Vecteurs bidirectionnels calculés",
+              "Récupération rapide - Reprise d'activité sous 48-72h"
+            ],
+            "title": "Avantages des fils à cônes bidirectionnels"
+          },
+          "type": "list"
+        },
+        {
+          "data": {
+            "steps": [
+              {
+                "step": "1",
+                "title": "Préparation (15 min)",
+                "description": "Désinfection et marquage des trajets, anesthésie locale des zones d'insertion, préparation du matériel stérilisé"
+              },
+              {
+                "step": "2",
+                "title": "Insertion des fils (30-60 min)",
+                "description": "Introduction avec canules fines, positionnement selon vecteurs calculés, ancrage des cônes aux points stratégiques"
+              },
+              {
+                "step": "3",
+                "title": "Finalisation (15 min)",
+                "description": "Coupe des fils au niveau cutané, massage délicat pour optimisation, vérification du résultat symétrique"
+              }
+            ],
+            "title": "Déroulement de la séance",
+            "duration": "Durée : 45-90 minutes selon l'étendue"
+          },
+          "type": "process"
+        },
+        {
+          "data": {
+            "items": [
+              {
+                "answer": "Inconfort modéré pendant l'insertion, bien contrôlé par l'anesthésie locale. Sensibilité résiduelle 1-2 semaines, facilement gérée.",
+                "question": "Le traitement est-il douloureux ?"
+              },
+              {
+                "answer": "Effet lifting immédiat, résultat optimal à 2-3 mois quand la stimulation collagénique est maximale.",
+                "question": "Quand voit-on les résultats définitifs ?"
+              },
+              {
+                "answer": "Non, les fils à cônes bidirectionnels sont placés en profondeur. Palpation possible les premiers jours, puis intégration complète.",
+                "question": "Les fils sont-ils visibles ou palpables ?"
+              },
+              {
+                "answer": "Activités légères dès J+1, sport et efforts intenses après 1 semaine. Vie sociale normale sous 3-5 jours.",
+                "question": "Peut-on reprendre ses activités normalement ?"
+              }
+            ],
+            "title": "Questions fréquentes"
+          },
+          "type": "faq"
+        },
+        {
+          "data": {
+            "title": "Consultation avec Docteure Fassotte",
+            "description": "Pour découvrir si les fils tenseurs à cônes bidirectionnels peuvent répondre à vos objectifs de rajeunissement. Évaluation personnalisée et simulation des résultats possibles.",
+            "primaryButton": {
+              "link": "/contact",
+              "text": "Prendre rendez-vous"
+            },
+            "secondaryButton": {
+              "link": "tel:+32495280976",
+              "text": "+32 495 28 09 76"
+            }
+          },
+          "type": "cta"
+        }
+      ],
+      "duration": "12-18 mois",
+      "meta_title": "Fils Tenseurs à Liège | Lifting sans Chirurgie | Dr Fassotte",
+      "meta_description": "Pose de fils tenseurs à Liège. Lifting naturel sans chirurgie, retension des tissus, résultats immédiats. Cabinet Dr Fassotte.",
+      "featured_image": null,
+      "gallery_images": [],
+      "related_treatments": [],
+      "is_active": true,
+      "display_order": 5,
+      "created_at": "2025-10-29T15:42:01.765398+00:00",
+      "updated_at": "2026-02-24T14:44:03.14+00:00"
+    },
+    {
+      "id": "16179351-f2ff-4b9d-b040-7a4e4a16048b",
+      "slug": "/mesotherapie-liege",
+      "title": "Mésolift",
+      "subtitle": "Cocktail de vitamines et acides aminés",
+      "description": "Le mésolift consiste en l'injection de micro-doses de vitamines, minéraux et acides aminés pour revitaliser et hydrater la peau en profondeur.",
+      "content": [
+        {
+          "data": {
+            "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771938077781-yio16q.jpg",
+            "title": "Mésolift",
+            "duration": "3-4 séances espacées de 2-3 semaines",
+            "subtitle": "Revitalisez Votre Peau en Profondeur",
+            "description": "Le Mésolift est une technique de mésothérapie esthétique qui consiste à injecter des micro-doses de substances revitalisantes directement dans le derme superficiel. Cette méthode permet d'apporter à votre peau les nutriments essentiels dont elle a besoin pour retrouver éclat, fermeté et hydratation."
+          },
+          "type": "hero"
+        },
+        {
+          "data": {
+            "title": "Comment ça fonctionne ?",
+            "content": "Contrairement aux injections de comblement, le Mésolift agit comme un véritable cocktail de vitamines administré directement là où la peau en a le plus besoin.",
+            "features": [
+              {
+                "icon": "Target",
+                "title": "Injection superficielle",
+                "description": "Dans le derme à 1-4mm de profondeur avec aiguilles très fines"
+              },
+              {
+                "icon": "Droplets",
+                "title": "Apport nutritionnel",
+                "description": "Apport direct de nutriments aux cellules cutanées"
+              },
+              {
+                "icon": "Activity",
+                "title": "Stimulation cellulaire",
+                "description": "Activation des fibroblastes pour la production de collagène"
+              }
+            ]
+          },
+          "type": "text"
+        },
+        {
+          "data": {
+            "items": [
+              {
+                "category": "Cocktail hydratant",
+                "components": [
+                  "Acide hyaluronique non réticulé (hydratation)",
+                  "Vitamines du complexe B (métabolisme cellulaire)",
+                  "Vitamine C (antioxydant, stimulation collagène)",
+                  "Minéraux et oligo-éléments"
+                ]
+              },
+              {
+                "category": "Cocktail anti-âge",
+                "components": [
+                  "Peptides biomimétiques (stimulation cellulaire)",
+                  "Acides aminés essentiels",
+                  "Coenzymes (énergie cellulaire)",
+                  "Antioxydants (protection radicaux libres)"
+                ]
+              },
+              {
+                "category": "Cocktail éclaircissant",
+                "components": [
+                  "Vitamine C concentrée",
+                  "Acide kojique (dépigmentant doux)",
+                  "Arbutine (uniformisation du teint)",
+                  "Glutathion (détoxification cellulaire)"
+                ]
+              }
+            ],
+            "title": "Composition des cocktails Mésolift",
+            "description": "Cocktails personnalisés selon vos besoins spécifiques"
+          },
+          "type": "list"
+        },
+        {
+          "data": {
+            "items": [
+              "Hydratation intense et durable de la peau",
+              "Amélioration immédiate de l'éclat du teint",
+              "Stimulation naturelle des processus de régénération",
+              "Traitement préventif du vieillissement cutané",
+              "Adapté à tous types de peau et tous phototypes",
+              "Aucune éviction sociale - reprise d'activité immédiate",
+              "Résultats progressifs et naturels"
+            ],
+            "title": "Avantages du Mésolift"
+          },
+          "type": "list"
+        },
+        {
+          "data": {
+            "steps": [
+              {
+                "step": "1",
+                "title": "Préparation (10 min)",
+                "description": "Démaquillage, nettoyage et désinfection. Application de crème anesthésiante si nécessaire."
+              },
+              {
+                "step": "2",
+                "title": "Traitement (20-30 min)",
+                "description": "Préparation du cocktail personnalisé et injections multiples selon technique de nappage."
+              },
+              {
+                "step": "3",
+                "title": "Finalisation (5 min)",
+                "description": "Application de sérum apaisant, protection solaire et conseils post-traitement."
+              }
+            ],
+            "title": "Déroulement d'une séance",
+            "duration": "Durée totale : 30-45 minutes"
+          },
+          "type": "process"
+        },
+        {
+          "data": {
+            "items": [
+              {
+                "answer": "Inconfort minimal grâce aux aiguilles très fines et à l'anesthésie locale. Sensation de légers picotements bien tolérée.",
+                "question": "Le Mésolift est-il douloureux ?"
+              },
+              {
+                "answer": "Dès la première séance pour l'éclat et l'hydratation. Effets cumulatifs après 2-3 séances.",
+                "question": "Quand voit-on les premiers résultats ?"
+              },
+              {
+                "answer": "3-4 séances pour une cure complète, puis entretien tous les 2-3 mois selon les besoins.",
+                "question": "Combien de séances sont nécessaires ?"
+              },
+              {
+                "answer": "Oui, c'est même recommandé. Particulièrement bénéfique aux changements de saison.",
+                "question": "Peut-on faire du Mésolift toute l'année ?"
+              }
+            ],
+            "title": "Questions fréquentes"
+          },
+          "type": "faq"
+        },
+        {
+          "data": {
+            "title": "Consultation avec Docteure Fassotte",
+            "description": "Pour découvrir comment le Mésolift peut revitaliser votre peau et lui redonner tout son éclat. Analyse personnalisée et composition d'un cocktail sur mesure pour des résultats optimaux.",
+            "primaryButton": {
+              "link": "/contact",
+              "text": "Prendre rendez-vous"
+            },
+            "secondaryButton": {
+              "link": "tel:+32495280976",
+              "text": "+32 495 28 09 76"
+            }
+          },
+          "type": "cta"
+        }
+      ],
+      "duration": "3-6 mois",
+      "meta_title": "Mésolift à Liège | Mésothérapie Visage | Dr Fassotte",
+      "meta_description": "Mésolift et mésothérapie du visage à Liège. Revitalisation, hydratation profonde, éclat du teint. Dr Fassotte, médecine esthétique.",
+      "featured_image": null,
+      "gallery_images": [],
+      "related_treatments": [],
+      "is_active": true,
+      "display_order": 4,
+      "created_at": "2025-10-29T15:42:01.765398+00:00",
+      "updated_at": "2026-02-24T14:43:26.35+00:00"
+    },
+    {
+      "id": "34381c44-ca75-4f99-9608-d85982775d85",
+      "slug": "/peelings-chimiques-liege",
+      "title": "Peelings médicaux",
+      "subtitle": "Exfoliation contrôlée pour renouveler la peau",
+      "description": "Les peelings chimiques permettent d'exfolier la peau en profondeur pour stimuler le renouvellement cellulaire et améliorer la qualité de la peau.",
+      "content": [
+        {
+          "data": {
+            "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771938013395-wu24k.jpg",
+            "title": "Peelings Chimiques",
+            "duration": "1 à 6 séances selon l'objectif",
+            "subtitle": "Révélez l'Éclat de Votre Peau",
+            "description": "Le peeling chimique est un traitement de médecine esthétique qui consiste à appliquer une solution acide contrôlée sur la peau pour éliminer les couches superficielles endommagées. Cette exfoliation stimule le renouvellement cellulaire et révèle une peau plus lisse, lumineuse et uniforme."
+          },
+          "type": "hero"
+        },
+        {
+          "data": {
+            "title": "Comment ça fonctionne ?",
+            "content": "Mécanisme d'action du peeling chimique",
+            "features": [
+              {
+                "icon": "Sparkles",
+                "title": "Exfoliation contrôlée",
+                "description": "Élimination des couches superficielles endommagées"
+              },
+              {
+                "icon": "Activity",
+                "title": "Renouvellement cellulaire",
+                "description": "Stimulation du renouvellement cellulaire en profondeur"
+              },
+              {
+                "icon": "Zap",
+                "title": "Stimulation collagène",
+                "description": "Activation de la production de collagène et d'élastine"
+              }
+            ]
+          },
+          "type": "text"
+        },
+        {
+          "data": {
+            "items": [
+              {
+                "types": [
+                  {
+                    "name": "Acide glycolique (20-70%)",
+                    "ideal": "Teint terne, pores dilatés, rides superficielles",
+                    "action": "Exfoliation douce, stimulation cellulaire",
+                    "origin": "Canne à sucre"
+                  },
+                  {
+                    "name": "Acide lactique (30-88%)",
+                    "ideal": "Peaux sensibles, phototypes foncés",
+                    "action": "Exfoliation + hydratation",
+                    "origin": "Fermentation lactique"
+                  }
+                ],
+                "category": "Peelings superficiels",
+                "downtime": "Aucune éviction sociale",
+                "duration": "15-30 minutes",
+                "frequency": "Toutes les 2-4 semaines"
+              },
+              {
+                "types": [
+                  {
+                    "name": "TCA (Acide Trichloracétique) 15-35%",
+                    "ideal": "Rides modérées, taches marquées, cicatrices d'acné",
+                    "action": "Coagulation protéique, stimulation collagénique intense"
+                  }
+                ],
+                "category": "Peelings moyens",
+                "downtime": "7-14 jours",
+                "duration": "30-45 minutes",
+                "frequency": "1-2 fois par an"
+              }
+            ],
+            "title": "Types de peelings proposés"
+          },
+          "type": "list"
+        },
+        {
+          "data": {
+            "items": [
+              {
+                "issues": [
+                  "Taches brunes (lentigos solaires)",
+                  "Mélasma (masque de grossesse)",
+                  "Hyperpigmentation post-inflammatoire",
+                  "Teint irrégulier et terne"
+                ],
+                "category": "Problèmes de pigmentation"
+              },
+              {
+                "issues": [
+                  "Rides superficielles à modérées",
+                  "Texture rugueuse",
+                  "Perte d'éclat et de luminosité",
+                  "Relâchement cutané léger"
+                ],
+                "category": "Signes de l'âge"
+              },
+              {
+                "issues": [
+                  "Cicatrices d'acné superficielles",
+                  "Pores dilatés",
+                  "Points noirs (comédons)",
+                  "Séquelles pigmentaires d'acné"
+                ],
+                "category": "Problèmes d'acné et séquelles"
+              }
+            ],
+            "title": "Indications principales"
+          },
+          "type": "list"
+        },
+        {
+          "data": {
+            "steps": [
+              {
+                "step": "1",
+                "title": "Préparation (10 min)",
+                "description": "Démaquillage, nettoyage approfondi et dégraissage avec solution spécialisée"
+              },
+              {
+                "step": "2",
+                "title": "Application (10-25 min)",
+                "description": "Application progressive de la solution avec surveillance continue de la réaction"
+              },
+              {
+                "step": "3",
+                "title": "Soins post-application (10 min)",
+                "description": "Masque apaisant, crème réparatrice et protection solaire"
+              }
+            ],
+            "title": "Déroulement de la séance"
+          },
+          "type": "process"
+        },
+        {
+          "data": {
+            "items": [
+              {
+                "answer": "Sensation de picotements et chaleur pendant l'application, bien tolérée. Inconfort léger les premiers jours avec tiraillements normaux.",
+                "question": "Le peeling est-il douloureux ?"
+              },
+              {
+                "answer": "1 à 6 séances selon l'objectif : 1 séance pour l'éclat immédiat, 3-6 pour traiter taches ou rides marquées.",
+                "question": "Combien de séances sont nécessaires ?"
+              },
+              {
+                "answer": "Préférable octobre à mars. Protection solaire stricte indispensable. Éviter absolument l'été pour peelings moyens.",
+                "question": "Peut-on faire un peeling toute l'année ?"
+              },
+              {
+                "answer": "Immédiatement pour peelings superficiels, après cicatrisation complète pour peelings moyens (10-14 jours).",
+                "question": "Puis-je me maquiller après ?"
+              }
+            ],
+            "title": "Questions fréquentes"
+          },
+          "type": "faq"
+        },
+        {
+          "data": {
+            "title": "Consultation avec Docteure Fassotte",
+            "description": "Pour déterminer le peeling le plus adapté à votre type de peau et vos objectifs esthétiques. Analyse personnalisée et proposition de protocole sur mesure pour des résultats optimaux en toute sécurité.",
+            "primaryButton": {
+              "link": "/contact",
+              "text": "Prendre rendez-vous"
+            },
+            "secondaryButton": {
+              "link": "tel:+32495280976",
+              "text": "+32 495 28 09 76"
+            }
+          },
+          "type": "cta"
+        }
+      ],
+      "duration": "Variable",
+      "meta_title": "Peelings Chimiques à Liège | Dr Fassotte",
+      "meta_description": "Peelings médicaux à Liège. Exfoliation contrôlée, renouvellement de la peau, traitement des imperfections. Cabinet du Dr Fassotte.",
+      "featured_image": null,
+      "gallery_images": [],
+      "related_treatments": [],
+      "is_active": true,
+      "display_order": 3,
+      "created_at": "2025-10-29T15:42:01.765398+00:00",
+      "updated_at": "2026-02-24T14:42:58.19+00:00"
+    },
+    {
+      "id": "a7ae854d-71e4-464a-8775-39b66e0155dc",
+      "slug": "/rajeunissement-global-liege",
+      "title": "Liquid Lift",
+      "subtitle": "Rajeunissement global du visage",
+      "description": "Le liquid lift est une technique globale combinant plusieurs injections stratégiques pour un rajeunissement harmonieux de l'ensemble du visage.",
+      "content": [
+        {
+          "data": {
+            "title": "Liquid Lift",
+            "duration": "Durée : 12-18 mois",
+            "subtitle": "Rajeunissement Global par Injections Stratégiques",
+            "description": "Le Liquid Lift représente l'évolution la plus sophistiquée des techniques d'injection en médecine esthétique. Cette approche globale et vectorisée utilise des injections stratégiques d'acide hyaluronique pour créer un véritable effet lifting sans chirurgie."
+          },
+          "type": "hero"
+        },
+        {
+          "data": {
+            "title": "Qu'est-ce que le Liquid Lift ?",
+            "content": "Docteure Fassotte maîtrise cette technique avancée qui permet de restaurer l'architecture naturelle du visage en repositionnant les volumes affaissés et en redéfinissant les contours, pour un rajeunissement harmonieux et naturel.",
+            "features": [
+              {
+                "icon": "Target",
+                "title": "Approche vectorielle",
+                "description": "Analyse 3D de la structure faciale, identification des vecteurs de lifting naturels, points de tension stratégiques"
+              },
+              {
+                "icon": "Zap",
+                "title": "Technique innovante",
+                "description": "Injections profondes aux points d'ancrage anatomiques, repositionnement des tissus affaissés, effet cascade sur l'ensemble du visage"
+              }
+            ]
+          },
+          "type": "text"
+        },
+        {
+          "data": {
+            "items": [
+              {
+                "zones": [
+                  "Tempes : Restauration des volumes perdus",
+                  "Pommettes : Remontée et redéfinition malaire",
+                  "Menton : Projection et harmonisation du profil",
+                  "Mâchoire : Redéfinition de la jawline",
+                  "Angle mandibulaire : Restructuration de l'ovale"
+                ],
+                "category": "Architecture du visage"
+              },
+              {
+                "zones": [
+                  "Lifting des joues par traction vectorisée",
+                  "Remontée des commissures labiales",
+                  "Ouverture du regard par lifting temporal",
+                  "Correction des bajoues par repositionnement",
+                  "Amélioration du profil global"
+                ],
+                "category": "Points de tension stratégiques"
+              }
+            ],
+            "title": "Zones de traitement"
+          },
+          "type": "list"
+        },
+        {
+          "data": {
+            "items": [
+              {
+                "issues": [
+                  "Visage affaissé par la gravité et l'âge",
+                  "Perte des volumes jeunes du visage",
+                  "Relâchement des tissus modéré",
+                  "Asymétries liées au vieillissement",
+                  "Manque d'harmonie des proportions"
+                ],
+                "category": "Rajeunissement global"
+              },
+              {
+                "issues": [
+                  "Restauration de l'ovale du visage",
+                  "Redéfinition des contours perdus",
+                  "Amélioration du profil en vue de côté",
+                  "Correction des disproportions naturelles",
+                  "Optimisation de la beauté naturelle"
+                ],
+                "category": "Restructuration faciale"
+              },
+              {
+                "issues": [
+                  "Équilibrage des volumes faciaux",
+                  "Amélioration des proportions selon le nombre d'or",
+                  "Correction des asymétries mineures",
+                  "Sublimation des traits existants",
+                  "Rajeunissement sans transformation"
+                ],
+                "category": "Harmonisation esthétique"
+              }
+            ],
+            "title": "Indications principales"
+          },
+          "type": "list"
+        },
+        {
+          "data": {
+            "items": [
+              "Effet lifting immédiat sans chirurgie",
+              "Approche globale - Vision d'ensemble du visage",
+              "Résultats naturels - Respect de votre identité",
+              "Durabilité optimale - 12-18 mois de bénéfices",
+              "Récupération immédiate - Pas d'éviction sociale",
+              "Technique réversible - Ajustements possibles",
+              "Alternative sûre à la chirurgie esthétique"
+            ],
+            "title": "Avantages du Liquid Lift"
+          },
+          "type": "list"
+        },
+        {
+          "data": {
+            "steps": [
+              {
+                "step": "1",
+                "title": "Préparation (20 min)",
+                "description": "Marquage des points d'injection stratégiques, anesthésie locale des zones de traitement, préparation des seringues d'acide hyaluronique"
+              },
+              {
+                "step": "2",
+                "title": "Phase d'injection (40-60 min)",
+                "description": "Injections profondes aux points d'ancrage, repositionnement progressif des volumes, contrôle symétrique constant, ajustements selon l'évolution"
+              },
+              {
+                "step": "3",
+                "title": "Finalisation (10 min)",
+                "description": "Massage délicat d'homogénéisation, vérification du résultat global, conseils post-traitement"
+              }
+            ],
+            "title": "Protocole de traitement",
+            "duration": "Durée : 60-90 minutes",
+            "consultation": {
+              "steps": [
+                "Analyse morphologique approfondie du visage",
+                "Photographies sous différents angles",
+                "Simulation des résultats attendus",
+                "Planification vectorielle personnalisée"
+              ],
+              "title": "Consultation spécialisée"
+            }
+          },
+          "type": "process"
+        },
+        {
+          "data": {
+            "items": [
+              {
+                "name": "Haute densité (G-Prime)",
+                "zones": "Pommettes, menton, mâchoire",
+                "action": "Restructuration profonde",
+                "durability": "15-18 mois"
+              },
+              {
+                "name": "Densité moyenne (G-Classic)",
+                "zones": "Tempes, milieu du visage",
+                "action": "Volumisation et projection",
+                "durability": "12-15 mois"
+              }
+            ],
+            "title": "Types d'acide hyaluronique utilisés"
+          },
+          "type": "list"
+        },
+        {
+          "data": {
+            "items": [
+              {
+                "answer": "Inconfort modéré durant l'injection, bien contrôlé par l'anesthésie locale. Sensibilité résiduelle 2-7 jours, facilement supportable.",
+                "question": "Le Liquid Lift fait-il mal ?"
+              },
+              {
+                "answer": "Variables selon les besoins : 2-6 seringues généralement. Évaluation précise lors de la consultation selon votre morphologie.",
+                "question": "Combien de seringues sont nécessaires ?"
+              },
+              {
+                "answer": "Parfaitement naturel avec la technique maîtrisée. L'objectif est de restaurer votre architecture faciale jeune, pas de vous transformer.",
+                "question": "Le résultat paraît-il naturel ?"
+              },
+              {
+                "answer": "Oui immédiatement. Éviter sport intense et exposition à la chaleur pendant 48h. Vie sociale normale dès le lendemain.",
+                "question": "Peut-on reprendre ses activités normalement ?"
+              },
+              {
+                "answer": "Excellente synergie avec Botox (espacer de 15 jours), peelings, soins dermocosmétiques. Planification globale recommandée.",
+                "question": "Compatible avec d'autres traitements ?"
+              }
+            ],
+            "title": "Questions fréquentes"
+          },
+          "type": "faq"
+        },
+        {
+          "data": {
+            "title": "Consultation avec Docteure Fassotte",
+            "description": "Pour découvrir si le Liquid Lift peut répondre à vos objectifs de rajeunissement global. Évaluation personnalisée : Analyse morphologique complète et simulation des résultats possibles avec la technique du Liquid Lift.",
+            "primaryButton": {
+              "link": "/contact",
+              "text": "Prendre rendez-vous"
+            },
+            "secondaryButton": {
+              "link": "tel:+32495280976",
+              "text": "+32 495 28 09 76"
+            }
+          },
+          "type": "cta"
+        }
+      ],
+      "duration": "12-18 mois",
+      "meta_title": "Liquid Lift à Liège | Rajeunissement Global | Dr Fassotte",
+      "meta_description": "Liquid lift à Liège. Rajeunissement global par injections stratégiques, résultats harmonieux et naturels. Cabinet Dr Fassotte.",
+      "featured_image": null,
+      "gallery_images": [],
+      "related_treatments": [],
+      "is_active": true,
+      "display_order": 8,
+      "created_at": "2025-10-29T15:42:01.765398+00:00",
+      "updated_at": "2026-01-05T14:23:24.192985+00:00"
+    },
+    {
+      "id": "5acba62e-a510-4438-9781-e37d61a2e6dc",
+      "slug": "/stimulateurs-collagene-liege",
+      "title": "Stimulateurs de collagène",
+      "subtitle": "Stimulation naturelle du collagène",
+      "description": "Les stimulateurs de collagène activent la production naturelle de collagène de votre peau pour un rajeunissement progressif et durable.",
+      "content": [
+        {
+          "data": {
+            "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771941142697-1y37rq.jpeg",
+            "title": "Stimulateurs de Collagène",
+            "duration": "2-3 séances espacées de 4-6 semaines, résultats jusqu'à 2 ans",
+            "subtitle": "Rajeunissement Naturel et Progressif",
+            "description": "Ces traitements agissent en profondeur pour relancer la production naturelle de collagène de votre peau. Une approche révolutionnaire qui inverse le processus de vieillissement naturel."
+          },
+          "type": "hero"
+        },
+        {
+          "data": {
+            "title": "Qu'est-ce qu'un stimulateur de collagène ?",
+            "content": "Les stimulateurs de collagène représentent une approche révolutionnaire en médecine esthétique. Contrairement aux techniques de comblement classiques, ces traitements agissent en profondeur pour relancer la production naturelle de collagène de votre peau.",
+            "features": [
+              {
+                "icon": "Zap",
+                "title": "Injection",
+                "description": "Micro-particules biocompatibles dans les couches profondes"
+              },
+              {
+                "icon": "Activity",
+                "title": "Stimulation",
+                "description": "Activation des fibroblastes productrices de collagène"
+              },
+              {
+                "icon": "Shield",
+                "title": "Reconstruction",
+                "description": "Reconstruction progressive de la matrice dermique"
+              },
+              {
+                "icon": "Heart",
+                "title": "Amélioration",
+                "description": "Fermeté et élasticité durables"
+              }
+            ]
+          },
+          "type": "text"
+        },
+        {
+          "data": {
+            "items": [
+              "Résultats naturels et progressifs (pas d'effet artificiel)",
+              "Durabilité exceptionnelle : 18-24 mois",
+              "Amélioration globale de la qualité de peau",
+              "Biocompatibilité parfaite (aucun risque d'allergie)",
+              "Stimulation de la régénération cellulaire",
+              "Alternative au lifting chirurgical"
+            ],
+            "title": "Avantages uniques"
+          },
+          "type": "list"
+        },
+        {
+          "data": {
+            "title": "Protocole de traitement",
+            "évolution": [
+              {
+                "period": "Semaines 1-4",
+                "description": "Début de stimulation, léger œdème normal"
+              },
+              {
+                "period": "Mois 2-6",
+                "description": "Production active de collagène, amélioration progressive"
+              },
+              {
+                "period": "Mois 6-24",
+                "description": "Résultats optimaux, peau ferme et tonique"
+              }
+            ],
+            "déroulement": {
+              "durée": "30-45 minutes par séance",
+              "séances": "2-3 injections espacées de 4-6 semaines",
+              "anesthésie": "Locale pour votre confort",
+              "récupération": "Reprise d'activité immédiate"
+            }
+          },
+          "type": "process"
+        },
+        {
+          "data": {
+            "items": [
+              {
+                "answer": "Non, l'effet est progressif. Premiers résultats à 6-8 semaines, optimal à 6 mois.",
+                "question": "Les résultats sont-ils immédiats ?"
+              },
+              {
+                "answer": "Inconfort minimal grâce à l'anesthésie locale. Bien toléré par la plupart des patients.",
+                "question": "Est-ce douloureux ?"
+              },
+              {
+                "answer": "18-24 mois en moyenne, parfois plus selon les zones et les patients.",
+                "question": "Combien de temps ça dure ?"
+              },
+              {
+                "answer": "Parfaitement. Se combine idéalement avec Botox, acide hyaluronique, peelings.",
+                "question": "Compatible avec autres traitements ?"
+              }
+            ],
+            "title": "Questions fréquentes"
+          },
+          "type": "faq"
+        },
+        {
+          "data": {
+            "title": "Consultation personnalisée",
+            "description": "Découvrez si les stimulateurs de collagène conviennent à vos objectifs esthétiques lors d'une consultation avec Docteure Fassotte.",
+            "primaryButton": {
+              "link": "/contact",
+              "text": "Prendre rendez-vous"
+            },
+            "secondaryButton": {
+              "link": "tel:+32495280976",
+              "text": "+32 495 28 09 76"
+            }
+          },
+          "type": "cta"
+        }
+      ],
+      "duration": "18-24 mois",
+      "meta_title": "Stimulateurs de Collagène à Liège | Dr Fassotte",
+      "meta_description": "Injections de stimulateurs de collagène à Liège. Stimulation naturelle, rajeunissement progressif, résultats durables. Dr Fassotte.",
+      "featured_image": null,
+      "gallery_images": [],
+      "related_treatments": [],
+      "is_active": true,
+      "display_order": 7,
+      "created_at": "2025-10-29T15:42:01.765398+00:00",
+      "updated_at": "2026-02-24T14:44:37.08+00:00"
+    },
+    {
+      "id": "35a8a415-305d-431f-a638-add7915d3b22",
+      "slug": "/toxine-botulique-liege",
+      "title": "Toxine botulique (Botox)",
+      "subtitle": "Relaxation musculaire pour atténuer les rides",
+      "description": "La toxine botulique permet de relaxer les muscles responsables des rides d'expression pour un visage plus détendu et reposé.",
+      "content": [
+        {
+          "data": {
+            "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771937938348-o7yq2d.jpeg",
+            "title": "Botox Liège - Toxine Botulique",
+            "duration": "Durée des résultats : 4-6 mois",
+            "subtitle": "Relaxation musculaire pour atténuer les rides",
+            "description": "La toxine botulique, plus communément appelée Botox, est une neurotoxine purifiée utilisée en médecine esthétique depuis plus de 20 ans. Elle agit en détendant temporairement les muscles responsables des rides d'expression, offrant un effet lissant naturel sans figer les expressions."
+          },
+          "type": "hero"
+        },
+        {
+          "data": {
+            "title": "Comment ça fonctionne ?",
+            "content": "La toxine botulique bloque temporairement la transmission nerveuse au niveau des muscles traités",
+            "features": [
+              {
+                "icon": "Target",
+                "title": "Détente musculaire",
+                "description": "Détente musculaire des zones hyperactives pour un lissage progressif des rides d'expression."
+              },
+              {
+                "icon": "Shield",
+                "title": "Effet préventif",
+                "description": "Prévention de l'approfondissement des rides avec un effet naturel sans paralysie complète."
+              },
+              {
+                "icon": "Clock",
+                "title": "Durabilité",
+                "description": "Durabilité de 4 à 6 mois avec possibilité de renouvellement selon les besoins."
+              }
+            ]
+          },
+          "type": "text"
+        },
+        {
+          "data": {
+            "items": [
+              {
+                "details": [
+                  "Rides horizontales du front",
+                  "Rides de contrariété entre les sourcils",
+                  "Effet lifting naturel des sourcils"
+                ],
+                "category": "Front",
+                "description": "Rides horizontales du front"
+              },
+              {
+                "details": [
+                  "Rides de la patte d'oie",
+                  "Rides sous les yeux (selon évaluation)",
+                  "Regard plus ouvert et détendu"
+                ],
+                "category": "Contour des yeux",
+                "description": "Rides de la patte d'oie"
+              },
+              {
+                "details": [
+                  "Rides du lion (inter-sourcilières)",
+                  "Correction du sourire gingival",
+                  "Rides du cou (bandes platysmales)",
+                  "Hyperhidrose (transpiration excessive)"
+                ],
+                "category": "Zones avancées",
+                "description": "Rides du lion (inter-sourcilières)"
+              }
+            ],
+            "title": "Zones de traitement",
+            "description": "La toxine botulique peut être utilisée sur différentes zones pour traiter rides d'expression et autres indications médicales."
+          },
+          "type": "list"
+        },
+        {
+          "data": {
+            "items": [
+              "Résultats naturels - Vous restez vous-même, en mieux",
+              "Traitement préventif - Empêche l'aggravation des rides",
+              "Intervention rapide - 15-30 minutes seulement",
+              "Aucune éviction sociale - Reprise d'activité immédiate",
+              "Effet progressif - Résultats visibles en 3-7 jours",
+              "Réversible - Retour à l'état initial après 4-6 mois"
+            ],
+            "title": "Avantages du Botox"
+          },
+          "type": "list"
+        },
+        {
+          "data": {
+            "steps": [
+              {
+                "step": "1",
+                "title": "Préparation",
+                "description": "Désinfection et marquage des points d'injection"
+              },
+              {
+                "step": "2",
+                "title": "Injections",
+                "description": "Injections précises dans les muscles ciblés"
+              },
+              {
+                "step": "3",
+                "title": "Contrôle immédiat",
+                "description": "Vérification et conseils post-traitement"
+              }
+            ],
+            "title": "Déroulement d'une séance",
+            "duration": "Durée totale : 15-30 minutes"
+          },
+          "type": "process"
+        },
+        {
+          "data": {
+            "items": [
+              {
+                "answer": "L'inconfort est très léger, comparable à une piqûre de moustique. Aucune anesthésie n'est nécessaire.",
+                "question": "L'injection est-elle douloureuse ?"
+              },
+              {
+                "answer": "L'effet commence à 3-7 jours, avec un résultat optimal à 2 semaines.",
+                "question": "Quand voit-on les premiers résultats ?"
+              },
+              {
+                "answer": "Non, avec un dosage approprié et une technique experte, vous conservez vos expressions naturelles.",
+                "question": "Vais-je avoir l'air figé ?"
+              },
+              {
+                "answer": "Oui immédiatement, en évitant simplement sport intense et position couchée pendant 4h.",
+                "question": "Puis-je reprendre mes activités normalement ?"
+              },
+              {
+                "answer": "Les complications sont exceptionnelles avec un médecin expérimenté. Effets secondaires rares et temporaires.",
+                "question": "Y a-t-il des risques ?"
+              }
+            ],
+            "title": "Questions fréquentes",
+            "subtitle": "Tout ce que vous devez savoir sur la toxine botulique"
+          },
+          "type": "faq"
+        },
+        {
+          "data": {
+            "title": "Consultation avec Docteure Fassotte",
+            "description": "Pour découvrir comment la toxine botulique peut détendre votre regard et prévenir le vieillissement. Consultation personnalisée : Analyse de vos besoins et proposition de traitement sur mesure.",
+            "primaryButton": {
+              "link": "/contact",
+              "text": "Prendre rendez-vous"
+            },
+            "secondaryButton": {
+              "link": "tel:+32495280976",
+              "text": "+32 495 28 09 76"
+            }
+          },
+          "type": "cta"
+        }
+      ],
+      "duration": "4-6 mois",
+      "meta_title": "Botox à Liège | Toxine Botulique | Dr Fassotte",
+      "meta_description": "Injections de toxine botulique (Botox) à Liège. Atténuation des rides d'expression, résultats naturels. Consultez le Dr Fassotte.",
+      "featured_image": null,
+      "gallery_images": [],
+      "related_treatments": [],
+      "is_active": true,
+      "display_order": 2,
+      "created_at": "2025-10-29T15:42:01.765398+00:00",
+      "updated_at": "2026-02-24T14:42:06.595+00:00"
+    }
+  ],
+  "menu": [
+    {
+      "id": "929ba7f7-4521-4bc2-bf1c-36e8e4312cc5",
+      "name": "Accueil",
+      "href": "/",
+      "order_index": 0,
+      "is_visible": true,
+      "parent_id": null,
+      "created_at": "2026-01-05T13:57:29.690083+00:00",
+      "updated_at": "2026-01-05T13:57:29.690083+00:00"
+    },
+    {
+      "id": "36943626-e74a-46db-92be-502cb09b375d",
+      "name": "À propos",
+      "href": "/docteur-jocelyne-fassotte",
+      "order_index": 1,
+      "is_visible": true,
+      "parent_id": null,
+      "created_at": "2026-01-05T13:57:29.690083+00:00",
+      "updated_at": "2026-01-05T13:57:29.690083+00:00"
+    },
+    {
+      "id": "497fb57c-950c-4760-8fd4-57c49015beb1",
+      "name": "Traitements",
+      "href": "/medecine-esthetique-liege",
+      "order_index": 2,
+      "is_visible": true,
+      "parent_id": null,
+      "created_at": "2026-01-05T13:57:29.690083+00:00",
+      "updated_at": "2026-01-05T13:57:29.690083+00:00"
+    },
+    {
+      "id": "c16195b7-79d8-4f57-b08d-8fb7b226ec84",
+      "name": "Galerie",
+      "href": "/galerie",
+      "order_index": 3,
+      "is_visible": true,
+      "parent_id": null,
+      "created_at": "2026-01-05T13:57:29.690083+00:00",
+      "updated_at": "2026-01-05T13:57:29.690083+00:00"
+    },
+    {
+      "id": "67ebdfb1-cdeb-4a4c-9334-fd33bbe844bf",
+      "name": "Contact",
+      "href": "/prendre-rendez-vous",
+      "order_index": 4,
+      "is_visible": true,
+      "parent_id": null,
+      "created_at": "2026-01-05T13:57:29.690083+00:00",
+      "updated_at": "2026-01-05T13:57:29.690083+00:00"
+    }
+  ],
+  "reglages": [
+    {
+      "id": "d8afd10e-4717-4d20-8ae0-6a777517bba8",
+      "key": "accent_color",
+      "value": "#fca5a5",
+      "type": "color",
+      "updated_at": "2025-10-06T12:50:09.757231+00:00"
+    },
+    {
+      "id": "2360f0cb-b7df-4ee8-aeec-d131ff5c7b20",
+      "key": "background_color",
+      "value": "#ffffff",
+      "type": "color",
+      "updated_at": "2025-10-06T12:50:09.757231+00:00"
+    },
+    {
+      "id": "708586d5-9d5f-424d-9f06-80f9fd9be7a9",
+      "key": "contact_email",
+      "value": "contact@fassotte.be",
+      "type": "text",
+      "updated_at": "2025-10-06T12:50:09.757231+00:00"
+    },
+    {
+      "id": "be755c3f-e629-4256-8908-a2a3ab6f04af",
+      "key": "contact_phone",
+      "value": "+32 (0)4 365 45 39",
+      "type": "text",
+      "updated_at": "2025-10-06T12:50:09.757231+00:00"
+    },
+    {
+      "id": "eea8ba08-2356-454f-af8d-eb73b947b579",
+      "key": "logo_initials",
+      "value": "JF",
+      "type": "text",
+      "updated_at": "2025-10-06T12:50:09.757231+00:00"
+    },
+    {
+      "id": "3c2bedd2-b988-4725-8258-ffa9341bd6be",
+      "key": "primary_color",
+      "value": "#dc2626",
+      "type": "color",
+      "updated_at": "2025-10-06T12:50:09.757231+00:00"
+    },
+    {
+      "id": "e113aca5-6b11-4e7a-9876-dcdb71e64a96",
+      "key": "secondary_color",
+      "value": "#f87171",
+      "type": "color",
+      "updated_at": "2025-10-06T12:50:09.757231+00:00"
+    },
+    {
+      "id": "ca02044a-8480-4b37-ad04-1da6d23974d6",
+      "key": "site_subtitle",
+      "value": "Médecine esthétique",
+      "type": "text",
+      "updated_at": "2025-10-06T12:50:09.757231+00:00"
+    },
+    {
+      "id": "229551c6-c0e5-4a4f-9c8f-c0412f7c12b5",
+      "key": "site_title",
+      "value": "Docteure Jocelyne Fassotte",
+      "type": "text",
+      "updated_at": "2025-10-06T12:50:09.757231+00:00"
+    },
+    {
+      "id": "6ab2e610-8010-4ea4-82af-2503461cc648",
+      "key": "text_color",
+      "value": "#1f2937",
+      "type": "color",
+      "updated_at": "2025-10-06T12:50:09.757231+00:00"
+    },
+    {
+      "id": "58633021-1175-4a64-a338-54d01da59be5",
+      "key": "treatments.title",
+      "value": "Les Traitements de Dre Fassotte",
+      "type": "text",
+      "updated_at": "2025-10-14T11:27:03.018355+00:00"
+    }
+  ],
+  "galerie": [
+    {
+      "id": "243127c9-c076-40fe-991e-589aab10146c",
+      "category": "botox",
+      "treatment_name": "Toxine Botulique ",
+      "image_url": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/gallery/5qy87j4adzq-1771936296521.jpeg",
+      "alt_text": "Injection de Botox à Liège",
+      "description": "Injection de Botox par Dre Fassotte Médecin esthétique ",
+      "display_order": 0,
+      "is_active": true,
+      "created_at": "2026-02-24T12:31:37.137197+00:00",
+      "updated_at": "2026-02-24T12:31:37.137197+00:00"
+    },
+    {
+      "id": "3dd36f41-4bcf-4275-a599-d8134fda4a75",
+      "category": "cabinet",
+      "treatment_name": "Cabinet de Dre Fassotte Médecin esthétique Liège ",
+      "image_url": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/gallery/ryvfml33z8-1771936921055.jpeg",
+      "alt_text": "Cabinet de médecine esthétique Liège ",
+      "description": "",
+      "display_order": 0,
+      "is_active": true,
+      "created_at": "2026-02-24T12:42:03.975505+00:00",
+      "updated_at": "2026-02-24T14:03:25.149617+00:00"
+    },
+    {
+      "id": "62fc6aa8-a969-487e-95a3-64d938c05ab3",
+      "category": "collagen",
+      "treatment_name": "Stimulateur de collagène",
+      "image_url": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/gallery/yy6hlvatwpk-1771936817032.jpg",
+      "alt_text": "Collagène stimulateur ",
+      "description": "",
+      "display_order": 0,
+      "is_active": true,
+      "created_at": "2026-02-24T12:40:17.858276+00:00",
+      "updated_at": "2026-02-24T12:40:17.858276+00:00"
+    },
+    {
+      "id": "8f83b68b-c4d8-46d9-8f28-019aeddbccf8",
+      "category": "threads",
+      "treatment_name": "Fils ",
+      "image_url": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/gallery/gu1glj3nym5-1771943584256.jpeg",
+      "alt_text": "Fils tenseurs",
+      "description": "",
+      "display_order": 0,
+      "is_active": true,
+      "created_at": "2026-02-24T14:33:05.023214+00:00",
+      "updated_at": "2026-02-24T14:33:05.023214+00:00"
+    },
+    {
+      "id": "9283d7ae-b30e-49fc-b0a7-6179dbc3d07e",
+      "category": "mesolift",
+      "treatment_name": "Mésolift ",
+      "image_url": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/gallery/yq74zseb22-1771936543265.jpg",
+      "alt_text": "Mésolift pour le visage",
+      "description": "",
+      "display_order": 0,
+      "is_active": true,
+      "created_at": "2026-02-24T12:35:43.783742+00:00",
+      "updated_at": "2026-02-24T12:35:43.783742+00:00"
+    },
+    {
+      "id": "9d6a1670-3733-4a15-aec5-153b36ea4f7e",
+      "category": "threads",
+      "treatment_name": "Fils tenseurs",
+      "image_url": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/gallery/geptn4vbvck-1771936725436.jpg",
+      "alt_text": "Fils tenseurs ",
+      "description": "",
+      "display_order": 0,
+      "is_active": true,
+      "created_at": "2026-02-24T12:38:46.318837+00:00",
+      "updated_at": "2026-02-24T12:38:46.318837+00:00"
+    },
+    {
+      "id": "a54778f8-4efa-499a-8a19-11555e134c05",
+      "category": "hyaluronic",
+      "treatment_name": "Injection d'acide Hyaluronique",
+      "image_url": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/gallery/72tc6naks2a-1771936402863.jpeg",
+      "alt_text": "Acide Hyaluronique pour les cernes",
+      "description": "",
+      "display_order": 0,
+      "is_active": true,
+      "created_at": "2026-02-24T12:33:23.343929+00:00",
+      "updated_at": "2026-02-24T12:33:23.343929+00:00"
+    },
+    {
+      "id": "bdfd57ca-ecfa-48ad-a909-3d7924787784",
+      "category": "threads",
+      "treatment_name": "Fils tenseurs ",
+      "image_url": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/gallery/i9rmggv22nr-1771943619988.jpeg",
+      "alt_text": "Lifting médical fils tenseurs",
+      "description": "",
+      "display_order": 0,
+      "is_active": true,
+      "created_at": "2026-02-24T14:33:40.562204+00:00",
+      "updated_at": "2026-02-24T14:36:39.206021+00:00"
+    },
+    {
+      "id": "e252536c-b5e5-4b65-8778-c7052221a5c7",
+      "category": "peeling",
+      "treatment_name": "Peeling",
+      "image_url": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/gallery/dnld8dz55zo-1771936474192.jpg",
+      "alt_text": "Peeling ",
+      "description": "",
+      "display_order": 0,
+      "is_active": true,
+      "created_at": "2026-02-24T12:34:35.18854+00:00",
+      "updated_at": "2026-02-24T12:34:35.18854+00:00"
+    },
+    {
+      "id": "615afa69-20cc-4c7f-a4ff-554dc074dd5e",
+      "category": "hyaluronic",
+      "treatment_name": "Clinique esthétique Dre Fassotte",
+      "image_url": "/HyaluronicAcid/image copy 4.png",
+      "alt_text": "Consultation esthétique avec la Dre Fassotte à Liège",
+      "description": "La Dre Fassotte échange avec une patiente lors d’une consultation personnalisée en médecine esthétique.",
+      "display_order": 1,
+      "is_active": true,
+      "created_at": "2026-09-23T14:23:46.83432+00:00",
+      "updated_at": "2026-09-23T14:24:03.410531+00:00"
+    },
+    {
+      "id": "c260672b-40db-4bb3-ad70-917c067cd230",
+      "category": "cabinet",
+      "treatment_name": "Clinique esthétique Dre Fassotte",
+      "image_url": "/cabinet%20medical/image.png",
+      "alt_text": "Consultation à la Clinique esthétique Dre Fassotte à Liège",
+      "description": "La Dre Fassotte accueille une patiente pour une consultation personnalisée en médecine esthétique.",
+      "display_order": 1,
+      "is_active": true,
+      "created_at": "2026-09-23T14:30:56.76656+00:00",
+      "updated_at": "2026-09-23T14:30:56.76656+00:00"
+    }
+  ]
+}
