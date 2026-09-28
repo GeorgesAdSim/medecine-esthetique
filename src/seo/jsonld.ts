@@ -8,6 +8,7 @@ import * as schema from '@adsim/seo-core/schema';
 import { BUSINESS_INFO } from '../constants/businessInfo';
 import { CHEMINS_TRAITEMENTS, pageDe, traitementDe } from '../contenu/routes';
 import { SITE } from './site';
+import { sourcesDe } from '../contenu/sources';
 
 const BASE = SITE.baseUrl;
 export const ID_CABINET = `${BASE}/#cabinet`;
@@ -58,6 +59,22 @@ const ariane = (titre: string, chemin: string) =>
     { nom: titre, url: `${BASE}${chemin}` },
   ]);
 
+/** Page de traitement et documents qu'elle cite (src/contenu/sources.ts) — seulement s'il y en a. */
+function pageCitations(chemin: string, nom: string): object | null {
+  const p = sourcesDe(chemin);
+  if (!p?.sources.length) return null;
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'MedicalWebPage',
+    '@id': `${BASE}${chemin}#page`,
+    url: `${BASE}${chemin}`,
+    name: nom,
+    inLanguage: 'fr-BE',
+    publisher: { '@id': ID_CABINET },
+    citation: p.sources.map((s) => ({ '@type': 'CreativeWork', name: s.titre, url: s.url, publisher: s.editeur })),
+  };
+}
+
 export function jsonLdDe(chemin: string, titre: string): object[] {
   if (chemin === '/') {
     return [schema.etablissement({ ...identite, image: SITE.imageParDefaut, horaires: schema.horairesLd(BUSINESS_INFO.hours),
@@ -81,6 +98,7 @@ export function jsonLdDe(chemin: string, titre: string): object[] {
       }),
       ariane(nom.replace(/ à Liège$/, ''), chemin),
       schema.faqPage(questionsAffichees(t?.donnees.content)),
+      pageCitations(chemin, nom),
     ].filter(Boolean) as object[];
   }
   const p = pageDe(chemin);

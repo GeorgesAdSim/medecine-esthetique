@@ -471,7 +471,7 @@
             "ctaText": "Prendre rendez-vous",
             "imageAlt": "Zones d'injection Botox - Rides du front, glabelle, rides périoculaires, plis d'amertume",
             "subtitle": "Par la Dre Jocelyne Fassotte, médecin esthétique, à Vaux-sous-Chèvremont (Chaudfontaine)",
-            "description": "La toxine botulique, plus communément appelée Botox, est une neurotoxine purifiée utilisée en médecine esthétique depuis plus de 20 ans. Injectée par un médecin dans les muscles des rides d'expression (rides du lion, front, pattes d'oie), elle les détend temporairement : le visage paraît plus reposé, sans figer les expressions. La séance dure 15 à 30 minutes et l'effet dure en général 4 à 6 mois."
+            "description": "La toxine botulique, plus communément appelée Botox, est une neurotoxine purifiée utilisée en médecine esthétique depuis plus de 20 ans. Injectée par un médecin dans les muscles des rides d'expression (rides du lion, front, pattes d'oie), elle les détend temporairement : le visage paraît plus reposé, sans figer les expressions. La séance dure 15 à 30 minutes ; l'amélioration apparaît en général dans la semaine et l'effet est démontré jusqu'à environ 4 mois."
           }
         },
         {
@@ -491,7 +491,7 @@
               },
               {
                 "title": "Durabilité",
-                "description": "Durabilité de 4 à 6 mois avec possibilité de renouvellement selon les besoins."
+                "description": "Effet démontré jusqu'à environ 4 mois, renouvelable selon les besoins."
               }
             ],
             "subtitle": "La toxine botulique bloque temporairement la transmission nerveuse au niveau des muscles traités",
@@ -569,11 +569,11 @@
               },
               {
                 "title": "Effet progressif",
-                "description": "Résultats visibles en 3-7 jours"
+                "description": "Résultats visibles en général dans la semaine"
               },
               {
-                "title": "Réversible",
-                "description": "Retour à l'état initial après 4-6 mois"
+                "title": "Temporaire",
+                "description": "Retour progressif à l'état initial en quelques mois"
               }
             ]
           }
@@ -686,9 +686,9 @@
                 "title": "Effets secondaires possibles",
                 "description": "Ils sont le plus souvent légers et passagers.",
                 "details": [
-                  "Rougeur, petit gonflement ou bleu aux points d'injection",
-                  "Maux de tête passagers",
-                  "Plus rarement, chute temporaire de la paupière ou du sourcil"
+                  "Maux de tête, rougeur, petit gonflement ou bleu aux points d'injection",
+                  "Chute temporaire de la paupière ou du sourcil, effet fréquent selon la notice du produit",
+                  "Ces effets sont en général passagers et expliqués en consultation"
                 ]
               }
             ]
@@ -712,10 +712,10 @@
               },
               {
                 "question": "Combien de temps dure l'effet du Botox ?",
-                "answer": "En général 4 à 6 mois. La durée varie selon la zone traitée, la dose et la personne ; le traitement peut ensuite être renouvelé."
+                "answer": "L'effet est démontré jusqu'à environ 4 mois après l'injection, selon la notice officielle du produit. La durée varie selon la zone, la dose et la personne ; le traitement peut ensuite être renouvelé."
               },
               {
-                "answer": "L'effet commence à 3-7 jours, avec un résultat optimal à 2 semaines.",
+                "answer": "L'amélioration apparaît en général dans la semaine qui suit l'injection.",
                 "question": "Quand voit-on les premiers résultats ?"
               },
               {
@@ -727,7 +727,7 @@
                 "question": "Puis-je reprendre mes activités normalement ?"
               },
               {
-                "answer": "Les effets indésirables sont le plus souvent légers et passagers : rougeur, petit bleu, maux de tête. Plus rarement, une chute temporaire de la paupière ou du sourcil peut survenir. Les risques et les contre-indications sont expliqués lors de la consultation.",
+                "answer": "Les effets indésirables les plus fréquents sont des maux de tête, une rougeur ou un petit bleu au point d'injection, et parfois une chute temporaire de la paupière ou du sourcil. Ils sont en général passagers. Les risques et les contre-indications sont expliqués lors de la consultation.",
                 "question": "Y a-t-il des risques ?"
               },
               {
@@ -739,7 +739,7 @@
                 "question": "Compatible avec d'autres traitements ?"
               },
               {
-                "answer": "Retour progressif à l'état initial. Aucun effet de rebond ou aggravation des rides.",
+                "answer": "L'effet s'estompe progressivement et le visage retrouve son aspect initial.",
                 "question": "Que se passe-t-il si j'arrête ?"
               },
               {
@@ -771,7 +771,7 @@
       "meta_description": "Botox à Liège par la Dre Jocelyne Fassotte, médecin esthétique : rides du lion, front et pattes d'oie, déroulement, contre-indications et questions fréquentes.",
       "is_published": true,
       "created_at": "2025-10-28T16:45:50.160707+00:00",
-      "updated_at": "2026-09-28T12:00:00+00:00"
+      "updated_at": "2026-09-28T17:00:00+00:00"
     },
     {
       "id": "0967edf6-6ec6-4602-ad12-7906f3ab2e3b",

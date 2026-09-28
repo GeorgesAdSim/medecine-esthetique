@@ -5,6 +5,8 @@ import Breadcrumbs from '../components/Breadcrumbs';
 import NotFound from './NotFound';
 import RelatedTreatments from '../components/RelatedTreatments';
 import AccesCabinet from '../components/AccesCabinet';
+import { ListeSources } from '../components/Sources';
+import { appuisParAncre, sourcesDe } from '../contenu/sources';
 import { getAllTreatments, getTreatmentRelations } from '../utils/treatmentLinks';
 import { normaliser, traitementDe } from '../contenu/routes';
 
@@ -122,7 +124,8 @@ const DynamicTreatmentPage: React.FC = () => {
             { label: 'Traitements', path: '/medecine-esthetique-liege' },
             { label: customPage.title, path: customPage.slug }
           ]} />
-          <BlockRenderer blocks={transformedBlocks} />
+          <BlockRenderer blocks={transformedBlocks} appuis={appuisParAncre(chemin)} />
+          {sourcesDe(chemin) && <ListeSources sources={sourcesDe(chemin)!.sources} />}
           <AccesCabinet traitement={nomCourt(chemin, customPage.title)} />
           <Complementaires chemin={chemin} />
         </>
