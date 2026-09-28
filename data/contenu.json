@@ -344,7 +344,8 @@
                   "Hydratation intense"
                 ],
                 "duration": "6-12 mois",
-                "description": "Volume naturel et hydratation"
+                "description": "Volume naturel et hydratation",
+                "href": "/acide-hyaluronique-liege/levres"
               },
               {
                 "title": "Rides et sillons",
@@ -375,7 +376,8 @@
                   "Regard rajeuni"
                 ],
                 "duration": "Jusqu'à 1 an environ",
-                "description": "Correction des cernes creusés"
+                "description": "Correction des cernes creusés",
+                "href": "/acide-hyaluronique-liege/cernes"
               }
             ],
             "ancre": "zones"
@@ -485,7 +487,7 @@
       "meta_description": "ACIDE HYALURONIQUE\n\nL’acide hyaluronique est un constituant naturel du liquide extracellulaire du derme, de\nl’épiderme, du cartilage , de notre corps.\nAvec le vieillissement, le renouvellement de l’acide hyaluronique se ralenti ce qui diminue\nl’hydratation et la fermeté de notre peau.\nLa molécule d’acide hyaluronique pure est reconstituée par les laboratoires de Médecine\nEsthétique.\nElle se présente sous différentes concentrations (réticulation) et peut être injectée en\nMédecine Esthétique pour remplacer notre acide hyaluronique perdu soit superficiellement\nau niveau du derme (acide hyaluronique peu réticulé) soit de façon plus concentrée\n(réticulation importante) pour remplacer les masses graisseuses du visage perdue avec l’âge\net reconstruire ainsi les volumes et le contour du visage.\nL’acide hyaluronique est une molécule essentielle en médecine esthétique.\nElle procure hydratation, réduction des rides et restructuration des volumes du visage.",
       "is_published": true,
       "created_at": "2025-10-28T16:45:50.160707+00:00",
-      "updated_at": "2026-09-28T19:00:00+00:00"
+      "updated_at": "2026-09-28T20:30:00+00:00"
     },
     {
       "id": "e5e1e35a-e6be-476d-bceb-21e263c4a79b",
@@ -545,7 +547,8 @@
                 "details": [
                   "Rides verticales entre les sourcils",
                   "Air soucieux ou fatigué atténué"
-                ]
+                ],
+                "href": "/botox-liege/rides-du-lion"
               },
               {
                 "title": "Rides du front",
@@ -803,7 +806,7 @@
       "meta_description": "Botox à Liège par la Dre Jocelyne Fassotte, médecin esthétique : rides du lion, front et pattes d'oie, déroulement, contre-indications et questions fréquentes.",
       "is_published": true,
       "created_at": "2025-10-28T16:45:50.160707+00:00",
-      "updated_at": "2026-09-28T17:00:00+00:00"
+      "updated_at": "2026-09-28T20:30:00+00:00"
     },
     {
       "id": "0967edf6-6ec6-4602-ad12-7906f3ab2e3b",
@@ -1550,6 +1553,362 @@
       "is_published": true,
       "created_at": "2025-10-28T16:45:50.160707+00:00",
       "updated_at": "2026-09-23T14:31:15.897677+00:00"
+    },
+    {
+      "id": "brouillon-injection-cernes",
+      "slug": "injection-cernes",
+      "title": "Injection des cernes",
+      "content": [
+        {
+          "id": "block-hero-0",
+          "type": "hero",
+          "order": 0,
+          "content": {
+            "title": "Cernes creusés : injection d'acide hyaluronique à Liège",
+            "subtitle": "Corriger le creux sous les yeux, par la Dre Jocelyne Fassotte, médecin esthétique",
+            "description": "Quand le cerne est un creux sous l'œil, qui donne un air fatigué même après une bonne nuit, une injection d'acide hyaluronique peut combler cette vallée. Chaque demande est évaluée au cas par cas, selon la personne, ses besoins et la faisabilité. L'amélioration peut durer jusqu'à environ un an.",
+            "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/gallery/72tc6naks2a-1771936402863.jpeg",
+            "imageAlt": "Acide hyaluronique pour les cernes",
+            "ctaText": "Prendre rendez-vous",
+            "ctaLink": "/prendre-rendez-vous"
+          }
+        },
+        {
+          "id": "block-text-1",
+          "type": "text",
+          "order": 1,
+          "content": {
+            "ancre": "types",
+            "title": "Tous les cernes ne se traitent pas de la même façon",
+            "paragraphs": [
+              "Un cerne peut être un creux (la « vallée des larmes » qui se marque sous l'œil), une coloration de la peau, ou une poche. L'injection d'acide hyaluronique agit sur le creux : elle comble le volume qui manque, sans modifier la couleur de la peau.",
+              "C'est pourquoi la consultation commence par un examen du regard : l'indication se décide au cas par cas, selon vos besoins et la faisabilité, et d'autres approches peuvent être discutées, comme des [[soins de cosmétologie médicale|/cosmetologie-liege]].",
+              "L'injection des cernes fait partie des [[injections d'acide hyaluronique|/acide-hyaluronique-liege]] pratiquées au cabinet ; c'est une zone délicate, où la peau est fine et les vaisseaux nombreux."
+            ]
+          }
+        },
+        {
+          "id": "block-cards-2",
+          "type": "cards",
+          "order": 2,
+          "content": {
+            "ancre": "deroulement",
+            "title": "Le déroulement d'une injection des cernes",
+            "subtitle": "Une séance courte, au cabinet, après une consultation.",
+            "cards": [
+              {
+                "title": "1. Consultation",
+                "description": "Examen du regard, type de cerne, attentes, antécédents et traitements en cours.",
+                "details": [
+                  "Indication décidée au cas par cas"
+                ]
+              },
+              {
+                "title": "2. Injection",
+                "description": "Petites quantités d'un acide hyaluronique adapté à la zone, injectées avec précision.",
+                "details": [
+                  "Produits contenant de la lidocaïne",
+                  "Effet visible dès la séance"
+                ]
+              },
+              {
+                "title": "3. Les jours qui suivent",
+                "description": "Sensibilité, gonflement et bleus sont fréquents au début.",
+                "details": [
+                  "Le plus souvent résolus en une à deux semaines",
+                  "Éviter sport intensif, soleil et chaleur pendant 24 heures"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-cards-3",
+          "type": "cards",
+          "order": 3,
+          "content": {
+            "ancre": "precautions",
+            "title": "Effets possibles et précautions",
+            "subtitle": "Ce que disent les notices et les autorités de santé.",
+            "cards": [
+              {
+                "title": "Effets fréquents",
+                "description": "Chez plus d'un tiers des personnes traitées dans les études.",
+                "details": [
+                  "Sensibilité au toucher",
+                  "Bleus",
+                  "Gonflement",
+                  "En général résolus en une à deux semaines"
+                ]
+              },
+              {
+                "title": "Complications rares",
+                "description": "À connaître avant tout traitement.",
+                "details": [
+                  "Injection dans un vaisseau : troubles visuels, exceptionnellement graves",
+                  "Allergie, parfois retardée",
+                  "Dissolution possible par la hyaluronidase"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-faq-4",
+          "type": "faq",
+          "order": 4,
+          "content": {
+            "ancre": "faq",
+            "title": "Questions fréquentes sur l’injection des cernes",
+            "questions": [
+              {
+                "question": "Combien de temps dure l'injection des cernes ?",
+                "answer": "L'amélioration du creux sous l'œil dure jusqu'à environ un an chez la majorité des personnes traitées dans les études. La durée varie selon le produit et la personne."
+              },
+              {
+                "question": "Est-ce que ça fait mal ?",
+                "answer": "L'injection est bien supportée : les produits utilisés contiennent de la lidocaïne, un anesthésiant, et les quantités sont petites. Une sensibilité au toucher peut persister quelques jours."
+              },
+              {
+                "question": "Aurai-je des bleus ?",
+                "answer": "C'est possible : dans les études, des bleus apparaissent chez environ quatre personnes sur dix, et disparaissent en général en une à deux semaines."
+              },
+              {
+                "question": "L'acide hyaluronique fait-il disparaître les cernes foncés ?",
+                "answer": "Non. L'injection comble un creux ; elle ne modifie pas la couleur de la peau et ne supprime pas une poche. Chaque situation est évaluée au cas par cas en consultation."
+              },
+              {
+                "question": "Y a-t-il des risques ?",
+                "answer": "Les effets les plus fréquents sont passagers : sensibilité, bleus, gonflement. Des complications rares mais graves existent si le produit pénètre dans un vaisseau sanguin, notamment des troubles de la vue : c'est pourquoi l'injection des cernes est réalisée par un médecin qui connaît l'anatomie de la zone."
+              },
+              {
+                "question": "Peut-on revenir en arrière ?",
+                "answer": "Oui : l'acide hyaluronique peut être dissous par une enzyme, la hyaluronidase, si nécessaire."
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-cta-5",
+          "type": "cta",
+          "order": 5,
+          "content": {
+            "title": "Un regard fatigué à cause de cernes creusés ?",
+            "description": "Prenez rendez-vous pour une consultation avec la Dre Fassotte : examen de vos cernes, indication ou non d'une injection, et réponse à toutes vos questions.",
+            "primaryButton": {
+              "link": "/prendre-rendez-vous",
+              "text": "Prendre rendez-vous"
+            },
+            "secondaryButton": {
+              "link": "tel:+32495280976",
+              "text": "+32 495 28 09 76"
+            }
+          }
+        }
+      ],
+      "meta_description": "Cernes creusés : injection d’acide hyaluronique à Liège par la Dre Fassotte. Pour qui, déroulement, durée des résultats, effets possibles et précautions.",
+      "is_published": true,
+      "created_at": "2026-09-28T20:00:00+00:00",
+      "updated_at": "2026-09-28T20:00:00+00:00"
+    },
+    {
+      "id": "brouillon-injection-levres",
+      "slug": "injection-levres",
+      "title": "Injection des lèvres",
+      "content": [
+        {
+          "id": "block-hero-0",
+          "type": "hero",
+          "order": 0,
+          "content": {
+            "title": "Injection des lèvres à Liège : acide hyaluronique",
+            "subtitle": "Volume, contour et ridules, par la Dre Jocelyne Fassotte, médecin esthétique",
+            "description": "L'injection d'acide hyaluronique redonne du volume aux lèvres, redessine leur contour ou atténue les ridules qui les entourent. La Dre Fassotte adapte la quantité et le produit à votre visage, pour un résultat qui reste le vôtre. Le produit est résorbable et l'amélioration peut durer jusqu'à environ un an.",
+            "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/1771937027109-qefsfr.jpeg",
+            "imageAlt": "Zones d'injection acide hyaluronique sur le visage",
+            "ctaText": "Prendre rendez-vous",
+            "ctaLink": "/prendre-rendez-vous"
+          }
+        },
+        {
+          "id": "block-text-1",
+          "type": "text",
+          "order": 1,
+          "content": {
+            "ancre": "indications",
+            "title": "Ce que l'injection des lèvres peut corriger",
+            "paragraphs": [
+              "Les lèvres perdent du volume avec l'âge, leur contour s'estompe et de fines rides verticales apparaissent au-dessus de la lèvre supérieure. Selon votre demande, la Dre Fassotte travaille une ou plusieurs de ces zones, avec un acide hyaluronique choisi pour les tissus des lèvres.",
+              "Le traitement des lèvres fait partie des [[injections d'acide hyaluronique|/acide-hyaluronique-liege]] pratiquées au cabinet : même produit, même médecin, mais une zone qui demande une technique propre."
+            ]
+          }
+        },
+        {
+          "id": "block-cards-2",
+          "type": "cards",
+          "order": 2,
+          "content": {
+            "ancre": "techniques",
+            "title": "Lèvres : les gestes possibles",
+            "subtitle": "Chaque zone se traite séparément ou en association, selon l'analyse de votre visage.",
+            "cards": [
+              {
+                "title": "Le contour",
+                "description": "L'injection ourle les lèvres et efface les ridules verticales.",
+                "details": [
+                  "Lèvres mieux dessinées",
+                  "Ridules du contour atténuées"
+                ]
+              },
+              {
+                "title": "Le volume",
+                "description": "Augmentation et arrondi des lèvres avec un acide hyaluronique spécifique aux tissus des lèvres.",
+                "details": [
+                  "Volume ajusté à votre morphologie",
+                  "Possibilité de procéder par petites touches"
+                ]
+              },
+              {
+                "title": "La projection de la lèvre supérieure",
+                "description": "Par injection d'acide hyaluronique au niveau de l'arc de Cupidon.",
+                "details": [
+                  "Lèvre supérieure mieux projetée"
+                ]
+              },
+              {
+                "title": "Les ridules et les commissures",
+                "description": "Les ridules au-dessus de la lèvre (lèvre blanche) se traitent avec un acide hyaluronique modérément réticulé, souvent en plusieurs séances ; la correction des commissures relève le coin de la bouche.",
+                "details": [
+                  "Ridules verticales « code-barres »",
+                  "Commissures et plis d'amertume"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-cards-3",
+          "type": "cards",
+          "order": 3,
+          "content": {
+            "ancre": "deroulement",
+            "title": "Le déroulement d'une injection des lèvres",
+            "subtitle": "La lèvre est une zone très sensible : une anesthésie locale est systématiquement pratiquée.",
+            "cards": [
+              {
+                "title": "1. Consultation",
+                "description": "Analyse de votre visage, de vos attentes et de vos antécédents ; choix du produit et de la quantité.",
+                "details": [
+                  "Traitements en cours, allergies, grossesse",
+                  "Antécédents de bouton de fièvre à signaler"
+                ]
+              },
+              {
+                "title": "2. Injection",
+                "description": "Anesthésie locale, puis injections précises dans les zones choisies.",
+                "details": [
+                  "Produits contenant de la lidocaïne",
+                  "Résultat visible dès la fin de la séance"
+                ]
+              },
+              {
+                "title": "3. Les jours qui suivent",
+                "description": "Les lèvres sont gonflées et sensibles au début : c'est la réaction la plus fréquente.",
+                "details": [
+                  "Gonflement parfois marqué pendant 2 à 4 semaines",
+                  "Éviter sport intensif, soleil et chaleur pendant 24 heures"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-cards-4",
+          "type": "cards",
+          "order": 4,
+          "content": {
+            "ancre": "precautions",
+            "title": "Effets possibles et précautions",
+            "subtitle": "Les injections des lèvres sont des actes médicaux : voici ce que disent les notices et les autorités de santé.",
+            "cards": [
+              {
+                "title": "Effets fréquents",
+                "description": "Au point d'injection, dans les jours ou semaines qui suivent.",
+                "details": [
+                  "Gonflement, sensibilité, fermeté",
+                  "Hématomes",
+                  "Résolus en général en moins d’un mois"
+                ]
+              },
+              {
+                "title": "Complications rares",
+                "description": "À connaître avant tout traitement.",
+                "details": [
+                  "Injection dans un vaisseau : nécrose de la peau, exceptionnellement troubles visuels",
+                  "Allergie, parfois retardée",
+                  "L'acide hyaluronique peut être dissous par la hyaluronidase si nécessaire"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-faq-5",
+          "type": "faq",
+          "order": 5,
+          "content": {
+            "ancre": "faq",
+            "title": "Questions fréquentes sur l’injection des lèvres",
+            "questions": [
+              {
+                "question": "Combien de temps dure une injection des lèvres ?",
+                "answer": "L'amélioration dure jusqu'à environ un an chez la majorité des personnes traitées dans les études. Le produit est résorbé progressivement ; la durée varie selon le produit, la zone et votre organisme."
+              },
+              {
+                "question": "L'injection des lèvres fait-elle mal ?",
+                "answer": "La lèvre est une zone sensible : une anesthésie locale est systématiquement pratiquée, et les produits utilisés contiennent de la lidocaïne, un anesthésiant."
+              },
+              {
+                "question": "Combien de temps restent-elles gonflées ?",
+                "answer": "Le gonflement est la réaction la plus fréquente. Il diminue en quelques jours, mais peut rester visible deux à quatre semaines. Prévoyez la séance à distance d'un événement important."
+              },
+              {
+                "question": "Le résultat sera-t-il naturel ?",
+                "answer": "La quantité injectée est adaptée à votre visage, et le volume peut être construit progressivement. L'objectif est d'harmoniser les lèvres avec vos traits, pas de les transformer."
+              },
+              {
+                "question": "Peut-on revenir en arrière ?",
+                "answer": "Oui : l'acide hyaluronique est résorbable et peut, si nécessaire, être dissous par une enzyme, la hyaluronidase."
+              },
+              {
+                "question": "Quelles sont les contre-indications ?",
+                "answer": "Une allergie connue au produit ou à la lidocaïne, une infection ou un bouton de fièvre en cours sur la zone, la grossesse et l'allaitement : ces situations sont vérifiées en consultation avant toute injection."
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-cta-6",
+          "type": "cta",
+          "order": 6,
+          "content": {
+            "title": "Un projet pour vos lèvres ?",
+            "description": "Prenez rendez-vous pour une consultation avec la Dre Fassotte : analyse de votre visage, choix du geste et du produit, et réponse à toutes vos questions avant l'injection.",
+            "primaryButton": {
+              "link": "/prendre-rendez-vous",
+              "text": "Prendre rendez-vous"
+            },
+            "secondaryButton": {
+              "link": "tel:+32495280976",
+              "text": "+32 495 28 09 76"
+            }
+          }
+        }
+      ],
+      "meta_description": "Injection des lèvres à l’acide hyaluronique à Liège par la Dre Fassotte : volume, contour, ridules, déroulement, durée, effets possibles et questions fréquentes.",
+      "is_published": true,
+      "created_at": "2026-09-28T20:00:00+00:00",
+      "updated_at": "2026-09-28T20:00:00+00:00"
     },
     {
       "id": "6f22210b-8f91-4662-9cbe-ce785ab81ddb",
@@ -2331,6 +2690,161 @@
       "is_published": true,
       "created_at": "2025-11-06T20:00:59.369395+00:00",
       "updated_at": "2026-02-24T16:04:03.097+00:00"
+    },
+    {
+      "id": "brouillon-rides-du-lion",
+      "slug": "rides-du-lion",
+      "title": "Rides du lion",
+      "content": [
+        {
+          "id": "block-hero-0",
+          "type": "hero",
+          "order": 0,
+          "content": {
+            "title": "Rides du lion à Liège : traitement par toxine botulique",
+            "subtitle": "Adoucir les rides entre les sourcils, par la Dre Jocelyne Fassotte, médecin esthétique",
+            "description": "Les rides du lion sont les rides verticales qui se creusent entre les sourcils quand on fronce. La toxine botulique détend les muscles qui les provoquent : le regard paraît plus reposé, sans être figé. L'amélioration apparaît en général dans la semaine et l'effet a été démontré jusqu'à 4 mois.",
+            "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/gallery/5qy87j4adzq-1771936296521.jpeg",
+            "imageAlt": "Injection de Botox à Liège",
+            "ctaText": "Prendre rendez-vous",
+            "ctaLink": "/prendre-rendez-vous"
+          }
+        },
+        {
+          "id": "block-text-1",
+          "type": "text",
+          "order": 1,
+          "content": {
+            "ancre": "pourquoi",
+            "title": "Pourquoi les rides du lion se creusent",
+            "paragraphs": [
+              "Chaque fois que l'on fronce les sourcils, par concentration, contrariété ou sous le soleil, de petits muscles entre les sourcils se contractent et plissent la peau. Répété des milliers de fois, ce mouvement finit par marquer des rides verticales, qui donnent un air sévère ou fatigué.",
+              "Ce sont des rides d'expression : on les traite en agissant sur le muscle, avec la [[toxine botulique (Botox)|/botox-liege]]. Les rides du lion sont d'ailleurs l'une des indications officielles de la toxine botulique en esthétique, avec les rides du front et les pattes d'oie."
+            ]
+          }
+        },
+        {
+          "id": "block-cards-2",
+          "type": "cards",
+          "order": 2,
+          "content": {
+            "ancre": "deroulement",
+            "title": "Le déroulement du traitement",
+            "subtitle": "Une séance courte, au cabinet, après une consultation.",
+            "cards": [
+              {
+                "title": "1. Consultation",
+                "description": "Analyse de vos rides au repos et en mouvement, de vos antécédents et de vos traitements en cours.",
+                "details": [
+                  "Vérification des contre-indications"
+                ]
+              },
+              {
+                "title": "2. Injection",
+                "description": "Quelques points d'injection entre et au-dessus des sourcils ; la notice officielle en prévoit cinq.",
+                "details": [
+                  "Aiguilles très fines",
+                  "Séance de quelques minutes"
+                ]
+              },
+              {
+                "title": "3. Les résultats",
+                "description": "L'amélioration apparaît en général dans la semaine ; l'effet a été démontré jusqu'à 4 mois.",
+                "details": [
+                  "Renouvellement possible, pas avant trois mois"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-cards-3",
+          "type": "cards",
+          "order": 3,
+          "content": {
+            "ancre": "contre-indications",
+            "title": "Contre-indications et effets possibles",
+            "subtitle": "Ce que dit la notice officielle du produit.",
+            "cards": [
+              {
+                "title": "Contre-indications",
+                "description": "Le traitement n'est pas réalisé dans ces situations.",
+                "details": [
+                  "Allergie à la toxine botulique ou à un composant",
+                  "Myasthénie, syndrome de Lambert-Eaton",
+                  "Infection au point d'injection",
+                  "Grossesse et allaitement : non recommandé"
+                ]
+              },
+              {
+                "title": "Effets possibles",
+                "description": "Fréquents mais en général passagers.",
+                "details": [
+                  "Maux de tête",
+                  "Chute temporaire de la paupière",
+                  "Rougeur, bleu ou gonflement au point d'injection"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-faq-4",
+          "type": "faq",
+          "order": 4,
+          "content": {
+            "ancre": "faq",
+            "title": "Questions fréquentes sur les rides du lion",
+            "questions": [
+              {
+                "question": "Combien de temps dure le Botox pour les rides du lion ?",
+                "answer": "L'amélioration apparaît en général dans la semaine qui suit l'injection et l'effet a été démontré jusqu'à 4 mois, selon la notice officielle du produit. Le traitement peut ensuite être renouvelé, avec un intervalle d'au moins trois mois."
+              },
+              {
+                "question": "Vais-je avoir l'air figé ?",
+                "answer": "Non : la dose est adaptée à la force de vos muscles, pour adoucir le froncement sans supprimer l'expression du regard."
+              },
+              {
+                "question": "Est-ce douloureux ?",
+                "answer": "L'injection se fait avec des aiguilles très fines, en quelques points : l'inconfort est bref."
+              },
+              {
+                "question": "Quels sont les effets indésirables ?",
+                "answer": "Les plus fréquents sont des maux de tête, une chute temporaire de la paupière et une rougeur ou un bleu au point d'injection. Ils sont en général passagers et expliqués en consultation."
+              },
+              {
+                "question": "Et si la ride reste visible au repos ?",
+                "answer": "Une ride ancienne peut rester marquée même quand le muscle est détendu. La Dre Fassotte évalue en consultation ce que la toxine botulique peut apporter et si un traitement complémentaire est utile."
+              },
+              {
+                "question": "Peut-on traiter en même temps le front et les pattes d'oie ?",
+                "answer": "Oui, ce sont les deux autres indications de la toxine botulique en esthétique ; le plan de traitement est défini en consultation."
+              }
+            ]
+          }
+        },
+        {
+          "id": "block-cta-5",
+          "type": "cta",
+          "order": 5,
+          "content": {
+            "title": "Envie d'un regard plus détendu ?",
+            "description": "Prenez rendez-vous pour une consultation avec la Dre Fassotte : analyse de vos rides du lion, explication du traitement et réponse à toutes vos questions.",
+            "primaryButton": {
+              "link": "/prendre-rendez-vous",
+              "text": "Prendre rendez-vous"
+            },
+            "secondaryButton": {
+              "link": "tel:+32495280976",
+              "text": "+32 495 28 09 76"
+            }
+          }
+        }
+      ],
+      "meta_description": "Rides du lion à Liège : toxine botulique par la Dre Fassotte. Pourquoi elles se creusent, déroulement, délai d’effet, durée, contre-indications et FAQ.",
+      "is_published": true,
+      "created_at": "2026-09-28T20:00:00+00:00",
+      "updated_at": "2026-09-28T20:00:00+00:00"
     },
     {
       "id": "69a044e7-473d-47e3-ba5a-77b7183a9533",

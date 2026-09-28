@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { supabase } from '../lib/supabase';
 import BlockRenderer from '../components/BlockRenderer';
+import { ZonesDuSite } from '../components/Silo';
 import Breadcrumbs from '../components/Breadcrumbs';
 import About from './About';
 import Treatments from './Treatments';
@@ -59,6 +60,7 @@ const DynamicPage: React.FC = () => {
     return (
       <>
         <BlockRenderer blocks={blocks} />
+        {chemin === '/medecine-esthetique-liege' && <ZonesDuSite />}
       </>
     );
   }

@@ -52,6 +52,11 @@ Faits non confirmés : tant qu'ils ne le sont pas, ils restent HORS du JSON-LD
 
 ## Tranchées (28/09/2026, Georges)
 
+- **Pages filles (lot 8)** : on ne parle pas du « lip flip » (ni de toxine
+  botulique sur la page lèvres) ; pour les cernes, pas de refus affiché —
+  l'indication se décide au cas par cas, selon la personne, ses besoins et la
+  faisabilité.
+
 - **Téléphone** : le GSM +32 495 28 09 76, partout. Page rendez-vous et bouton
   de l'accueil corrigés en base (`supabase/contenu/2026-09-28-…sql`).
 - **Horaires** : mercredi et vendredi 9h30-12h00 et 13h30-19h00, jeudi

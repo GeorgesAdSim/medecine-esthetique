@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { SOURCES, appuisParAncre, dateLisible } from '../src/contenu/sources';
-import { CHEMINS_TRAITEMENTS, traitementDe } from '../src/contenu/routes';
+import { CHEMINS_TRAITEMENTS, cheminsTraitementsPublies, traitementDe } from '../src/contenu/routes';
 import { jsonLdDe } from '../src/seo/jsonld';
 
 /** Toutes les ancres de section d'une page publiée. */
@@ -52,8 +52,8 @@ describe('sources externes des pages de traitement', () => {
     }
   });
 
-  it('les huit pages de traitement citent leurs sources', () => {
-    for (const c of CHEMINS_TRAITEMENTS) expect(SOURCES[c], c).toBeDefined();
+  it('toutes les pages de traitement (piliers et pages filles) citent leurs sources', () => {
+    for (const c of cheminsTraitementsPublies()) expect(SOURCES[c], c).toBeDefined();
   });
 
   it('pages de traitement servies depuis l’éditeur de pages (custom_pages)', () => {

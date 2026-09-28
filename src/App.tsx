@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import DynamicPage from './pages/DynamicPage';
 import NotFound from './pages/NotFound';
-import { ALIAS, CHEMINS_TRAITEMENTS, PAGES_FIXES } from './contenu/routes';
+import { ALIAS, PAGES_FIXES, cheminsTraitementsPublies } from './contenu/routes';
 import DynamicTreatmentPage from './pages/DynamicTreatmentPage';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import CookieBanner from './components/CookieBanner';
@@ -67,7 +67,7 @@ const AppRoutes: React.FC = () => {
           {Object.keys(PAGES_FIXES).filter((c) => c !== '/').map((c) => (
             <Route key={c} path={c} element={<DynamicPage />} />
           ))}
-          {CHEMINS_TRAITEMENTS.map((c) => (
+          {cheminsTraitementsPublies().map((c) => (
             <Route key={c} path={c} element={<DynamicTreatmentPage />} />
           ))}
           <Route path="/politique-confidentialite" element={<PrivacyPolicy />} />

@@ -11,7 +11,7 @@
 // esthétiques encadrée — loi du 23 mai 2013).
 import { descripteurDePage, type Descripteur } from '@adsim/seo-core';
 import { CONTENU } from '../contenu';
-import { CHEMINS_TRAITEMENTS, PAGES_CODE, PAGES_FIXES, normaliser, pageDe, routesPubliques, traitementDe } from '../contenu/routes';
+import { estPageTraitement, PAGES_CODE, PAGES_FIXES, normaliser, pageDe, routesPubliques, traitementDe } from '../contenu/routes';
 import { LIMITES, SITE } from './site';
 import { jsonLdDe } from './jsonld';
 
@@ -52,6 +52,21 @@ export const DEFAUTS: Readonly<Record<string, Defaut>> = {
     titre: 'Botox à Liège | Toxine botulique par la Dre Fassotte',
     description:
       'Botox à Liège par la Dre Jocelyne Fassotte, médecin esthétique : rides du lion, front et pattes d’oie, déroulement, contre-indications et questions fréquentes.',
+  },
+  '/acide-hyaluronique-liege/levres': {
+    titre: 'Injection des lèvres à Liège | Dre Jocelyne Fassotte',
+    description:
+      'Injection des lèvres à l’acide hyaluronique à Liège par la Dre Fassotte : volume, contour, ridules, déroulement, durée, effets possibles et questions fréquentes.',
+  },
+  '/acide-hyaluronique-liege/cernes': {
+    titre: 'Injection des cernes à Liège | Dre Jocelyne Fassotte',
+    description:
+      'Cernes creusés : injection d’acide hyaluronique à Liège par la Dre Fassotte. Pour qui, déroulement, durée des résultats, effets possibles et précautions.',
+  },
+  '/botox-liege/rides-du-lion': {
+    titre: 'Rides du lion : Botox à Liège | Dre Jocelyne Fassotte',
+    description:
+      'Rides du lion à Liège : toxine botulique par la Dre Fassotte. Pourquoi elles se creusent, déroulement, délai d’effet, durée, contre-indications et FAQ.',
   },
   '/stimulateurs-collagene-liege': {
     titre: 'Stimulateurs de collagène à Liège | Dre Fassotte',
@@ -96,7 +111,7 @@ const descriptionValide = (d?: string | null): d is string =>
 
 /** Ce qu'a saisi l'admin pour la route, s'il y a quelque chose. */
 function saisieAdmin(chemin: string): { titre?: string | null; description?: string | null } {
-  if (CHEMINS_TRAITEMENTS.includes(chemin)) {
+  if (estPageTraitement(chemin)) {
     const t = traitementDe(chemin);
     if (!t) return {};
     const d = t.donnees as { meta_title?: string | null; meta_description?: string | null };
