@@ -49,9 +49,9 @@ export const DEFAUTS: Readonly<Record<string, Defaut>> = {
       'Injections d’acide hyaluronique à Liège par la Dre Jocelyne Fassotte : déroulement de la séance, zones traitées, durée des effets et réponses aux questions fréquentes.',
   },
   '/botox-liege': {
-    titre: 'Toxine botulique (Botox) à Liège | Dre Fassotte',
+    titre: 'Botox à Liège | Toxine botulique par la Dre Fassotte',
     description:
-      'Injections de toxine botulique à Liège par la Dre Jocelyne Fassotte pour les rides d’expression : fonctionnement, déroulement, durée des effets et questions fréquentes.',
+      'Botox à Liège par la Dre Jocelyne Fassotte, médecin esthétique : rides du lion, front et pattes d’oie, déroulement, contre-indications et questions fréquentes.',
   },
   '/stimulateurs-collagene-liege': {
     titre: 'Stimulateurs de collagène à Liège | Dre Fassotte',

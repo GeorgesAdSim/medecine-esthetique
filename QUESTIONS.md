@@ -9,6 +9,20 @@ Faits non confirmés : tant qu'ils ne le sont pas, ils restent HORS du JSON-LD
    confirmer avant toute publication en données structurées.
 2. **Week-end** : non mentionné sur l'agenda ; le site n'en dit rien.
 
+3. **Page Botox enrichie (lot 3) — à valider par la Dre Fassotte avant d'écrire
+   en base** (`supabase/contenu/2026-09-28-botox-enrichi.sql`, non appliqué) :
+   - textes médicaux ajoutés : zones (rides du lion, front, pattes d'oie),
+     précautions avant/après, contre-indications, effets secondaires, trois
+     questions de FAQ. Rédigés d'après les connaissances générales sur la toxine
+     botulique et le contenu déjà en ligne : la docteure doit les relire ;
+   - **prix** : la FAQ dit « tarif selon le nombre de zones, communiqué en
+     consultation », sans montant. Accepte-t-elle d'afficher un prix ou un
+     « à partir de » ? (les concurrents qui le font captent « prix botox liège ») ;
+   - **retouche / contrôle** à 15 jours : fait-elle un contrôle, gratuit ou non ?
+   - **nom de marque « Botox »** : déjà utilisé sur le site (Botox® ou Vistabel®) ;
+     à confirmer qu'il reste acceptable au regard des règles belges sur
+     l'information en esthétique médicale et sur les médicaments.
+
 ## Tranchées (28/09/2026, Georges)
 
 - **Téléphone** : le GSM +32 495 28 09 76, partout. Page rendez-vous et bouton

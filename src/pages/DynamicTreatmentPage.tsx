@@ -4,7 +4,8 @@ import BlockRenderer from '../components/BlockRenderer';
 import Breadcrumbs from '../components/Breadcrumbs';
 import NotFound from './NotFound';
 import RelatedTreatments from '../components/RelatedTreatments';
-import { getTreatmentRelations } from '../utils/treatmentLinks';
+import AccesCabinet from '../components/AccesCabinet';
+import { getAllTreatments, getTreatmentRelations } from '../utils/treatmentLinks';
 import { normaliser, traitementDe } from '../contenu/routes';
 
 /**
@@ -33,6 +34,10 @@ const Complementaires: React.FC<{ chemin: string }> = ({ chemin }) => {
     </>
   );
 };
+
+/** Nom du traitement pour les titres de section (liste de treatmentLinks, sinon titre de la page). */
+const nomCourt = (chemin: string, repli: string): string =>
+  getAllTreatments().find((t) => `/${t.slug}` === chemin)?.title ?? repli;
 
 const DynamicTreatmentPage: React.FC = () => {
   const location = useLocation();
@@ -118,6 +123,7 @@ const DynamicTreatmentPage: React.FC = () => {
             { label: customPage.title, path: customPage.slug }
           ]} />
           <BlockRenderer blocks={transformedBlocks} />
+          <AccesCabinet traitement={nomCourt(chemin, customPage.title)} />
           <Complementaires chemin={chemin} />
         </>
       );
