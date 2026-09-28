@@ -1,110 +1,23 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
-import { supabase } from '../lib/supabase';
 import BlockRenderer from '../components/BlockRenderer';
 import Breadcrumbs from '../components/Breadcrumbs';
-import HyaluronicAcid from './HyaluronicAcid';
-import Botox from './Botox';
-import CollagenStimulator from './CollagenStimulator';
-import Peeling from './Peeling';
-import Mesolift from './Mesolift';
-import FilsTenseurs from './FilsTenseurs';
-import Cosmetologie from './Cosmetologie';
-import LiquidLift from './LiquidLift';
-
-const staticComponents: Record<string, React.ComponentType> = {
-  '/acide-hyaluronique-liege': HyaluronicAcid,
-  '/botox-liege': Botox,
-  '/stimulateurs-collagene-liege': CollagenStimulator,
-  '/peeling-liege': Peeling,
-  '/mesolift-liege': Mesolift,
-  '/fils-tenseurs-liege': FilsTenseurs,
-  '/cosmetologie-liege': Cosmetologie,
-  '/liquid-lift-liege': LiquidLift,
-};
+import NotFound from './NotFound';
+import { normaliser, traitementDe } from '../contenu/routes';
 
 const DynamicTreatmentPage: React.FC = () => {
   const location = useLocation();
-  const [customPage, setCustomPage] = useState<any>(null);
-  const [loading, setLoading] = useState(true);
+  const chemin = normaliser(location.pathname);
+  const trouve = traitementDe(chemin);
 
-  useEffect(() => {
-    const loadPage = async () => {
-      setLoading(true);
-      try {
-        const pathname = location.pathname;
-        console.log('Loading treatment page for pathname:', pathname);
-
-        // First, try to find in custom_treatments table
-        const { data: treatmentData, error: treatmentError } = await supabase
-          .from('custom_treatments')
-          .select('*')
-          .eq('slug', pathname)
-          .eq('is_active', true)
-          .maybeSingle();
-
-        if (!treatmentError && treatmentData) {
-          console.log('✅ Found custom treatment:', treatmentData);
-          setCustomPage({
-            ...treatmentData,
-            is_published: treatmentData.is_active,
-            meta_title: treatmentData.meta_title || treatmentData.title,
-          });
-          setLoading(false);
-          return;
-        }
-
-        // If not found in treatments, try custom_pages
-        const pathnameClean = pathname.replace(/^\//, '');
-        const slugVariants = [
-          pathnameClean,
-          pathnameClean.replace(/-liege$/, ''),
-          pathnameClean.replace(/-bruxelles$/, ''),
-        ];
-
-        let customPageData = null;
-
-        for (const slug of slugVariants) {
-          console.log('Trying slug variant in custom_pages:', slug);
-          const { data, error } = await supabase
-            .from('custom_pages')
-            .select('*')
-            .eq('slug', slug)
-            .eq('is_published', true)
-            .maybeSingle();
-
-          if (!error && data) {
-            console.log('✅ Found custom page with slug:', slug, data);
-            customPageData = data;
-            break;
-          }
-        }
-
-        if (customPageData) {
-          setCustomPage(customPageData);
-        } else {
-          console.log('No custom page found, using static component');
-          setCustomPage(null);
-        }
-      } catch (error) {
-        console.error('Error loading page:', error);
-        setCustomPage(null);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    loadPage();
-  }, [location.pathname]);
-
-  if (loading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="w-8 h-8 border-4 border-primary-600 border-t-transparent rounded-full animate-spin"></div>
-      </div>
-    );
-  }
+  // Même mise en forme qu'avant le pré-rendu : un traitement de
+  // custom_treatments expose is_published et meta_title à partir de ses champs.
+  const customPage: any = !trouve
+    ? null
+    : trouve.source === 'traitement'
+      ? { ...trouve.donnees, is_published: trouve.donnees.is_active, meta_title: trouve.donnees.meta_title || trouve.donnees.title }
+      : trouve.donnees;
 
   if (customPage) {
     // If we have custom content blocks, render them
@@ -236,20 +149,7 @@ const DynamicTreatmentPage: React.FC = () => {
     }
   }
 
-  // Fallback to static components
-  const StaticComponent = staticComponents[location.pathname];
-  if (StaticComponent) {
-    return <StaticComponent />;
-  }
-
-  return (
-    <div className="min-h-screen flex items-center justify-center">
-      <div className="text-center">
-        <h1 className="font-playfair text-4xl font-bold text-neutral-800 mb-4">Page non trouvée</h1>
-        <p className="font-inter text-neutral-600">Cette page n'existe pas ou n'est pas encore disponible.</p>
-      </div>
-    </div>
-  );
+  return <NotFound />;
 };
 
 export default DynamicTreatmentPage;

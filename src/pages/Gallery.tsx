@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { X, ChevronLeft, ChevronRight, Eye, Camera, Star } from 'lucide-react';
 import FloralDecoration from '../components/FloralDecoration';
-import { supabase } from '../lib/supabase';
+import { imagesGalerie } from '../contenu';
 
 interface GalleryImage {
   id: string;
@@ -16,56 +16,19 @@ interface GalleryImage {
   };
 }
 
-interface DBGalleryImage {
-  id: string;
-  category: string;
-  treatment_name: string;
-  image_url: string;
-  alt_text: string;
-  description: string;
-  display_order: number;
-  is_active: boolean;
-}
-
 const Gallery: React.FC = () => {
   const [selectedCategory, setSelectedCategory] = useState<string>('all');
   const [selectedImage, setSelectedImage] = useState<GalleryImage | null>(null);
   const [currentImageIndex, setCurrentImageIndex] = useState<number>(0);
-  const [galleryImages, setGalleryImages] = useState<GalleryImage[]>([]);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    loadImages();
-  }, []);
-
-  const loadImages = async () => {
-    setLoading(true);
-    try {
-      const { data, error } = await supabase
-        .from('gallery_images')
-        .select('*')
-        .eq('is_active', true)
-        .order('display_order', { ascending: true })
-        .order('created_at', { ascending: false });
-
-      if (error) throw error;
-
-      const formattedImages: GalleryImage[] = (data || []).map((img: DBGalleryImage) => ({
-        id: img.id,
-        src: img.image_url,
-        alt: img.alt_text,
-        category: img.category,
-        treatment: img.treatment_name,
-        description: img.description || img.alt_text
-      }));
-
-      setGalleryImages(formattedImages);
-    } catch (error) {
-      console.error('Error loading images:', error);
-    } finally {
-      setLoading(false);
-    }
-  };
+  const galleryImages: GalleryImage[] = imagesGalerie().map((img) => ({
+    id: img.id,
+    src: img.image_url,
+    alt: img.alt_text,
+    category: img.category,
+    treatment: img.treatment_name,
+    description: img.description || img.alt_text
+  }));
+  const loading = false;
 
   const categories = [
     { id: 'all', name: 'Tous les soins' },

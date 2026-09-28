@@ -49,6 +49,11 @@ async function lire({ url, cle }, requete) {
 }
 
 async function main() {
+  // Build hors ligne (poste sans accès à Supabase) : on garde l'instantané versionné.
+  if (process.env.SYNC_INSTANTANE === '1') {
+    console.log('  sync : SYNC_INSTANTANE=1, instantané data/contenu.json conservé tel quel.');
+    return;
+  }
   const ids = await identifiants();
   const contenu = {};
   for (const [nom, requete] of Object.entries(REQUETES)) {

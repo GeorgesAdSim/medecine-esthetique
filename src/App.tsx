@@ -1,10 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate, useLocation } from 'react-router-dom';
-import { HelmetProvider } from 'react-helmet-async';
+import { Routes, Route, Navigate, useLocation } from 'react-router-dom';
+import { Helmet } from 'react-helmet-async';
 import { AuthProvider } from './contexts/AuthContext';
 import { AdminProvider } from './contexts/AdminContext';
 import { SiteSettingsProvider } from './contexts/SiteSettingsContext';
-import { useAdmin } from './contexts/AdminContext';
 import { useAuth } from './contexts/AuthContext';
 import Header from './components/Header';
 import Footer from './components/Footer';
@@ -12,6 +11,8 @@ import AdminDashboard from './components/admin/AdminDashboard';
 import LoginForm from './components/LoginForm';
 import Home from './pages/Home';
 import DynamicPage from './pages/DynamicPage';
+import NotFound from './pages/NotFound';
+import { ALIAS, CHEMINS_TRAITEMENTS, PAGES_FIXES } from './contenu/routes';
 import DynamicTreatmentPage from './pages/DynamicTreatmentPage';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import SetupPasswords from './pages/SetupPasswords';
@@ -58,41 +59,19 @@ const AppRoutes: React.FC = () => {
               </ProtectedRoute>
             }
           />
-      <Route path="/docteur-jocelyne-fassotte" element={<DynamicPage />} />
-      <Route path="/traitements" element={<DynamicPage />} />
-      <Route path="/medecine-esthetique-liege" element={<DynamicPage />} />
-      <Route path="/acide-hyaluronique-liege" element={<DynamicTreatmentPage />} />
-      <Route path="/botox-liege" element={<DynamicTreatmentPage />} />
-      <Route path="/toxine-botulique-liege" element={<DynamicTreatmentPage />} />
-      <Route path="/stimulateurs-collagene" element={<DynamicTreatmentPage />} />
-      <Route path="/stimulateurs-collagene-liege" element={<DynamicTreatmentPage />} />
-      <Route path="/peeling-liege" element={<DynamicTreatmentPage />} />
-      <Route path="/peelings-chimiques-liege" element={<DynamicTreatmentPage />} />
-      <Route path="/mesolift-liege" element={<DynamicTreatmentPage />} />
-      <Route path="/mesotherapie-liege" element={<DynamicTreatmentPage />} />
-      <Route path="/fils-tenseurs-liege" element={<DynamicTreatmentPage />} />
-      <Route path="/lifting-fils-tenseurs-liege" element={<DynamicTreatmentPage />} />
-      <Route path="/cosmetologie-liege" element={<DynamicTreatmentPage />} />
-      <Route path="/cosmetologie-medicale-liege" element={<DynamicTreatmentPage />} />
-      <Route path="/liquid-lift-liege" element={<DynamicTreatmentPage />} />
-      <Route path="/rajeunissement-global-liege" element={<DynamicTreatmentPage />} />
-      <Route path="/contact" element={<DynamicPage />} />
-      <Route path="/prendre-rendez-vous" element={<DynamicPage />} />
-      <Route path="/consultation-medecine-esthetique-liege" element={<DynamicPage />} />
-      <Route path="/galerie" element={<DynamicPage />} />
-      <Route path="/galerie-photos-avant-apres" element={<DynamicPage />} />
-      <Route path="/resultats-medecine-esthetique" element={<DynamicPage />} />
-      <Route path="/politique-confidentialite" element={<PrivacyPolicy />} />
-      <Route path="/protection-donnees-medicales" element={<PrivacyPolicy />} />
-      
-      {/* Redirections pour compatibilité */}
-      <Route path="/biographie" element={<Navigate to="/docteur-jocelyne-fassotte" replace />} />
-      <Route path="/a-propos" element={<Navigate to="/docteur-jocelyne-fassotte" replace />} />
-      <Route path="/services" element={<Navigate to="/medecine-esthetique-liege" replace />} />
-      <Route path="/soins" element={<Navigate to="/medecine-esthetique-liege" replace />} />
-
-          {/* Catch-all route for custom pages from Supabase */}
+          {Object.keys(PAGES_FIXES).filter((c) => c !== '/').map((c) => (
+            <Route key={c} path={c} element={<DynamicPage />} />
+          ))}
+          {CHEMINS_TRAITEMENTS.map((c) => (
+            <Route key={c} path={c} element={<DynamicTreatmentPage />} />
+          ))}
+          <Route path="/politique-confidentialite" element={<PrivacyPolicy />} />
+          {Object.entries(ALIAS).map(([de, vers]) => (
+            <Route key={de} path={de} element={<Navigate to={vers} replace />} />
+          ))}
+          {/* Pages publiées depuis l'admin (/{slug}) ; inconnue → 404 */}
           <Route path="/:slug" element={<DynamicPage />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       {!isAdminRoute && <Footer />}
@@ -128,25 +107,39 @@ const AdminComponent: React.FC = () => {
   return <AdminDashboard />;
 };
 
+/** Titre et description par défaut, remplacés par ceux de chaque page. */
+const TeteParDefaut: React.FC = () => (
+  <Helmet>
+    <html lang="fr" />
+    <title>Docteure Jocelyne Fassotte - Médecine Esthétique Liège | Spécialiste Anti-Âge</title>
+    <meta
+      name="description"
+      content="Docteure Jocelyne Fassotte - Spécialiste médecine esthétique Liège. Acide hyaluronique, Botox, peelings, fils tenseurs. Cabinet Vaux-sous-Chèvremont."
+    />
+  </Helmet>
+);
+
+/**
+ * L'application sans routeur ni HelmetProvider : le navigateur l'enveloppe
+ * dans BrowserRouter (main.tsx), le pré-rendu dans StaticRouter
+ * (entry-server.tsx).
+ */
 function App() {
   return (
-    <HelmetProvider>
-      <AuthProvider>
-        <AdminProvider>
-          <SiteSettingsProvider>
-            <Router>
-              <ScrollToTop />
-              <CanonicalTags />
-              <div className="min-h-screen bg-white">
-                <AppRoutes />
-                <AdminComponent />
-                <CookieBanner />
-              </div>
-            </Router>
-          </SiteSettingsProvider>
-        </AdminProvider>
-      </AuthProvider>
-    </HelmetProvider>
+    <AuthProvider>
+      <AdminProvider>
+        <SiteSettingsProvider>
+          <TeteParDefaut />
+          <ScrollToTop />
+          <CanonicalTags />
+          <div className="min-h-screen bg-white">
+            <AppRoutes />
+            <AdminComponent />
+            <CookieBanner />
+          </div>
+        </SiteSettingsProvider>
+      </AdminProvider>
+    </AuthProvider>
   );
 }
 

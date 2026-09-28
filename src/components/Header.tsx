@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Phone } from 'lucide-react';
 import EditableText from './EditableText';
 import { useAdmin } from '../contexts/AdminContext';
-import { supabase } from '../lib/supabase';
+import { menuPrincipal } from '../contenu';
 
 interface MenuItem {
   id: string;
@@ -16,39 +16,9 @@ interface MenuItem {
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [navigation, setNavigation] = useState<MenuItem[]>([]);
+  const navigation: MenuItem[] = menuPrincipal();
   const location = useLocation();
   const { customization } = useAdmin();
-
-  useEffect(() => {
-    loadMenuItems();
-  }, []);
-
-  const loadMenuItems = async () => {
-    try {
-      const { data, error } = await supabase
-        .from('menu_items')
-        .select('*')
-        .eq('is_visible', true)
-        .is('parent_id', null)
-        .order('order_index');
-
-      if (error) throw error;
-
-      if (data) {
-        setNavigation(data);
-      }
-    } catch (error) {
-      console.error('Error loading menu items:', error);
-      setNavigation([
-        { id: '1', name: 'Accueil', href: '/', order_index: 0, is_visible: true },
-        { id: '2', name: 'À propos', href: '/docteur-jocelyne-fassotte', order_index: 1, is_visible: true },
-        { id: '3', name: 'Traitements', href: '/medecine-esthetique-liege', order_index: 2, is_visible: true },
-        { id: '4', name: 'Galerie', href: '/galerie', order_index: 3, is_visible: true },
-        { id: '5', name: 'Contact', href: '/prendre-rendez-vous', order_index: 4, is_visible: true },
-      ]);
-    }
-  };
 
   const isActive = (href: string) => {
     if (href === '/') {

@@ -1,27 +1,36 @@
-# Alias et doublons → une seule URL par contenu (301).
-# Ces règles passent AVANT le repli de l'application (dernière ligne).
+# Anciennes URL et doublons → URL retenue (301). Même table que ALIAS dans
+# src/contenu/routes.ts — un test vérifie l'égalité.
 
-# Traitements : les variantes non liées depuis le site
-/toxine-botulique-liege        /botox-liege                   301!
-/peelings-chimiques-liege      /peeling-liege                 301!
-/mesotherapie-liege            /mesolift-liege                301!
-/lifting-fils-tenseurs-liege   /fils-tenseurs-liege           301!
-/cosmetologie-medicale-liege   /cosmetologie-liege            301!
-/rajeunissement-global-liege   /liquid-lift-liege             301!
-/stimulateurs-collagene        /stimulateurs-collagene-liege  301!
+/toxine-botulique-liege                  /botox-liege  301!
+/peelings-chimiques-liege                /peeling-liege  301!
+/mesotherapie-liege                      /mesolift-liege  301!
+/lifting-fils-tenseurs-liege             /fils-tenseurs-liege  301!
+/cosmetologie-medicale-liege             /cosmetologie-liege  301!
+/rajeunissement-global-liege             /liquid-lift-liege  301!
+/stimulateurs-collagene                  /stimulateurs-collagene-liege  301!
+/traitements                             /medecine-esthetique-liege  301!
+/services                                /medecine-esthetique-liege  301!
+/soins                                   /medecine-esthetique-liege  301!
+/contact                                 /prendre-rendez-vous  301!
+/consultation-medecine-esthetique-liege  /prendre-rendez-vous  301!
+/biographie                              /docteur-jocelyne-fassotte  301!
+/a-propos                                /docteur-jocelyne-fassotte  301!
+/galerie-photos-avant-apres              /galerie  301!
+/resultats-medecine-esthetique           /galerie  301!
+/protection-donnees-medicales            /politique-confidentialite  301!
+/accueil                                 /  301!
+/botox                                   /botox-liege  301!
+/acide-hyaluronique                      /acide-hyaluronique-liege  301!
+/stimulateur-collagene                   /stimulateurs-collagene-liege  301!
+/peeling                                 /peeling-liege  301!
+/mesolift                                /mesolift-liege  301!
+/fils-tenseurs                           /fils-tenseurs-liege  301!
+/cosmetologie                            /cosmetologie-liege  301!
+/liquid-lift                             /liquid-lift-liege  301!
 
-# Pages de hub, contact, galerie
-/traitements                   /medecine-esthetique-liege     301!
-/services                      /medecine-esthetique-liege     301!
-/soins                         /medecine-esthetique-liege     301!
-/contact                       /prendre-rendez-vous           301!
-/consultation-medecine-esthetique-liege  /prendre-rendez-vous 301!
-/biographie                    /docteur-jocelyne-fassotte     301!
-/a-propos                      /docteur-jocelyne-fassotte     301!
-/galerie-photos-avant-apres    /galerie                       301!
-/resultats-medecine-esthetique /galerie                       301!
-/protection-donnees-medicales  /politique-confidentialite     301!
+# Back-office : application cliente seule (coquille non pré-rendue).
+/admin/*       /app.html  200
+/setup-admin   /app.html  200
 
-# Repli de l'application monopage (les fichiers existants, dont robots.txt
-# et sitemap.xml, sont servis tels quels avant cette règle)
-/*    /index.html   200
+# Aucune règle « /* » : une URL inconnue reçoit dist/404.html avec un vrai
+# statut 404, au lieu d'une page d'accueil en 200.

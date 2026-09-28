@@ -6,6 +6,7 @@ import MenuEditor from './MenuEditor';
 import PageManager from './PageManager';
 import GalleryImageManager from './GalleryImageManager';
 import TreatmentManager from './TreatmentManager';
+import PublishButton from './PublishButton';
 
 const AdminDashboard: React.FC = () => {
   const { user, logout } = useAuth();
@@ -56,8 +57,11 @@ const AdminDashboard: React.FC = () => {
               <div className="flex items-center justify-between mb-6">
                 <div>
                   <h2 className="text-2xl font-bold">Panneau d'Administration</h2>
-                  <p className="text-primary-100 mt-1">Gérez votre site web</p>
+                  <p className="text-primary-100 mt-1">
+                    Gérez votre site web — les modifications sont en ligne après « Publier le site ».
+                  </p>
                 </div>
+                <PublishButton />
                 <button
                   onClick={() => setIsOpen(false)}
                   className="p-2 hover:bg-white/20 rounded-lg transition-colors"

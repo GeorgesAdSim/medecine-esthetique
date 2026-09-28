@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useLocation, useParams } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { supabase } from '../lib/supabase';
 import BlockRenderer from '../components/BlockRenderer';
@@ -7,95 +7,38 @@ import Breadcrumbs from '../components/Breadcrumbs';
 import About from './About';
 import Treatments from './Treatments';
 import Gallery from './Gallery';
-import Contact from './Contact';
+import NotFound from './NotFound';
+import { PAGES_FIXES, normaliser, pageDe } from '../contenu/routes';
 
 const staticComponents: Record<string, React.ComponentType> = {
   '/docteur-jocelyne-fassotte': About,
-  '/a-propos': About,
-  '/traitements': Treatments,
   '/medecine-esthetique-liege': Treatments,
   '/galerie': Gallery,
-  '/galerie-photos-avant-apres': Gallery,
-  '/resultats-medecine-esthetique': Gallery,
-  '/contact': Contact,
-  '/consultation-medecine-esthetique-liege': Contact,
-};
-
-const slugMapping: Record<string, string> = {
-  '/docteur-jocelyne-fassotte': 'a-propos',
-  '/a-propos': 'a-propos',
-  '/traitements': 'traitements',
-  '/medecine-esthetique-liege': 'traitements',
-  '/galerie': 'galerie',
-  '/galerie-photos-avant-apres': 'galerie',
-  '/resultats-medecine-esthetique': 'galerie',
-  '/contact': 'contact',
-  '/prendre-rendez-vous': 'prendre-rendez-vous',
-  '/consultation-medecine-esthetique-liege': 'contact',
 };
 
 const DynamicPage: React.FC = () => {
   const location = useLocation();
-  const params = useParams<{ slug?: string }>();
-  const [customPage, setCustomPage] = useState<any>(null);
-  const [loading, setLoading] = useState(true);
+  const chemin = normaliser(location.pathname);
+  const isPreview = new URLSearchParams(location.search).get('preview') === 'true';
+  const [pageApercu, setPageApercu] = useState<any>(null);
 
+  // Aperçu depuis l'admin (?preview=true) : lecture directe de Supabase, sans
+  // filtre de publication. Le rendu normal, lui, vient du contenu publié.
   useEffect(() => {
-    const loadPage = async () => {
-      setLoading(true);
-      try {
-        const pathname = location.pathname;
-        const searchParams = new URLSearchParams(location.search);
-        const isPreview = searchParams.get('preview') === 'true';
+    setPageApercu(null);
+    if (!isPreview) return;
+    const slug = PAGES_FIXES[chemin] ?? chemin.replace(/^\//, '');
+    supabase
+      .from('custom_pages')
+      .select('*')
+      .eq('slug', slug)
+      .maybeSingle()
+      .then(({ data }) => {
+        if (data && Array.isArray(data.content) && data.content.length > 0) setPageApercu(data);
+      });
+  }, [chemin, isPreview]);
 
-        // Try to get slug from URL params first (for catch-all route)
-        let slugToLoad = params.slug;
-
-        // If no param slug, try the slug mapping for known routes
-        if (!slugToLoad) {
-          slugToLoad = slugMapping[pathname];
-        }
-
-        if (slugToLoad) {
-          // Build query - if preview mode, don't filter by is_published
-          let query = supabase
-            .from('custom_pages')
-            .select('*')
-            .eq('slug', slugToLoad);
-
-          // Only filter by is_published if not in preview mode
-          if (!isPreview) {
-            query = query.eq('is_published', true);
-          }
-
-          const { data, error } = await query.maybeSingle();
-
-          if (!error && data && data.content && data.content.length > 0) {
-            console.log('✅ Found custom page with slug:', slugToLoad, data);
-            setCustomPage(data);
-          } else {
-            console.log('❌ No custom page found or no blocks, using static component');
-            setCustomPage(null);
-          }
-        }
-      } catch (error) {
-        console.error('Error loading custom page:', error);
-        setCustomPage(null);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    loadPage();
-  }, [location.pathname, location.search, params.slug]);
-
-  if (loading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="w-8 h-8 border-4 border-primary-600 border-t-transparent rounded-full animate-spin"></div>
-      </div>
-    );
-  }
+  const customPage: any = pageApercu ?? pageDe(chemin) ?? null;
 
   if (customPage && customPage.content && customPage.content.length > 0) {
     // Trier les blocs par ordre avant de les afficher
@@ -132,7 +75,7 @@ const DynamicPage: React.FC = () => {
     return <StaticComponent />;
   }
 
-  return <div>Page non trouvée</div>;
+  return <NotFound />;
 };
 
 export default DynamicPage;
