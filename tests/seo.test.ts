@@ -37,9 +37,12 @@ describe('descripteurs SEO', () => {
     expect(d.canonical).toBeNull();
   });
 
-  it('traitements : Service + FAQPage renvoyant au cabinet', () => {
+  it('traitements : Service + FAQPage renvoyant au cabinet (+ MedicalWebPage si la page cite des sources)', () => {
+    expect((descripteurDe('/peeling-liege').jsonLd as any[]).map((n) => n['@type']))
+      .toEqual(['MedicalClinic', 'Service', 'BreadcrumbList', 'FAQPage']);
     const ld = descripteurDe('/botox-liege').jsonLd as any[];
-    expect(ld.map((n) => n['@type'])).toEqual(['MedicalClinic', 'Service', 'BreadcrumbList', 'FAQPage']);
+    expect(ld.map((n) => n['@type'])).toEqual(['MedicalClinic', 'Service', 'BreadcrumbList', 'FAQPage', 'MedicalWebPage']);
+    expect(ld[4].publisher['@id']).toBe(ld[0]['@id']);
     expect(ld[1].provider['@id']).toBe(ld[0]['@id']);
   });
 });

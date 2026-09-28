@@ -8,6 +8,8 @@ import AppointmentCalendar from './AppointmentCalendar';
 import { parseInternalLinks } from '../utils/linkParser';
 import { ancreDe } from '../utils/ancre';
 import ImageOptimisee from './ImageOptimisee';
+import { NoteSource } from './Sources';
+import type { Appui, Source } from '../contenu/sources';
 
 interface ContentBlock {
   id: string;
@@ -21,9 +23,11 @@ interface ContentBlock {
 interface BlockRendererProps {
   blocks?: ContentBlock[];
   block?: ContentBlock;
+  /** Sources externes par ancre de section (src/contenu/sources.ts), affichées sous la section. */
+  appuis?: Record<string, Array<Appui & { source: Source }>>;
 }
 
-const BlockRenderer: React.FC<BlockRendererProps> = ({ blocks, block }) => {
+const BlockRenderer: React.FC<BlockRendererProps> = ({ blocks, block, appuis }) => {
   if (block) {
     return <>{renderBlock(block)}</>;
   }
@@ -36,7 +40,18 @@ const BlockRenderer: React.FC<BlockRendererProps> = ({ blocks, block }) => {
 
   return (
     <div className="animate-fade-in">
-      {sortedBlocks.map(renderBlock)}
+      {sortedBlocks.map((b) => {
+        const notes = appuis?.[ancreDe(b) ?? ''];
+        if (!notes?.length) return renderBlock(b);
+        // Même fond que la section (les blocs « cards » sont sur fond gris).
+        const fond = (b.type || b.block_type) === 'cards' ? 'bg-neutral-50' : 'bg-white';
+        return (
+          <React.Fragment key={b.id}>
+            {renderBlock(b)}
+            <NoteSource appuis={notes} fond={fond} />
+          </React.Fragment>
+        );
+      })}
     </div>
   );
 };

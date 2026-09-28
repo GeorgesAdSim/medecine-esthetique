@@ -23,6 +23,22 @@ Faits non confirmés : tant qu'ils ne le sont pas, ils restent HORS du JSON-LD
      à confirmer qu'il reste acceptable au regard des règles belges sur
      l'information en esthétique médicale et sur les médicaments.
 
+4. **Sources externes (lot 5)** — la page Botox cite désormais la notice
+   officielle belge (RCP Vistabel, e-compendium.be). Trois écarts avec cette
+   notice sont corrigés dans `supabase/contenu/2026-09-28-botox-sources.sql`
+   (NON APPLIQUÉ, à valider par la docteure) : durée « jusqu'à environ 4 mois »
+   au lieu de 4 à 6 mois ; chute de paupière = effet **fréquent** (pas « rare ») ;
+   « aucun effet de rebond » retiré (non sourcé). Reste à trancher : « à partir de
+   25-30 ans en prévention » (la notice parle d'adultes, sans indication préventive).
+5. **Les 7 autres pages de traitement** (`docs/sources/2026-09-28-sources-traitements.md`) :
+   environ un tiers des affirmations contredisent les sources officielles, dont des
+   affirmations de sécurité aujourd'hui en ligne (« aucun risque allergique »,
+   « tous les effets sont temporaires », « risques très rares », « sécurité prouvée »,
+   « non palpables », BBL non chirurgical). Pour sourcer au plus juste, il faut
+   savoir **quels produits la docteure utilise** : marques d'acide hyaluronique,
+   stimulateurs (Sculptra ? Radiesse ?), type de fils (PDO ou PLLA/PLGA), mélanges
+   de mésothérapie, gamme de cosmétiques — idéalement avec leur notice CE.
+
 ## Tranchées (28/09/2026, Georges)
 
 - **Téléphone** : le GSM +32 495 28 09 76, partout. Page rendez-vous et bouton
