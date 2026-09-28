@@ -5,12 +5,9 @@ Faits non confirmés : tant qu'ils ne le sont pas, ils restent HORS du JSON-LD
 
 ## Ouvertes
 
-1. **Coordonnées GPS, date de fondation (2010 ?), fourchette de prix** : à
+1. **Date de fondation (2010 ?), fourchette de prix** : à
    confirmer avant toute publication en données structurées.
-2. **Maillage** : `/docteur-jocelyne-fassotte` et `/galerie` ne sont liées que
-   par le menu et le pied de page (avertissement d'audit). Ajouter des liens
-   dans le texte de l'accueil ?
-3. **Week-end** : non mentionné sur l'agenda ; le site n'en dit rien.
+2. **Week-end** : non mentionné sur l'agenda ; le site n'en dit rien.
 
 ## Tranchées (28/09/2026, Georges)
 
@@ -22,4 +19,8 @@ Faits non confirmés : tant qu'ils ne le sont pas, ils restent HORS du JSON-LD
 - **Carte** : pas de carte Google Maps sur la page rendez-vous (bloc retiré ;
   plus d'iframe Google autorisée par la CSP).
 - **Page « à propos »** : `/docteur-jocelyne-fassotte`, telle qu'en ligne.
+- **Position** : celle de la fiche Google Business Profile (50.6066396, 5.6285276),
+  publiée en JSON-LD avec `hasMap` vers la fiche.
+- **Maillage** : liens vers la galerie et la page de la Dre Fassotte depuis
+  l'accueil et chaque page de traitement.
 - **Textes et publicité des actes esthétiques** : validés.

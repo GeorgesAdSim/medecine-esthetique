@@ -51,3 +51,11 @@ describe('horaires confirmés', () => {
     expect(new Set(jours)).toEqual(new Set(['Wednesday', 'Thursday', 'Friday']));
   });
 });
+
+describe('position confirmée', () => {
+  it('accueil : coordonnées de la fiche Google et lien vers la fiche', () => {
+    const clinique = (descripteurDe('/').jsonLd as any[])[0];
+    expect(clinique.geo).toEqual({ '@type': 'GeoCoordinates', latitude: 50.6066396, longitude: 5.6285276 });
+    expect(clinique.hasMap).toBe('https://www.google.com/maps?cid=3884643552219898504');
+  });
+});

@@ -2,7 +2,7 @@
 // Identifiants préfixés « mel- » (médecine esthétique Liège).
 
 /** Propriétés JSON-LD interdites tant que les faits ne sont pas confirmés (QUESTIONS.md). */
-const PROPRIETES_NON_CONFIRMEES = ['geo', 'foundingDate', 'priceRange', 'aggregateRating', 'review'];
+const PROPRIETES_NON_CONFIRMEES = ['foundingDate', 'priceRange', 'aggregateRating', 'review'];
 
 /** Formulations de promesse, à proscrire dans les surfaces de référencement (publicité des actes esthétiques). */
 const PROMESSES = /\bgaranti(e|s|es)?\b|\bmeilleur(e|s|es)?\b|\bsans risque\b|\bmiracle\b/i;
@@ -13,7 +13,7 @@ const blocs = (page) => page.blocsLd.flatMap((b) => { try { return [JSON.parse(b
 export const REGLES_PROJET = [
   {
     id: 'mel-jsonld-faits-confirmes',
-    title: 'Aucun fait non confirmé (GPS, fondation, prix, avis) dans le JSON-LD',
+    title: 'Aucun fait non confirmé (fondation, prix, avis) dans le JSON-LD',
     severity: 'error',
     *run(ctx) {
       for (const p of ctx.build.pagesIndexables) {
