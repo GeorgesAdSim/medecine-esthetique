@@ -1,0 +1,26 @@
+# Instantané du contenu Supabase publié → data/contenu.json, committé.
+#
+# Le build Netlify relance lui-même le sync ; ce workflow sert à garder dans le
+# dépôt un instantané relisible (diff du contenu publié) et à permettre un build
+# local hors ligne. Déclenchement manuel, ou quand le script de sync change.
+name: sync-contenu
+on:
+  workflow_dispatch:
+  push:
+    paths: ['scripts/sync.mjs', '.github/workflows/sync-contenu.yml']
+permissions:
+  contents: write
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with: { node-version: 22 }
+      - run: node scripts/sync.mjs
+      - name: Commit si le contenu a changé
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/contenu.json
+          git diff --cached --quiet || git commit -m "Contenu : instantané Supabase" && git push
