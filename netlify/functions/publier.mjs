@@ -7,8 +7,14 @@
 //   2. rpc is_admin() avec ce même jeton (règle de la migration RLS) ;
 //   3. appel du build hook Netlify, dont l'URL reste côté serveur.
 //
-// Variables Netlify : NETLIFY_BUILD_HOOK_URL (secret), VITE_SUPABASE_URL et
-// VITE_SUPABASE_ANON_KEY (déjà dans netlify.toml).
+// Variable Netlify : NETLIFY_BUILD_HOOK_URL (secret, portée « Functions »).
+// L'URL et la clé PUBLIQUE (anon) de Supabase sont reprises ici : les
+// variables de [build.environment] de netlify.toml n'existent qu'au build,
+// pas à l'exécution des fonctions. Ce ne sont pas des secrets (elles sont
+// déjà dans le JavaScript du site).
+const SUPABASE_URL = 'https://hxgfakegwewcfkxvltgl.supabase.co';
+const SUPABASE_ANON_KEY =
+  'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imh4Z2Zha2Vnd2V3Y2ZreHZsdGdsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTk3NTIyOTQsImV4cCI6MjA3NTMyODI5NH0.ikzj4r0C564KNnkHrS9LflxEp7ZDJVE6QoU4cJpVoQs';
 const json = (statut, corps) => new Response(JSON.stringify(corps), {
   status: statut,
   headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' },
@@ -17,13 +23,13 @@ const json = (statut, corps) => new Response(JSON.stringify(corps), {
 export default async (req) => {
   if (req.method !== 'POST') return json(405, { erreur: 'Méthode non autorisée' });
 
-  const url = process.env.VITE_SUPABASE_URL;
-  const cle = process.env.VITE_SUPABASE_ANON_KEY;
+  const url = process.env.VITE_SUPABASE_URL || SUPABASE_URL;
+  const cle = process.env.VITE_SUPABASE_ANON_KEY || SUPABASE_ANON_KEY;
   const hook = process.env.NETLIFY_BUILD_HOOK_URL;
-  if (!url || !cle || !hook) return json(500, { erreur: 'Publication non configurée' });
 
   const jeton = (req.headers.get('authorization') || '').replace(/^Bearer\s+/i, '');
   if (!jeton) return json(401, { erreur: 'Connexion requise' });
+  if (!hook) return json(500, { erreur: 'Publication non configurée (NETLIFY_BUILD_HOOK_URL)' });
 
   const entetes = { apikey: cle, Authorization: `Bearer ${jeton}` };
   const utilisateur = await fetch(`${url}/auth/v1/user`, { headers: entetes });
