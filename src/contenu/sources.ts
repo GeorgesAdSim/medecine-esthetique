@@ -68,6 +68,47 @@ const AAD_ANTIAGE = src('aad-anti-age', 'How to select anti-aging skin care prod
 const FDA_COSMECEUTIQUE = src('fda-cosmeceutique', 'Cosmeceutical', 'FDA (États-Unis)', 'https://www.fda.gov/cosmetics/cosmetics-labeling-claims/cosmeceutical');
 
 export const SOURCES: Readonly<Record<string, SourcesDePage>> = {
+  '/acide-hyaluronique-liege/levres': {
+    sources: [VOLBELLA_DFU, ANSM_COMBLEMENT, FDA_FILLERS, HYALURONIDASE],
+    appuis: [
+      { ancre: 'indications', source: 'volbella-dfu', confirme: 'Indication reconnue : augmentation des lèvres et correction des ridules autour de la bouche, chez l’adulte.',
+        extrait: 'JUVÉDERM® VOLBELLA® XC injectable gel is indicated for injection into the lips for lip augmentation and for correction of perioral rhytids in adults over the age of 21' },
+      { ancre: 'deroulement', source: 'volbella-dfu', confirme: 'Dans l’étude sur les lèvres, gonflement, sensibilité et fermeté étaient très fréquents ; ils duraient 15 à 30 jours chez environ 4 personnes sur 10.',
+        extrait: 'swelling (92.9%), tenderness (89.6%), and firmness (89.0%) […] 40.7% […] 15-30 Days' },
+      { ancre: 'precautions', source: 'ansm-comblement', confirme: 'Effets immédiats (hématome, rougeur, œdème) d’environ 8 jours ; allergie possible parmi les effets retardés.',
+        extrait: 'Hématome, érythème, œdème — 8 j.' },
+      { ancre: 'precautions', source: 'fda-fillers', confirme: 'Un produit injecté dans un vaisseau sanguin peut provoquer une nécrose de la peau, un AVC ou une cécité.',
+        extrait: 'Filler that enters a blood vessel can cause skin necrosis (death of tissue), stroke, or blindness.' },
+      { ancre: 'faq', source: 'volbella-dfu', confirme: 'Lèvres : amélioration chez la majorité des personnes traitées jusqu’à 1 an.',
+        extrait: 'A majority of subjects treated with JUVÉDERM® VOLBELLA® XC demonstrating improvement through 1 year' },
+      { ancre: 'faq', source: 'revue-hyaluronidase', confirme: 'La hyaluronidase est l’enzyme qui dégrade l’acide hyaluronique, utilisée pour corriger un dépôt indésirable.',
+        extrait: 'Hyaluronidase is a crucial enzyme involved in the degradation of HA, playing a significant role in the management of unwanted HA deposits.' },
+    ],
+  },
+  '/acide-hyaluronique-liege/cernes': {
+    sources: [VOLBELLA_DFU, HYALURONIDASE],
+    appuis: [
+      { ancre: 'types', source: 'volbella-dfu', confirme: 'Indication reconnue : amélioration du creux sous les yeux (creux infraorbitaire) chez l’adulte.',
+        extrait: 'for the improvement of infraorbital hollowing in adults over the age of 21' },
+      { ancre: 'precautions', source: 'volbella-dfu', confirme: 'Dans l’étude sur les cernes : sensibilité au toucher (47,7 %), gonflement (41,7 %) et bleus (40,2 %), le plus souvent résolus en une à deux semaines ; risque de troubles visuels en cas d’injection dans un vaisseau.',
+        extrait: 'tenderness to touch (47.7%), bruising (40.2%), and swelling (41.7%) […] Introduction of JUVÉDERM® VOLBELLA® XC injectable gel into the vasculature may lead to embolization, occlusion of the vessels, ischemia, or infarction.' },
+      { ancre: 'faq', source: 'volbella-dfu', confirme: 'Cernes : amélioration chez la majorité des personnes traitées jusqu’à 1 an.',
+        extrait: 'The majority of subjects demonstrating improvement through 1 year' },
+      { ancre: 'faq', source: 'revue-hyaluronidase', confirme: 'La hyaluronidase est l’enzyme qui dégrade l’acide hyaluronique, utilisée pour corriger un dépôt indésirable.',
+        extrait: 'Hyaluronidase is a crucial enzyme involved in the degradation of HA, playing a significant role in the management of unwanted HA deposits.' },
+    ],
+  },
+  '/botox-liege/rides-du-lion': {
+    sources: [RCP_VISTABEL],
+    appuis: [
+      { ancre: 'pourquoi', source: 'rcp-vistabel', confirme: 'Indications reconnues : rides du lion (glabellaires), rides de la patte d’oie et rides du front, chez l’adulte.',
+        extrait: 'VISTABEL est indiqué pour l’amélioration temporaire de l’apparence : des rides verticales intersourcilières modérées à sévères, observées lors du froncement maximal (rides glabellaires) […]' },
+      { ancre: 'deroulement', source: 'rcp-vistabel', confirme: 'Rides du lion : 5 points d’injection ; amélioration en général dans la semaine, effet démontré jusqu’à 4 mois ; pas plus d’un traitement tous les trois mois.',
+        extrait: 'On injecte 0,1 ml (4 Unités) dans chacun des 5 sites d’injection […] L’intervalle entre deux traitements ne doit pas être inférieur à trois mois. […] L’effet du traitement a été démontré jusqu’à 4 mois après injection.' },
+      { ancre: 'contre-indications', source: 'rcp-vistabel', confirme: 'Contre-indications : hypersensibilité, myasthénie grave, syndrome de Lambert-Eaton, infection aux points d’injection. Effets fréquents pour les rides du lion : céphalées, ptosis de la paupière, ecchymose ou œdème au point d’injection.',
+        extrait: 'VISTABEL est contre-indiqué : chez les individus présentant une hypersensibilité connue à la toxine botulinique de type A ou à l’un des excipients du produit ; en cas de myasthénie grave ou de syndrome de Eaton-Lambert ; en cas d’infection aux sites d’injection proposés. — Fréquent : céphalées […] ; ptosis de la paupière […]' },
+    ],
+  },
   '/acide-hyaluronique-liege': {
     sources: [ANSM_COMBLEMENT, FDA_FILLERS, HYALURONIDASE, JUVEDERM_ULTRA, VOLUMA_SSED, VOLBELLA_DFU],
     appuis: [

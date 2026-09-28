@@ -50,6 +50,15 @@ Faits non confirmés : tant qu'ils ne le sont pas, ils restent HORS du JSON-LD
    - **Stimulateurs** : le « Brazilian Butt Lift non chirurgical » est retiré
      (mise en garde de la FDA contre les injections dans les fesses).
 
+7. **Pages filles (lot 8)** — `supabase/contenu/2026-09-28-pages-filles.sql`
+   (NON APPLIQUÉ) : lèvres, cernes, rides du lion, à relire par la docteure.
+   - Lèvres : les gestes (contour, volume, projection par acide hyaluronique ou
+     toxine botulique, lèvre blanche en plusieurs séances, anesthésie locale
+     systématique) reprennent SA page « La lèvre rouge » de docfassotteesthetique.be.
+     Le « lip flip » est-il bien pratiqué ?
+   - Cernes : la page dit que seul le cerne creusé relève de l'injection et que la
+     docteure le refuse sinon — à confirmer.
+
 ## Tranchées (28/09/2026, Georges)
 
 - **Téléphone** : le GSM +32 495 28 09 76, partout. Page rendez-vous et bouton

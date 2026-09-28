@@ -6,7 +6,7 @@
 // date de fondation, fourchette de prix.
 import * as schema from '@adsim/seo-core/schema';
 import { BUSINESS_INFO } from '../constants/businessInfo';
-import { CHEMINS_TRAITEMENTS, pageDe, traitementDe } from '../contenu/routes';
+import { NOMS_PILIERS, SOUS_PAGES, estPageTraitement, pageDe, traitementDe } from '../contenu/routes';
 import { SITE } from './site';
 import { sourcesDe } from '../contenu/sources';
 
@@ -52,12 +52,15 @@ function questionsAffichees(blocs: any[] | null | undefined): Array<{ question: 
     .map((q) => ({ question: q.question, reponse: q.answer }));
 }
 
-const ariane = (titre: string, chemin: string) =>
-  schema.filAriane([
+const ariane = (titre: string, chemin: string) => {
+  const fille = SOUS_PAGES[chemin];
+  return schema.filAriane([
     { nom: 'Accueil', url: `${BASE}/` },
     { nom: 'Traitements', url: `${BASE}/medecine-esthetique-liege` },
-    { nom: titre, url: `${BASE}${chemin}` },
+    ...(fille ? [{ nom: NOMS_PILIERS[fille.parent] ?? fille.parent, url: `${BASE}${fille.parent}` }] : []),
+    { nom: fille ? fille.nom : titre, url: `${BASE}${chemin}` },
   ]);
+};
 
 /** Page de traitement et documents qu'elle cite (src/contenu/sources.ts) — seulement s'il y en a. */
 function pageCitations(chemin: string, nom: string): object | null {
@@ -85,7 +88,7 @@ export function jsonLdDe(chemin: string, titre: string): object[] {
   if (chemin === '/docteur-jocelyne-fassotte') {
     return [schema.referenceEtablissement(identite), medecin()];
   }
-  if (CHEMINS_TRAITEMENTS.includes(chemin)) {
+  if (estPageTraitement(chemin)) {
     const t = traitementDe(chemin);
     const nom = titre.split(' | ')[0];
     return [

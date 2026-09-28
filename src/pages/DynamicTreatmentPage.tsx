@@ -8,7 +8,8 @@ import AccesCabinet from '../components/AccesCabinet';
 import { ListeSources } from '../components/Sources';
 import { appuisParAncre, sourcesDe } from '../contenu/sources';
 import { getAllTreatments, getTreatmentRelations } from '../utils/treatmentLinks';
-import { normaliser, traitementDe } from '../contenu/routes';
+import { NOMS_PILIERS, SOUS_PAGES, normaliser, traitementDe } from '../contenu/routes';
+import { LiensDeLaFille, ZonesDuPilier } from '../components/Silo';
 
 /**
  * Traitements complémentaires (relations écrites dans utils/treatmentLinks.ts) :
@@ -118,16 +119,20 @@ const DynamicTreatmentPage: React.FC = () => {
         };
       });
 
+      const fille = SOUS_PAGES[chemin];
+      const nomPilier = fille ? NOMS_PILIERS[fille.parent] ?? '' : '';
       return (
         <>
           <Breadcrumbs customItems={[
             { label: 'Traitements', path: '/medecine-esthetique-liege' },
-            { label: customPage.title, path: customPage.slug }
+            ...(fille ? [{ label: nomPilier, path: fille.parent }] : []),
+            { label: fille ? fille.nom : customPage.title, path: chemin }
           ]} />
           <BlockRenderer blocks={transformedBlocks} appuis={appuisParAncre(chemin)} />
+          <ZonesDuPilier pilier={chemin} traitement={NOMS_PILIERS[chemin] ?? customPage.title} />
           {sourcesDe(chemin) && <ListeSources sources={sourcesDe(chemin)!.sources} />}
-          <AccesCabinet traitement={nomCourt(chemin, customPage.title)} />
-          <Complementaires chemin={chemin} />
+          <AccesCabinet traitement={fille ? fille.ancreLien.replace(/ à Liège$/, '') : nomCourt(chemin, customPage.title)} />
+          {fille ? <LiensDeLaFille chemin={chemin} nomPilier={nomPilier} /> : <Complementaires chemin={chemin} />}
         </>
       );
     }
@@ -139,7 +144,7 @@ const DynamicTreatmentPage: React.FC = () => {
         <>
           <Breadcrumbs customItems={[
             { label: 'Traitements', path: '/medecine-esthetique-liege' },
-            { label: customPage.title, path: customPage.slug }
+            { label: customPage.title, path: chemin }
           ]} />
           <div className="animate-fade-in">
             <section className="bg-gradient-hero pt-32 pb-16">

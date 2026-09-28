@@ -1,7 +1,7 @@
 // llms.txt (llmstxt.org) : plan du site en Markdown pour les assistants.
 // Déduit des mêmes routes et descripteurs que les pages — aucune liste à part.
 import { BUSINESS_INFO } from '../constants/businessInfo';
-import { CHEMINS_TRAITEMENTS, routesPubliques } from '../contenu/routes';
+import { estPageTraitement, routesPubliques } from '../contenu/routes';
 import { descripteurDe } from './pages';
 import { SITE } from './site';
 
@@ -12,8 +12,8 @@ const ligne = (chemin: string) => {
 
 export function texteLlms(): string {
   const routes = routesPubliques();
-  const traitements = routes.filter((r) => CHEMINS_TRAITEMENTS.includes(r));
-  const autres = routes.filter((r) => !CHEMINS_TRAITEMENTS.includes(r));
+  const traitements = routes.filter((r) => estPageTraitement(r));
+  const autres = routes.filter((r) => !estPageTraitement(r));
   const a = BUSINESS_INFO.address;
   return [
     `# ${BUSINESS_INFO.name}`,
