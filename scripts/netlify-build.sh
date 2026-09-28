@@ -38,6 +38,10 @@ if [ "${CONTEXT:-production}" != "production" ]; then
   echo "  contenu : instantané de la branche (contexte ${CONTEXT})"
 fi
 
+# Images : sur Netlify (réseau disponible), une image du contenu qui ne se
+# convertit pas arrête le build plutôt que de servir l'original de 7 Mo.
+export IMAGES_STRICT=1
+
 corepack enable
 (cd "$SOCLE" && pnpm install --frozen-lockfile --prod=false)
 pnpm install --frozen-lockfile

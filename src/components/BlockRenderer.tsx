@@ -7,6 +7,7 @@ import InternalLinkCard from './InternalLinkCard';
 import AppointmentCalendar from './AppointmentCalendar';
 import { parseInternalLinks } from '../utils/linkParser';
 import { ancreDe } from '../utils/ancre';
+import ImageOptimisee from './ImageOptimisee';
 
 interface ContentBlock {
   id: string;
@@ -75,10 +76,11 @@ const renderBlock = (block: ContentBlock) => {
                 </div>
                 {block.content.image && (
                   <div className="animate-slide-up order-first lg:order-last" style={{ animationDelay: '0.2s' }}>
-                    <img
+                    <ImageOptimisee
                       src={block.content.image}
                       alt={block.content.imageAlt || ''}
                       className="w-full h-auto rounded-3xl shadow-2xl"
+                      prioritaire
                     />
                   </div>
                 )}
@@ -135,10 +137,11 @@ const renderBlock = (block: ContentBlock) => {
       case 'image':
         return (
           <div key={block.id} className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-            <img
+            <ImageOptimisee
               src={block.content.url}
               alt={block.content.alt || ''}
               className="w-full h-auto rounded-2xl shadow-lg"
+              sizes="(min-width: 1024px) 1024px, 100vw"
             />
             {block.content.caption && (
               <p className="text-center text-sm text-neutral-600 mt-4">{block.content.caption}</p>
@@ -321,7 +324,7 @@ const renderBlock = (block: ContentBlock) => {
                 </div>
                 <div className={isImageRight ? 'lg:order-2' : 'lg:order-1'}>
                   {block.content.image && (
-                    <img
+                    <ImageOptimisee
                       src={block.content.image}
                       alt={block.content.imageAlt || ''}
                       className="w-full h-auto rounded-2xl shadow-lg"
@@ -682,10 +685,11 @@ const GalleryBlock: React.FC<{ content: any }> = ({ content }) => {
                 onClick={() => setSelectedImage(image)}
                 className="group relative aspect-square overflow-hidden rounded-2xl shadow-lg cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-2xl"
               >
-                <img
+                <ImageOptimisee
                   src={image.src}
                   alt={image.alt}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   <div className="absolute bottom-0 left-0 right-0 p-6">
@@ -717,10 +721,12 @@ const GalleryBlock: React.FC<{ content: any }> = ({ content }) => {
             >
               ×
             </button>
-            <img
+            <ImageOptimisee
               src={selectedImage.src}
               alt={selectedImage.alt}
               className="w-full h-auto rounded-2xl shadow-2xl"
+              sizes="(min-width: 1024px) 1024px, 100vw"
+              prioritaire
             />
             <div className="mt-4 text-center">
               <h3 className="font-playfair text-2xl font-semibold text-white mb-2">

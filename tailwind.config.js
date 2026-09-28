@@ -7,8 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'playfair': ['Playfair Display', 'serif'],
-        'inter': ['Inter', 'sans-serif'],
+        'playfair': ['Playfair Display Variable', 'Playfair Display', 'serif'],
+        'inter': ['Inter Variable', 'Inter', 'sans-serif'],
       },
       colors: {
         primary: {
@@ -72,17 +72,19 @@ export default {
         'scale-in': 'scaleIn 0.5s ease-out',
       },
       keyframes: {
+        // Sans opacité de départ à 0 : le contenu pré-rendu (et l'image LCP) est
+        // visible dès la première image, l'animation n'est qu'un léger mouvement.
         fadeIn: {
-          '0%': { opacity: '0' },
-          '100%': { opacity: '1' },
+          '0%': { transform: 'translateY(8px)' },
+          '100%': { transform: 'translateY(0)' },
         },
         slideUp: {
-          '0%': { opacity: '0', transform: 'translateY(30px)' },
-          '100%': { opacity: '1', transform: 'translateY(0)' },
+          '0%': { transform: 'translateY(30px)' },
+          '100%': { transform: 'translateY(0)' },
         },
         scaleIn: {
-          '0%': { opacity: '0', transform: 'scale(0.95)' },
-          '100%': { opacity: '1', transform: 'scale(1)' },
+          '0%': { transform: 'scale(0.95)' },
+          '100%': { transform: 'scale(1)' },
         },
       },
     },

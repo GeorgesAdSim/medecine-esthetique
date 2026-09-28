@@ -25,3 +25,7 @@ dist-ssr
 .env
 dist-server
 rapports/
+
+# Images converties au build (scripts/images.mjs)
+public/media/
+data/images.json

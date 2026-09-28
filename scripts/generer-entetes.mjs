@@ -42,9 +42,10 @@ const distDir = path.join(racine, 'dist');
  */
 const ORIGINES = {
   script: [],
-  // Tailwind et les composants posent des styles inline ; Google Fonts sert la feuille.
-  style: ["'unsafe-inline'", 'https://fonts.googleapis.com'],
-  font: ['https://fonts.gstatic.com'],
+  // Tailwind et les composants posent des styles inline. Polices : servies par le site
+  // (@fontsource-variable, depuis le lot 4), plus aucune origine Google Fonts.
+  style: ["'unsafe-inline'"],
+  font: [],
   // Médias de l'admin (Supabase Storage) et images d'illustration du contenu.
   image: ['https://hxgfakegwewcfkxvltgl.supabase.co', 'https://images.pexels.com', 'https://via.placeholder.com'],
   // API Supabase : session admin, aperçu, écriture depuis l'admin, fonction d'envoi des RDV.
@@ -116,6 +117,10 @@ async function main() {
   Permissions-Policy: camera=(), microphone=(), geolocation=()
 
 /assets/*
+  Cache-Control: public, max-age=31536000, immutable
+
+# Images converties au build (scripts/images.mjs) : nom = empreinte du contenu.
+/media/*
   Cache-Control: public, max-age=31536000, immutable
 `;
 

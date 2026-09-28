@@ -7,18 +7,21 @@ import { SiteSettingsProvider } from './contexts/SiteSettingsContext';
 import { useAuth } from './contexts/AuthContext';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import AdminDashboard from './components/admin/AdminDashboard';
-import LoginForm from './components/LoginForm';
 import Home from './pages/Home';
 import DynamicPage from './pages/DynamicPage';
 import NotFound from './pages/NotFound';
 import { ALIAS, CHEMINS_TRAITEMENTS, PAGES_FIXES } from './contenu/routes';
 import DynamicTreatmentPage from './pages/DynamicTreatmentPage';
 import PrivacyPolicy from './pages/PrivacyPolicy';
-import SetupPasswords from './pages/SetupPasswords';
-import EditTreatmentPage from './pages/admin/EditTreatmentPage';
 import CookieBanner from './components/CookieBanner';
 import TeteDePage from './seo/TeteDePage';
+
+// Administration : chargée à la demande, hors du JavaScript des pages publiques
+// (PageSpeed du 28/09/2026 : 118 Kio de JS inutilisé à l'accueil).
+const AdminDashboard = React.lazy(() => import('./components/admin/AdminDashboard'));
+const LoginForm = React.lazy(() => import('./components/LoginForm'));
+const SetupPasswords = React.lazy(() => import('./pages/SetupPasswords'));
+const EditTreatmentPage = React.lazy(() => import('./pages/admin/EditTreatmentPage'));
 
 const ScrollToTop: React.FC = () => {
   const { pathname } = useLocation();
@@ -50,12 +53,14 @@ const AppRoutes: React.FC = () => {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/setup-admin" element={<SetupPasswords />} />
+          <Route path="/setup-admin" element={<React.Suspense fallback={null}><SetupPasswords /></React.Suspense>} />
           <Route
             path="/admin/treatments/:id/edit"
             element={
               <ProtectedRoute>
-                <EditTreatmentPage />
+                <React.Suspense fallback={null}>
+                  <EditTreatmentPage />
+                </React.Suspense>
               </ProtectedRoute>
             }
           />
@@ -101,10 +106,18 @@ const AdminComponent: React.FC = () => {
   }, []);
 
   if (!isAuthenticated) {
-    return showLogin ? <LoginForm onClose={() => setShowLogin(false)} /> : null;
+    return showLogin ? (
+      <React.Suspense fallback={null}>
+        <LoginForm onClose={() => setShowLogin(false)} />
+      </React.Suspense>
+    ) : null;
   }
 
-  return <AdminDashboard />;
+  return (
+    <React.Suspense fallback={null}>
+      <AdminDashboard />
+    </React.Suspense>
+  );
 };
 
 /** Langue du document ; le reste du <head> vient de TeteDePage. */
