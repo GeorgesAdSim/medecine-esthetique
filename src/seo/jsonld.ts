@@ -1,9 +1,9 @@
 // JSON-LD de chaque page, construit avec les constructeurs du socle.
 //
 // N'INVENTE RIEN : seuls des faits confirmés et affichés sur le site y figurent.
-// Horaires confirmés le 28/09/2026. Volontairement absents tant qu'ils ne sont
-// pas confirmés (voir QUESTIONS.md) : coordonnées GPS, date de fondation,
-// fourchette de prix.
+// Horaires et position (fiche Google Business Profile) confirmés le 28/09/2026.
+// Volontairement absents tant qu'ils ne sont pas confirmés (QUESTIONS.md) :
+// date de fondation, fourchette de prix.
 import * as schema from '@adsim/seo-core/schema';
 import { BUSINESS_INFO } from '../constants/businessInfo';
 import { CHEMINS_TRAITEMENTS, pageDe, traitementDe } from '../contenu/routes';
@@ -60,7 +60,10 @@ const ariane = (titre: string, chemin: string) =>
 
 export function jsonLdDe(chemin: string, titre: string): object[] {
   if (chemin === '/') {
-    return [schema.etablissement({ ...identite, image: SITE.imageParDefaut, horaires: schema.horairesLd(BUSINESS_INFO.hours) }), medecin()];
+    return [schema.etablissement({ ...identite, image: SITE.imageParDefaut, horaires: schema.horairesLd(BUSINESS_INFO.hours),
+      geo: schema.geoLd(BUSINESS_INFO.geo),
+      proprietesSupplementaires: { hasMap: BUSINESS_INFO.geo.mapUrl },
+    }), medecin()];
   }
   if (chemin === '/docteur-jocelyne-fassotte') {
     return [schema.referenceEtablissement(identite), medecin()];

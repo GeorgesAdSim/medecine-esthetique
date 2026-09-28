@@ -17,9 +17,17 @@ const Complementaires: React.FC<{ chemin: string }> = ({ chemin }) => {
   return (
     <>
       <RelatedTreatments currentTreatment="" treatments={relations} />
-      <p className="text-center font-inter text-neutral-600 pb-16 bg-neutral-50">
+      <p className="text-center font-inter text-neutral-600 pb-16 bg-neutral-50 px-4 leading-loose">
         <Link to="/medecine-esthetique-liege" className="text-primary-600 underline">
           Voir tous les traitements de médecine esthétique
+        </Link>
+        {' · '}
+        <Link to="/galerie" className="text-primary-600 underline">
+          Galerie photos des traitements
+        </Link>
+        {' · '}
+        <Link to="/docteur-jocelyne-fassotte" className="text-primary-600 underline">
+          Qui est la Dre Jocelyne Fassotte ?
         </Link>
       </p>
     </>

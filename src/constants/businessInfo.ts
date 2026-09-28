@@ -22,10 +22,11 @@ export const BUSINESS_INFO = {
     countryCode: 'BE',
     full: 'Rue Edouard Sarlet 31, 4051 Vaux-sous-Chèvremont, Liège, Belgique'
   },
+  // Position de la fiche Google Business Profile du cabinet (confirmée le 28/09/2026).
   geo: {
-    latitude: 50.6183,
-    longitude: 5.5967,
-    mapUrl: 'https://www.google.com/maps/search/?api=1&query=Rue+Edouard+Sarlet+31,+4051+Vaux-sous-Chèvremont,+Liège,+Belgique'
+    latitude: 50.6066396,
+    longitude: 5.6285276,
+    mapUrl: 'https://www.google.com/maps?cid=3884643552219898504'
   },
   // Horaires confirmés le 28/09/2026 (Georges, agenda du cabinet) — consultations
   // sur rendez-vous. Lundi et mardi : fermé. Week-end : non documenté.

@@ -24,6 +24,7 @@ declare module '@adsim/seo-core/schema' {
   export const referenceEtablissement: (o: object) => object;
   export const service: (o: object) => object;
   export const horairesLd: (h: { plages: Array<{ jours: string[]; ouverture: string; fermeture: string }> }) => object[] | undefined;
+  export const geoLd: (g: { latitude: number; longitude: number }) => object | undefined;
   export const faqPage: (q: Array<{ question: string; reponse: string }>) => object | null;
   export const filAriane: (e: Array<{ nom: string; url: string }>) => object | null;
 }
