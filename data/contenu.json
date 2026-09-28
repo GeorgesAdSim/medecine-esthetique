@@ -308,15 +308,16 @@
               },
               {
                 "icon": "shield",
-                "title": "100% biocompatible",
-                "description": "Parfaitement toléré par l'organisme, il ne présente aucun risque allergique et se résorbe naturellement."
+                "title": "Résorbable",
+                "description": "Il est progressivement dégradé et résorbé par l'organisme. Il est bien toléré dans la grande majorité des cas ; une allergie reste possible, et une allergie connue au produit est une contre-indication."
               },
               {
                 "icon": "heart",
                 "title": "Résultats naturels",
                 "description": "Permet d'obtenir des résultats harmonieux qui respectent la morphologie naturelle de votre visage."
               }
-            ]
+            ],
+            "ancre": "principe"
           }
         },
         {
@@ -352,7 +353,7 @@
                   "Sillons d'amertume",
                   "Plis d'amaigrissement"
                 ],
-                "duration": "12-18 mois",
+                "duration": "Jusqu'à 1 an environ",
                 "description": "Comblement des rides marquées"
               },
               {
@@ -363,7 +364,7 @@
                   "Menton",
                   "Mâchoires"
                 ],
-                "duration": "12-18 mois",
+                "duration": "12 à 24 mois selon la zone",
                 "description": "Restauration des volumes perdus"
               },
               {
@@ -373,10 +374,11 @@
                   "Résultats naturels",
                   "Regard rajeuni"
                 ],
-                "duration": "12-15 mois",
+                "duration": "Jusqu'à 1 an environ",
                 "description": "Correction des cernes creusés"
               }
-            ]
+            ],
+            "ancre": "zones"
           }
         },
         {
@@ -406,9 +408,38 @@
           }
         },
         {
+          "id": "block-cards-precautions",
+          "type": "cards",
+          "content": {
+            "ancre": "precautions",
+            "title": "Acide hyaluronique : effets indésirables et précautions",
+            "subtitle": "Les injections d'acide hyaluronique sont des actes médicaux. Voici ce que disent les autorités de santé.",
+            "cards": [
+              {
+                "title": "Effets fréquents",
+                "description": "Au point d’injection, dans les jours qui suivent.",
+                "details": [
+                  "Rougeur, gonflement, hématome",
+                  "En général résolus en une à deux semaines"
+                ]
+              },
+              {
+                "title": "Complications rares",
+                "description": "À connaître avant tout traitement.",
+                "details": [
+                  "Allergie, possible même plusieurs mois après",
+                  "Injection dans un vaisseau : nécrose de la peau et, exceptionnellement, troubles visuels",
+                  "Produits résorbables uniquement : les autorités déconseillent les produits non résorbables"
+                ]
+              }
+            ]
+          },
+          "order": 6
+        },
+        {
           "id": "block-faq-6",
           "type": "faq",
-          "order": 6,
+          "order": 7,
           "content": {
             "title": "Questions fréquentes",
             "subtitle": "Tout ce que vous devez savoir sur les injections d'acide hyaluronique",
@@ -418,7 +449,7 @@
                 "question": "Le traitement est-il douloureux ?"
               },
               {
-                "answer": "Léger œdème et rougeur transitoires (24-48h). Possibles petits hématomes qui s'estompent en quelques jours. Tous les effets sont temporaires.",
+                "answer": "Rougeur, gonflement, sensibilité ou petits hématomes au point d'injection, qui disparaissent en général en une à deux semaines. Des complications rares mais graves existent, notamment si le produit pénètre dans un vaisseau sanguin : c'est pourquoi l'injection est réalisée par un médecin. En cas de besoin, l'acide hyaluronique peut être dissous par une enzyme, la hyaluronidase.",
                 "question": "Quels sont les effets secondaires possibles ?"
               },
               {
@@ -426,16 +457,17 @@
                 "question": "Quand voit-on les résultats ?"
               },
               {
-                "answer": "Oui, la reprise des activités est possible immédiatement. Il est recommandé d'éviter le sport intensif et les massages pendant 24h.",
+                "answer": "Oui, la reprise des activités est possible immédiatement. Il est recommandé d'éviter le sport intensif, le soleil et la chaleur pendant les 24 heures qui suivent.",
                 "question": "Peut-on reprendre ses activités normalement ?"
               }
-            ]
+            ],
+            "ancre": "faq"
           }
         },
         {
           "id": "block-cta-7",
           "type": "cta",
-          "order": 7,
+          "order": 8,
           "content": {
             "title": "Prêt(e) pour une consultation ?",
             "description": "Découvrez comment l'acide hyaluronique peut révéler votre beauté naturelle. Prenez rendez-vous pour une consultation personnalisée.",
@@ -453,7 +485,7 @@
       "meta_description": "ACIDE HYALURONIQUE\n\nL’acide hyaluronique est un constituant naturel du liquide extracellulaire du derme, de\nl’épiderme, du cartilage , de notre corps.\nAvec le vieillissement, le renouvellement de l’acide hyaluronique se ralenti ce qui diminue\nl’hydratation et la fermeté de notre peau.\nLa molécule d’acide hyaluronique pure est reconstituée par les laboratoires de Médecine\nEsthétique.\nElle se présente sous différentes concentrations (réticulation) et peut être injectée en\nMédecine Esthétique pour remplacer notre acide hyaluronique perdu soit superficiellement\nau niveau du derme (acide hyaluronique peu réticulé) soit de façon plus concentrée\n(réticulation importante) pour remplacer les masses graisseuses du visage perdue avec l’âge\net reconstruire ainsi les volumes et le contour du visage.\nL’acide hyaluronique est une molécule essentielle en médecine esthétique.\nElle procure hydratation, réduction des rides et restructuration des volumes du visage.",
       "is_published": true,
       "created_at": "2025-10-28T16:45:50.160707+00:00",
-      "updated_at": "2026-02-24T12:45:06.961+00:00"
+      "updated_at": "2026-09-28T19:00:00+00:00"
     },
     {
       "id": "e5e1e35a-e6be-476d-bceb-21e263c4a79b",
@@ -885,7 +917,7 @@
             "ctaText": "Consultation personnalisée",
             "imageAlt": "Cosmétologie médicale",
             "subtitle": "Optimisez Votre Routine de Soins",
-            "description": "La cosmétologie médicale représente l'alliance entre expertise dermatologique et soins esthétiques avancés. Cette approche scientifique de la beauté permet d'analyser précisément les besoins de votre peau et de vous proposer des protocoles de soins personnalisés avec des produits de qualité pharmaceutique."
+            "description": "La cosmétologie médicale associe un regard médical et des soins cosmétiques choisis pour votre peau. La Dre Fassotte analyse les besoins de votre peau et vous propose une routine de soins personnalisée."
           }
         },
         {
@@ -959,8 +991,8 @@
                 "description": "Analyse précise des besoins"
               },
               {
-                "title": "Produits pharmaceutiques",
-                "description": "Efficacité et sécurité prouvées"
+                "title": "Actifs choisis",
+                "description": "Selon votre type de peau et vos objectifs"
               },
               {
                 "title": "Personnalisation complète",
@@ -981,18 +1013,19 @@
             "title": "Questions fréquentes",
             "questions": [
               {
-                "answer": "Les cosméceutiques contiennent des actifs concentrés à des dosages efficaces, avec études cliniques prouvant leur efficacité.",
+                "answer": "Ce sont aussi des cosmétiques : le terme « cosméceutique » n'a pas de définition légale. La différence tient au choix des actifs, adaptés à votre peau par un médecin. Leurs effets sont réels mais modestes : une crème ne remplace pas un traitement médical. La protection solaire quotidienne reste le soin anti-âge le plus efficace.",
                 "question": "Quelle différence avec les cosmétiques classiques ?"
               },
               {
-                "answer": "4-6 semaines minimum pour les premiers effets, 3-6 mois pour des résultats optimaux selon la problématique.",
+                "answer": "Au moins 6 semaines, parfois jusqu’à 3 mois, selon le soin et la problématique.",
                 "question": "Combien de temps pour voir des résultats ?"
               },
               {
                 "answer": "Absolument, avec des protocoles spécifiques selon l'âge, le type de peau et les besoins individuels.",
                 "question": "Les soins sont-ils adaptés à tous les âges ?"
               }
-            ]
+            ],
+            "ancre": "faq"
           }
         },
         {
@@ -1001,7 +1034,7 @@
           "order": 5,
           "content": {
             "title": "Consultation cosmétologique",
-            "description": "Pour découvrir les soins dermocosmétiques adaptés à votre peau et optimiser votre routine beauté. Analyse personnalisée : Diagnostic complet de votre peau et création d'un protocole de soins sur mesure avec les meilleurs cosméceutiques du marché.",
+            "description": "Pour découvrir les soins adaptés à votre peau et optimiser votre routine. Analyse personnalisée : diagnostic de votre peau et routine de soins sur mesure.",
             "primaryButton": {
               "link": "/contact",
               "text": "Prendre rendez-vous"
@@ -1012,7 +1045,7 @@
       "meta_description": "Soins cosmétologiques personnalisés pour votre peau",
       "is_published": true,
       "created_at": "2025-10-28T16:45:50.160707+00:00",
-      "updated_at": "2026-02-24T15:36:45.68+00:00"
+      "updated_at": "2026-09-28T19:00:00+00:00"
     },
     {
       "id": "2db1a340-92e0-4868-bb55-8aeb84809242",
@@ -1173,7 +1206,7 @@
             "ctaText": "Consultation personnalisée",
             "imageAlt": "Fils tenseurs à cônes - Lifting non chirurgical avec vecteurs de traction",
             "subtitle": "Lifting Non Chirurgical Innovant",
-            "description": "Les fils tenseurs à cônes bidirectionnels représentent l'évolution la plus avancée du lifting non chirurgical. Ces fils résorbables en PDO sont équipés de cônes multidirectionnels qui permettent un ancrage optimal et une traction vectorisée précise dans les deux sens."
+            "description": "Les fils tenseurs à cônes bidirectionnels sont une technique de lifting non chirurgical. Ces fils résorbables, placés sous la peau, portent de petits cônes qui s'ancrent dans les tissus et permettent de les repositionner."
           }
         },
         {
@@ -1189,13 +1222,14 @@
               },
               {
                 "title": "Traction optimisée",
-                "description": "Traction selon deux vecteurs opposés pour un effet lifting maximal"
+                "description": "Traction selon deux vecteurs opposés pour repositionner les tissus"
               },
               {
-                "title": "Stimulation renforcée",
-                "description": "Stimulation collagénique renforcée autour des cônes"
+                "title": "Fils résorbables",
+                "description": "Les fils se résorbent progressivement dans l'organisme"
               }
-            ]
+            ],
+            "ancre": "principe"
           }
         },
         {
@@ -1242,70 +1276,77 @@
             "title": "Avantages des fils à cônes bidirectionnels",
             "features": [
               {
-                "title": "Efficacité maximale",
-                "description": "Ancrage optimal des cônes"
+                "title": "Sans chirurgie",
+                "description": "Sous anesthésie locale, sans cicatrice"
               },
               {
-                "title": "Résultats immédiats",
-                "description": "Effet lifting visible dès la sortie"
+                "title": "Effet immédiat",
+                "description": "Soutien des tissus visible dès la séance"
               },
               {
-                "title": "Durabilité supérieure",
-                "description": "12-18 mois vs 6-12 mois fils lisses"
-              },
-              {
-                "title": "Sécurité prouvée",
-                "description": "Matériau PDO résorbable"
-              },
-              {
-                "icon": "Star",
-                "title": "Nouvelle caractéristique",
-                "description": "Description"
-              },
-              {
-                "icon": "Star",
-                "title": "Nouvelle caractéristique",
-                "description": "Description"
-              },
-              {
-                "icon": "Star",
-                "title": "Nouvelle caractéristique",
-                "description": "Description"
-              },
-              {
-                "icon": "Star",
-                "title": "Nouvelle caractéristique",
-                "description": "Description"
+                "title": "Résorbables",
+                "description": "Les fils disparaissent progressivement"
               }
             ]
           }
         },
         {
+          "id": "block-cards-precautions",
+          "type": "cards",
+          "content": {
+            "ancre": "precautions",
+            "title": "Fils tenseurs : complications possibles",
+            "subtitle": "Ce que rapportent les publications médicales.",
+            "cards": [
+              {
+                "title": "Fréquentes, en général passagères",
+                "description": "Dans les premières semaines.",
+                "details": [
+                  "Gonflement, bleus, rougeur",
+                  "Petites fossettes ou irrégularités de la peau",
+                  "Gêne ou douleur au toucher"
+                ]
+              },
+              {
+                "title": "Plus rares",
+                "description": "Expliquées en consultation.",
+                "details": [
+                  "Fil visible, palpable ou qui se déplace",
+                  "Infection, parfois nécessitant de retirer le fil",
+                  "Asymétrie"
+                ]
+              }
+            ]
+          },
+          "order": 4
+        },
+        {
           "id": "block-faq-4",
           "type": "faq",
-          "order": 4,
+          "order": 5,
           "content": {
             "title": "Questions fréquentes",
             "questions": [
               {
-                "answer": "Inconfort modéré pendant l'insertion, bien contrôlé par l'anesthésie locale. Sensibilité résiduelle 1-2 semaines, facilement gérée.",
+                "answer": "L'insertion se fait sous anesthésie locale. Une sensibilité, un gonflement ou des bleus sont fréquents les premières semaines ; plus rarement, une gêne persiste plus longtemps.",
                 "question": "Le traitement est-il douloureux ?"
               },
               {
-                "answer": "Effet lifting immédiat, résultat optimal à 2-3 mois quand la stimulation collagénique est maximale.",
+                "answer": "L'effet de soutien est visible immédiatement. Dans les études publiées, l'effet lifting mesurable s'atténue en quelques semaines à quelques mois ; la durée varie selon les personnes et se discute en consultation.",
                 "question": "Quand voit-on les résultats définitifs ?"
               },
               {
-                "answer": "Non, les fils à cônes bidirectionnels sont placés en profondeur. Palpation possible les premiers jours, puis intégration complète.",
+                "answer": "Ils sont placés sous la peau et ne se voient pas en général. On peut les sentir au toucher les premières semaines ; plus rarement, un fil reste visible ou palpable (environ 4 % des cas dans une série publiée).",
                 "question": "Les fils sont-ils visibles ou palpables ?"
               }
-            ]
+            ],
+            "ancre": "faq"
           }
         },
         {
           "id": "block-cta-5",
           "type": "cta",
-          "order": 5,
+          "order": 6,
           "content": {
             "title": "Consultation avec Docteure Fassotte",
             "description": "Pour découvrir si les fils tenseurs à cônes bidirectionnels peuvent répondre à vos objectifs de rajeunissement. Évaluation personnalisée et simulation des résultats possibles.",
@@ -1318,7 +1359,7 @@
         {
           "id": "block-gallery-6",
           "type": "gallery",
-          "order": 6,
+          "order": 7,
           "content": {
             "title": "Galerie Photos",
             "images": [
@@ -1334,7 +1375,7 @@
       "meta_description": "Lifting par fils tenseurs pour raffermir et redessiner l'ovale du visage",
       "is_published": true,
       "created_at": "2025-10-28T16:45:50.160707+00:00",
-      "updated_at": "2026-02-24T12:57:57.853+00:00"
+      "updated_at": "2026-09-28T19:00:00+00:00"
     },
     {
       "id": "3091a870-febd-421f-b688-a0f38d2cabe1",
@@ -1526,7 +1567,7 @@
             "ctaText": "Consultation personnalisée",
             "imageAlt": "Liquid Lift",
             "subtitle": "Rajeunissement Global par Injections Stratégiques",
-            "description": "Le Liquid Lift représente l'évolution la plus sophistiquée des techniques d'injection en médecine esthétique. Cette approche globale et vectorisée utilise des injections stratégiques d'acide hyaluronique pour créer un véritable effet lifting sans chirurgie."
+            "description": "Le Liquid Lift est une approche globale du visage : des injections d'acide hyaluronique, placées en profondeur à des points précis, restaurent les volumes et redonnent du soutien aux tissus, sans chirurgie."
           }
         },
         {
@@ -1607,7 +1648,6 @@
                 "title": "Harmonisation esthétique",
                 "details": [
                   "Équilibrage des volumes faciaux",
-                  "Amélioration des proportions selon le nombre d'or",
                   "Sublimation des traits existants"
                 ]
               }
@@ -1636,13 +1676,14 @@
               },
               {
                 "title": "Durabilité optimale",
-                "description": "12-18 mois de bénéfices"
+                "description": "12 à 18 mois environ, selon la zone"
               },
               {
-                "title": "Récupération immédiate",
-                "description": "Pas d'éviction sociale"
+                "title": "Reprise rapide",
+                "description": "Gonflements et bleus possibles jusqu’à deux semaines"
               }
-            ]
+            ],
+            "ancre": "avantages"
           }
         },
         {
@@ -1653,18 +1694,23 @@
             "title": "Questions fréquentes",
             "questions": [
               {
-                "answer": "Inconfort modéré durant l'injection, bien contrôlé par l'anesthésie locale. Sensibilité résiduelle 2-7 jours, facilement supportable.",
+                "answer": "L'inconfort pendant l'injection est limité par l'anesthésie. Sensibilité, gonflement ou bleus disparaissent en général en deux semaines, parfois un peu plus.",
                 "question": "Le Liquid Lift fait-il mal ?"
               },
               {
-                "answer": "Variables selon les besoins : 2-6 seringues généralement. Évaluation précise lors de la consultation selon votre morphologie.",
+                "answer": "Le volume dépend des zones traitées et de votre morphologie ; un traitement global peut nécessiter plusieurs seringues, en une ou plusieurs séances. Il est évalué précisément en consultation.",
                 "question": "Combien de seringues sont nécessaires ?"
               },
               {
                 "answer": "Parfaitement naturel avec la technique maîtrisée. L'objectif est de restaurer votre architecture faciale jeune, pas de vous transformer.",
                 "question": "Le résultat paraît-il naturel ?"
+              },
+              {
+                "question": "Y a-t-il des risques ?",
+                "answer": "Les effets les plus fréquents sont un gonflement, une sensibilité ou des bleus. Des complications rares mais graves existent si le produit pénètre dans un vaisseau sanguin ; c'est pourquoi l'injection est réalisée par un médecin. L'acide hyaluronique peut être dissous par une enzyme, la hyaluronidase, en cas de besoin."
               }
-            ]
+            ],
+            "ancre": "faq"
           }
         },
         {
@@ -1684,7 +1730,7 @@
       "meta_description": "Lifting non chirurgical par injections pour un rajeunissement global",
       "is_published": true,
       "created_at": "2025-10-28T16:45:50.160707+00:00",
-      "updated_at": "2026-02-24T15:53:13.497+00:00"
+      "updated_at": "2026-09-28T19:00:00+00:00"
     },
     {
       "id": "8f1e5207-a73e-4bcf-9e39-3924deddb227",
@@ -1876,7 +1922,7 @@
             "ctaText": "Consultation personnalisée",
             "imageAlt": "Mésolift - Traitement revitalisant pour peau déshydratée et fatiguée",
             "subtitle": "Revitalisez Votre Peau en Profondeur",
-            "description": "Le Mésolift est une technique de mésothérapie esthétique qui consiste à injecter des micro-doses de substances revitalisantes directement dans le derme superficiel. Cette méthode permet d'apporter à votre peau les nutriments essentiels dont elle a besoin pour retrouver éclat, fermeté et hydratation."
+            "description": "Le Mésolift est une technique de mésothérapie esthétique qui consiste à injecter de petites quantités de substances revitalisantes (acide hyaluronique non réticulé, vitamines…) dans la peau, sur l'ensemble du visage. L'objectif est un teint plus éclatant et une peau mieux hydratée."
           }
         },
         {
@@ -1888,18 +1934,19 @@
             "features": [
               {
                 "title": "Injection superficielle",
-                "description": "Dans le derme à 1-4mm de profondeur avec aiguilles très fines"
+                "description": "Petites quantités injectées dans la peau, avec des aiguilles fines"
               },
               {
-                "title": "Apport nutritionnel",
-                "description": "Apport direct de nutriments aux cellules cutanées"
+                "title": "Cocktail sur mesure",
+                "description": "Acide hyaluronique non réticulé, vitamines ou oligo-éléments selon votre peau"
               },
               {
-                "title": "Stimulation cellulaire",
-                "description": "Activation des fibroblastes pour la production de collagène"
+                "title": "Objectif éclat",
+                "description": "Teint plus lumineux et peau mieux hydratée ; l'effet varie selon les personnes"
               }
             ],
-            "subtitle": "Mécanisme d'action du Mésolift"
+            "subtitle": "Mécanisme d'action du Mésolift",
+            "ancre": "principe"
           }
         },
         {
@@ -1941,36 +1988,53 @@
             "title": "Avantages du Mésolift",
             "features": [
               {
-                "title": "Hydratation intense",
-                "description": "Durable de la peau"
+                "title": "Éclat du teint",
+                "description": "Objectif principal du traitement"
               },
               {
-                "title": "Amélioration immédiate",
-                "description": "Éclat du teint"
+                "title": "Sur mesure",
+                "description": "Cocktail adapté à votre peau"
               },
               {
-                "title": "Stimulation naturelle",
-                "description": "Processus de régénération"
-              },
-              {
-                "title": "Traitement préventif",
-                "description": "Vieillissement cutané"
-              },
-              {
-                "title": "Adapté",
-                "description": "Tous types de peau"
-              },
-              {
-                "title": "Aucune éviction sociale",
-                "description": "Reprise immédiate"
+                "title": "Reprise rapide",
+                "description": "Petites rougeurs ou hématomes possibles quelques jours"
               }
             ]
           }
         },
         {
+          "id": "block-cards-precautions",
+          "type": "cards",
+          "content": {
+            "ancre": "precautions",
+            "title": "Mésolift : ce que disent les autorités de santé",
+            "subtitle": "La mésothérapie esthétique a été évaluée par la Haute Autorité de santé (2014) et l'Inserm (2010).",
+            "cards": [
+              {
+                "title": "Efficacité",
+                "description": "Les études disponibles ne suffisent pas à démontrer l'efficacité de la mésothérapie esthétique.",
+                "details": [
+                  "Résultats variables d'une personne à l'autre",
+                  "Plusieurs séances en général"
+                ]
+              },
+              {
+                "title": "Risques",
+                "description": "Rares, mais à connaître.",
+                "details": [
+                  "Réactions locales : rougeur, hématome, douleur, démangeaisons",
+                  "Infections rares, d'où une asepsie rigoureuse",
+                  "Produits parfois utilisés hors de l'indication de leur autorisation"
+                ]
+              }
+            ]
+          },
+          "order": 4
+        },
+        {
           "id": "block-faq-4",
           "type": "faq",
-          "order": 4,
+          "order": 5,
           "content": {
             "title": "Questions fréquentes",
             "questions": [
@@ -1979,20 +2043,21 @@
                 "question": "Le Mésolift est-il douloureux ?"
               },
               {
-                "answer": "Dès la première séance pour l'éclat et l'hydratation. Effets cumulatifs après 2-3 séances.",
+                "answer": "L'effet recherché est un teint plus lumineux ; il varie d'une personne à l'autre et plusieurs séances sont en général proposées.",
                 "question": "Quand voit-on les premiers résultats ?"
               },
               {
-                "answer": "3-4 séances pour une cure complète, puis entretien tous les 2-3 mois selon les besoins.",
+                "answer": "Le traitement se fait en plusieurs séances ; leur nombre et leur rythme sont définis en consultation, selon votre peau et vos attentes.",
                 "question": "Combien de séances sont nécessaires ?"
               }
-            ]
+            ],
+            "ancre": "faq"
           }
         },
         {
           "id": "block-cta-5",
           "type": "cta",
-          "order": 5,
+          "order": 6,
           "content": {
             "title": "Consultation avec Docteure Fassotte",
             "description": "Pour découvrir comment le Mésolift peut revitaliser votre peau et lui redonner tout son éclat. Analyse personnalisée et composition d'un cocktail sur mesure pour des résultats optimaux.",
@@ -2006,7 +2071,7 @@
       "meta_description": "Mésothérapie esthétique pour revitaliser et illuminer la peau",
       "is_published": true,
       "created_at": "2025-10-28T16:45:50.160707+00:00",
-      "updated_at": "2026-02-24T13:01:26.856+00:00"
+      "updated_at": "2026-09-28T19:00:00+00:00"
     },
     {
       "id": "09b7f665-2d91-4c55-b276-872d5045cfef",
@@ -2044,10 +2109,11 @@
               },
               {
                 "title": "Stimulation collagène",
-                "description": "Activation de la production de collagène et d'élastine"
+                "description": "Stimulation du derme : épaisseur et élasticité"
               }
             ],
-            "subtitle": "Mécanisme d'action du peeling chimique"
+            "subtitle": "Mécanisme d'action du peeling chimique",
+            "ancre": "principe"
           }
         },
         {
@@ -2070,8 +2136,7 @@
                 "details": [
                   "Rides superficielles à modérées",
                   "Texture rugueuse",
-                  "Perte d'éclat et de luminosité",
-                  "Relâchement cutané léger"
+                  "Perte d'éclat et de luminosité"
                 ]
               },
               {
@@ -2084,36 +2149,68 @@
                 ]
               }
             ],
-            "title": "Indications principales"
+            "title": "Indications principales",
+            "ancre": "indications"
           }
+        },
+        {
+          "id": "block-cards-precautions",
+          "type": "cards",
+          "content": {
+            "ancre": "precautions",
+            "title": "Peeling : contre-indications et complications possibles",
+            "subtitle": "Ce que disent les fiches d’information de la Société Française de Dermatologie.",
+            "cards": [
+              {
+                "title": "Contre-indications",
+                "description": "Le peeling n’est pas réalisé dans ces cas.",
+                "details": [
+                  "Grossesse et allaitement",
+                  "Allergie à l'un des actifs",
+                  "Herpès récidivant : traitement préventif nécessaire"
+                ]
+              },
+              {
+                "title": "Complications possibles",
+                "description": "Rares, et expliquées en consultation.",
+                "details": [
+                  "Tache plus foncée ou plus claire",
+                  "Poussée d’herpès, surinfection",
+                  "Risque pigmentaire accru sur les peaux foncées"
+                ]
+              }
+            ]
+          },
+          "order": 3
         },
         {
           "id": "block-faq-3",
           "type": "faq",
-          "order": 3,
+          "order": 4,
           "content": {
             "title": "Questions fréquentes",
             "subtitle": "Tout ce que vous devez savoir sur les peelings",
             "questions": [
               {
-                "answer": "Sensation de picotements et chaleur pendant l'application, bien tolérée. Inconfort léger les premiers jours avec tiraillements normaux.",
+                "answer": "Des picotements ou une sensation de chaleur apparaissent pendant l'application et s'atténuent en quelques minutes. Après un peeling superficiel, la peau tiraille quelques jours ; après un peeling moyen, elle rougit, brunit puis pèle, et l'éviction sociale peut être de 4 à 8 jours.",
                 "question": "Le peeling est-il douloureux ?"
               },
               {
-                "answer": "1 à 6 séances selon l'objectif : 1 séance pour l'éclat immédiat, 3-6 pour traiter taches ou rides marquées.",
+                "answer": "Pour un peeling superficiel, une série de 3 à 6 séances espacées d'environ 15 jours ; un peeling moyen ne se répète qu'après plusieurs mois.",
                 "question": "Combien de séances sont nécessaires ?"
               },
               {
-                "answer": "Préférable octobre à mars. Protection solaire stricte indispensable. Éviter absolument l'été pour peelings moyens.",
+                "answer": "Une protection solaire stricte (indice SPF 50+) est indispensable après tout peeling. Le moment du traitement se choisit avec la docteure, selon le type de peeling et votre exposition au soleil.",
                 "question": "Peut-on faire un peeling toute l'année ?"
               }
-            ]
+            ],
+            "ancre": "faq"
           }
         },
         {
           "id": "block-cta-4",
           "type": "cta",
-          "order": 4,
+          "order": 5,
           "content": {
             "title": "Consultation avec Docteure Fassotte",
             "description": "Pour déterminer le peeling le plus adapté à votre type de peau et vos objectifs esthétiques. Analyse personnalisée et proposition de protocole sur mesure pour des résultats optimaux en toute sécurité.",
@@ -2127,7 +2224,7 @@
       "meta_description": "Peelings médicaux pour améliorer la texture et l'éclat de la peau",
       "is_published": true,
       "created_at": "2025-10-28T16:45:50.160707+00:00",
-      "updated_at": "2026-02-24T13:00:22.688+00:00"
+      "updated_at": "2026-09-28T19:00:00+00:00"
     },
     {
       "id": "0e8e305d-914c-4bc9-b428-2c0b08c6ec75",
@@ -2251,7 +2348,7 @@
             "ctaText": "Consultation personnalisée",
             "imageAlt": "Stimulation du collagène",
             "subtitle": "Rajeunissement Naturel et Progressif",
-            "description": "Ces traitements agissent en profondeur pour relancer la production naturelle de collagène de votre peau. Une approche révolutionnaire qui inverse le processus de vieillissement naturel."
+            "description": "Ces traitements agissent en profondeur pour relancer la production naturelle de collagène de votre peau. Les résultats apparaissent progressivement, au fil des semaines."
           }
         },
         {
@@ -2290,11 +2387,11 @@
               {
                 "title": "Sculptra (Acide Poly-L-Lactique)",
                 "details": [
-                  "100% résorbable et biocompatible",
-                  "Stimulation progressive sur 2 ans",
+                  "Résorbable",
+                  "Résultats observés jusqu'à 25 mois dans les études",
                   "Résultats naturels et harmonieux"
                 ],
-                "description": "Stimulation progressive sur 2 ans"
+                "description": "Résultats progressifs, jusqu'à 2 ans environ"
               },
               {
                 "title": "Radiesse (Hydroxylapatite de Calcium)",
@@ -2307,7 +2404,8 @@
               }
             ],
             "title": "Produits utilisés par Docteure Fassotte",
-            "subtitle": "Seuls les produits certifiés CE et de qualité pharmaceutique sont utilisés"
+            "subtitle": "Seuls des produits marqués CE sont utilisés",
+            "ancre": "produits"
           }
         },
         {
@@ -2330,8 +2428,7 @@
                 "title": "Corps",
                 "details": [
                   "Décolleté (amélioration texture)",
-                  "Dos des mains (rajeunissement)",
-                  "Brazilian Butt Lift non-chirurgical"
+                  "Dos des mains (rajeunissement)"
                 ],
                 "description": "Amélioration de la texture"
               }
@@ -2352,36 +2449,62 @@
               },
               {
                 "title": "Durabilité exceptionnelle",
-                "description": "18-24 mois"
+                "description": "Jusqu'à 18 à 24 mois selon le produit"
               },
               {
                 "title": "Amélioration globale",
                 "description": "Qualité de peau"
               },
               {
-                "title": "Biocompatibilité parfaite",
-                "description": "Aucun risque d'allergie"
-              },
-              {
                 "title": "Stimulation",
                 "description": "Régénération cellulaire"
               },
               {
-                "title": "Alternative",
-                "description": "Au lifting chirurgical"
+                "title": "Sans chirurgie",
+                "description": "Traitement par injections"
               }
             ]
           }
         },
         {
+          "id": "block-cards-precautions",
+          "type": "cards",
+          "content": {
+            "ancre": "precautions",
+            "title": "Stimulateurs de collagène : effets indésirables et contre-indications",
+            "subtitle": "Ce que disent les notices des produits.",
+            "cards": [
+              {
+                "title": "Effets indésirables",
+                "description": "Les plus fréquents et les plus importants.",
+                "details": [
+                  "Gonflement, rougeur, hématome au point d'injection",
+                  "Petits nodules sous la peau, parfois plusieurs mois après (acide poly-L-lactique)",
+                  "Rarement, occlusion d'un vaisseau (hydroxylapatite de calcium)"
+                ]
+              },
+              {
+                "title": "Contre-indications",
+                "description": "Le traitement n’est pas réalisé dans ces cas.",
+                "details": [
+                  "Allergie à un composant du produit",
+                  "Antécédents de cicatrices chéloïdes ou hypertrophiques (acide poly-L-lactique)",
+                  "Pas d'injection dans les lèvres (hydroxylapatite de calcium)"
+                ]
+              }
+            ]
+          },
+          "order": 5
+        },
+        {
           "id": "block-faq-5",
           "type": "faq",
-          "order": 5,
+          "order": 6,
           "content": {
             "title": "Questions fréquentes",
             "questions": [
               {
-                "answer": "Non, l'effet est progressif. Premiers résultats à 6-8 semaines, optimal à 6 mois.",
+                "answer": "Non, l'effet est progressif : il apparaît en quelques semaines (6 à 12 semaines en général pour l'acide poly-L-lactique). Plusieurs séances espacées sont souvent nécessaires, en général trois.",
                 "question": "Les résultats sont-ils immédiats ?"
               },
               {
@@ -2389,7 +2512,7 @@
                 "question": "Est-ce douloureux ?"
               },
               {
-                "answer": "18-24 mois en moyenne, parfois plus selon les zones et les patients.",
+                "answer": "De 12 à 18 mois environ pour l'hydroxylapatite de calcium, et jusqu'à 2 ans environ pour l'acide poly-L-lactique, selon les zones et les personnes.",
                 "question": "Combien de temps ça dure ?"
               },
               {
@@ -2397,16 +2520,17 @@
                 "question": "Compatible avec autres traitements ?"
               },
               {
-                "answer": "Très rares avec un praticien expérimenté. Effets secondaires mineurs et temporaires.",
+                "answer": "Les effets les plus fréquents sont un gonflement, une rougeur ou un hématome au point d'injection. De petits nodules sous la peau peuvent apparaître, parfois plusieurs mois après ; plus rarement, l'injection dans un vaisseau peut entraîner des complications graves. Les risques et les contre-indications sont expliqués en consultation.",
                 "question": "Y a-t-il des risques ?"
               }
-            ]
+            ],
+            "ancre": "faq"
           }
         },
         {
           "id": "block-cta-6",
           "type": "cta",
-          "order": 6,
+          "order": 7,
           "content": {
             "title": "Consultation personnalisée",
             "description": "Découvrez si les stimulateurs de collagène conviennent à vos objectifs esthétiques lors d'une consultation avec Docteure Fassotte.",
@@ -2420,7 +2544,7 @@
       "meta_description": "Stimulation naturelle du collagène pour une peau plus ferme",
       "is_published": true,
       "created_at": "2025-10-28T16:45:50.160707+00:00",
-      "updated_at": "2026-02-24T13:52:30.233+00:00"
+      "updated_at": "2026-09-28T19:00:00+00:00"
     },
     {
       "id": "e72e1557-e327-4e91-8542-dd82f3f7c7fb",

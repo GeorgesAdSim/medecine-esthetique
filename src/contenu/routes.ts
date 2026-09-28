@@ -1,3 +1,4 @@
+import { ALIAS_LIENS } from './alias';
 // LA table des routes publiques, et la résolution d'un chemin vers son contenu.
 //
 // Unique implémentation, consommée par :
@@ -79,21 +80,27 @@ export function pageDe(chemin: string): PageContenu | undefined {
 }
 
 /**
- * Contenu d'une page de traitement, dans l'ordre historique :
- * 1. custom_treatments dont le slug est le chemin ;
- * 2. custom_pages, slug = chemin sans « / », puis sans le suffixe « -liege ».
+ * Contenu d'une page de traitement :
+ * 1. custom_pages (l'éditeur de pages de l'admin, où vit le contenu de six des
+ *    huit traitements) : slug = chemin sans « / », sans le suffixe « -liege »,
+ *    ou ancien slug redirigé vers ce chemin (ALIAS, ex. « stimulateur-collagene ») ;
+ * 2. à défaut, custom_treatments dont le slug est le chemin.
+ * Jusqu'au 28/09/2026 l'ordre était inverse : l'acide hyaluronique et les
+ * stimulateurs de collagène étaient servis depuis custom_treatments, une version
+ * plus ancienne et plus pauvre (blocs « liste » et « protocole » non affichés).
  */
 export function traitementDe(chemin: string):
   | { source: 'traitement'; donnees: TraitementContenu }
   | { source: 'page'; donnees: PageContenu }
   | undefined {
-  const t = traitementParSlug(chemin);
-  if (t) return { source: 'traitement', donnees: t };
   const nu = chemin.replace(/^\//, '');
-  for (const slug of [nu, nu.replace(/-liege$/, '')]) {
+  const anciens = Object.entries(ALIAS_LIENS).filter(([, vers]) => vers === chemin).map(([de]) => de.replace(/^\//, ''));
+  for (const slug of [nu, nu.replace(/-liege$/, ''), ...anciens]) {
     const p = pageParSlug(slug);
     if (p) return { source: 'page', donnees: p };
   }
+  const t = traitementParSlug(chemin);
+  if (t) return { source: 'traitement', donnees: t };
   return undefined;
 }
 
