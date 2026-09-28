@@ -60,9 +60,9 @@ SELECT 'injection-levres', 'Injection des lèvres', '[
         },
         {
           "title": "La projection de la lèvre supérieure",
-          "description": "Soit par acide hyaluronique au niveau de l''arc de Cupidon, soit par toxine botulique au niveau du muscle orbiculaire.",
+          "description": "Par injection d''acide hyaluronique au niveau de l''arc de Cupidon.",
           "details": [
-            "Choix du geste en consultation"
+            "Lèvre supérieure mieux projetée"
           ]
         },
         {
@@ -171,10 +171,6 @@ SELECT 'injection-levres', 'Injection des lèvres', '[
           "answer": "Oui : l''acide hyaluronique est résorbable et peut, si nécessaire, être dissous par une enzyme, la hyaluronidase."
         },
         {
-          "question": "Qu''est-ce que le « lip flip » ?",
-          "answer": "C''est la projection de la lèvre supérieure par injection de toxine botulique dans le muscle qui entoure la bouche. La Dre Fassotte peut le proposer, seul ou en complément de l''acide hyaluronique, selon l''évaluation en consultation."
-        },
-        {
           "question": "Quelles sont les contre-indications ?",
           "answer": "Une allergie connue au produit ou à la lidocaïne, une infection ou un bouton de fièvre en cours sur la zone, la grossesse et l''allaitement : ces situations sont vérifiées en consultation avant toute injection."
         }
@@ -210,7 +206,7 @@ SELECT 'injection-cernes', 'Injection des cernes', '[
     "content": {
       "title": "Cernes creusés : injection d''acide hyaluronique à Liège",
       "subtitle": "Corriger le creux sous les yeux, par la Dre Jocelyne Fassotte, médecin esthétique",
-      "description": "Quand le cerne est un creux sous l''œil, qui donne un air fatigué même après une bonne nuit, une injection d''acide hyaluronique peut combler cette vallée. La Dre Fassotte évalue d''abord le type de cerne : seul le cerne creusé relève de ce traitement. L''amélioration peut durer jusqu''à environ un an.",
+      "description": "Quand le cerne est un creux sous l''œil, qui donne un air fatigué même après une bonne nuit, une injection d''acide hyaluronique peut combler cette vallée. Chaque demande est évaluée au cas par cas, selon la personne, ses besoins et la faisabilité. L''amélioration peut durer jusqu''à environ un an.",
       "image": "https://hxgfakegwewcfkxvltgl.supabase.co/storage/v1/object/public/media/gallery/72tc6naks2a-1771936402863.jpeg",
       "imageAlt": "Acide hyaluronique pour les cernes",
       "ctaText": "Prendre rendez-vous",
@@ -225,8 +221,8 @@ SELECT 'injection-cernes', 'Injection des cernes', '[
       "ancre": "types",
       "title": "Tous les cernes ne se traitent pas de la même façon",
       "paragraphs": [
-        "Un cerne peut être un creux (la « vallée des larmes » qui se marque sous l''œil), une coloration de la peau, ou une poche. L''injection d''acide hyaluronique corrige le creux : elle ne fait pas disparaître une pigmentation ni une poche graisseuse.",
-        "C''est pourquoi la consultation commence par un examen du regard. Si l''injection n''est pas la bonne réponse, la Dre Fassotte vous le dit, et d''autres approches peuvent être discutées, comme des [[soins de cosmétologie médicale|/cosmetologie-liege]].",
+        "Un cerne peut être un creux (la « vallée des larmes » qui se marque sous l''œil), une coloration de la peau, ou une poche. L''injection d''acide hyaluronique agit sur le creux : elle comble le volume qui manque, sans modifier la couleur de la peau.",
+        "C''est pourquoi la consultation commence par un examen du regard : l''indication se décide au cas par cas, selon vos besoins et la faisabilité, et d''autres approches peuvent être discutées, comme des [[soins de cosmétologie médicale|/cosmetologie-liege]].",
         "L''injection des cernes fait partie des [[injections d''acide hyaluronique|/acide-hyaluronique-liege]] pratiquées au cabinet ; c''est une zone délicate, où la peau est fine et les vaisseaux nombreux."
       ]
     }
@@ -244,7 +240,7 @@ SELECT 'injection-cernes', 'Injection des cernes', '[
           "title": "1. Consultation",
           "description": "Examen du regard, type de cerne, attentes, antécédents et traitements en cours.",
           "details": [
-            "Le traitement est proposé seulement s’il est indiqué"
+            "Indication décidée au cas par cas"
           ]
         },
         {
@@ -319,7 +315,7 @@ SELECT 'injection-cernes', 'Injection des cernes', '[
         },
         {
           "question": "L''acide hyaluronique fait-il disparaître les cernes foncés ?",
-          "answer": "Non. L''injection comble un creux ; elle ne modifie pas la couleur de la peau et ne supprime pas une poche. Le type de cerne est déterminé en consultation."
+          "answer": "Non. L''injection comble un creux ; elle ne modifie pas la couleur de la peau et ne supprime pas une poche. Chaque situation est évaluée au cas par cas en consultation."
         },
         {
           "question": "Y a-t-il des risques ?",
@@ -1027,4 +1023,3 @@ UPDATE custom_pages SET content = '[
     }
   }
 ]'::jsonb, updated_at = now() WHERE slug = 'botox';
-
