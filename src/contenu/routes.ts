@@ -63,6 +63,18 @@ export const SOUS_PAGES: Readonly<Record<string, SousPage>> = {
     parent: '/botox-liege', slug: 'rides-du-lion', nom: 'Rides du lion',
     ancreLien: 'Botox des rides du lion à Liège',
   },
+  '/acide-hyaluronique-liege/sillons-nasogeniens': {
+    parent: '/acide-hyaluronique-liege', slug: 'sillons-nasogeniens', nom: 'Sillons nasogéniens',
+    ancreLien: 'Sillons nasogéniens : injection à Liège',
+  },
+  '/botox-liege/pattes-d-oie': {
+    parent: '/botox-liege', slug: 'pattes-d-oie', nom: "Pattes d'oie",
+    ancreLien: "Botox des pattes d'oie à Liège",
+  },
+  '/botox-liege/rides-du-front': {
+    parent: '/botox-liege', slug: 'rides-du-front', nom: 'Rides du front',
+    ancreLien: 'Botox des rides du front à Liège',
+  },
 };
 
 /** Nom court des pages piliers (fil d'Ariane, titres du maillage). */
@@ -103,6 +115,7 @@ export const SLUGS_SANS_ROUTE_PROPRE: ReadonlySet<string> = new Set([
   'fils-tenseurs', 'cosmetologie', 'liquid-lift',
   // Contenu des pages filles (servi sous le chemin de leur pilier, SOUS_PAGES).
   'injection-levres', 'injection-cernes', 'rides-du-lion',
+  'sillons-nasogeniens', 'pattes-d-oie', 'rides-du-front',
 ]);
 
 /** Pages publiées créées dans l'admin, servies à /{slug}. */

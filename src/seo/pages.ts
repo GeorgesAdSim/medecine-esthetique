@@ -68,6 +68,21 @@ export const DEFAUTS: Readonly<Record<string, Defaut>> = {
     description:
       'Rides du lion à Liège : toxine botulique par la Dre Fassotte. Pourquoi elles se creusent, déroulement, délai d’effet, durée, contre-indications et FAQ.',
   },
+  '/acide-hyaluronique-liege/sillons-nasogeniens': {
+    titre: 'Sillons nasogéniens : injection à Liège | Dre Fassotte',
+    description:
+      'Sillons nasogéniens marqués : injection d’acide hyaluronique à Liège par la Dre Fassotte. Pourquoi ils se creusent, déroulement, durée, effets possibles.',
+  },
+  '/botox-liege/pattes-d-oie': {
+    titre: 'Pattes d’oie : Botox à Liège | Dre Jocelyne Fassotte',
+    description:
+      'Pattes d’oie à Liège : toxine botulique par la Dre Fassotte. Pourquoi elles se marquent, déroulement, délai d’effet, durée, contre-indications et FAQ.',
+  },
+  '/botox-liege/rides-du-front': {
+    titre: 'Rides du front : Botox à Liège | Dre Jocelyne Fassotte',
+    description:
+      'Rides du front à Liège : toxine botulique par la Dre Fassotte. Pourquoi elles apparaissent, déroulement, délai d’effet, durée, effets possibles et FAQ.',
+  },
   '/stimulateurs-collagene-liege': {
     titre: 'Stimulateurs de collagène à Liège | Dre Fassotte',
     description:
