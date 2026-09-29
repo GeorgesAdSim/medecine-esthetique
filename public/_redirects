@@ -1,3 +1,65 @@
+# Ancien domaine medecine-esthetique-liege.com (même contenu, publié avant le .be).
+# Ces règles ne s'appliquent QUE si le domaine .com est rattaché à ce site Netlify
+# (alias de domaine) — sans effet tant qu'il ne l'est pas. Placées EN PREMIER :
+# chaque ancienne URL va en UN SEUL saut vers son équivalent du .be (pas de
+# chaîne .com/contact → .com/prendre-rendez-vous → .be). Test : tests/routes.test.ts.
+
+https://medecine-esthetique-liege.com/toxine-botulique-liege                  https://www.medecine-esthetique-liege.be/botox-liege  301!
+https://medecine-esthetique-liege.com/peelings-chimiques-liege                https://www.medecine-esthetique-liege.be/peeling-liege  301!
+https://medecine-esthetique-liege.com/mesotherapie-liege                      https://www.medecine-esthetique-liege.be/mesolift-liege  301!
+https://medecine-esthetique-liege.com/lifting-fils-tenseurs-liege             https://www.medecine-esthetique-liege.be/fils-tenseurs-liege  301!
+https://medecine-esthetique-liege.com/cosmetologie-medicale-liege             https://www.medecine-esthetique-liege.be/cosmetologie-liege  301!
+https://medecine-esthetique-liege.com/rajeunissement-global-liege             https://www.medecine-esthetique-liege.be/liquid-lift-liege  301!
+https://medecine-esthetique-liege.com/stimulateurs-collagene                  https://www.medecine-esthetique-liege.be/stimulateurs-collagene-liege  301!
+https://medecine-esthetique-liege.com/traitements                             https://www.medecine-esthetique-liege.be/medecine-esthetique-liege  301!
+https://medecine-esthetique-liege.com/services                                https://www.medecine-esthetique-liege.be/medecine-esthetique-liege  301!
+https://medecine-esthetique-liege.com/soins                                   https://www.medecine-esthetique-liege.be/medecine-esthetique-liege  301!
+https://medecine-esthetique-liege.com/contact                                 https://www.medecine-esthetique-liege.be/prendre-rendez-vous  301!
+https://medecine-esthetique-liege.com/consultation-medecine-esthetique-liege  https://www.medecine-esthetique-liege.be/prendre-rendez-vous  301!
+https://medecine-esthetique-liege.com/biographie                              https://www.medecine-esthetique-liege.be/docteur-jocelyne-fassotte  301!
+https://medecine-esthetique-liege.com/a-propos                                https://www.medecine-esthetique-liege.be/docteur-jocelyne-fassotte  301!
+https://medecine-esthetique-liege.com/galerie-photos-avant-apres              https://www.medecine-esthetique-liege.be/galerie  301!
+https://medecine-esthetique-liege.com/resultats-medecine-esthetique           https://www.medecine-esthetique-liege.be/galerie  301!
+https://medecine-esthetique-liege.com/protection-donnees-medicales            https://www.medecine-esthetique-liege.be/politique-confidentialite  301!
+https://medecine-esthetique-liege.com/accueil                                 https://www.medecine-esthetique-liege.be/  301!
+https://medecine-esthetique-liege.com/botox                                   https://www.medecine-esthetique-liege.be/botox-liege  301!
+https://medecine-esthetique-liege.com/acide-hyaluronique                      https://www.medecine-esthetique-liege.be/acide-hyaluronique-liege  301!
+https://medecine-esthetique-liege.com/stimulateur-collagene                   https://www.medecine-esthetique-liege.be/stimulateurs-collagene-liege  301!
+https://medecine-esthetique-liege.com/peeling                                 https://www.medecine-esthetique-liege.be/peeling-liege  301!
+https://medecine-esthetique-liege.com/mesolift                                https://www.medecine-esthetique-liege.be/mesolift-liege  301!
+https://medecine-esthetique-liege.com/fils-tenseurs                           https://www.medecine-esthetique-liege.be/fils-tenseurs-liege  301!
+https://medecine-esthetique-liege.com/cosmetologie                            https://www.medecine-esthetique-liege.be/cosmetologie-liege  301!
+https://medecine-esthetique-liege.com/liquid-lift                             https://www.medecine-esthetique-liege.be/liquid-lift-liege  301!
+https://medecine-esthetique-liege.com/*                                        https://www.medecine-esthetique-liege.be/:splat  301!
+
+https://www.medecine-esthetique-liege.com/toxine-botulique-liege                  https://www.medecine-esthetique-liege.be/botox-liege  301!
+https://www.medecine-esthetique-liege.com/peelings-chimiques-liege                https://www.medecine-esthetique-liege.be/peeling-liege  301!
+https://www.medecine-esthetique-liege.com/mesotherapie-liege                      https://www.medecine-esthetique-liege.be/mesolift-liege  301!
+https://www.medecine-esthetique-liege.com/lifting-fils-tenseurs-liege             https://www.medecine-esthetique-liege.be/fils-tenseurs-liege  301!
+https://www.medecine-esthetique-liege.com/cosmetologie-medicale-liege             https://www.medecine-esthetique-liege.be/cosmetologie-liege  301!
+https://www.medecine-esthetique-liege.com/rajeunissement-global-liege             https://www.medecine-esthetique-liege.be/liquid-lift-liege  301!
+https://www.medecine-esthetique-liege.com/stimulateurs-collagene                  https://www.medecine-esthetique-liege.be/stimulateurs-collagene-liege  301!
+https://www.medecine-esthetique-liege.com/traitements                             https://www.medecine-esthetique-liege.be/medecine-esthetique-liege  301!
+https://www.medecine-esthetique-liege.com/services                                https://www.medecine-esthetique-liege.be/medecine-esthetique-liege  301!
+https://www.medecine-esthetique-liege.com/soins                                   https://www.medecine-esthetique-liege.be/medecine-esthetique-liege  301!
+https://www.medecine-esthetique-liege.com/contact                                 https://www.medecine-esthetique-liege.be/prendre-rendez-vous  301!
+https://www.medecine-esthetique-liege.com/consultation-medecine-esthetique-liege  https://www.medecine-esthetique-liege.be/prendre-rendez-vous  301!
+https://www.medecine-esthetique-liege.com/biographie                              https://www.medecine-esthetique-liege.be/docteur-jocelyne-fassotte  301!
+https://www.medecine-esthetique-liege.com/a-propos                                https://www.medecine-esthetique-liege.be/docteur-jocelyne-fassotte  301!
+https://www.medecine-esthetique-liege.com/galerie-photos-avant-apres              https://www.medecine-esthetique-liege.be/galerie  301!
+https://www.medecine-esthetique-liege.com/resultats-medecine-esthetique           https://www.medecine-esthetique-liege.be/galerie  301!
+https://www.medecine-esthetique-liege.com/protection-donnees-medicales            https://www.medecine-esthetique-liege.be/politique-confidentialite  301!
+https://www.medecine-esthetique-liege.com/accueil                                 https://www.medecine-esthetique-liege.be/  301!
+https://www.medecine-esthetique-liege.com/botox                                   https://www.medecine-esthetique-liege.be/botox-liege  301!
+https://www.medecine-esthetique-liege.com/acide-hyaluronique                      https://www.medecine-esthetique-liege.be/acide-hyaluronique-liege  301!
+https://www.medecine-esthetique-liege.com/stimulateur-collagene                   https://www.medecine-esthetique-liege.be/stimulateurs-collagene-liege  301!
+https://www.medecine-esthetique-liege.com/peeling                                 https://www.medecine-esthetique-liege.be/peeling-liege  301!
+https://www.medecine-esthetique-liege.com/mesolift                                https://www.medecine-esthetique-liege.be/mesolift-liege  301!
+https://www.medecine-esthetique-liege.com/fils-tenseurs                           https://www.medecine-esthetique-liege.be/fils-tenseurs-liege  301!
+https://www.medecine-esthetique-liege.com/cosmetologie                            https://www.medecine-esthetique-liege.be/cosmetologie-liege  301!
+https://www.medecine-esthetique-liege.com/liquid-lift                             https://www.medecine-esthetique-liege.be/liquid-lift-liege  301!
+https://www.medecine-esthetique-liege.com/*                                        https://www.medecine-esthetique-liege.be/:splat  301!
+
 # Anciennes URL et doublons → URL retenue (301). Même table que ALIAS dans
 # src/contenu/routes.ts — un test vérifie l'égalité.
 

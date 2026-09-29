@@ -27,10 +27,29 @@ describe('routes publiques', () => {
   });
 });
 
+const BE = 'https://www.medecine-esthetique-liege.be';
+const ANCIENS = ['https://medecine-esthetique-liege.com', 'https://www.medecine-esthetique-liege.com'];
+
 describe('public/_redirects', () => {
   it('reprend exactement la table ALIAS, en 301 forcés', () => {
-    const r301 = Object.fromEntries(redirects.filter(([, , s]) => s === '301!').map(([de, vers]) => [de, vers]));
+    const r301 = Object.fromEntries(redirects.filter(([de, , s]) => s === '301!' && de.startsWith('/')).map(([de, vers]) => [de, vers]));
     expect(r301).toEqual(ALIAS);
+  });
+
+  it('ancien .com : chaque alias en un seul saut vers le .be, puis tout le reste à l’identique', () => {
+    for (const hote of ANCIENS) {
+      const regles = redirects.filter(([de]) => de.startsWith(hote + '/'));
+      for (const [de, vers] of Object.entries(ALIAS)) {
+        expect(regles.find(([d]) => d === hote + de)?.[1], hote + de).toBe(BE + vers);
+      }
+      const dernier = regles[regles.length - 1];
+      expect(dernier).toEqual([`${hote}/*`, `${BE}/:splat`, '301!']);
+      expect(regles.every(([, , s]) => s === '301!')).toBe(true);
+    }
+    // Avant toute règle de chemin : sinon .com/contact serait d'abord redirigé sur le .com.
+    const premiereChemin = redirects.findIndex(([de]) => de.startsWith('/'));
+    const derniereCom = redirects.map(([de]) => ANCIENS.some((h) => de.startsWith(h))).lastIndexOf(true);
+    expect(derniereCom).toBeLessThan(premiereChemin);
   });
 
   it("n'a pas de repli « /* » qui masquerait les 404", () => {
